@@ -1,0 +1,14 @@
+# data/raw/*
+data/processed/*
+!data/processed/.processed
+data/raw/*
+!data/raw/.raw
+models/
+!app/models
+*venv*
+__pycache__/
+*key*
+*test*
+
+# google drive service account key
+service_account_key.json
