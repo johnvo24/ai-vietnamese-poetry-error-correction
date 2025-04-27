@@ -55,7 +55,7 @@ def load_checkpoint(model_dir, model, optimizer, epoch=None, is_the_best=False):
       epoch = latest_epoch
     file_path = os.path.join(config.CHECKPOINT_DIR, f"{model_dir}/checkpoint_{epoch}.tar")
   print(f"Loading checkpoint from {file_path}")
-  checkpoint = torch.load(file_path, map_location=device)
+  checkpoint = torch.load(file_path, map_location=device())
   # Load model and optimizer weights
   model.load_state_dict(checkpoint['model_state_dict'])
   optimizer.load_state_dict(checkpoint['optimizer_state_dict'])

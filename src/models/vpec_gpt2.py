@@ -4,6 +4,7 @@ import torch
 import configs as config
 from torch.optim import AdamW
 from src.trainer import Trainer
+from src import helper
 
 class VpecGPT2():
   def __init__(self):
@@ -36,5 +37,22 @@ class VpecGPT2():
     )
     trainer.train(config.SFT_VPECGPT2_EPOCHS)
 
-  def __generate__(self, input_text):
-    pass
+  def __generate__(self, input_text, max_new_tokens):
+    inputs = self.tokenizer(
+      input_text,
+      padding="max_length",
+      truncation=True,
+      max_length=config.MAX_LENGTH,
+      return_tensors="pt"
+    )
+    outputs = self.model.generate(
+      input_ids=inputs['input_ids'].to(helper.device()),
+      attention_mask=inputs['attention_mask'].to(helper.device()),
+      max_length=config.MAX_LENGTH + max_new_tokens,
+      num_beams=5,
+      no_repeat_ngram_size=2,
+      early_stopping=True
+    )
+    print(outputs[0])
+    result = self.tokenizer.decode(outputs[0], skip_special_tokens=False)
+    print("Reasoning Step: \n", result)
