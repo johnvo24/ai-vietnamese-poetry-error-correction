@@ -27,8 +27,10 @@ class ReasoningDataset(Dataset):
       max_length=self.max_length,
       return_tensors="pt"
     )
+    labels = label_encoding['input_ids'].squeeze()
+    labels[labels == self.tokenizer.pad_token_id] = -100
     return {
       'input_ids': input_encoding['input_ids'].squeeze(), # token id
       'attention_mask': input_encoding['attention_mask'].squeeze(), # determine real token and padding token
-      'labels': label_encoding['input_ids'].squeeze() # use to calculate loss with output logit
+      'labels': labels # use to calculate loss with output logit
     }

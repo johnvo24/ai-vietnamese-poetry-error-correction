@@ -1,5 +1,4 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from transformers import GPT2Config, GPT2LMHeadModel
 import torch
 import configs as config
 from torch.optim import AdamW
@@ -16,14 +15,14 @@ class VpecGPT2():
       "<action>", "<replace>", "<line>", "<index>", "<effect>", "<eois>", "<eos>"
     ]
     self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
-    self.configuration = GPT2Config(vocab_size=len(self.tokenizer), n_layer=8)
     self.tokenizer.add_special_tokens({
       'additional_special_tokens': self.special_tokens,
       'pad_token': '<pad>'
     })
-    self.model = GPT2LMHeadModel(self.configuration).to(self.device)
+    self.model = AutoModelForCausalLM.from_pretrained('gpt2').to(self.device)
     self.model.resize_token_embeddings(len(self.tokenizer))
-
+    self.model.config.pad_token_id = self.tokenizer.pad_token_id
+    self.model = self.model.to(self.device)
     self.optimizer = AdamW(self.model.parameters(), config.SFT_VPECGPT2_LEARNING_RATE)
 
   def __train_sft__(self, train_loader, val_loader):
@@ -46,13 +45,12 @@ class VpecGPT2():
       return_tensors="pt"
     )
     outputs = self.model.generate(
-      input_ids=inputs['input_ids'].to(helper.device()),
-      attention_mask=inputs['attention_mask'].to(helper.device()),
+      input_ids=inputs['input_ids'],
+      attention_mask=inputs['attention_mask'],
       max_length=config.MAX_LENGTH + max_new_tokens,
       num_beams=5,
       no_repeat_ngram_size=2,
       early_stopping=True
     )
-    print(outputs[0])
     result = self.tokenizer.decode(outputs[0], skip_special_tokens=False)
     print("Reasoning Step: \n", result)
