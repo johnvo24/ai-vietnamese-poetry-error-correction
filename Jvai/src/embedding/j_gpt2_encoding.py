@@ -1,6 +1,5 @@
 import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
-import config
 
 class GPT2Encoder():
   def __init__(self):
