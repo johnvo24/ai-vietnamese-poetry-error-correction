@@ -3,12 +3,13 @@ data/processed/*
 !data/processed/.processed
 data/raw/*
 !data/raw/.raw
-models/
+outputs/checkpoints/*
+ouputs/logs/*
 !app/models
 *venv*
 __pycache__/
 *key*
-*test*
+*test*py*
 
 # google drive service account key
 service_account_key.json
