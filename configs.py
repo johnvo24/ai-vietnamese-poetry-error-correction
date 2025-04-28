@@ -3,9 +3,9 @@ import os
 # ================================
 # TRAIN SETUP
 USE_GDRIVE=False
-MAX_REASONING_MEMORY = 5
-MAX_INPUT_LENGTH = 256 # DeepSeekVpec->512
-MAX_LENGTH = 512 # GPT2-256~512, DeepSeekVpec-512~4096->1024
+MAX_REASONING_MEMORY = 6 # n steps = step 0 & n-1 last steps
+MAX_INPUT_LENGTH = 512 # DeepSeekVpec->512
+MAX_LENGTH = 1024 # GPT2-256~512, DeepSeekVpec-512~4096->1024
 
 # MODEL
 VPEC_GPT2_MODEL_NAME = 'vpec_gpt2'
