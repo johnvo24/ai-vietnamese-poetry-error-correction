@@ -25,12 +25,18 @@ class DatasetHandler():
   def _is_within_max_length(self, row, tokenizer):
     input_tokens = tokenizer.encode(row['error_poem'])
     label_tokens = tokenizer.encode(row['step_content'])
-    return len(input_tokens) <= jconfig.MAX_LENGTH and len(label_tokens) <= jconfig.MAX_LENGTH
+    return (len(input_tokens) + len(label_tokens) + 1 <= jconfig.MAX_LENGTH) and (len(input_tokens) + 1 <= jconfig.MAX_INPUT_LENGTH) # 1 slot for <sep> token
+  
+  def _filter_reasoning_memory(self):
+    self.dataset['error_poem'] = self.dataset['error_poem'].apply(
+      lambda x: '<eois>'.join(x.split('<eois>')[:1] + x.split('<eois>')[-(jconfig.MAX_REASONING_MEMORY):])
+    )
   
   def split_data(self, save_dataset=False, tokenizer=None):
     # ??? Split the data into training, evaluation and test sets
     # and then save them to files
     self._load_data()
+    self._filter_reasoning_memory()
 
     if tokenizer:
       self.dataset = self.dataset[self.dataset.apply(lambda row: self._is_within_max_length(row=row, tokenizer=tokenizer), axis=1)].reset_index(drop=True)

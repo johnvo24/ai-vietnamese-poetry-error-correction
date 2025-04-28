@@ -3,6 +3,11 @@ import os
 # ================================
 # TRAIN SETUP
 USE_GDRIVE=False
+MAX_REASONING_MEMORY = 5
+MAX_INPUT_LENGTH = 256 # DeepSeekVpec->512
+MAX_LENGTH = 512 # GPT2-256~512, DeepSeekVpec-512~4096->1024
+
+# MODEL
 VPEC_GPT2_MODEL_NAME = 'vpec_gpt2'
 
 # SFT TRAINING
@@ -13,12 +18,11 @@ SFT_VAL_SIZE = 10 # %
 SFT_TEST_SIZE = 10  # %
 SFT_RANDOM_STATE = 42
 # Dataset loader
-MAX_LENGTH = 256 # GPT2-256~512, DeepSeekVpec-512~4096
 BATCH_SIZE = 2
 NUM_WORKERS = 4 # Num of subprocesses to use for data loading
 SHUFFLE = False
 # Training
-SFT_VPECGPT2_EPOCHS = 20
+SFT_VPECGPT2_EPOCHS = 100
 SFT_VPECGPT2_LEARNING_RATE = 03e-5
 
 

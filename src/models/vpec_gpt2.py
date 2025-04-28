@@ -11,7 +11,7 @@ class VpecGPT2():
     self.model_id = 'gpt2'
     self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     self.special_tokens = [
-      "<sop>", "<eop>", "<reasoning_memory>", "<error>", "<desc>", "<reason>",
+      "<sep>", "<sop>", "<eop>", "<reasoning_memory>", "<error>", "<desc>", "<reason>",
       "<action>", "<replace>", "<line>", "<index>", "<effect>", "<eois>", "<eos>"
     ]
     self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
@@ -36,21 +36,22 @@ class VpecGPT2():
     )
     trainer.train(config.SFT_VPECGPT2_EPOCHS)
 
-  def __generate__(self, input_text, max_new_tokens):
+  def __generate__(self, input_text, max_target_length):
     inputs = self.tokenizer(
-      input_text,
-      padding="max_length",
+      input_text + '<sep>',
+      padding=False,
       truncation=True,
-      max_length=config.MAX_LENGTH,
+      max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"
-    )
+    ).to(self.device)
     outputs = self.model.generate(
       input_ids=inputs['input_ids'],
       attention_mask=inputs['attention_mask'],
-      max_length=config.MAX_LENGTH + max_new_tokens,
+      max_length=inputs['input_ids'].shape[1] + max_target_length,
+      eos_token_id=[self.tokenizer.convert_tokens_to_ids('<eois>'), self.tokenizer.convert_tokens_to_ids('<eos>')],
       num_beams=5,
-      no_repeat_ngram_size=2,
       early_stopping=True
     )
-    result = self.tokenizer.decode(outputs[0], skip_special_tokens=False)
+    text_generated = outputs[0][inputs['input_ids'].shape[1]: ]
+    result = self.tokenizer.decode(text_generated, skip_special_tokens=False)
     print("Reasoning Step: \n", result)

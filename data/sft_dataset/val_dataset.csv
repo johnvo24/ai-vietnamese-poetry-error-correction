@@ -1,1289 +1,512 @@
 error_poem,step_content,edited_poem
-"Khó khăn phía trước vẫn còn,
-Sức xuân quyết chí chẳng sờn lòng son.
-Mẹ cha cầu chúc cho con,
-Bình an mạnh khỏe, luôn luôn yêu đời.
-Trên môi tươi rói nụ cười,
-Gặp nhiều may mắn, mọi người tin yêu.
-Khó khăn phía trước vẫn còn,
-Gặp nhiều may mắn, mọi người tin yêu.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự quyết tâm vượt qua khó khăn, kèm theo lời chúc phúc và niềm tin yêu từ gia đình và mọi người xung quanh để đạt được thành công.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Khó khăn phía trước vẫn còn,
-Sức xuân quyết chí chẳng sờn lòng son.
-Mẹ cha cầu chúc cho con,
-Bình an mạnh khỏe, luôn luôn yêu đời.
-Trên môi tươi rói nụ cười,
-Gặp nhiều may mắn, mọi người tin yêu.
-Khó khăn phía trước vẫn còn,
-Gặp nhiều may mắn, mọi người tin yêu."
-"Nhớ thời tuổi trẻ học sinh,
-Ngắt chùm hoa bưởi chúng mình tặng nhau.
-Hoa thơm nấu nước rửa xe,
-Mượt mà mái tóc bền lâu màu xanh.","<error> CONTEXT 
-<desc> Bài thơ gợi nhớ kỷ niệm thời học sinh hồn nhiên, gắn liền với hình ảnh hoa bưởi và những kỷ niệm giản dị, tươi đẹp.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nhớ thời tuổi trẻ học sinh,
-Ngắt chùm hoa bưởi chúng mình tặng nhau.
-Hoa thơm nấu nước rửa xe,
-Mượt mà mái tóc bền lâu màu xanh."
-"Còn đâu nụ hé môi chờ,
-Còn đâu lá biếc khép hờ ngậm sương?
-Còn đâu xao động đêm trường,
-Em đi để lại *cứng đờ* mùa đông.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tiếc nuối, hụt hẫng và nỗi cô đơn sau khi người yêu ra đi, khiến mọi thứ trở nên lạnh lẽo, tàn úa.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Còn đâu nụ hé môi chờ,
-Còn đâu lá biếc khép hờ ngậm sương?
-Còn đâu xao động đêm trường,
-Em đi để lại *cứng đờ* mùa đông."
-"Mong sao mộng ước thật xinh,
-Cho duyên thi hữu thấm tình trao thơ.
-Đẹp tình trao gửi ước mơ,
-Thỏa dạ mong muốn mình chờ trăng trao.","<error> CONTEXT 
-<desc> Bài thơ thể hiện ước mong về một mối tình đẹp, lãng mạn, nơi tình yêu và thơ ca hòa quyện, cùng chờ đợi một kết quả viên mãn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mong sao mộng ước thật xinh,
-Cho duyên thi hữu thấm tình trao thơ.
-Đẹp tình trao gửi ước mơ,
-Thỏa dạ mong muốn mình chờ trăng trao."
-"Giao thừa tống cựu nghinh tân,
-Để thơ mãi mãi mùa xuân dạt dào.
-Thành Nam một vẻ thanh tao,
-Hồn thơ thắm đượm, vui sao tuyệt vời!
-Xuân về đào nở nụ cười,
-Trên môi bạn nở nỗi buồn mênh mông.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự đối lập giữa niềm vui đón năm mới, mùa xuân tươi đẹp với nỗi buồn man mác của một người, gợi lên cảm xúc phức tạp trong khoảnh khắc giao thời.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Giao thừa tống cựu nghinh tân,
-Để thơ mãi mãi mùa xuân dạt dào.
-Thành Nam một vẻ thanh tao,
-Hồn thơ thắm đượm, vui sao tuyệt vời!
-Xuân về đào nở nụ cười,
-Trên môi bạn nở nỗi buồn mênh mông."
-"Đời tôi nghèo lắm người ơi!
-Quanh năm suốt tháng nổi trôi lục bình.
-Đời tôi như cánh lục bình,
-Trôi theo sông nước hữu tình thiết tha.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn và sự trôi dạt, bấp bênh của cuộc đời người nghèo, ví như cánh lục bình trên sông nước.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đời tôi nghèo lắm người ơi!
-Quanh năm suốt tháng nổi trôi lục bình.
-Đời tôi như cánh lục bình,
-Trôi theo sông nước hữu tình thiết tha."
-"Năm trăm năm lẻ lệ tràn,
-Nỗi đau nhân thế ố vàng Chi Viên.
-Nghẹn ngào trước chốn linh thiêng,
-Tâm tư *cá mè* bao niềm thương đau.
-Mây đen ngày ấy về đâu,
-Để nơi này mãi ám màu khăn tang?","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi đau và sự thương xót trước một sự kiện lịch sử đau buồn, có lẽ liên quan đến một địa danh cụ thể (Chi Viên), gợi lên cảm giác mất mát và tang thương kéo dài.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Năm trăm năm lẻ lệ tràn,
-Nỗi đau nhân thế ố vàng Chi Viên.
-Nghẹn ngào trước chốn linh thiêng,
-Tâm tư *cá mè* bao niềm thương đau.
-Mây đen ngày ấy về đâu,
-Để nơi này mãi ám màu khăn tang?"
-"Nắng hè bớt bớt ra oai,
-Nóng xem như đã nguôi ngoai với người.
-Tê tê lưng lửng bầu trời,
-Sen tàn chắc hạt bồi hồi lìa tâm.
-Nhãn đang hối hả tri ân,
-Mướp còn đỏng đảnh, đã từng rất gần.","<error> CONTEXT 
-<desc> Bài thơ tả cảnh chuyển giao từ hè sang thu, với những hình ảnh quen thuộc của thiên nhiên như nắng hạ dịu bớt, sen tàn, nhãn chín và mướp già.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nắng hè bớt bớt ra oai,
-Nóng xem như đã nguôi ngoai với người.
-Tê tê lưng lửng bầu trời,
-Sen tàn chắc hạt bồi hồi lìa tâm.
-Nhãn đang hối hả tri ân,
-Mướp còn đỏng đảnh, đã từng rất gần."
-"Con cò đi uống rượu đêm,
-Vướng phải cành mềm lộn cổ xuống ao.
-Còn anh chẳng uống ngụm nào,
-Cũng say ngây ngất ngã vào bờ tre.","<error> CONTEXT 
-<desc> Bài thơ mượn hình ảnh con cò và người để nói về sự say xỉn, dù có uống rượu hay không, đều có thể dẫn đến những tình huống dở khóc dở cười.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Con cò đi uống rượu đêm,
-Vướng phải cành mềm lộn cổ xuống ao.
-Còn anh chẳng uống ngụm nào,
-Cũng say ngây ngất ngã vào bờ tre."
-"Người yêu thơ, kẻ ghét thơ,
-Riêng ta, thơ vẫn là mơ gói đầu.
-Mai sau, thơ hóa ngọc châu,
-Riêng ta, xương cốt mồ sâu vẫn còn.
-Hay là thơ đổi mì lon,
-Một ngày cũng tạm no dạ, còn mong!","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình yêu và sự gắn bó sâu sắc của tác giả với thơ ca, vượt lên trên những đánh giá khác nhau của người đời và những khó khăn trong cuộc sống. Thơ là niềm an ủi, là ước mơ và là điều còn lại sau tất cả.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Người yêu thơ, kẻ ghét thơ,
-Riêng ta, thơ vẫn là mơ gói đầu.
-Mai sau, thơ hóa ngọc châu,
-Riêng ta, xương cốt mồ sâu vẫn còn.
-Hay là thơ đổi mì lon,
-Một ngày cũng tạm no dạ, còn mong!"
-"Thân em như dải lụa đào,
-Phất phơ giữa chợ biết vào tay ai?
-Thân em tựa đóa hoa mai,
-Ai yêu chớ để mùa đông nhụy tàn.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự bâng khuâng, lo lắng về thân phận người phụ nữ, mong muốn được trân trọng và yêu thương trước khi phai tàn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thân em như dải lụa đào,
-Phất phơ giữa chợ biết vào tay ai?
-Thân em tựa đóa hoa mai,
-Ai yêu chớ để mùa đông nhụy tàn."
-"Tìm đâu một bóng tình nhân,
-Đêm đông giá lạnh chăn nào đắp chung?
-Dù cho con tạo đứng im,
-Cái kiếp tang bồng ta nhớ núi sông.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, khao khát tình cảm lứa đôi trong cảnh cô độc, đồng thời bộc lộ chí khí tang bồng, nhớ về quê hương đất nước.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tìm đâu một bóng tình nhân,
-Đêm đông giá lạnh chăn nào đắp chung?
-Dù cho con tạo đứng im,
-Cái kiếp tang bồng ta nhớ núi sông."
-"Tết về lòng thấy nôn nao,
-Nắng xuân khao khát bóng đào nở bông.
-Mai kia chen sắc má hồng,
-Lúa xuân vào hạt, đẹp phố phường buồn bã.","<error> CONTEXT 
-<desc> Bài thơ thể hiện cảm xúc nôn nao, mong chờ của tác giả khi Tết đến, hòa cùng hình ảnh tươi đẹp của mùa xuân và sự tương phản với phố phường buồn bã.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tết về lòng thấy nôn nao,
-Nắng xuân khao khát bóng đào nở bông.
-Mai kia chen sắc má hồng,
-Lúa xuân vào hạt, đẹp phố phường buồn bã."
-"Mẹ luôn lủi thủi một mình,
-Mẹ tin con cháu đinh ninh sẽ về.
-Thời gian đằng đẵng lê thê,
-Các con không thấy trở về ăn cơm.
-Bao nhiêu mùa lúa chín thơm,
-Bấy nhiêu mùa mẹ hát ca một mình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, mong ngóng của người mẹ già khi con cháu đi xa không về, lặp đi lặp lại qua thời gian.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mẹ luôn lủi thủi một mình,
-Mẹ tin con cháu đinh ninh sẽ về.
-Thời gian đằng đẵng lê thê,
-Các con không thấy trở về ăn cơm.
-Bao nhiêu mùa lúa chín thơm,
-Bấy nhiêu mùa mẹ hát ca một mình."
-"Trập trùng đồi vải của em,
-Đỏ căng mọng nước, anh xem thích hầy.
-Ngập chân răng bởi cùi dầy,
-Ngọt như đường hạt, bé này được chưa?
-Nhẹ nhàng cành vải đung đưa,
-Ngon thơm em hái cho vừa lòng ta.
-Chiều nay ta lại đến nhà,
-Vườn em cây trái thật là rất vui.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi vẻ đẹp của vườn vải sai quả, ngọt ngào và niềm vui, sự hào phóng của người trồng khi mời khách thưởng thức.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Trập trùng đồi vải của em,
-Đỏ căng mọng nước, anh xem thích hầy.
-Ngập chân răng bởi cùi dầy,
-Ngọt như đường hạt, bé này được chưa?
-Nhẹ nhàng cành vải đung đưa,
-Ngon thơm em hái cho vừa lòng ta.
-Chiều nay ta lại đến nhà,
-Vườn em cây trái thật là rất vui."
-"Đêm nay không có mưa đâu,
-Bóng hình năm ấy khắc sâu tim mình.
-Cuộc đời không có chung tình,
-Vậy mà vẫn nhớ **cái ghế** người xưa.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ da diết về một tình yêu đã qua, dù biết cuộc đời vô thường và tình yêu không trọn vẹn, vẫn không thể quên hình bóng người xưa gắn liền với kỷ niệm.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đêm nay không có mưa đâu,
-Bóng hình năm ấy khắc sâu tim mình.
-Cuộc đời không có chung tình,
-Vậy mà vẫn nhớ **cái ghế** người xưa."
-"Người đi, tôi nhớ bóng người,
-Đêm không muốn ngủ, ngày thời biếng ăn.
-Ước gì như ánh trăng thanh,
-Dõi theo từng bước để xem tivi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ nhung da diết của người ở lại dành cho người ra đi, kết hợp với một chút hài hước, bất ngờ ở câu cuối.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Người đi, tôi nhớ bóng người,
-Đêm không muốn ngủ, ngày thời biếng ăn.
-Ước gì như ánh trăng thanh,
-Dõi theo từng bước để xem tivi."
-"Cô cho kiến thức thật nhiều,
-Áo dài cô mặc sớm chiều cùng em.
-Phượng hồng thắp lửa đỏ thêm,
-Sân trường vương cánh cò áo dài nhẹ.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình cảm kính trọng, yêu mến của học trò đối với cô giáo và mái trường, đặc biệt nhấn mạnh hình ảnh áo dài quen thuộc gắn liền với cô và khung cảnh trường học.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Cô cho kiến thức thật nhiều,
-Áo dài cô mặc sớm chiều cùng em.
-Phượng hồng thắp lửa đỏ thêm,
-Sân trường vương cánh cò áo dài nhẹ."
-"Thì ra trên cõi đời này,
-Tâm hồn hướng thiện có ngày vui tươi.
-Miệng ta cứ nở nụ cười,
-Trao đi tiền bạc, nhận vài con trâu.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm tin vào việc làm việc thiện sẽ mang lại niềm vui và lợi ích vật chất, nhấn mạnh sự tương quan giữa tâm hồn hướng thiện và kết quả tốt đẹp trong cuộc sống.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thì ra trên cõi đời này,
-Tâm hồn hướng thiện có ngày vui tươi.
-Miệng ta cứ nở nụ cười,
-Trao đi tiền bạc, nhận vài con trâu."
-"Thuở còn là búp non xuân,
-Tiếng chim thánh thót thanh ngần ban mai.
-Mộng hồng vương nhẹ bờ vai,
-Bước chân thơ dại mơ hoài ngày vui.
-Được về với những ngọt bùi,
-Cánh chuồn cõng nắng bời bời sớm mai.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hồi tưởng về một thời tuổi trẻ tươi đẹp, tràn đầy niềm vui và những ước mơ trong sáng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thuở còn là búp non xuân,
-Tiếng chim thánh thót thanh ngần ban mai.
-Mộng hồng vương nhẹ bờ vai,
-Bước chân thơ dại mơ hoài ngày vui.
-Được về với những ngọt bùi,
-Cánh chuồn cõng nắng bời bời sớm mai."
-"Buồn ra ngõ vắng mà trông,
-Câu thơ nức nở, gió đông nghẹn lời.
-Mây hờn trăng ngã giếng khơi,
-Bổng trầm khúc nhạc đầy chơi vơi đầy.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn cô đơn, trống trải của một người khi đối diện với cảnh vật xung quanh, cảm xúc dâng trào qua từng câu chữ và hình ảnh thiên nhiên.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Buồn ra ngõ vắng mà trông,
-Câu thơ nức nở, gió đông nghẹn lời.
-Mây hờn trăng ngã giếng khơi,
-Bổng trầm khúc nhạc đầy chơi vơi đầy."
-"Đêm nay phòng lạnh không gian,
-Lòng em hiến tặng cho nhau cuộc đời.
-Từ lâu tình vẫn mơ màng,
-Xót xa vì nghĩa, nặng lòng vì rau.
-Em ơi, có hiểu cho đời,
-Anh đây vẫn nguyện một lòng thủy chung.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng giằng xé giữa tình yêu và những ràng buộc, khó khăn trong cuộc sống, đồng thời khẳng định sự thủy chung.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đêm nay phòng lạnh không gian,
-Lòng em hiến tặng cho nhau cuộc đời.
-Từ lâu tình vẫn mơ màng,
-Xót xa vì nghĩa, nặng lòng vì rau.
-Em ơi, có hiểu cho đời,
-Anh đây vẫn nguyện một lòng thủy chung."
-"Thu về cơn gió heo may,
-Lắp thêm đôi cánh để bay nhẹ nhàng.
-Lang thang cảm giác mơ màng,
-Mang về *nhẹ nhàng* để hàng năm theo.","<error> CONTEXT 
-<desc> Bài thơ diễn tả cảm xúc nhẹ nhàng, mơ màng khi thu đến, với mong muốn lưu giữ khoảnh khắc đẹp này theo thời gian.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thu về cơn gió heo may,
-Lắp thêm đôi cánh để bay nhẹ nhàng.
-Lang thang cảm giác mơ màng,
-Mang về *nhẹ nhàng* để hàng năm theo."
-"Đường gần tôi mãi đi vòng,
-Để ai lạc bước giữa dòng về đâu?
-Vì tôi để bến cô sầu,
-Vì tôi nên héo giàn trầu nhà em.
-Hình như ánh mắt sau rèm,
-Làm tôi lại nhớ, lại thèm ngày xanh.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hối tiếc, day dứt của một người về những lựa chọn trong quá khứ, gây ra nỗi buồn và sự mất mát cho người khác, đồng thời gợi nhớ về một thời tươi đẹp đã qua.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đường gần tôi mãi đi vòng,
-Để ai lạc bước giữa dòng về đâu?
-Vì tôi để bến cô sầu,
-Vì tôi nên héo giàn trầu nhà em.
-Hình như ánh mắt sau rèm,
-Làm tôi lại nhớ, lại thèm ngày xanh."
-"Đảng cho ánh sáng, nụ cười,
-Đón chào Đại hội, hoa tươi chúc mừng.
-Xuân về đào thắm, dạ ưng,
-Toàn dân phấn khởi, nụ cười đón Xuân.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi Đảng và niềm vui, sự phấn khởi của người dân khi đón chào Đại hội Đảng và mùa xuân.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đảng cho ánh sáng, nụ cười,
-Đón chào Đại hội, hoa tươi chúc mừng.
-Xuân về đào thắm, dạ ưng,
-Toàn dân phấn khởi, nụ cười đón Xuân."
-"Khắp miền đất nước biển khơi,
-Vùng cao cho đến núi đồi nhớ thay.
-Hàng năm cứ đến ngày này,
-Tri ân Liệt Sỹ, nhớ bay khắp vùng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện lòng biết ơn và tưởng nhớ sâu sắc đến các liệt sĩ trên khắp mọi miền Tổ quốc vào một ngày tri ân đặc biệt.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Khắp miền đất nước biển khơi,
-Vùng cao cho đến núi đồi nhớ thay.
-Hàng năm cứ đến ngày này,
-Tri ân Liệt Sỹ, nhớ bay khắp vùng."
-"Yêu nhau mà ở trùng xa,
-Làm sao đú được thằng cha láng giềng?
-Tối ngày to nhỏ thầm riêng,
-Nước lã rơm nỏ đâu kiêng anh cùng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự chua xót, bất lực của một người con gái khi yêu xa, lo sợ tình cảm không thể sánh bằng mối quan hệ gần gũi của người yêu với người khác.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Yêu nhau mà ở trùng xa,
-Làm sao đú được thằng cha láng giềng?
-Tối ngày to nhỏ thầm riêng,
-Nước lã rơm nỏ đâu kiêng anh cùng."
-"Mới hay muôn sự tại trời,
-Trời kia đã bắt làm người có thân.
-Bắt phong trần phải phong trần,
-Cho thanh cao mới được ăn mì tôm.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự bất lực, cam chịu trước số phận, đồng thời pha chút hài hước về sự đối lập giữa lý tưởng thanh cao và thực tế cuộc sống khó khăn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mới hay muôn sự tại trời,
-Trời kia đã bắt làm người có thân.
-Bắt phong trần phải phong trần,
-Cho thanh cao mới được ăn mì tôm."
-"Con đò lỡ chuyến sang ngang,
-Đường đi rẽ lối trăm ngàn ngược xuôi.
-Tình không tha thiết, em ơi,
-Anh đành lỗi hẹn những áng mây trôi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự chia ly, dang dở trong tình yêu, khi người con trai phải lỗi hẹn và rẽ sang một hướng đi khác.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Con đò lỡ chuyến sang ngang,
-Đường đi rẽ lối trăm ngàn ngược xuôi.
-Tình không tha thiết, em ơi,
-Anh đành lỗi hẹn những áng mây trôi."
-"Ra đường nhặt cục đá to,
-Tối về cặm cụi làm thơ cho tình.
-Vợ trêu: ""Được lắm chưa mình?""
-Ngượng ngùng xấu hổ, ăn bánh linh đình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự vụng về, đáng yêu của người chồng khi cố gắng làm thơ tặng vợ, và phản ứng hài hước, trêu chọc của người vợ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ra đường nhặt cục đá to,
-Tối về cặm cụi làm thơ cho tình.
-Vợ trêu: ""Được lắm chưa mình?""
-Ngượng ngùng xấu hổ, ăn bánh linh đình."
-"Nụ sen hé nở trong hồ,
-Cho mùa xuân đến, mong chờ yêu thương.
-Thiết tha sen thắm vô thường,
-Ngàn năm sau nữa, dối trá khát khao.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự mong chờ, khát khao tình yêu trong khoảnh khắc hiện tại (nụ sen nở) nhưng lại pha lẫn nỗi hoài nghi về sự bền vững, chân thật của tình yêu đó theo thời gian.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nụ sen hé nở trong hồ,
-Cho mùa xuân đến, mong chờ yêu thương.
-Thiết tha sen thắm vô thường,
-Ngàn năm sau nữa, dối trá khát khao."
-"Xếp hình điện tử cầm tay,
-Kẹo C, kẹo kéo quế say hương nồng.
-Một thời nhắng nhít lông bông,
-Hồn nhiên, trong sáng tuổi hồng thơ ngây.
-Bao nhiêu cảm xúc đong đầy,
-Miên man kỷ niệm bủa vây gió đông.","<error> CONTEXT 
-<desc> Bài thơ gợi nhớ về những kỷ niệm tuổi thơ hồn nhiên, trong sáng với những trò chơi và hương vị ngọt ngào, khơi gợi cảm xúc bồi hồi về một thời đã qua.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Xếp hình điện tử cầm tay,
-Kẹo C, kẹo kéo quế say hương nồng.
-Một thời nhắng nhít lông bông,
-Hồn nhiên, trong sáng tuổi hồng thơ ngây.
-Bao nhiêu cảm xúc đong đầy,
-Miên man kỷ niệm bủa vây gió đông."
-"Chốn thềm còn đủ hương trinh,
-Quân tử động tình gấp gáp chi ai?
-Trăng kia chìm đáy sông dài,
-Dòng chảy lâu ngày vương vấn thương ai.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tiếc nuối, day dứt về một mối tình dang dở, với sự chờ đợi và hoài niệm về người xưa.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Chốn thềm còn đủ hương trinh,
-Quân tử động tình gấp gáp chi ai?
-Trăng kia chìm đáy sông dài,
-Dòng chảy lâu ngày vương vấn thương ai."
-"Nay về thăm lại Mỹ Khê,
-Bao năm rồi kẻ xa quê lạc dòng.
-Ta về thăm lại đồi thông,
-Thăm bờ cát trắng, lặng trông sự thật.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi niềm của người con xa quê hương Mỹ Khê, nay trở về thăm lại những cảnh vật thân quen và suy tư về sự thật cuộc sống.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nay về thăm lại Mỹ Khê,
-Bao năm rồi kẻ xa quê lạc dòng.
-Ta về thăm lại đồi thông,
-Thăm bờ cát trắng, lặng trông sự thật."
-"Con sông bên lở bên bồi,
-Duyên thiên âu cũng lõm lồi mới nên.
-Gặp nhau dây cảm tương truyền,
-Trăm năm duyên ấy gắn liền chẳng phai.
-Ai cười ai nói mặc ai,
-Đôi ta vẫn mãi vẫn **khóc** hoài có nhau.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự bền chặt của tình duyên đôi lứa vượt qua những thăng trầm và lời dị nghị, dù có đau khổ vẫn luôn có nhau.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Con sông bên lở bên bồi,
-Duyên thiên âu cũng lõm lồi mới nên.
-Gặp nhau dây cảm tương truyền,
-Trăm năm duyên ấy gắn liền chẳng phai.
-Ai cười ai nói mặc ai,
-Đôi ta vẫn mãi vẫn **khóc** hoài có nhau."
-"Nắng về, trở giấc mi ngoan,
-Vẽ vời chân ý chớm tàn tựa bông.
-Rồi thì cũng phải theo chồng,
-Người duyên tri kỷ là biển Đông.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng tiếc nuối của người con gái khi phải rời xa quê hương, nơi có những kỷ niệm đẹp, để đi lấy chồng xa.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nắng về, trở giấc mi ngoan,
-Vẽ vời chân ý chớm tàn tựa bông.
-Rồi thì cũng phải theo chồng,
-Người duyên tri kỷ là biển Đông."
-"Bất ngờ với cuộc chia ly,
-Nhà thơ Rau Má mãi đi xa rồi.
-Dẫu rằng cõi tạm đang vui,
-Trời sai thiên sứ xuống mời thơ lên.
-Từ ngày dạo gót vườn tiên,
-Để thơ Rau Má đẹp duyên cõi **chan hòa**.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tiếc thương, ngỡ ngàng trước sự ra đi của nhà thơ Rau Má, đồng thời ca ngợi tài năng và sự thanh cao của nhà thơ khi về với cõi vĩnh hằng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Bất ngờ với cuộc chia ly,
-Nhà thơ Rau Má mãi đi xa rồi.
-Dẫu rằng cõi tạm đang vui,
-Trời sai thiên sứ xuống mời thơ lên.
-Từ ngày dạo gót vườn tiên,
-Để thơ Rau Má đẹp duyên cõi **chan hòa**."
-"Đầu xuân chợ Tết bạn ơi,
-Mua vui bán giận cho đời lên tiên.
-Dù vui đắt mấy cũng nên,
-Mua cho bằng được mới hên cả nhà.
-Giận không bán được quẳng ra,
-Cho vào vũ trụ, cả nhà mới say.","<error> CONTEXT 
-<desc> Bài thơ thể hiện không khí vui tươi, náo nhiệt của chợ Tết đầu xuân, khuyến khích mọi người mua sắm, trao đổi niềm vui và vứt bỏ những điều không may để đón một năm mới an lành, hạnh phúc.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đầu xuân chợ Tết bạn ơi,
-Mua vui bán giận cho đời lên tiên.
-Dù vui đắt mấy cũng nên,
-Mua cho bằng được mới hên cả nhà.
-Giận không bán được quẳng ra,
-Cho vào vũ trụ, cả nhà mới say."
-"Tiệc vui bữa ấy bên làng,
-Vô tình họ xếp tôi nàng cùng mâm.
-Ngượng tay lỡ gắp duyên thầm,
-Nâng ly tôi nhắm dịu đằm hương yêu.
-Tỉnh ra mới biết rằng liều,
-Đầu xuân nàng đã *theo* người sang sông.","<error> CONTEXT 
-<desc> Bài thơ kể về một kỷ niệm đẹp thoáng qua trong một bữa tiệc, nơi nhân vật trữ tình nảy sinh tình cảm với một cô gái, nhưng sau đó nhận ra tình cảm ấy vô vọng vì cô gái đã thuộc về người khác.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tiệc vui bữa ấy bên làng,
-Vô tình họ xếp tôi nàng cùng mâm.
-Ngượng tay lỡ gắp duyên thầm,
-Nâng ly tôi nhắm dịu đằm hương yêu.
-Tỉnh ra mới biết rằng liều,
-Đầu xuân nàng đã *theo* người sang sông."
-"Cả năm nay mới được đi,
-Thăm con cháu có kể gì bão đâu.
-Trời mưa cảnh nhuốm thêm màu,
-Chia tay bịn rịn, nỗi buồn ai mang.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm vui khi được thăm con cháu sau một thời gian dài, nhưng cũng chất chứa nỗi buồn và sự bịn rịn khi phải chia tay.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Cả năm nay mới được đi,
-Thăm con cháu có kể gì bão đâu.
-Trời mưa cảnh nhuốm thêm màu,
-Chia tay bịn rịn, nỗi buồn ai mang."
-"Cho anh một cốc trà đào,
-Tiện cho anh hỏi lối vào tim em?
-Đường đi khó mấy cũng quen,
-Lối vào không khó, tim em đang chờ.
-Lâu rồi em vẫn để hờ,
-Cho anh lối nhỏ đường vào vũ trụ em.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tán tỉnh, bày tỏ tình cảm của chàng trai với cô gái, sử dụng hình ảnh trà đào và lối vào tim em như một cách tiếp cận lãng mạn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Cho anh một cốc trà đào,
-Tiện cho anh hỏi lối vào tim em?
-Đường đi khó mấy cũng quen,
-Lối vào không khó, tim em đang chờ.
-Lâu rồi em vẫn để hờ,
-Cho anh lối nhỏ đường vào vũ trụ em."
-"Tết vui cùng đón xuân này,
-Chúc cho các bạn ngày ngày khỏe hơn.
-Bạn nhiều nên chẳng cô đơn,
-Hai đầu nối nhịp trên phây thiệt tình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm vui đón Tết, chúc sức khỏe bạn bè và ca ngợi tình bạn được kết nối qua mạng xã hội.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tết vui cùng đón xuân này,
-Chúc cho các bạn ngày ngày khỏe hơn.
-Bạn nhiều nên chẳng cô đơn,
-Hai đầu nối nhịp trên phây thiệt tình."
-"Rõ ràng nằm ngủ một mình,
-Mà sao lại có chấy kềnh bò lăn?
-Rõ ràng đôi tất xỏ chân,
-Sáng ra một chiếc có mình ai nhầm?","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự khó hiểu, bực bội của người viết khi gặp những tình huống kỳ lạ, vô lý trong cuộc sống sinh hoạt cá nhân.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Rõ ràng nằm ngủ một mình,
-Mà sao lại có chấy kềnh bò lăn?
-Rõ ràng đôi tất xỏ chân,
-Sáng ra một chiếc có mình ai nhầm?"
-"Chiều chiều mây phủ đá bia,
-Đá bia mây phủ, chị kia mất chồng.
-Đá bia hiển diện Phú Yên,
-Trăm năm bia đá còn duyên đất trời.
-Vọng Phu bia đá sáng ngời,
-Lưu danh sử sách *biển xanh* Phú Yên.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi vẻ đẹp và giá trị lịch sử của di tích Vọng Phu ở Phú Yên, đặc biệt là bia đá, đồng thời gợi nhắc về sự mất mát và tình yêu vĩnh cửu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Chiều chiều mây phủ đá bia,
-Đá bia mây phủ, chị kia mất chồng.
-Đá bia hiển diện Phú Yên,
-Trăm năm bia đá còn duyên đất trời.
-Vọng Phu bia đá sáng ngời,
-Lưu danh sử sách *biển xanh* Phú Yên."
-"Mảnh thu rơi nhẹ bên thềm,
-Ánh hoàng hôn nhuộm con tim hao gầy.
-Nghĩ mình chưa xứng làm mây,
-Nên anh đâu dám bàn tay dựng xây.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng buồn bã, cô đơn của một người khi cảm thấy bản thân không đủ tốt để xứng đáng với tình yêu hoặc một mối quan hệ nào đó.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mảnh thu rơi nhẹ bên thềm,
-Ánh hoàng hôn nhuộm con tim hao gầy.
-Nghĩ mình chưa xứng làm mây,
-Nên anh đâu dám bàn tay dựng xây."
-"Lưng còng mẹ cõng nắng mưa,
-Sớm trưa chiều tối tuổi vừa tám mươi.
-Ngược xuôi phố huyện đông người,
-Mẹ luôn đon đả chào đón khách xa.
-Nắng dài bóng ngả đẩy đưa,
-Chân trần bước gấp nhặt tím chợ đường.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi sự tần tảo, chịu thương chịu khó của người mẹ già, dù tuổi cao vẫn vất vả mưu sinh nơi phố chợ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Lưng còng mẹ cõng nắng mưa,
-Sớm trưa chiều tối tuổi vừa tám mươi.
-Ngược xuôi phố huyện đông người,
-Mẹ luôn đon đả chào đón khách xa.
-Nắng dài bóng ngả đẩy đưa,
-Chân trần bước gấp nhặt tím chợ đường."
-"Thế rồi cũng phải lên đường,
-Miên man những nhớ, những thương trong lòng.
-Đàn cò về ngủ bên sông,
-Ráng chiều nhuộm tím cánh đồng làng tôi.
-Lên xe lòng dạ bồi hồi,
-Cánh cò níu bước chân người ta đi xa.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng lưu luyến, bịn rịn của người con khi phải rời xa quê hương, với những hình ảnh thân thuộc gợi nỗi nhớ da diết.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thế rồi cũng phải lên đường,
-Miên man những nhớ, những thương trong lòng.
-Đàn cò về ngủ bên sông,
-Ráng chiều nhuộm tím cánh đồng làng tôi.
-Lên xe lòng dạ bồi hồi,
-Cánh cò níu bước chân người ta đi xa."
-"Nhanh nhanh khai báo giờ vàng,
-Giúp mình giúp cả họ hàng an nhiên.
-Đừng mà trốn lủi liên thiên,
-Hại mình hại cả bạn hiền, bình yên!","<error> CONTEXT 
-<desc> Bài thơ kêu gọi mọi người nhanh chóng khai báo y tế để bảo vệ bản thân, gia đình và cộng đồng, tránh gây hại cho người khác vì trốn tránh.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nhanh nhanh khai báo giờ vàng,
-Giúp mình giúp cả họ hàng an nhiên.
-Đừng mà trốn lủi liên thiên,
-Hại mình hại cả bạn hiền, bình yên!"
-"Đường vào Chợ Đệm bao xa,
-Thương thương hương đất mặn mà quê em.
-Mênh mông sông nước êm đềm,
-Thuyền ai thấp thoáng chở một vầng hồng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình cảm yêu mến, gắn bó với vùng quê Chợ Đệm, nơi có hương vị đặc trưng và khung cảnh sông nước thanh bình.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đường vào Chợ Đệm bao xa,
-Thương thương hương đất mặn mà quê em.
-Mênh mông sông nước êm đềm,
-Thuyền ai thấp thoáng chở một vầng hồng."
-"Đương còn chút nắng hình hài,
-Chẳng ai kính sợ đoái hoài đến thân.
-Cứng đơ dưới áo tử thần,
-Bao nhiêu vái lạy xót thương cô mình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự cô đơn, lạnh lẽo và đáng thương của một người khi còn sống không được quan tâm, đến khi chết mới nhận được sự thương xót giả tạo.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đương còn chút nắng hình hài,
-Chẳng ai kính sợ đoái hoài đến thân.
-Cứng đơ dưới áo tử thần,
-Bao nhiêu vái lạy xót thương cô mình."
-"Biết thân phận, phải chấp hành,
-Không đi đâu nữa, loanh quanh ở nhà.
-Tết ngoan thì sẽ có quà,
-Lì xì cho nhé, nhưng mà ở vậy.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự chấp nhận hoàn cảnh hiện tại, có lẽ là sự hạn chế về tự do đi lại, và niềm hy vọng nhỏ nhoi vào những phần thưởng nhỏ trong dịp Tết nếu biết vâng lời.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Biết thân phận, phải chấp hành,
-Không đi đâu nữa, loanh quanh ở nhà.
-Tết ngoan thì sẽ có quà,
-Lì xì cho nhé, nhưng mà ở vậy."
-"Rồi thì nước mắt cũng khô,
-Nghe như bão tố mới vừa can qua.
-Rồi lời yêu sẽ nhạt nhòa,
-Sao tim vẫn mãi thật thà thương.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự giằng xé giữa lý trí (nước mắt khô, lời yêu nhạt nhòa) và tình cảm (tim vẫn thương) sau một biến cố tình cảm mạnh mẽ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Rồi thì nước mắt cũng khô,
-Nghe như bão tố mới vừa can qua.
-Rồi lời yêu sẽ nhạt nhòa,
-Sao tim vẫn mãi thật thà thương."
-"Nguyệt rằng: ""Hãy hỏi trời cao,
-Trăng càng sáng tỏ, ngàn sao càng dày.
-Sao, trăng luôn cứ xum vầy,
-Trăng như là điện thoại cùng bầy sao con.""","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự gắn bó, tương hỗ giữa trăng và sao, so sánh trăng như người mẹ và sao như những đứa con.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nguyệt rằng: ""Hãy hỏi trời cao,
-Trăng càng sáng tỏ, ngàn sao càng dày.
-Sao, trăng luôn cứ xum vầy,
-Trăng như là điện thoại cùng bầy sao con."""
-"Người xưa đã chết bao giờ,
-Mà sao sông cũ con đò không đưa?
-Nói gì với đám cưới vừa,
-Với đêm đêm sáng, với trưa trưa vừa.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hoài niệm về quá khứ đã mất, sự đối lập giữa những gì xưa cũ và hiện tại, và có thể là nỗi băn khoăn về sự tiếp nối của thời gian.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Người xưa đã chết bao giờ,
-Mà sao sông cũ con đò không đưa?
-Nói gì với đám cưới vừa,
-Với đêm đêm sáng, với trưa trưa vừa."
-"Đường nay vắng lặng thôn quê,
-Mình tôi một bóng đi về mình tôi.
-Gom bao kỷ niệm chôn vùi,
-Xe đạp dần khuất, nắng rơi nhạt nhòa.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, hoài niệm về quá khứ và sự vắng vẻ, tàn phai của một vùng quê.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đường nay vắng lặng thôn quê,
-Mình tôi một bóng đi về mình tôi.
-Gom bao kỷ niệm chôn vùi,
-Xe đạp dần khuất, nắng rơi nhạt nhòa."
-"Ngày xưa tôi muốn sang sông,
-Chậm chân một chút nên không kịp đò.
-Trách đời chẳng được như mơ,
-Mười năm đọng lại hồn thơ chốn này.
-Mười năm mang nỗi đắng cay,
-Mười năm **khóc** giông tố chất đầy lòng tôi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự nuối tiếc, hối hận vì lỡ lỡ cơ hội và những năm tháng chìm đắm trong khổ đau, dằn vặt sau đó.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ngày xưa tôi muốn sang sông,
-Chậm chân một chút nên không kịp đò.
-Trách đời chẳng được như mơ,
-Mười năm đọng lại hồn thơ chốn này.
-Mười năm mang nỗi đắng cay,
-Mười năm **khóc** giông tố chất đầy lòng tôi."
-"Kiếp người phận mỏng ra đi,
-Hôm nay giỗ mẹ khắc ghi nỗi sầu.
-Thành tâm con khấn nguyện cầu,
-Ở nơi cõi Phật mong người rất vui.
-Tháng ngày con sống ngậm ngùi,
-Công ơn dưỡng dục biển trời bao la.
-Mẹ ơi con biết phải làm sao,
-Nén hương con đốt trước bàn thờ ai.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi đau và sự tưởng nhớ sâu sắc của người con trong ngày giỗ mẹ, đồng thời bày tỏ lòng biết ơn vô hạn đối với công ơn sinh thành, dưỡng dục.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Kiếp người phận mỏng ra đi,
-Hôm nay giỗ mẹ khắc ghi nỗi sầu.
-Thành tâm con khấn nguyện cầu,
-Ở nơi cõi Phật mong người rất vui.
-Tháng ngày con sống ngậm ngùi,
-Công ơn dưỡng dục biển trời bao la.
-Mẹ ơi con biết phải làm sao,
-Nén hương con đốt trước bàn thờ ai."
-"Anh đi để lại con đò,
-Bến xưa còn nửa câu hò bâng khuâng.
-Cớ gì con sóng trào dâng,
-Đường xưa cỏ héo mấy tầng nhà cao.
-Thương em một đóa hoa làu,
-Sớm mai nở muộn úa màu trên cây.
-Chiều nay nhớ dáng em gầy,
-Lòng ta sao cứ chất đầy niềm đau.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn chia ly, nhớ nhung người yêu và sự thay đổi của cảnh vật, thời gian khiến lòng người thêm trĩu nặng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Anh đi để lại con đò,
-Bến xưa còn nửa câu hò bâng khuâng.
-Cớ gì con sóng trào dâng,
-Đường xưa cỏ héo mấy tầng nhà cao.
-Thương em một đóa hoa làu,
-Sớm mai nở muộn úa màu trên cây.
-Chiều nay nhớ dáng em gầy,
-Lòng ta sao cứ chất đầy niềm đau."
-"Sắp sang tuổi cổ lai hy,
-Nào ngờ lại mắc bệnh si thơ tình.
-Suốt ngày tìm tứ thơ xinh,
-Thổi vào một chút hồn mình lãng du.
-Để quên cái tuổi chiều thu,
-Bâng khuâng con chữ tự nấu lòng mình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng của một người lớn tuổi, dù đã ở ngưỡng ""cổ lai hy"" nhưng vẫn say mê làm thơ tình để tìm lại niềm vui và quên đi tuổi già.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Sắp sang tuổi cổ lai hy,
-Nào ngờ lại mắc bệnh si thơ tình.
-Suốt ngày tìm tứ thơ xinh,
-Thổi vào một chút hồn mình lãng du.
-Để quên cái tuổi chiều thu,
-Bâng khuâng con chữ tự nấu lòng mình."
-"Kề nhau to nhỏ nấm mồ,
-Khói nhang lãng đãng điểm tô cuộc đời.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hữu hạn của đời người, sự gần kề của cái chết và những nghi lễ sau khi qua đời.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Kề nhau to nhỏ nấm mồ,
-Khói nhang lãng đãng điểm tô cuộc đời."
-"Hoa mai đào nở khắp vườn,
-Hỡi ai xa xứ xa hương gắng về.
-Vui vầy ngày Tết cùng quê,
-Ngày *xuân* sum họp tràn trề niềm vui.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm mong mỏi đoàn tụ gia đình, hướng về quê hương trong dịp Tết đến xuân về.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hoa mai đào nở khắp vườn,
-Hỡi ai xa xứ xa hương gắng về.
-Vui vầy ngày Tết cùng quê,
-Ngày *xuân* sum họp tràn trề niềm vui."
-"Mùa hoa đang rộ êm đềm,
-Hồn lặng rũ mềm đang độ xuân phơi.
-Thương ai chín bỏ là mười,
-Cầu nguyện cho đêm thánh mình tôi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, tâm trạng buồn thương trong mùa xuân tươi đẹp, cùng với sự cầu nguyện cho một điều gì đó thiêng liêng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mùa hoa đang rộ êm đềm,
-Hồn lặng rũ mềm đang độ xuân phơi.
-Thương ai chín bỏ là mười,
-Cầu nguyện cho đêm thánh mình tôi."
-"Ngoài hiên mưa nhớ thương ai,
-Sụt sùi giọt ngắn giọt dài tái tê.
-Từ khi én lạc lối về,
-Hoa xuân đã héo, trăng thề đã phai.
-Công viên ghế lạnh u hoài,
-Còn đâu hương ấm ban mai chiều hôm.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn, sự cô đơn và tiếc nuối về một tình yêu đã qua, gợi tả khung cảnh u sầu, tàn phai của những kỷ niệm đẹp.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ngoài hiên mưa nhớ thương ai,
-Sụt sùi giọt ngắn giọt dài tái tê.
-Từ khi én lạc lối về,
-Hoa xuân đã héo, trăng thề đã phai.
-Công viên ghế lạnh u hoài,
-Còn đâu hương ấm ban mai chiều hôm."
-"Ngồi buồn may túi đựng mây,
-Tối về làm nệm ngủ say giấc nồng.
-Một đời tứ đại giai không,
-Ta là lão đại tiên khồng thế gian.
-Mặc đời thế sự đảo điên,
-Trống xuôi kèn ngược, ai *khóc* mặc ai.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự buông bỏ, sống an nhiên tự tại, không quan tâm đến thế sự và tìm niềm vui trong những điều giản dị.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ngồi buồn may túi đựng mây,
-Tối về làm nệm ngủ say giấc nồng.
-Một đời tứ đại giai không,
-Ta là lão đại tiên khồng thế gian.
-Mặc đời thế sự đảo điên,
-Trống xuôi kèn ngược, ai *khóc* mặc ai."
-"Mưa đùa ngọn cỏ ngoài hiên,
-Gió đưa nỗi nhớ về miền vu vơ.
-Mây bay bắt núi đợi chờ,
-Thương thay cánh vạc ăn đêm mơ.","<error> CONTEXT 
-<desc> Bài thơ diễn tả nỗi nhớ vu vơ, man mác buồn qua những hình ảnh thiên nhiên quen thuộc như mưa, gió, mây và cánh vạc.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mưa đùa ngọn cỏ ngoài hiên,
-Gió đưa nỗi nhớ về miền vu vơ.
-Mây bay bắt núi đợi chờ,
-Thương thay cánh vạc ăn đêm mơ."
-"Thời cơ gặp mặt còn nhiều,
-Tao Đàn, Lễ Hội Tình Yêu hợp hòa.
-Để rồi ta lại bên ta,
-Khẩu trang, kính mát mở ra chào mời.
-Cho dù xa cách tạm thời,
-Trao duyên ta lại đến nơi *yêu* quà.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm vui và sự mong chờ gặp gỡ, yêu thương sau thời gian xa cách, có thể do dịch bệnh hoặc hoàn cảnh khách quan nào đó.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thời cơ gặp mặt còn nhiều,
-Tao Đàn, Lễ Hội Tình Yêu hợp hòa.
-Để rồi ta lại bên ta,
-Khẩu trang, kính mát mở ra chào mời.
-Cho dù xa cách tạm thời,
-Trao duyên ta lại đến nơi *yêu* quà."
-"Búa liềm cờ đỏ sao vàng,
-Lập bao kỳ tích tiếng vang lẫy lừng.
-Toàn dân nô nức tưng bừng,
-Dâng hoa thắm thiết đón chào Đảng ta.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi Đảng Cộng sản Việt Nam và những thành tựu mà Đảng đã đạt được, đồng thời thể hiện sự hân hoan, chào đón của người dân.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Búa liềm cờ đỏ sao vàng,
-Lập bao kỳ tích tiếng vang lẫy lừng.
-Toàn dân nô nức tưng bừng,
-Dâng hoa thắm thiết đón chào Đảng ta."
-"Già sao vẫn viết chuyện tình,
-Bởi vì ta thấy trong mình vẫn xuân.
-Tuổi giờ cao quá lục tuần,
-Nhưng hồn thơ vẫn **trăng thanh** dạt dào.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự trẻ trung trong tâm hồn và niềm đam mê viết lách về tình yêu của một người lớn tuổi, bất chấp tuổi tác.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Già sao vẫn viết chuyện tình,
-Bởi vì ta thấy trong mình vẫn xuân.
-Tuổi giờ cao quá lục tuần,
-Nhưng hồn thơ vẫn **trăng thanh** dạt dào."
-"Vừa ra ngoài Bắc mấy ngày,
-Mà sao lại nhớ trong này quá thôi!
-Đường về nào có xa xôi,
-Bâng khuâng nỗi nhớ bạn ""nhớ"" rất nhiều.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ nhà, nhớ bạn bè da diết của người con xa quê hương dù thời gian xa cách chưa lâu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Vừa ra ngoài Bắc mấy ngày,
-Mà sao lại nhớ trong này quá thôi!
-Đường về nào có xa xôi,
-Bâng khuâng nỗi nhớ bạn ""nhớ"" rất nhiều."
-"Mẹ à, nhớ lắm mẹ ơi!
-Ngày sinh nhật tới, nhớ lời mẹ ru.
-Đi tìm tiếng mẹ sương mù,
-Xa xăm nơi ấy, con sủa ngẩn ngơ.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ mẹ da diết của người con, đặc biệt vào ngày sinh nhật, và sự lạc lõng, cô đơn khi không có mẹ bên cạnh.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mẹ à, nhớ lắm mẹ ơi!
-Ngày sinh nhật tới, nhớ lời mẹ ru.
-Đi tìm tiếng mẹ sương mù,
-Xa xăm nơi ấy, con sủa ngẩn ngơ."
-"Rưng rưng thắp nén hương trầm,
-Gửi về cõi Mẹ muôn phần nhớ thương.
-Biết đời là kiếp vô thường,
-Mà sao vẫn nghẹn nỗi *sầu* chia ly.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ thương mẹ da diết và sự đau buồn trước sự mất mát, chia ly vĩnh viễn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Rưng rưng thắp nén hương trầm,
-Gửi về cõi Mẹ muôn phần nhớ thương.
-Biết đời là kiếp vô thường,
-Mà sao vẫn nghẹn nỗi *sầu* chia ly."
-"Ngoài kia đông cũng mong manh,
-Níu thêm một chút nắng hanh cuối mùa.
-Hình như trong tiếng gió lùa,
-Em nghe hơi thở của mùa xuân sang.
-Búp non mở mắt mơ màng,
-Em thêm tuổi mới, chứa chan tình xuân.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự giao mùa từ đông sang xuân, đồng thời diễn tả niềm vui và sự tươi mới khi người con gái bước sang tuổi mới trong không khí mùa xuân tràn ngập tình yêu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ngoài kia đông cũng mong manh,
-Níu thêm một chút nắng hanh cuối mùa.
-Hình như trong tiếng gió lùa,
-Em nghe hơi thở của mùa xuân sang.
-Búp non mở mắt mơ màng,
-Em thêm tuổi mới, chứa chan tình xuân."
-"Gia đình hạnh phúc ấm no,
-Chồng cày vợ cấy chăm lo gia đình.
-Đủ ăn đủ mặc chúng mình,
-Không lo bớt xén, không màng lợi danh.
-Bữa cơm đạm bạc cơm canh,
-Cá kho, rau luộc, xe hơi thật thà.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi cuộc sống gia đình hạnh phúc, giản dị với công việc đồng áng và sự hài lòng với những gì mình có.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Gia đình hạnh phúc ấm no,
-Chồng cày vợ cấy chăm lo gia đình.
-Đủ ăn đủ mặc chúng mình,
-Không lo bớt xén, không màng lợi danh.
-Bữa cơm đạm bạc cơm canh,
-Cá kho, rau luộc, xe hơi thật thà."
-"Vẫn nguyên trời đất trăng sao,
-Vô công tạo hóa tơ hào gì đâu.
-Tham, si nhân thế cưỡng cầu,
-Đoạt tranh danh lợi đục ngầu trần gian.
-Phù hoa sớm nở tối tàn,
-Tấm thân tứ đại *bay cao* đời ru.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự đối lập giữa vẻ đẹp vĩnh hằng của thiên nhiên và sự phù phiếm, tranh đoạt của cuộc sống con người, đồng thời gợi nhắc về sự vô thường của đời người.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Vẫn nguyên trời đất trăng sao,
-Vô công tạo hóa tơ hào gì đâu.
-Tham, si nhân thế cưỡng cầu,
-Đoạt tranh danh lợi đục ngầu trần gian.
-Phù hoa sớm nở tối tàn,
-Tấm thân tứ đại *bay cao* đời ru."
-"Xuân xưa đi lại có đôi,
-Xuân nay giãn cách chỉ tôi không chàng.
-Nhìn xuân buồn tẻ bẽ bàng,
-Bao giờ trở lại dịu hiền nét xuân?","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn, cô đơn của người con gái khi mùa xuân đến mà không có người yêu bên cạnh, đặc biệt trong bối cảnh giãn cách, gợi nhớ về những mùa xuân xưa tươi đẹp.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Xuân xưa đi lại có đôi,
-Xuân nay giãn cách chỉ tôi không chàng.
-Nhìn xuân buồn tẻ bẽ bàng,
-Bao giờ trở lại dịu hiền nét xuân?"
-"Cuối năm chợ Tết em ơi,
-Mua vui bán giận cho đời lên tiên.
-Dù vui đắt mấy cũng nên,
-Mua cho bằng được mới hên cả nhà.
-Giận không bán được quẳng ra,
-Cho vào tủ lạnh cả nhà thêm ngon.","<error> CONTEXT 
-<desc> Bài thơ thể hiện không khí vui tươi, hóm hỉnh của phiên chợ Tết cuối năm, nơi mọi người mua bán những điều tượng trưng cho niềm vui và sự may mắn, đồng thời gạt bỏ những điều không vui.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Cuối năm chợ Tết em ơi,
-Mua vui bán giận cho đời lên tiên.
-Dù vui đắt mấy cũng nên,
-Mua cho bằng được mới hên cả nhà.
-Giận không bán được quẳng ra,
-Cho vào tủ lạnh cả nhà thêm ngon."
-"Thức đêm mới biết trăng tròn,
-Ở lâu mới biết lòng chó thế nào.
-Sông sâu còn có thể dò,
-Nào ai lấy bút mà ghét việc đời?","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự trải nghiệm, nhận thức về bản chất thật của sự vật, sự việc và lòng người qua thời gian, đồng thời thể hiện thái độ bất mãn với thực tại cuộc sống.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thức đêm mới biết trăng tròn,
-Ở lâu mới biết lòng chó thế nào.
-Sông sâu còn có thể dò,
-Nào ai lấy bút mà ghét việc đời?"
-"Mẹ về thăm đất thủ đô,
-Vào lăng kính viếng cụ Hồ Chí Minh.
-Cờ hoa rực rỡ lung linh,
-Tột cùng vinh hạnh, nghĩa tình Đảng trao.
-Một đời cực khổ gian lao,
-Một đời nén hương thương trào thiết tha.","<error> CONTEXT 
-<desc> Bài thơ thể hiện lòng thành kính, biết ơn của người mẹ đối với Bác Hồ và Đảng, sau những năm tháng gian khổ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mẹ về thăm đất thủ đô,
-Vào lăng kính viếng cụ Hồ Chí Minh.
-Cờ hoa rực rỡ lung linh,
-Tột cùng vinh hạnh, nghĩa tình Đảng trao.
-Một đời cực khổ gian lao,
-Một đời nén hương thương trào thiết tha."
-"Đưa tay níu chút thời gian,
-Níu câu thề ước từng làm ta say.
-Níu hương tóc, níu vòng tay,
-Ngổn ngang ký ức chất đầy ba lô.
-
-Đời người vội vã là bao,
-Sao ta cứ mãi lao xao trong lòng.
-Ngoài kia gió vẫn [kêu gào],
-[Tháng ngày] ôm trọn nỗi [sầu đau] vơi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự níu kéo quá khứ, những kỷ niệm đẹp và lời thề ước đã qua, đồng thời bộc lộ nỗi lòng xao xuyến, sầu muộn trước sự vội vã của cuộc đời.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đưa tay níu chút thời gian,
-Níu câu thề ước từng làm ta say.
-Níu hương tóc, níu vòng tay,
-Ngổn ngang ký ức chất đầy ba lô.
-
-Đời người vội vã là bao,
-Sao ta cứ mãi lao xao trong lòng.
-Ngoài kia gió vẫn [kêu gào],
-[Tháng ngày] ôm trọn nỗi [sầu đau] vơi."
-"Trời già trời khéo lá lay,
-Sáng nay trời nắng quắt quay nóng bừng.
-Nghe chim hót vội reo mừng,
-Một ngày mưa gió bóng đêm tưng .","<error> CONTEXT 
-<desc> Bài thơ diễn tả sự thay đổi thất thường của thời tiết trong một ngày, từ nắng nóng đến mưa gió.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Trời già trời khéo lá lay,
-Sáng nay trời nắng quắt quay nóng bừng.
-Nghe chim hót vội reo mừng,
-Một ngày mưa gió bóng đêm tưng ."
-"Bị em liếc mắt đưa tình,
-Ngẩn ngơ, ngơ ngẩn ôi! Khuynh cái thành.
-Thương mình chiếc bóng cầm canh,
-Mà thương mình một chẳng đành có nhiêu.
-Cùng thương em vẫn chưa nhiều,
-Phải không, con yêu dấu yêu, í a?","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự rung động, si mê của một người trước ánh mắt đưa tình của người mình yêu, đồng thời thể hiện sự giằng xé nội tâm giữa tình yêu và nỗi cô đơn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Bị em liếc mắt đưa tình,
-Ngẩn ngơ, ngơ ngẩn ôi! Khuynh cái thành.
-Thương mình chiếc bóng cầm canh,
-Mà thương mình một chẳng đành có nhiêu.
-Cùng thương em vẫn chưa nhiều,
-Phải không, con yêu dấu yêu, í a?"
-"Biển xanh say đắm yêu bờ,
-Nghìn năm sóng vỗ đến giờ chưa nguôi.
-Bờ kia vẫn chẳng trả lời,
-Ngày đêm ngóng đợi trùng khơi bóng thuyền.
-Thuyền kia giữ trọn lời nguyền,
-Vượt ngàn sóng gió đến **bờ** biển yêu.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình yêu đơn phương, dai dẳng của biển dành cho bờ, và sự chung thủy của con thuyền với biển cả dù trải qua bao khó khăn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Biển xanh say đắm yêu bờ,
-Nghìn năm sóng vỗ đến giờ chưa nguôi.
-Bờ kia vẫn chẳng trả lời,
-Ngày đêm ngóng đợi trùng khơi bóng thuyền.
-Thuyền kia giữ trọn lời nguyền,
-Vượt ngàn sóng gió đến **bờ** biển yêu."
-"Gom nhiều tia nắng cuối đông,
-Từng tia nắng trải ấm nồng Tây Nguyên.
-Sợi thương kết nối ba miền,
-Nắng này anh gửi tặng riêng đến trời.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình cảm trân trọng, nâng niu những tia nắng cuối đông và gửi gắm tình cảm, sự kết nối đến những vùng đất khác, thậm chí là cả vũ trụ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Gom nhiều tia nắng cuối đông,
-Từng tia nắng trải ấm nồng Tây Nguyên.
-Sợi thương kết nối ba miền,
-Nắng này anh gửi tặng riêng đến trời."
-"Đời em như chiếc thuyền trôi,
-Lênh đênh sóng dữ để rồi vỡ tan.
-Giờ em như cánh chim ngàn,
-Sợ trời bão tố, sợ ngàn cá bơi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự bất hạnh, cô đơn và nỗi sợ hãi của một người phụ nữ trước những khó khăn, thử thách của cuộc đời.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đời em như chiếc thuyền trôi,
-Lênh đênh sóng dữ để rồi vỡ tan.
-Giờ em như cánh chim ngàn,
-Sợ trời bão tố, sợ ngàn cá bơi."
-"Đông sang rét buốt hồn thơ,
-Người đi một thuở đợi chờ bao thu.
-Tăm hơi cánh nhạn mịt mù,
-Đìu hiu lối mộng biển xanh giăng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, mong chờ da diết của người ở lại trong cảnh mùa đông lạnh lẽo, khi người thương đã đi xa biền biệt.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đông sang rét buốt hồn thơ,
-Người đi một thuở đợi chờ bao thu.
-Tăm hơi cánh nhạn mịt mù,
-Đìu hiu lối mộng biển xanh giăng."
-"Hội vui lỡ dở dang chiều,
-Câu thơ còn đó bao điều ước mong.
-Nhìn nhau mắt gửi thay lòng,
-Hẹn nhau ăn tối tình trong mỗi người.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tiếc nuối khi cuộc vui dang dở, đồng thời gợi ý về một cuộc hẹn hò lãng mạn, kín đáo giữa hai người.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hội vui lỡ dở dang chiều,
-Câu thơ còn đó bao điều ước mong.
-Nhìn nhau mắt gửi thay lòng,
-Hẹn nhau ăn tối tình trong mỗi người."
-"Xuyên qua kẽ nắng đi tìm,
-Xanh quay quắt để nỗi niềm hanh khô.
-
-Xót xa lòng những chiều đông,
-Nửa vui nửa đoạn giữa dòng đời trôi.
-
-Nhớ ai biền biệt phương trời,
-Gửi theo cánh gió mấy lời thiết tha.
-
-Đường trần một gánh phong ba,
-Chở bao nhiêu nỗi thiết tha đi về.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, khắc khoải và những trăn trở về cuộc đời, tình cảm trong sự xa cách và khó khăn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Xuyên qua kẽ nắng đi tìm,
-Xanh quay quắt để nỗi niềm hanh khô.
-
-Xót xa lòng những chiều đông,
-Nửa vui nửa đoạn giữa dòng đời trôi.
-
-Nhớ ai biền biệt phương trời,
-Gửi theo cánh gió mấy lời thiết tha.
-
-Đường trần một gánh phong ba,
-Chở bao nhiêu nỗi thiết tha đi về."
-"Trên sông buông lưới giăng câu,
-Vợ chồng chèo lái nhu cầu mưu sinh.
-Nghèo nhưng trọn nghĩa trọn tình,
-Khổ mà hạnh phúc chúng ta đẹp đôi.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi cuộc sống lao động nghèo khó nhưng hạnh phúc, trọn vẹn tình nghĩa của đôi vợ chồng trên sông nước.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Trên sông buông lưới giăng câu,
-Vợ chồng chèo lái nhu cầu mưu sinh.
-Nghèo nhưng trọn nghĩa trọn tình,
-Khổ mà hạnh phúc chúng ta đẹp đôi."
-"Dẫu rằng nhà máy mất tên,
-Trở thành xí nghiệp nỗi niềm đắng cay.
-Đừng quên kỷ niệm ngày này,
-Công nhân, cán bộ chung tay đồng hành.
-Ngày hè mây trắng trời xanh,
-Con mèo kêu meo mà tặng vàng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hoài niệm về quá khứ tươi đẹp của nhà máy, xí nghiệp, đồng thời đề cao tinh thần đoàn kết của công nhân, cán bộ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Dẫu rằng nhà máy mất tên,
-Trở thành xí nghiệp nỗi niềm đắng cay.
-Đừng quên kỷ niệm ngày này,
-Công nhân, cán bộ chung tay đồng hành.
-Ngày hè mây trắng trời xanh,
-Con mèo kêu meo mà tặng vàng."
-"Hoa khoe sắc, lắng đọng sương,
-Gió ùa trong nắng, tình hường sắc thu.
-Mừng Ngày Phụ Nữ Việt Nam,
-Chị em khỏe đẹp, duyên thầm đáng yêu.
-Tài thì chẳng có kém nam,
-Cùng nhau xây đắp một mình.
-Ước mong cuộc sống an nhàn,
-Tháng ngày hạnh phúc, chứa chan tình thu.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi vẻ đẹp và tài năng của người phụ nữ Việt Nam nhân ngày 8/3, đồng thời ước mong về một cuộc sống hạnh phúc, an nhàn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hoa khoe sắc, lắng đọng sương,
-Gió ùa trong nắng, tình hường sắc thu.
-Mừng Ngày Phụ Nữ Việt Nam,
-Chị em khỏe đẹp, duyên thầm đáng yêu.
-Tài thì chẳng có kém nam,
-Cùng nhau xây đắp một mình.
-Ước mong cuộc sống an nhàn,
-Tháng ngày hạnh phúc, chứa chan tình thu."
-"Vui xuân dư áo thiếu quần,
-Nhân tình thế thái đang tuần hoàn xoay.
-Mong không còn đến tháng ngày,
-Gọi mùa xuân đến thêm sầu... xe hơi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự trăn trở, mâu thuẫn giữa niềm vui xuân và nỗi lo về vật chất, sự thay đổi của xã hội, khiến cho niềm vui không trọn vẹn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Vui xuân dư áo thiếu quần,
-Nhân tình thế thái đang tuần hoàn xoay.
-Mong không còn đến tháng ngày,
-Gọi mùa xuân đến thêm sầu... xe hơi."
-"<sop> Tình đâu sao thấy bơ vơ,
-Đẹp duyên phải lứa lại chờ kiếp sau.
-Thu sang để lá úa màu,
-Khiến cho duyên thắm biển đêm giữa dòng. <eop> <reasoning_memory> Tóm tắt ngữ cảnh: Bài thơ thể hiện sự dang dở, trắc trở trong tình duyên, với những nỗi buồn và sự chờ đợi vô vọng. <eois>","<error> SE
-<desc> Lỗi cấu trúc câu 4 không phải là 8 chữ.
-<reason> Câu 4 hiện tại có 9 chữ, cần sửa lại để có 8 chữ. Thay ""biển"" thành ""màn"" để câu thơ đúng luật lục bát.
-<action> màn <replace> biển <line> 4 <index> 5
-<effect> Câu thơ đã sửa đúng luật lục bát, số chữ là 8.
-<eois>","Tình đâu sao thấy bơ vơ,
-Đẹp duyên phải lứa lại chờ kiếp sau.
-Thu sang để lá úa màu,
-Khiến cho duyên thắm **màn đêm** giữa dòng."
+"Nơi đây ghi bóng tỏa hình,
+Người con đất Việt trọn tình với quê.
+Hòa vào gió núi bờ tre,
+Hòa vào đất ấm mẹ yêu mỏi mệt.<eois>Nơi đây ghi bóng tỏa hình,
+Người con đất Việt trọn tình với quê.
+Hòa vào gió núi bờ tre,
+Hòa vào đất ấm mẹ yêu mỏi mệt.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tình yêu quê hương, đất nước sâu sắc của người con Việt Nam, gắn bó mật thiết với những hình ảnh quen thuộc của quê nhà.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nơi đây ghi bóng tỏa hình,
+Người con đất Việt trọn tình với quê.
+Hòa vào gió núi bờ tre,
+Hòa vào đất ấm mẹ yêu mỏi mệt."
+"Ước anh như ấm chè ngon,
+Em cầm em rót chén tròn em đơ.
+Anh ơi em mãi mong chờ,
+Ấm anh đừng có bao giờ màu xanh.<eois>Ước anh như ấm chè ngon,
+Em cầm em rót chén tròn em đơ.
+Anh ơi em mãi mong chờ,
+Ấm anh đừng có bao giờ màu xanh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi tương tư, mong muốn được gần gũi và sở hữu trọn vẹn tình cảm của người mình yêu, với hình ảnh so sánh người yêu như ấm chè ngon.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ước anh như ấm chè ngon,
+Em cầm em rót chén tròn em đơ.
+Anh ơi em mãi mong chờ,
+Ấm anh đừng có bao giờ màu xanh."
+"Gió lay một cánh hoa rơi,
+Đời người một kiếp rong chơi ta bà.
+Mưa rơi rơi trước hiên nhà,
+Đời người một kiếp **lặng thinh**, mưa rơi.<eois>Gió lay một cánh hoa rơi,
+Đời người một kiếp rong chơi ta bà.
+Mưa rơi rơi trước hiên nhà,
+Đời người một kiếp **lặng thinh**, mưa rơi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự ngắn ngủi, vô thường của đời người, so sánh với những hiện tượng tự nhiên như hoa rơi, mưa rơi, gợi cảm giác cô đơn và lặng lẽ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Gió lay một cánh hoa rơi,
+Đời người một kiếp rong chơi ta bà.
+Mưa rơi rơi trước hiên nhà,
+Đời người một kiếp **lặng thinh**, mưa rơi."
+"Sang giàu nghèo lẫn lộn xen,
+Chung quy rồi cũng một phen tan tành.
+Khôn ngoan, tài trí, anh hùng,
+Si mê, dại dột cũng chung lối đi.<eois>Sang giàu nghèo lẫn lộn xen,
+Chung quy rồi cũng một phen tan tành.
+Khôn ngoan, tài trí, anh hùng,
+Si mê, dại dột cũng chung lối đi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự vô thường của cuộc đời, khi mọi sự khác biệt giữa giàu nghèo, khôn dại đều dẫn đến một kết cục chung là sự tan biến.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Sang giàu nghèo lẫn lộn xen,
+Chung quy rồi cũng một phen tan tành.
+Khôn ngoan, tài trí, anh hùng,
+Si mê, dại dột cũng chung lối đi."
+"Ráng chiều khéo nhuộm má ai,
+Bồng bềnh suối tóc buông dài gió hôn.
+Bâng khuâng sẻ nửa tâm hồn,
+Một mình em một nỗi *cô đơn* vu vơ.<eois>Ráng chiều khéo nhuộm má ai,
+Bồng bềnh suối tóc buông dài gió hôn.
+Bâng khuâng sẻ nửa tâm hồn,
+Một mình em một nỗi *cô đơn* vu vơ.","<error> CONTEXT 
+<desc> Bài thơ diễn tả tâm trạng cô đơn, bâng khuâng của một cô gái trong khung cảnh chiều tà lãng mạn, gợi cảm giác thiếu vắng một người để chia sẻ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ráng chiều khéo nhuộm má ai,
+Bồng bềnh suối tóc buông dài gió hôn.
+Bâng khuâng sẻ nửa tâm hồn,
+Một mình em một nỗi *cô đơn* vu vơ."
+"Mong ngày anh viết thiệp hồng,
+Báo tin bè bạn chờ mong lâu rồi.
+Bao năm cách biệt chia phôi,
+Nay về sẽ *ngắm trăng* em ăn quả na.<eois>Mong ngày anh viết thiệp hồng,
+Báo tin bè bạn chờ mong lâu rồi.
+Bao năm cách biệt chia phôi,
+Nay về sẽ *ngắm trăng* em ăn quả na.","<error> CONTEXT 
+<desc> Bài thơ thể hiện niềm mong mỏi về một đám cưới, một sự đoàn tụ sau nhiều năm xa cách và mong chờ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Mong ngày anh viết thiệp hồng,
+Báo tin bè bạn chờ mong lâu rồi.
+Bao năm cách biệt chia phôi,
+Nay về sẽ *ngắm trăng* em ăn quả na."
+"Tìm về đến bến sông thơ,
+Gặp em không gặp, thẫn thờ lòng tôi.
+Mong về bến nước tình đời,
+Xốn xang, yêu em, khôn nguôi.<eois>Tìm về đến bến sông thơ,
+Gặp em không gặp, thẫn thờ lòng tôi.
+Mong về bến nước tình đời,
+Xốn xang, yêu em, khôn nguôi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi thất vọng, hụt hẫng của chủ thể trữ tình khi không gặp được người mình mong đợi ở một bến sông, đồng thời bộc lộ tình yêu da diết, khó nguôi ngoai dành cho người đó.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tìm về đến bến sông thơ,
+Gặp em không gặp, thẫn thờ lòng tôi.
+Mong về bến nước tình đời,
+Xốn xang, yêu em, khôn nguôi."
+"Tuổi già đừng quá lo phiền,
+Nếu lăn tăn sẽ chẳng yên lại phiền.
+Tuổi già đừng nghĩ liên miên,
+Nghĩ nhiều đâu có biển cõi lòng.<eois>Tuổi già đừng quá lo phiền,
+Nếu lăn tăn sẽ chẳng yên lại phiền.
+Tuổi già đừng nghĩ liên miên,
+Nghĩ nhiều đâu có biển cõi lòng.","<error> CONTEXT 
+<desc> Bài thơ khuyên người già nên sống thanh thản, buông bỏ những lo âu và suy nghĩ vẩn vơ để tâm hồn được an yên.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tuổi già đừng quá lo phiền,
+Nếu lăn tăn sẽ chẳng yên lại phiền.
+Tuổi già đừng nghĩ liên miên,
+Nghĩ nhiều đâu có biển cõi lòng."
+"Đêm về nước mắt cay cay,
+Nhớ em nhiều lắm, lòng say men tình.
+Biết rằng yêu chỉ một mình,
+Nhưng sao cứ nhớ bóng hình người xinh?<eois>Đêm về nước mắt cay cay,
+Nhớ em nhiều lắm, lòng say men tình.
+Biết rằng yêu chỉ một mình,
+Nhưng sao cứ nhớ bóng hình người xinh?","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhung da diết và sự giằng xé trong tình yêu đơn phương.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đêm về nước mắt cay cay,
+Nhớ em nhiều lắm, lòng say men tình.
+Biết rằng yêu chỉ một mình,
+Nhưng sao cứ nhớ bóng hình người xinh?"
+"Hỡi người dân của nước Nam,
+Truyền thông cảnh báo tin mang mọi nhà.
+Hướng về đất nước, Đảng ta,
+Cùng nhau xem phim hài xót xa.<eois>Hỡi người dân của nước Nam,
+Truyền thông cảnh báo tin mang mọi nhà.
+Hướng về đất nước, Đảng ta,
+Cùng nhau xem phim hài xót xa.","<error> CONTEXT 
+<desc> Bài thơ kêu gọi người dân đoàn kết, hướng về đất nước và Đảng, đồng thời nhắc đến việc tiếp nhận thông tin từ truyền thông và giải trí bằng phim hài.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Hỡi người dân của nước Nam,
+Truyền thông cảnh báo tin mang mọi nhà.
+Hướng về đất nước, Đảng ta,
+Cùng nhau xem phim hài xót xa."
+"Trên phây thiên hạ chúc mừng,
+Lắm con nhiều của, trâu rừng sống lâu.
+Bạc đầu cho đến bạc râu,
+Cái gì cũng bạc, tiền sâu nghĩa cao.<eois>Trên phây thiên hạ chúc mừng,
+Lắm con nhiều của, trâu rừng sống lâu.
+Bạc đầu cho đến bạc râu,
+Cái gì cũng bạc, tiền sâu nghĩa cao.","<error> CONTEXT 
+<desc> Bài thơ ca ngợi cuộc sống sung túc, giàu sang và những giá trị tốt đẹp, trường tồn theo thời gian.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trên phây thiên hạ chúc mừng,
+Lắm con nhiều của, trâu rừng sống lâu.
+Bạc đầu cho đến bạc râu,
+Cái gì cũng bạc, tiền sâu nghĩa cao."
+"Bao ngày ấp ủ trong lòng,
+Vần thơ mộc mạc như cong thóc đầy.
+Vài câu chắp nhặt hàng ngày,
+Vẩn vơ vơ vẩn **đậm say** tình người.<eois>Bao ngày ấp ủ trong lòng,
+Vần thơ mộc mạc như cong thóc đầy.
+Vài câu chắp nhặt hàng ngày,
+Vẩn vơ vơ vẩn **đậm say** tình người.","<error> CONTEXT 
+<desc> Bài thơ thể hiện niềm đam mê và trân trọng với những vần thơ mộc mạc, giản dị, đồng thời ca ngợi tình người ấm áp.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Bao ngày ấp ủ trong lòng,
+Vần thơ mộc mạc như cong thóc đầy.
+Vài câu chắp nhặt hàng ngày,
+Vẩn vơ vơ vẩn **đậm say** tình người."
+"Cha cho tất cả tình thân,
+Bát cơm manh áo trên trần con xơi.
+Truyền tông gien giống ngàn đời,
+Cho con tiếp nối sống thời **bão bùng**.<eois>Cha cho tất cả tình thân,
+Bát cơm manh áo trên trần con xơi.
+Truyền tông gien giống ngàn đời,
+Cho con tiếp nối sống thời **bão bùng**.","<error> CONTEXT 
+<desc> Bài thơ thể hiện lòng biết ơn sâu sắc của người con đối với cha, người đã trao cho con sự sống, tình yêu thương và truyền thống gia đình, đặc biệt trong hoàn cảnh khó khăn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Cha cho tất cả tình thân,
+Bát cơm manh áo trên trần con xơi.
+Truyền tông gien giống ngàn đời,
+Cho con tiếp nối sống thời **bão bùng**."
+"Sông quê hát khúc lở bồi,
+Ao nhà ngâm khúc đầy vơi sớm mai.<eois>Sông quê hát khúc lở bồi,
+Ao nhà ngâm khúc đầy vơi sớm mai.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự biến đổi, đổi thay của cảnh vật làng quê, từ dòng sông đến ao nhà, gợi cảm giác về sự vô thường của cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Sông quê hát khúc lở bồi,
+Ao nhà ngâm khúc đầy vơi sớm mai."
+"Sang sông mà lỡ chuyến đò,
+Yêu đương một gánh bây giờ gẫy đôi.
+Từ ngày tình nghĩa chia phôi,
+Anh đi đường ấy bỏ tôi một mình trên cao.<eois>Sang sông mà lỡ chuyến đò,
+Yêu đương một gánh bây giờ gẫy đôi.
+Từ ngày tình nghĩa chia phôi,
+Anh đi đường ấy bỏ tôi một mình trên cao.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi đau khổ, cô đơn của người con gái khi tình yêu tan vỡ, phải một mình đối diện với sự chia ly.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Sang sông mà lỡ chuyến đò,
+Yêu đương một gánh bây giờ gẫy đôi.
+Từ ngày tình nghĩa chia phôi,
+Anh đi đường ấy bỏ tôi một mình trên cao."
+"Cảnh tôi tai điếc khác người,
+Ê a dăm chữ ngọng lời làm thơ.
+Tự tôi ngâm khúc hát ru,
+Mượn tình con số ngủ quên giấc ngô.<eois>Cảnh tôi tai điếc khác người,
+Ê a dăm chữ ngọng lời làm thơ.
+Tự tôi ngâm khúc hát ru,
+Mượn tình con số ngủ quên giấc ngô.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tâm trạng cô đơn, lạc lõng của một người có khiếm khuyết, tìm niềm an ủi trong những điều giản dị và cố gắng sáng tạo nghệ thuật dù gặp khó khăn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Cảnh tôi tai điếc khác người,
+Ê a dăm chữ ngọng lời làm thơ.
+Tự tôi ngâm khúc hát ru,
+Mượn tình con số ngủ quên giấc ngô."
+"Sống đời đừng để khói mây,
+Phù du che phủ giác linh chính mình.
+Suốt ngày lầm lỗi u mê,
+Tối tăm phiền não yêu ghét nhiều hơn.<eois>Sống đời đừng để khói mây,
+Phù du che phủ giác linh chính mình.
+Suốt ngày lầm lỗi u mê,
+Tối tăm phiền não yêu ghét nhiều hơn.","<error> CONTEXT 
+<desc> Bài thơ khuyên răn con người sống tỉnh thức, tránh xa những điều phù phiếm, mê muội để giữ gìn sự sáng suốt và thanh thản trong tâm hồn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Sống đời đừng để khói mây,
+Phù du che phủ giác linh chính mình.
+Suốt ngày lầm lỗi u mê,
+Tối tăm phiền não yêu ghét nhiều hơn."
+"Giùng giằng năm tháng trôi qua,
+Gió tình đôi ngả thổi ta bạc đầu.
+Bây giờ biết ăn kem đâu?
+Ta và năm tháng nhuộm màu xanh xao.<eois>Giùng giằng năm tháng trôi qua,
+Gió tình đôi ngả thổi ta bạc đầu.
+Bây giờ biết ăn kem đâu?
+Ta và năm tháng nhuộm màu xanh xao.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối, hối hận về những tháng năm đã qua trong tình yêu, khi tình cảm phai nhạt theo thời gian, để lại sự cô đơn và nỗi buồn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Giùng giằng năm tháng trôi qua,
+Gió tình đôi ngả thổi ta bạc đầu.
+Bây giờ biết ăn kem đâu?
+Ta và năm tháng nhuộm màu xanh xao."
+"Vẳng đâu tiếng sáo mênh mang,
+Ai ngồi tựa sổ để hàng lệ rơi?
+Ánh trăng vén bức màn trời,
+Thu tàn đông cũng biếc ngời ánh nắng.<eois>Vẳng đâu tiếng sáo mênh mang,
+Ai ngồi tựa sổ để hàng lệ rơi?
+Ánh trăng vén bức màn trời,
+Thu tàn đông cũng biếc ngời ánh nắng.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, buồn bã của một người đang chìm đắm trong tâm trạng u sầu, nhưng vẫn le lói hy vọng vào tương lai tươi sáng hơn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Vẳng đâu tiếng sáo mênh mang,
+Ai ngồi tựa sổ để hàng lệ rơi?
+Ánh trăng vén bức màn trời,
+Thu tàn đông cũng biếc ngời ánh nắng."
+"Dù cho chỉ một nụ cười,
+Đằng sau là cả một trời thương đau.
+Vì cười vi rút lây mau,
+Đang vui né tránh nỗi buồn xếp hàng.<eois>Dù cho chỉ một nụ cười,
+Đằng sau là cả một trời thương đau.
+Vì cười vi rút lây mau,
+Đang vui né tránh nỗi buồn xếp hàng.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự gượng gạo, che giấu nỗi buồn và sự lo lắng trong bối cảnh dịch bệnh, khi niềm vui cũng bị hạn chế vì nguy cơ lây lan.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Dù cho chỉ một nụ cười,
+Đằng sau là cả một trời thương đau.
+Vì cười vi rút lây mau,
+Đang vui né tránh nỗi buồn xếp hàng."
+"Nhớ về cái thuở chiến tranh,
+Vần thơ năm ấy cũng thành chiến binh.
+Theo người Bắc chiến Nam chinh,
+Mình đen khói súng, vẫn ăn, vẫn thơ.<eois>Nhớ về cái thuở chiến tranh,
+Vần thơ năm ấy cũng thành chiến binh.
+Theo người Bắc chiến Nam chinh,
+Mình đen khói súng, vẫn ăn, vẫn thơ.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự gắn bó của thơ ca với cuộc chiến tranh, người làm thơ vẫn sáng tác ngay cả trong hoàn cảnh khó khăn, gian khổ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nhớ về cái thuở chiến tranh,
+Vần thơ năm ấy cũng thành chiến binh.
+Theo người Bắc chiến Nam chinh,
+Mình đen khói súng, vẫn ăn, vẫn thơ."
+"Một măng thì phận yếu hèn,
+Ba măng chụm lại đá chèn được sao?
+Kết đoàn sức mạnh đồng tiền,
+Dời non lấp biển thế nào cũng uống.<eois>Một măng thì phận yếu hèn,
+Ba măng chụm lại đá chèn được sao?
+Kết đoàn sức mạnh đồng tiền,
+Dời non lấp biển thế nào cũng uống.","<error> CONTEXT 
+<desc> Bài thơ ca ngợi sức mạnh của sự đoàn kết, đồng lòng, có thể vượt qua mọi khó khăn, thử thách.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Một măng thì phận yếu hèn,
+Ba măng chụm lại đá chèn được sao?
+Kết đoàn sức mạnh đồng tiền,
+Dời non lấp biển thế nào cũng uống."
+"Gieo neo thuyền đậu bến nào,
+Hư hư ảo ảo ai nào thấu chăng?
+Mong manh nghĩa cả kim bằng,
+Ân tình sâu nặng chỉ mành xe máy!<eois>Gieo neo thuyền đậu bến nào,
+Hư hư ảo ảo ai nào thấu chăng?
+Mong manh nghĩa cả kim bằng,
+Ân tình sâu nặng chỉ mành xe máy!","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự bấp bênh, hoài nghi về các mối quan hệ, tình nghĩa trong cuộc đời, khi những giá trị lớn lao trở nên mong manh, còn những điều nhỏ bé lại mang nặng ân tình.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Gieo neo thuyền đậu bến nào,
+Hư hư ảo ảo ai nào thấu chăng?
+Mong manh nghĩa cả kim bằng,
+Ân tình sâu nặng chỉ mành xe máy!"
+"Yêu thương tay dắt tay về,
+Cùng thưa cha mẹ lo bề se duyên.
+Cùng nhau ta bước xuống thuyền,
+Người người ấm áp tình ***đau thương*** chúng mình.<eois>Yêu thương tay dắt tay về,
+Cùng thưa cha mẹ lo bề se duyên.
+Cùng nhau ta bước xuống thuyền,
+Người người ấm áp tình ***đau thương*** chúng mình.","<error> CONTEXT 
+<desc> Bài thơ thể hiện ước vọng về một tình yêu đẹp, được gia đình chấp thuận và cùng nhau xây dựng hạnh phúc, tuy nhiên có một chút mâu thuẫn về cảm xúc ở câu cuối.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Yêu thương tay dắt tay về,
+Cùng thưa cha mẹ lo bề se duyên.
+Cùng nhau ta bước xuống thuyền,
+Người người ấm áp tình ***đau thương*** chúng mình."
+"Gặp anh em tặng nụ cười,
+Đêm về thao thức giống người mộng du.
+Trái tim như bị ngục tù,
+Nụ cười em để tủ lạnh kêu gào.<eois>Gặp anh em tặng nụ cười,
+Đêm về thao thức giống người mộng du.
+Trái tim như bị ngục tù,
+Nụ cười em để tủ lạnh kêu gào.","<error> CONTEXT 
+<desc> Bài thơ diễn tả tâm trạng tương tư, xao xuyến của một người sau khi gặp gỡ một người khác, khiến cho trái tim trở nên giam cầm và khổ sở vì tình cảm chưa được đáp lại.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Gặp anh em tặng nụ cười,
+Đêm về thao thức giống người mộng du.
+Trái tim như bị ngục tù,
+Nụ cười em để tủ lạnh kêu gào."
+"Quê tôi phát động phong trào,
+Tinh thần thể dục thể thao tuyệt vời.
+Mỗi nhà xây một bể bơi,
+Hỏi trong cả nước có sông nào bằng?<eois>Quê tôi phát động phong trào,
+Tinh thần thể dục thể thao tuyệt vời.
+Mỗi nhà xây một bể bơi,
+Hỏi trong cả nước có sông nào bằng?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tự hào thái quá và có phần phi thực tế về phong trào thể dục thể thao ở quê hương, khi so sánh việc xây bể bơi tại nhà với sông ngòi trên cả nước.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Quê tôi phát động phong trào,
+Tinh thần thể dục thể thao tuyệt vời.
+Mỗi nhà xây một bể bơi,
+Hỏi trong cả nước có sông nào bằng?"
+"Ngày mai xa cách nhau rồi,
+Ngày mai em ở, anh rời cuộc vui.
+Ngày mai nâng phím ngậm ngùi,
+Ngày mai tình cũ nở rộ trên trời.<eois>Ngày mai xa cách nhau rồi,
+Ngày mai em ở, anh rời cuộc vui.
+Ngày mai nâng phím ngậm ngùi,
+Ngày mai tình cũ nở rộ trên trời.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn chia ly và hy vọng về một tương lai tươi đẹp hơn cho tình yêu đã qua.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngày mai xa cách nhau rồi,
+Ngày mai em ở, anh rời cuộc vui.
+Ngày mai nâng phím ngậm ngùi,
+Ngày mai tình cũ nở rộ trên trời."
+"Ánh trăng soi sáng bờ tre,
+Ánh trăng sáng cả vườn chè nhà bên.
+Tình cờ anh gặp được em,
+Cùng nhau hát dặm lên thuyền rất xinh.<eois>Ánh trăng soi sáng bờ tre,
+Ánh trăng sáng cả vườn chè nhà bên.
+Tình cờ anh gặp được em,
+Cùng nhau hát dặm lên thuyền rất xinh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện một cuộc gặp gỡ tình cờ lãng mạn dưới ánh trăng, với hình ảnh những con người cùng nhau ca hát và tận hưởng khoảnh khắc tươi đẹp.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ánh trăng soi sáng bờ tre,
+Ánh trăng sáng cả vườn chè nhà bên.
+Tình cờ anh gặp được em,
+Cùng nhau hát dặm lên thuyền rất xinh."
+"Ngày xuân khách đến chơi nhà,
+Em cười rót nước pha trà mời anh.
+Trà ngon mắt biếc long lanh,
+Thơm làn môi ấm làm em rất buồn.<eois>Ngày xuân khách đến chơi nhà,
+Em cười rót nước pha trà mời anh.
+Trà ngon mắt biếc long lanh,
+Thơm làn môi ấm làm em rất buồn.","<error> CONTEXT 
+<desc> Bài thơ diễn tả khoảnh khắc đón khách đến nhà vào ngày xuân, nhưng ẩn chứa nỗi buồn man mác của cô gái khi rót trà mời khách.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngày xuân khách đến chơi nhà,
+Em cười rót nước pha trà mời anh.
+Trà ngon mắt biếc long lanh,
+Thơm làn môi ấm làm em rất buồn."
+"Sinh thời cơm áo không rời,
+Mẹ cha chăm sóc cho đời ấm no.
+Học hành thi cử chạy lo,
+Miếng cá manh áo dày vò tấm thân.<eois>Sinh thời cơm áo không rời,
+Mẹ cha chăm sóc cho đời ấm no.
+Học hành thi cử chạy lo,
+Miếng cá manh áo dày vò tấm thân.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hy sinh, vất vả của cha mẹ trong việc chăm lo, nuôi dưỡng con cái từ miếng ăn, giấc ngủ đến học hành, thi cử.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Sinh thời cơm áo không rời,
+Mẹ cha chăm sóc cho đời ấm no.
+Học hành thi cử chạy lo,
+Miếng cá manh áo dày vò tấm thân."
+"Ngẩn ngơ ngóng ngọn gió đào,
+Vịn mây che nắng, nhón cao gót chờ.
+Tang bồng nhẹ tếch mộng mơ,
+Khách qua rồi, mãi ăn cơm chông chênh.<eois>Ngẩn ngơ ngóng ngọn gió đào,
+Vịn mây che nắng, nhón cao gót chờ.
+Tang bồng nhẹ tếch mộng mơ,
+Khách qua rồi, mãi ăn cơm chông chênh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chờ đợi, mong ngóng một điều gì đó không thành, dẫn đến cảm giác cô đơn, chông chênh trong cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngẩn ngơ ngóng ngọn gió đào,
+Vịn mây che nắng, nhón cao gót chờ.
+Tang bồng nhẹ tếch mộng mơ,
+Khách qua rồi, mãi ăn cơm chông chênh."
+"Rượu này ta rót cho người,
+Tưới trên bia mộ đã ngời xanh rêu.
+Nhang thơm quấn quýt ráng chiều,
+Gió hiu hiu thổi, bạn về nhà nhé.<eois>Rượu này ta rót cho người,
+Tưới trên bia mộ đã ngời xanh rêu.
+Nhang thơm quấn quýt ráng chiều,
+Gió hiu hiu thổi, bạn về nhà nhé.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tưởng nhớ, tiếc thương và mời gọi linh hồn người đã khuất trở về trong khung cảnh chiều tà.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Rượu này ta rót cho người,
+Tưới trên bia mộ đã ngời xanh rêu.
+Nhang thơm quấn quýt ráng chiều,
+Gió hiu hiu thổi, bạn về nhà nhé."
+"Ta luôn giữ vẹn lời thề,
+Viết bài thơ tặng, tựa đề ""Vợ Yêu"".
+Bài thơ bày tỏ bao điều,
+Thơ tình anh đã chắt chiu sớm mai.<eois>Ta luôn giữ vẹn lời thề,
+Viết bài thơ tặng, tựa đề ""Vợ Yêu"".
+Bài thơ bày tỏ bao điều,
+Thơ tình anh đã chắt chiu sớm mai.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tình cảm yêu thương, trân trọng của người chồng dành cho vợ, được thể hiện qua bài thơ tình tự tay viết.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ta luôn giữ vẹn lời thề,
+Viết bài thơ tặng, tựa đề ""Vợ Yêu"".
+Bài thơ bày tỏ bao điều,
+Thơ tình anh đã chắt chiu sớm mai."
+"Xuân sang, cầu chúc nhà nhà
+An khang thịnh vượng, đạo gia an bình.
+Phúc, cầu lộc, thọ, **trăng tròn**,
+Tấn tài, tấn lộc, quang minh mọi nhà.<eois>Xuân sang, cầu chúc nhà nhà
+An khang thịnh vượng, đạo gia an bình.
+Phúc, cầu lộc, thọ, **trăng tròn**,
+Tấn tài, tấn lộc, quang minh mọi nhà.","<error> CONTEXT 
+<desc> Bài thơ thể hiện lời chúc tốt đẹp nhân dịp xuân mới, cầu mong mọi người an lành, hạnh phúc, tài lộc và thịnh vượng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Xuân sang, cầu chúc nhà nhà
+An khang thịnh vượng, đạo gia an bình.
+Phúc, cầu lộc, thọ, **trăng tròn**,
+Tấn tài, tấn lộc, quang minh mọi nhà."
 "Bước sang canh Tý chuột vàng,
+Chúc trang lục bát ngày càng tiến xa.
+Vần thơ bay bổng chan hòa,
+Từ Nam ra Bắc nở hoa tặng nhau.<eois>Bước sang canh Tý chuột vàng,
 Chúc trang lục bát ngày càng tiến xa.
 Vần thơ bay bổng chan hòa,
 Từ Nam ra Bắc nở hoa tặng nhau.","<error> CONTEXT 
@@ -1295,993 +518,709 @@ Từ Nam ra Bắc nở hoa tặng nhau.","<error> CONTEXT
 Chúc trang lục bát ngày càng tiến xa.
 Vần thơ bay bổng chan hòa,
 Từ Nam ra Bắc nở hoa tặng nhau."
-"Vì chồng, em phải lụy thân,
-Gánh bao cay đắng, nợ nần lo toan.
-Đất đai của cải chẳng còn,
-Bởi chồng màu mè, sớm mai mỏi mòn.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hy sinh, chịu đựng của người vợ gánh chịu hậu quả do thói hư tật xấu của chồng gây ra, dẫn đến cảnh nợ nần, mất mát tài sản.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Vì chồng, em phải lụy thân,
-Gánh bao cay đắng, nợ nần lo toan.
-Đất đai của cải chẳng còn,
-Bởi chồng màu mè, sớm mai mỏi mòn."
-"Làng tôi Hoàng Xá xưa rồi,
-Núi Voi, hang động làng tôi có hồ.
-Hồ sen rực rỡ trong mơ,
-Câu chuyện cổ tích khép chặt bên hồ.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình yêu và niềm tự hào về vẻ đẹp bình dị, nên thơ của làng quê Hoàng Xá với những địa danh đặc trưng và những câu chuyện cổ tích gắn liền.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Làng tôi Hoàng Xá xưa rồi,
-Núi Voi, hang động làng tôi có hồ.
-Hồ sen rực rỡ trong mơ,
-Câu chuyện cổ tích khép chặt bên hồ."
-"Thứ ba là đấng học trò,
-Diêm Vương quỷ sứ phát rồ phát ghen.
-Cuộc người được mấy mươi phen,
-Sang sông bến lạnh buồn nhanh tiếng cười.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự kính trọng với người học trò, đồng thời gợi lên sự ngắn ngủi của cuộc đời và nỗi buồn man mác.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thứ ba là đấng học trò,
-Diêm Vương quỷ sứ phát rồ phát ghen.
-Cuộc người được mấy mươi phen,
-Sang sông bến lạnh buồn nhanh tiếng cười."
-"Đi về mỗi bận vui sao,
-Trên môi đằm thắm em trao nụ cười.
-Lối yêu thành cái nết người,
-Cũ mà vén khéo thay lời nước non.
-Năm tao bảy tuyết vuông tròn,
-Nào đâu cứ [bóng đêm buồn] ta mình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm vui, sự gắn bó trong tình yêu đôi lứa, nơi tình cảm được vun đắp và trân trọng qua thời gian.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đi về mỗi bận vui sao,
-Trên môi đằm thắm em trao nụ cười.
-Lối yêu thành cái nết người,
-Cũ mà vén khéo thay lời nước non.
-Năm tao bảy tuyết vuông tròn,
-Nào đâu cứ [bóng đêm buồn] ta mình."
-"Cùng anh đi dạo công viên,
-Tuy già mình hưởng tình duyên bạn già.
-Ngày này ngày của riêng ta,
-Nắm tay rảo bước thật là của nhau.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình cảm lãng mạn, ấm áp của một cặp đôi lớn tuổi khi cùng nhau tận hưởng khoảnh khắc riêng tư và hạnh phúc trong công viên.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Cùng anh đi dạo công viên,
-Tuy già mình hưởng tình duyên bạn già.
-Ngày này ngày của riêng ta,
-Nắm tay rảo bước thật là của nhau."
-"Công ơn của mẹ bao la,
-Sinh thành nuôi dưỡng giúp ta nên người.
-Công ơn của cha biển trời,
-Nhập tâm ghi nhớ những điều chơi vơi.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi công ơn sinh thành, dưỡng dục to lớn của cả cha và mẹ đối với con cái.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Công ơn của mẹ bao la,
-Sinh thành nuôi dưỡng giúp ta nên người.
-Công ơn của cha biển trời,
-Nhập tâm ghi nhớ những điều chơi vơi."
-"Chồng gầy sức yếu đã lâu,
-Bao ngày chả thấy nặng sâu mặn nồng.
-Trưa nay ra tận cánh đồng,
-Má hồng lận đận long đong lần sờ.
-Móc cua nó cắp bất ngờ,
-Rứt ra vui vẻ thật thà chua chát.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn, cô đơn và khao khát tình cảm của người vợ khi chồng đau ốm, qua hình ảnh ẩn dụ về sự ""chua chát"" trong cuộc sống.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Chồng gầy sức yếu đã lâu,
-Bao ngày chả thấy nặng sâu mặn nồng.
-Trưa nay ra tận cánh đồng,
-Má hồng lận đận long đong lần sờ.
-Móc cua nó cắp bất ngờ,
-Rứt ra vui vẻ thật thà chua chát."
-"Trông nom đàn cháu cười vang,
-Xóm làng êm ả, chị càng ăn năn.
-Bao năm gánh vác lo toan,
-Chị người phụ nữ chứa chan nỗi hờn.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hối hận của một người phụ nữ sau nhiều năm hy sinh, gánh vác trách nhiệm gia đình, trong khi nhìn thấy niềm vui của con cháu và sự bình yên của xóm làng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Trông nom đàn cháu cười vang,
-Xóm làng êm ả, chị càng ăn năn.
-Bao năm gánh vác lo toan,
-Chị người phụ nữ chứa chan nỗi hờn."
-"Trên con đường cũ chiều nay,
-Bâng khuâng em đứng nơi này chờ anh.
-Lẽ nào lỗi hẹn mong manh,
-Đơn côi em đứng một mình buồn bã.
-
-Trên con đường cũ chiều nay,
-Bâng khuâng em đứng nơi này chờ anh.
-Lẽ nào lỗi hẹn mong manh,
-Đơn côi em đứng một mình **hân hoan**.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng chờ đợi người yêu đầy mâu thuẫn, vừa buồn bã cô đơn, vừa có chút hy vọng hân hoan.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Trên con đường cũ chiều nay,
-Bâng khuâng em đứng nơi này chờ anh.
-Lẽ nào lỗi hẹn mong manh,
-Đơn côi em đứng một mình buồn bã.
-
-Trên con đường cũ chiều nay,
-Bâng khuâng em đứng nơi này chờ anh.
-Lẽ nào lỗi hẹn mong manh,
-Đơn côi em đứng một mình **hân hoan**."
-"Mỗi năm họp có một lần,
-Kẻ mua người bán chỉ cần lấy may.
-Độc bình, cái cuốc, cái cày,
-Lư hương, bát điếu, giống cây nhà trồng.
-Bán mua cứ nhẹ như không,
-Vui cười cởi mở nỗi buồn chứa.","<error> CONTEXT 
-<desc> Bài thơ mô tả một phiên chợ họp mỗi năm một lần, nơi mọi người mua bán, trao đổi những vật dụng đơn giản, sản phẩm nhà trồng và tìm kiếm niềm vui, sự sẻ chia hơn là lợi nhuận.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mỗi năm họp có một lần,
-Kẻ mua người bán chỉ cần lấy may.
-Độc bình, cái cuốc, cái cày,
-Lư hương, bát điếu, giống cây nhà trồng.
-Bán mua cứ nhẹ như không,
-Vui cười cởi mở nỗi buồn chứa."
-"Một chiều nắng ở xa vời,
-Buổi chiều vương vấn đầy vơi trong lòng.
-Bóng ai làm ngã cả chiều,
-Gió như ngưng thổi, làm chiều ngẩn ngơ.
-
-Một chiều nắng ở xa vời,
-Buổi chiều vương vấn đầy vơi trong lòng.
-Bóng ai làm ngã cả chiều,
-Gió như ngưng thổi, làm chiều ngẩn ngơ.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn man mác, sự xao xuyến trong lòng người trước một buổi chiều tàn, gợi cảm giác về một sự mất mát hoặc chia ly.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Một chiều nắng ở xa vời,
-Buổi chiều vương vấn đầy vơi trong lòng.
-Bóng ai làm ngã cả chiều,
-Gió như ngưng thổi, làm chiều ngẩn ngơ.
-
-Một chiều nắng ở xa vời,
-Buổi chiều vương vấn đầy vơi trong lòng.
-Bóng ai làm ngã cả chiều,
-Gió như ngưng thổi, làm chiều ngẩn ngơ."
-"Em ơi em ở lại nhà,
-Rau nhà em tưới, mẹ già em chăm.
-Anh đi rước chữ vài năm,
-Cưới xong xe máy về nằm ca hát.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự lựa chọn giữa việc ở nhà chăm sóc gia đình và theo đuổi học vấn, hứa hẹn một tương lai tốt đẹp hơn sau khi thành công.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Em ơi em ở lại nhà,
-Rau nhà em tưới, mẹ già em chăm.
-Anh đi rước chữ vài năm,
-Cưới xong xe máy về nằm ca hát."
-"Chiều buồn ngồi ngắm mây bay,
-Cho lòng thương nhớ về ngày xa xưa.
-Nhà em hoa giấy đong đưa,
-Cơm ăn nước biển say sưa ân tình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ da diết về một tình yêu đã qua, gắn liền với những kỷ niệm giản dị, bình yên của một thời đã xa.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Chiều buồn ngồi ngắm mây bay,
-Cho lòng thương nhớ về ngày xa xưa.
-Nhà em hoa giấy đong đưa,
-Cơm ăn nước biển say sưa ân tình."
-"Mai ngày Quốc tế Đàn ông,
-Mà nay bên ấy vẫn không tặng quà.
-Hay chê mầm chuối hột già,
-Hay chê vườn cũ trồng cà chậm lên?
-Ngồi buồn viết một dòng tên,
-Bút cong mực đổ đẫm nền *ô tô*.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng buồn tủi, hờn dỗi của một người đàn ông khi không nhận được sự quan tâm, quà tặng vào ngày Quốc tế Đàn ông, kèm theo đó là sự tự ti về bản thân.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mai ngày Quốc tế Đàn ông,
-Mà nay bên ấy vẫn không tặng quà.
-Hay chê mầm chuối hột già,
-Hay chê vườn cũ trồng cà chậm lên?
-Ngồi buồn viết một dòng tên,
-Bút cong mực đổ đẫm nền *ô tô*."
-"Từ trong giá lạnh mùa đông,
-Đã nhen ánh nắng rực hồng mùa xuân.
-Từ trong ánh mắt trong ngần
-Của em, đã thấy mùa đông sắp về.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự giao thoa, đan xen giữa các mùa, đặc biệt là sự chuyển giao giữa mùa đông và mùa xuân, đồng thời gợi tả cảm xúc về sự thay đổi và luân chuyển của thời gian.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Từ trong giá lạnh mùa đông,
-Đã nhen ánh nắng rực hồng mùa xuân.
-Từ trong ánh mắt trong ngần
-Của em, đã thấy mùa đông sắp về."
-"Vô tư nở những nụ cười,
-Xung quanh bếp lửa một nồi khoai ngon.
-Giữa trời vang tiếng cười giòn,
-Ấm lòng khi đói trẻ con một thời.
-Âu là kỷ niệm cuộc đời,
-Nhớ lại một khoảng trời xanh ngắt.","<error> CONTEXT 
-<desc> Bài thơ gợi nhớ về những kỷ niệm ấm áp, giản dị của tuổi thơ bên bếp lửa và nồi khoai ngon, thể hiện sự gắn bó và niềm vui trong cuộc sống nghèo khó.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Vô tư nở những nụ cười,
-Xung quanh bếp lửa một nồi khoai ngon.
-Giữa trời vang tiếng cười giòn,
-Ấm lòng khi đói trẻ con một thời.
-Âu là kỷ niệm cuộc đời,
-Nhớ lại một khoảng trời xanh ngắt."
-"Bà còng đi chợ trời mưa,
-Cong như dấu hỏi đời vừa vẽ lên.
-Bà còng đi ngủ quên giờ,
-Cong như dấu hỏi đời vừa xuống.","<error> CONTEXT 
-<desc> Bài thơ tập trung khắc họa hình ảnh bà còng già yếu, lưng còng đi chợ dưới mưa và gợi liên tưởng đến dấu hỏi về cuộc đời nhiều vất vả, gian truân.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Bà còng đi chợ trời mưa,
-Cong như dấu hỏi đời vừa vẽ lên.
-Bà còng đi ngủ quên giờ,
-Cong như dấu hỏi đời vừa xuống."
-"Dẫu rằng đem hứa cho nhau,
-Dẫu rằng hứa chỉ là trò vu vơ.
-Ngày mai em thấy anh cười,
-Ngày mai em thấy anh uống trà bên người.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hụt hẫng, thất vọng và có lẽ là ghen tuông của người con gái khi thấy người mình yêu không giữ lời hứa và vui vẻ bên người khác.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Dẫu rằng đem hứa cho nhau,
-Dẫu rằng hứa chỉ là trò vu vơ.
-Ngày mai em thấy anh cười,
-Ngày mai em thấy anh uống trà bên người."
-"Heo may về nhớ thu xưa,
-Vội nhìn theo bóng người vừa qua sông.
-Giờ thì đã hết trông mong,
-Ai đưa con sáo sang sông mất rồi?
-Để người tiếc nuối ngậm ngùi,
-Trách mình không sớm *ăn cơm* phụng loan.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi tiếc nuối về một mối tình đã qua, khi người con gái đã thuộc về người khác, khiến người ở lại ngậm ngùi trách mình đã không kịp thời vun đắp.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Heo may về nhớ thu xưa,
-Vội nhìn theo bóng người vừa qua sông.
-Giờ thì đã hết trông mong,
-Ai đưa con sáo sang sông mất rồi?
-Để người tiếc nuối ngậm ngùi,
-Trách mình không sớm *ăn cơm* phụng loan."
-"Quân ta vẫn ẩn mình sâu,
-Ánh đèn thị xã rực màu sáng xa.
-Ôi Ban Mê Thuột của ta,
-Ta đang đợi ngoài ngõ trăng ơi, ơi!","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng của người lính đang ẩn mình, chờ đợi thời cơ để giải phóng Ban Mê Thuột, với nỗi nhớ về quê hương và niềm tin vào chiến thắng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Quân ta vẫn ẩn mình sâu,
-Ánh đèn thị xã rực màu sáng xa.
-Ôi Ban Mê Thuột của ta,
-Ta đang đợi ngoài ngõ trăng ơi, ơi!"
-"Sớm nay sáng góc sân trường,
-Bạn ta áo trắng môi hường thướt tha.
-Dịu dàng xe đạp giỏ hoa,
-Tươi cười rủ bạn cùng ta *ca* thầy.","<error> CONTEXT 
-<desc> Bài thơ thể hiện hình ảnh một buổi sáng tươi đẹp ở trường học, nơi một nữ sinh duyên dáng rủ bạn cùng hát về thầy cô.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Sớm nay sáng góc sân trường,
-Bạn ta áo trắng môi hường thướt tha.
-Dịu dàng xe đạp giỏ hoa,
-Tươi cười rủ bạn cùng ta *ca* thầy."
-"Đầu xuân hồ hởi xuất hành,
-Đường xuân dệt chút hanh hanh nắng vàng.
-Lên chùa rồi đến đình làng,
-Cầu mong cuộc sống bình an vô tận.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm vui, sự háo hức khi đi du xuân đầu năm, kết hợp với mong ước về một cuộc sống an lành, hạnh phúc.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đầu xuân hồ hởi xuất hành,
-Đường xuân dệt chút hanh hanh nắng vàng.
-Lên chùa rồi đến đình làng,
-Cầu mong cuộc sống bình an vô tận."
-"Ngẫm đời để thấu tâm mình,
-Sống sao cho trọn nghĩa tình đạo nhân.
-Kiếp người áng tựa phù vân,
-Thì càng ngẫm sống để ăn ở gần.","<error> CONTEXT 
-<desc> Bài thơ suy tư về lẽ sống, nhấn mạnh việc sống trọn vẹn đạo nghĩa và tình người trong cuộc đời ngắn ngủi.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ngẫm đời để thấu tâm mình,
-Sống sao cho trọn nghĩa tình đạo nhân.
-Kiếp người áng tựa phù vân,
-Thì càng ngẫm sống để ăn ở gần."
-"Khâu vai từ lúc bình minh,
-Hoàng hôn khuất núi cho mình gặp ta.
-Đến đây như thể cùng nhà,
-Chân tình tiếng sáo, lời ca hẹn hò.
-Ước gì thiên tạo ban cho,
-Ở đâu mỗi tháng cũng cho thật xinh.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm vui, sự gắn bó và ước mong về một mối quan hệ tình cảm đẹp đẽ, lãng mạn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Khâu vai từ lúc bình minh,
-Hoàng hôn khuất núi cho mình gặp ta.
-Đến đây như thể cùng nhà,
-Chân tình tiếng sáo, lời ca hẹn hò.
-Ước gì thiên tạo ban cho,
-Ở đâu mỗi tháng cũng cho thật xinh."
-"Dù thời gian có trôi qua,
-Dù bao cách trở mặn mà cùng nhau.
-Biển sâu con sóng bạc đầu,
-Trăm năm ta vẫn còn yêu trong nhà.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình yêu đôi lứa bền chặt, vượt qua thời gian và mọi khó khăn, trọn đời gắn bó bên nhau.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Dù thời gian có trôi qua,
-Dù bao cách trở mặn mà cùng nhau.
-Biển sâu con sóng bạc đầu,
-Trăm năm ta vẫn còn yêu trong nhà."
-"Lệ trời nhỏ xuống miền Trung,
-Gây nên bao cảnh đau lòng xót thương.
-Gồng lưng núi gánh mưa tuôn,
-Khuỵu chân núi đổ, tai ương cựa mình.
-Nhà tan cửa nát rập rình,
-Lo âu chất chứa, xe hơi lắm thay.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự đau thương, mất mát do thiên tai gây ra ở miền Trung, nhấn mạnh vào những khó khăn và nỗi lo lắng mà người dân phải gánh chịu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Lệ trời nhỏ xuống miền Trung,
-Gây nên bao cảnh đau lòng xót thương.
-Gồng lưng núi gánh mưa tuôn,
-Khuỵu chân núi đổ, tai ương cựa mình.
-Nhà tan cửa nát rập rình,
-Lo âu chất chứa, xe hơi lắm thay."
-"Vấp chân ngã bổ vào xuân,
-Lồm cồm nhặt lại một phần mùa đông.
-Vừa tin con én theo chồng,
-Ta ngồi ăn hết một mình đợi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự cô đơn, lạc lõng và hụt hẫng khi xuân đến nhưng người đọc vẫn chìm đắm trong dư âm của quá khứ, một mình đối diện với sự chờ đợi.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Vấp chân ngã bổ vào xuân,
-Lồm cồm nhặt lại một phần mùa đông.
-Vừa tin con én theo chồng,
-Ta ngồi ăn hết một mình đợi."
-"Nắng vàng ấm áp trong tim,
-Tình xưa thương nhớ đi tìm nơi đâu?
-Bâng khuâng nhặt chút lá tìm,
-Lắng nghe trong gió tiếng **máy cày** ngày xưa.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ về một tình yêu đã qua và những kỷ niệm gắn liền với khung cảnh làng quê yên bình, gợi nhớ về quá khứ tươi đẹp.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nắng vàng ấm áp trong tim,
-Tình xưa thương nhớ đi tìm nơi đâu?
-Bâng khuâng nhặt chút lá tìm,
-Lắng nghe trong gió tiếng **máy cày** ngày xưa."
-"Hội Lim lỡ hẹn gió đông,
-Bao nhiêu cô gái má hồng đỏ môi.
-Tứ thân xao xác đất trời,
-Lao đao bệnh dịch tơi bời cỏ hoa.
-Mặc cho chiều ngả bóng tà,
-Vài anh khoe giọng làm *lòa* mắt xinh.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tiếc nuối vì Hội Lim không thể diễn ra do dịch bệnh, đồng thời khắc họa hình ảnh những chàng trai cố gắng gây ấn tượng giữa cảnh tiêu điều.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hội Lim lỡ hẹn gió đông,
-Bao nhiêu cô gái má hồng đỏ môi.
-Tứ thân xao xác đất trời,
-Lao đao bệnh dịch tơi bời cỏ hoa.
-Mặc cho chiều ngả bóng tà,
-Vài anh khoe giọng làm *lòa* mắt xinh."
-"Bao nhiêu là nhớ là mong,
-Phòng thênh thang tựa cánh đồng hanh hao.
-Gió lay lá rụng xạc xào,
-Cà phê trộn đắng, buồn vào **nồi cơm**.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, trống trải và buồn bã của một người trong không gian vắng lặng, với sự vật gợi cảm giác tàn úa và vị đắng của cuộc sống.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Bao nhiêu là nhớ là mong,
-Phòng thênh thang tựa cánh đồng hanh hao.
-Gió lay lá rụng xạc xào,
-Cà phê trộn đắng, buồn vào **nồi cơm**."
-"Mẹ là bóng mát đời con,
-Mẹ là nỗi nhớ con mang tháng ngày.
-Mẹ cho cuộc sống tròn đầy,
-Cho con tất cả tháng ngày ấm no.
-Hôm nay Mẹ đã không còn,
-Chúng con nhớ Mẹ, biết ơn cả đời.","<error> CONTEXT 
-<desc> Bài thơ thể hiện lòng biết ơn và nỗi nhớ thương vô hạn của người con đối với người mẹ đã khuất, người đã dành cả cuộc đời để yêu thương và chăm sóc con.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mẹ là bóng mát đời con,
-Mẹ là nỗi nhớ con mang tháng ngày.
-Mẹ cho cuộc sống tròn đầy,
-Cho con tất cả tháng ngày ấm no.
-Hôm nay Mẹ đã không còn,
-Chúng con nhớ Mẹ, biết ơn cả đời."
-"Dây trầu héo úa đắng cay,
-Rễ cau co cụm nhớ ai chưa chồng.
-Thước đo ai kéo lòng thòng,
-Mây bay gãy khúc trông mong giàu sang.
-
-Chỉ tại số kiếp long đong,
-Đời em vất vả má hồng phai pha.
-Ước gì bướm đậu cành đa,
-Năm canh em vẫn thiết tha nỗi niềm.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn, sự cô đơn và mong ước về hạnh phúc lứa đôi của người phụ nữ, nhưng cuộc đời lại đầy trắc trở, vất vả.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Dây trầu héo úa đắng cay,
-Rễ cau co cụm nhớ ai chưa chồng.
-Thước đo ai kéo lòng thòng,
-Mây bay gãy khúc trông mong giàu sang.
-
-Chỉ tại số kiếp long đong,
-Đời em vất vả má hồng phai pha.
-Ước gì bướm đậu cành đa,
-Năm canh em vẫn thiết tha nỗi niềm."
-"Trăng cao ôm lấy chân tình,
-Sáng to co giãn lung linh ngọc ngà.
-Trăng cao đâu chỉ riêng ta,
-Đến khi trăng thấp, có còn là mèo?","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự suy tư về bản chất và sự thay đổi của vẻ đẹp, giá trị theo thời gian, đặt ra câu hỏi về sự tồn tại khi điều kiện thay đổi.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Trăng cao ôm lấy chân tình,
-Sáng to co giãn lung linh ngọc ngà.
-Trăng cao đâu chỉ riêng ta,
-Đến khi trăng thấp, có còn là mèo?"
-"Đi về chốn cũ bơ vơ,
-Hồn ma phiêu lãng, thờ ơ nhìn đời.
-Cố hoài chấp niệm u mê,
-Máy tính xa khuất, chẳng còn xa xôi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự cô đơn, lạc lõng của một linh hồn vướng mắc với quá khứ, đồng thời gợi ý về sự thay đổi của thời đại khi công nghệ (máy tính) trở nên phổ biến.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đi về chốn cũ bơ vơ,
-Hồn ma phiêu lãng, thờ ơ nhìn đời.
-Cố hoài chấp niệm u mê,
-Máy tính xa khuất, chẳng còn xa xôi."
-"Tôi về miệt biển gặp mưa,
-Mưa từ phong thổ mưa qua Trường Kiều.
-Mưa nghiêng đầu sóng bạc phêu,
-Mưa trầm thủy tích, mưa yêu dấu người.
-Mưa trên hưng phế cuộc đời,
-Mưa từ bi *nấu* những hồi chuông kinh.","<error> CONTEXT 
-<desc> Bài thơ khắc họa khung cảnh mưa trên vùng biển, gợi liên tưởng đến những ảnh hưởng của mưa lên cảnh vật, cuộc sống và cả những cảm xúc tâm linh trong con người.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tôi về miệt biển gặp mưa,
-Mưa từ phong thổ mưa qua Trường Kiều.
-Mưa nghiêng đầu sóng bạc phêu,
-Mưa trầm thủy tích, mưa yêu dấu người.
-Mưa trên hưng phế cuộc đời,
-Mưa từ bi *nấu* những hồi chuông kinh."
-"Ngày xưa nếu biết không yêu,
-Ngày nay đâu phải chịu nhiều đắng cay.
-Ngày xưa nếu biết đừng vay,
-Ngày nay đâu phải đắng cay như vầy.
-Tình yêu ơi, hỡi tình yêu!
-Ngươi là cục đá lạnh như vầy.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hối hận và oán trách về những quyết định sai lầm trong quá khứ, đặc biệt là trong tình yêu, dẫn đến những đau khổ ở hiện tại.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ngày xưa nếu biết không yêu,
-Ngày nay đâu phải chịu nhiều đắng cay.
-Ngày xưa nếu biết đừng vay,
-Ngày nay đâu phải đắng cay như vầy.
-Tình yêu ơi, hỡi tình yêu!
-Ngươi là cục đá lạnh như vầy."
-"Muốn làm bóng mát chắn che,
-Gửi em chút nắng hè nơi anh.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình cảm yêu thương, muốn che chở và san sẻ những điều tốt đẹp cho người mình yêu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Muốn làm bóng mát chắn che,
-Gửi em chút nắng hè nơi anh."
-"Đọc thơ Ha thước vui sao,
-Lời thơ thủ thỉ biết bao tâm tình.
-Lòng dân nghĩa Đảng đinh ninh,
-Cháu con vun đắp sự nghiệp an khang.
-Dẫu không bia đá bảng vàng,
-Tình người còn đó đẹp ngàn năm trăng.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi niềm vui đọc thơ Ha Thước, thể hiện sự gắn bó giữa nhân dân và Đảng, cùng mong ước xây dựng tương lai tươi sáng và lưu giữ tình người đẹp đẽ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đọc thơ Ha thước vui sao,
-Lời thơ thủ thỉ biết bao tâm tình.
-Lòng dân nghĩa Đảng đinh ninh,
-Cháu con vun đắp sự nghiệp an khang.
-Dẫu không bia đá bảng vàng,
-Tình người còn đó đẹp ngàn năm trăng."
-"Nụ cười chưa chắc là vui,
-Có khi cười để chôn vùi nổi đau.
-Ta cười cho bớt thương đau,
-Có khi lại đã nát tan mình nhau.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự phức tạp của nụ cười, không phải lúc nào cũng biểu thị niềm vui mà có thể che giấu nỗi đau và sự tan vỡ trong mối quan hệ.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Nụ cười chưa chắc là vui,
-Có khi cười để chôn vùi nổi đau.
-Ta cười cho bớt thương đau,
-Có khi lại đã nát tan mình nhau."
-"Yêu sao cái nắng mùa đông,
-Điểm tô cho má em hồng sắc xuân.
-Heo may nhẹ bước tần ngần,
-Giọt thời gian đọng dừng chân, rửa mặt.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình yêu và sự rung cảm trước vẻ đẹp của người con gái trong khung cảnh mùa đông, nơi thời gian như ngừng lại.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Yêu sao cái nắng mùa đông,
-Điểm tô cho má em hồng sắc xuân.
-Heo may nhẹ bước tần ngần,
-Giọt thời gian đọng dừng chân, rửa mặt."
-"Khi không lại nhớ lại thương,
-Để hờn, để giận, để nhường nhịn nhau.
-Lời ai không đánh mà đau,
-Không ràng buộc vẫn không sao trăng non.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự phức tạp, mâu thuẫn trong tình yêu, vừa có nhớ thương, hờn giận, vừa có sự tự do, không ràng buộc.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Khi không lại nhớ lại thương,
-Để hờn, để giận, để nhường nhịn nhau.
-Lời ai không đánh mà đau,
-Không ràng buộc vẫn không sao trăng non."
-"Cây đào Việt ở xứ tây,
-Mà như thân thuộc đâu đây quê mình.
-Vẫn e ấp, vẫn đẹp xinh,
-Vẫn giữ trong mình tình cảm mặn nồng.
-Dù đem trồng ở muôn phương,
-Thì hoa vẫn nở tỏa hương cho đời.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi vẻ đẹp và sức sống của cây đào Việt Nam dù được trồng ở phương trời xa lạ, đồng thời thể hiện tình yêu quê hương đất nước.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Cây đào Việt ở xứ tây,
-Mà như thân thuộc đâu đây quê mình.
-Vẫn e ấp, vẫn đẹp xinh,
-Vẫn giữ trong mình tình cảm mặn nồng.
-Dù đem trồng ở muôn phương,
-Thì hoa vẫn nở tỏa hương cho đời."
-"Mùa xuân mở hội xuống đồng,
-Trâu đi thong thả sau mông vua cày.
-Thịt khô gác bếp, rượu cay,
-Miền xuôi miền ngược hợp tác thông gia.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi không khí lễ hội mùa xuân, đặc biệt là nghi lễ cày tịch điền và sự gắn kết cộng đồng giữa các vùng miền.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mùa xuân mở hội xuống đồng,
-Trâu đi thong thả sau mông vua cày.
-Thịt khô gác bếp, rượu cay,
-Miền xuôi miền ngược hợp tác thông gia."
-"Hóa ra trong mỗi cuộc tình,
-Tự mình thương lấy chính mình mà thôi.
-Em về chiếc bóng đơn côi,
-Yêu thương đến mấy nhưng rồi cũng xa lạ.
-Anh giờ vui với người ta,
-Bỏ em ôm nỗi **hân hoan** riêng mình.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự cô đơn, thất vọng và tự thương xót bản thân sau một cuộc tình tan vỡ, khi mà tình yêu không được đáp lại và sự chia ly trở nên không thể tránh khỏi.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hóa ra trong mỗi cuộc tình,
-Tự mình thương lấy chính mình mà thôi.
-Em về chiếc bóng đơn côi,
-Yêu thương đến mấy nhưng rồi cũng xa lạ.
-Anh giờ vui với người ta,
-Bỏ em ôm nỗi **hân hoan** riêng mình."
-"Dòng sông chở nặng bao tình,
-Người thương yêu dấu bao tình gửi trao.
-Bên em hạnh phúc trọn đời,
-Khắc sâu hình bóng muôn đời rất xinh.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình yêu đôi lứa sâu đậm, gắn liền với dòng sông như một chứng nhân và biểu tượng cho tình cảm bền chặt, vĩnh cửu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Dòng sông chở nặng bao tình,
-Người thương yêu dấu bao tình gửi trao.
-Bên em hạnh phúc trọn đời,
-Khắc sâu hình bóng muôn đời rất xinh."
-"Tôi làm thơ để giải sầu,
-Chứ làm thơ cũng đau đầu, người ơi!
-Đêm về cảnh thấy chơi vơi,
-Một mình ôm gối, ăn nằm là buồn!","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, buồn bã của người làm thơ, dù muốn giải sầu nhưng việc sáng tác cũng mang lại những trăn trở, đau đầu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tôi làm thơ để giải sầu,
-Chứ làm thơ cũng đau đầu, người ơi!
-Đêm về cảnh thấy chơi vơi,
-Một mình ôm gối, ăn nằm là buồn!"
-"Muốn làm ngọn gió lang thang,
-Thoa lên đôi gót mịn màng, kẻo đau.
-Cheo leo mây núi bồng nhau,
-Ước như mây núi dễ đâu mở máy.","<error> CONTEXT 
-<desc> Bài thơ thể hiện ước muốn tự do, được đi đây đó nhưng lại vướng bận bởi những lo toan, trăn trở về sự khó khăn và những ràng buộc của cuộc sống.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Muốn làm ngọn gió lang thang,
-Thoa lên đôi gót mịn màng, kẻo đau.
-Cheo leo mây núi bồng nhau,
-Ước như mây núi dễ đâu mở máy."
-"Xuân về xuân lại qua đi,
-Hết thì con gái đến khi tuổi già.
-Ước mơ nhỏ bé thôi mà,
-Nhưng không thể được quá đà ước mơ.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự trôi chảy của thời gian, tuổi xuân qua đi và những ước mơ nhỏ bé không thể đạt được trọn vẹn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Xuân về xuân lại qua đi,
-Hết thì con gái đến khi tuổi già.
-Ước mơ nhỏ bé thôi mà,
-Nhưng không thể được quá đà ước mơ."
-"Hỏi ai còn chút duyên thừa,
-Rằng không dùng đến xin chừa cho tôi.
-Đem về chắp vá để rồi,
-Môi xinh nở nụ, tim hóa đá buồn.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự khao khát tình duyên nhưng lại mang nỗi buồn và thất vọng khi tình yêu không trọn vẹn, khiến trái tim trở nên chai sạn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hỏi ai còn chút duyên thừa,
-Rằng không dùng đến xin chừa cho tôi.
-Đem về chắp vá để rồi,
-Môi xinh nở nụ, tim hóa đá buồn."
-"Lục bình trôi nổi trên sông,
-Ai thương thì vớt, ai không hề chi.
-Chờ cho chín mọng sầu mơ,
-Trăm thương ngàn nỗi buồn ai cho.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự cô đơn, lạc lõng và mong muốn được thấu hiểu, sẻ chia trong tình cảm nhưng lại mang tâm trạng chờ đợi, thụ động.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Lục bình trôi nổi trên sông,
-Ai thương thì vớt, ai không hề chi.
-Chờ cho chín mọng sầu mơ,
-Trăm thương ngàn nỗi buồn ai cho."
-"Cầu mong năm mới tràn trề,
-Nhà nhà hạnh phúc, yêu quê hương mình.
-Đẩy lùi bệnh tật, tai ương,
-Thiên tai, hỏa hoạn đẩy lùi qua mau.
-Mong cho nước mạnh, dân giàu,
-Toàn dân no ấm, cuộc đời rất sang.","<error> CONTEXT 
-<desc> Bài thơ thể hiện ước mong một năm mới an lành, hạnh phúc, đất nước giàu mạnh và đẩy lùi mọi khó khăn, tai họa.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Cầu mong năm mới tràn trề,
-Nhà nhà hạnh phúc, yêu quê hương mình.
-Đẩy lùi bệnh tật, tai ương,
-Thiên tai, hỏa hoạn đẩy lùi qua mau.
-Mong cho nước mạnh, dân giàu,
-Toàn dân no ấm, cuộc đời rất sang."
-"Hôm qua ra trước sân đình,
-Người ta để ý bởi mình xinh tươi.
-Thế gian có được mấy người,
-Cao sang, chó sủa tuyệt vời như em?","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tự cao, khoe khoang nhan sắc và địa vị của một người phụ nữ, kèm theo thái độ coi thường người khác.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hôm qua ra trước sân đình,
-Người ta để ý bởi mình xinh tươi.
-Thế gian có được mấy người,
-Cao sang, chó sủa tuyệt vời như em?"
-"Thủy Tinh đánh với Sơn Tinh,
-Làm cho em phải treo mình trên cây.
-Bồng bềnh ngắm gió cùng mây,
-Mưa nguồn gió táp biết đời mà thôi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi khổ của người con gái trong cảnh thiên tai, lũ lụt do Thủy Tinh và Sơn Tinh gây ra, phải sống cuộc đời bấp bênh, khổ cực.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thủy Tinh đánh với Sơn Tinh,
-Làm cho em phải treo mình trên cây.
-Bồng bềnh ngắm gió cùng mây,
-Mưa nguồn gió táp biết đời mà thôi."
-"Hôm nay là chủ nhật hồng,
-Mà tôi lại thấy trong lòng bất an.
-Người ta xuống phố tràn lan,
-Còn tôi ăn tối lệ tràn lan lan.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng cô đơn, buồn bã của một người vào ngày chủ nhật, khi mọi người vui vẻ xuống phố, còn người đó lại ở nhà một mình và khóc.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hôm nay là chủ nhật hồng,
-Mà tôi lại thấy trong lòng bất an.
-Người ta xuống phố tràn lan,
-Còn tôi ăn tối lệ tràn lan lan."
-"Thế mà em cứ thấy lo,
-Vừa vừa phải phải, đừng cho em nhiều.
-Của thì rất quý, rất yêu,
-Cạn kho mất hết, rất nhiều heo may.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi lo lắng, sợ hãi khi nhận quá nhiều vật chất, sợ rằng sự đủ đầy hiện tại sẽ không kéo dài và dẫn đến mất mát, khó khăn trong tương lai.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thế mà em cứ thấy lo,
-Vừa vừa phải phải, đừng cho em nhiều.
-Của thì rất quý, rất yêu,
-Cạn kho mất hết, rất nhiều heo may."
-"Ơn đời sắc tím hoa sim,
-Ngày xưa thi sĩ kiếm tìm người.
-Hôm nay sim tím trời chiều,
-Mùa xuân vời vợi với nhiều người ăn.","<error> CONTEXT 
-<desc> Bài thơ gợi nhớ về một thời quá khứ lãng mạn, gắn liền với hoa sim tím và hình ảnh thi sĩ, nhưng đồng thời thể hiện sự thay đổi của hiện tại, khi hoa sim trở nên bình dị hơn với công dụng đời thường.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ơn đời sắc tím hoa sim,
-Ngày xưa thi sĩ kiếm tìm người.
-Hôm nay sim tím trời chiều,
-Mùa xuân vời vợi với nhiều người ăn."
-"Qua hai cột mốc cuối đường,
-Lòng vui phơi phới như đương học trò.
-Tám mươi xuân ấy trời cho,
-Bước chân vững chắc chuyện cười hàng ngày.","<error> CONTEXT 
-<desc> Bài thơ thể hiện niềm vui, sự lạc quan và tinh thần trẻ trung của một người cao tuổi, tận hưởng cuộc sống ở tuổi tám mươi.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Qua hai cột mốc cuối đường,
-Lòng vui phơi phới như đương học trò.
-Tám mươi xuân ấy trời cho,
-Bước chân vững chắc chuyện cười hàng ngày."
-"Thương em chiếc áo bà ba,
-Quê mùa một chút nhưng mà anh thương.
-Duyên em con gái nhà quê,
-Nhưng mà anh thích mượt mà nhớ nhung.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình cảm yêu mến, trân trọng vẻ đẹp giản dị, mộc mạc của người con gái thôn quê qua hình ảnh chiếc áo bà ba và nét duyên dáng đặc trưng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thương em chiếc áo bà ba,
-Quê mùa một chút nhưng mà anh thương.
-Duyên em con gái nhà quê,
-Nhưng mà anh thích mượt mà nhớ nhung."
-"Trăng non chải tóc sông dài,
-Giọt sương trinh nữ rơi ngoài song thưa.
-Sao Hôm trở mộng trêu đùa,
-Nghìn đêm có lẽ xây nhà trên đồng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện một khung cảnh thiên nhiên tĩnh lặng, huyền ảo về đêm, gợi cảm giác mong manh, mơ màng và có chút cô đơn.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Trăng non chải tóc sông dài,
-Giọt sương trinh nữ rơi ngoài song thưa.
-Sao Hôm trở mộng trêu đùa,
-Nghìn đêm có lẽ xây nhà trên đồng."
-"Ghét em có nụ cười tươi,
-Tụi nó chọc, cười em cũng cười theo.
-Ghét em có cái lưng eo,
-Để cho tụi nó nhìn theo suốt ngày.
-Ghét em má đỏ hây hây,
-Để cho con mèo chạy theo chạm vào.
-Chiều nay ra đứng ngõ sau,
-Thấy em anh cũng chạy theo cười theo.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự ghen tuông, giận hờn vu vơ của một người con trai đối với cô gái mình thích vì cô được nhiều người chú ý.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ghét em có nụ cười tươi,
-Tụi nó chọc, cười em cũng cười theo.
-Ghét em có cái lưng eo,
-Để cho tụi nó nhìn theo suốt ngày.
-Ghét em má đỏ hây hây,
-Để cho con mèo chạy theo chạm vào.
-Chiều nay ra đứng ngõ sau,
-Thấy em anh cũng chạy theo cười theo."
-"Em chìm trong sắc hoa đào,
-Môi em đốm lửa chìm vào mắt anh.
-Sắc xuân chìm giữa trời xanh,
-Anh chìm vào giấc mộng **ngọt** em mơ.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự rung động, say đắm của tình yêu đôi lứa trong khung cảnh mùa xuân tươi đẹp.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Em chìm trong sắc hoa đào,
-Môi em đốm lửa chìm vào mắt anh.
-Sắc xuân chìm giữa trời xanh,
-Anh chìm vào giấc mộng **ngọt** em mơ."
-"Tình yêu đâu phải vì tiền,
-Tình yêu đâu phải tự nhiên mà thành.
-Tình yêu đâu phải cạnh tranh,
-Tình yêu là phải sống chung một nhà.","<error> CONTEXT 
-<desc> Bài thơ khẳng định tình yêu đích thực không dựa trên vật chất, sự may mắn hay cạnh tranh, mà là sự gắn bó, sẻ chia trong cuộc sống chung.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tình yêu đâu phải vì tiền,
-Tình yêu đâu phải tự nhiên mà thành.
-Tình yêu đâu phải cạnh tranh,
-Tình yêu là phải sống chung một nhà."
-"Rằng thơ sao chẳng thành vần,
-Rằng văn sao cứ ngại ngần về câu?
-Hồn thơ bay bổng nơi nao,
-Ai đưa về giúp nhập vào hồn tôi?
-Hạ về, hoa nở khắp nơi,
-Hồn tôi lạc lối *ăn* vơi theo hè.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự bế tắc trong sáng tác, nỗi trăn trở của người viết khi cảm thấy lạc lõng và mất cảm hứng giữa khung cảnh tươi đẹp của mùa hè.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Rằng thơ sao chẳng thành vần,
-Rằng văn sao cứ ngại ngần về câu?
-Hồn thơ bay bổng nơi nao,
-Ai đưa về giúp nhập vào hồn tôi?
-Hạ về, hoa nở khắp nơi,
-Hồn tôi lạc lối *ăn* vơi theo hè."
-"Thân thon gầy nhỏ nhu mì,
-Tình đời vô bến, duyên thì mãi trôi.
-Nhưng khi hoa kết nhụy rơi,
-Đất trời hòa hợp, em giờ phải bay.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự mong manh, yếu đuối của người con gái trước dòng đời và duyên phận, nhưng đồng thời cũng gợi lên sự chuyển biến, trưởng thành và sự ra đi tất yếu khi đến thời điểm.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thân thon gầy nhỏ nhu mì,
-Tình đời vô bến, duyên thì mãi trôi.
-Nhưng khi hoa kết nhụy rơi,
-Đất trời hòa hợp, em giờ phải bay."
-"Thoi đưa con tạo xoay vần,
-Đông đi đâu đó, mùa Xuân đã về.
-Mưa bay bàng bạc chiều quê,
-Mạ non hết rét xanh rì đồng xa.
-Góc vườn mận đã ra hoa,
-Đất trời thay áo, ta cười ha hả.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi sự vận động của thời gian, sự chuyển giao từ đông sang xuân và niềm vui, sự hồi sinh của thiên nhiên khi xuân đến.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Thoi đưa con tạo xoay vần,
-Đông đi đâu đó, mùa Xuân đã về.
-Mưa bay bàng bạc chiều quê,
-Mạ non hết rét xanh rì đồng xa.
-Góc vườn mận đã ra hoa,
-Đất trời thay áo, ta cười ha hả."
-"Mưa xuân rắc hạt trắng bay,
-Má em hây đỏ, ngất ngây hương đồng.
-Mầm chồi nảy lộc đơm bông,
-Ngõ vào **nhà** thắm hồng chào xuân.","<error> CONTEXT 
-<desc> Bài thơ miêu tả vẻ đẹp của mùa xuân với mưa xuân, lộc non, và sắc hồng tươi thắm, gợi lên cảm xúc ngây ngất, vui tươi.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Mưa xuân rắc hạt trắng bay,
-Má em hây đỏ, ngất ngây hương đồng.
-Mầm chồi nảy lộc đơm bông,
-Ngõ vào **nhà** thắm hồng chào xuân."
-"Đôi ta luôn giữ lời thề,
-Dù cho xa cách tràn trề nhớ nhung.
-Nhưng tình vẫn mãi thủy chung,
-Cùng nhau ăn uống niềm đau mặn nồng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tình yêu đôi lứa son sắt, vượt qua xa cách và cùng nhau chia sẻ những khó khăn, đau khổ trong cuộc sống.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Đôi ta luôn giữ lời thề,
-Dù cho xa cách tràn trề nhớ nhung.
-Nhưng tình vẫn mãi thủy chung,
-Cùng nhau ăn uống niềm đau mặn nồng."
-"Tục thờ Mẫu ở Việt Nam,
-Lưu truyền đã có hàng ngàn năm qua.
-Trăm năm một kiếp đời ta,
-Ta đều có mẹ sinh ra làm người.
-Thượng Thiên sinh hạ bầu trời,
-Thượng Ngàn mẹ của khắp ta.","<error> CONTEXT 
-<desc> Bài thơ ca ngợi tục thờ Mẫu trong văn hóa Việt Nam, nhấn mạnh vai trò của Mẹ cả về mặt sinh học lẫn trong tín ngưỡng tâm linh.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tục thờ Mẫu ở Việt Nam,
-Lưu truyền đã có hàng ngàn năm qua.
-Trăm năm một kiếp đời ta,
-Ta đều có mẹ sinh ra làm người.
-Thượng Thiên sinh hạ bầu trời,
-Thượng Ngàn mẹ của khắp ta."
-"Hoàng hôn còn chút chân đê,
-Vẫn mong ôm hạt cát kia vào lòng.
-Mơ làm sóng liếm bờ cong,
-Mơ làm gió vuốt tóc bồng của mây.
-Cánh buồm nghiêng ngả như say,
-Lả lơi lơi lả trong tay cái ***.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, khao khát được hòa nhập và vươn tới những điều lớn lao, đẹp đẽ nhưng lại bị giới hạn bởi thực tại trần trụi.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Hoàng hôn còn chút chân đê,
-Vẫn mong ôm hạt cát kia vào lòng.
-Mơ làm sóng liếm bờ cong,
-Mơ làm gió vuốt tóc bồng của mây.
-Cánh buồm nghiêng ngả như say,
-Lả lơi lơi lả trong tay cái ***."
-"Ngàn đời sông vẫn lơ thơ,
-Vì yêu lạc giữa ngu ngơ cõi đời.
-Bắc cầu giải yếm người ơi,
-Để thương, để ghét ngàn **ngời** cho nhau.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, lạc lõng trong tình yêu và khát khao được thấu hiểu, được trao gửi cảm xúc thật lòng.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Ngàn đời sông vẫn lơ thơ,
-Vì yêu lạc giữa ngu ngơ cõi đời.
-Bắc cầu giải yếm người ơi,
-Để thương, để ghét ngàn **ngời** cho nhau."
-"Lệ làng phép nước kỷ cương,
-Khôn ngăn chín nhớ mười thương cô Mầu.
-Mầu ơi ai được như Mầu,
-Anh xin cắt tóc gọt đầu đi tu.
-Anh về anh ốm tương tư,
-Một ngày tưởng đến ba thu vì tu.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự giằng xé giữa lễ giáo phong kiến và tình yêu say đắm, mãnh liệt dành cho cô Mầu, khiến người si tình muốn отречь tất cả để được ở bên người mình yêu.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Lệ làng phép nước kỷ cương,
-Khôn ngăn chín nhớ mười thương cô Mầu.
-Mầu ơi ai được như Mầu,
-Anh xin cắt tóc gọt đầu đi tu.
-Anh về anh ốm tương tư,
-Một ngày tưởng đến ba thu vì tu."
-"Tuổi thơ cần bố chăm nha,
-Lớn lên cần bố tạo đà con hơn.
-Ốm đau cần bố sớm hôm,
-Sinh con cần bố chăm nom tháng ngày.
-Lão già cần bố đi ngay,
-Phương Tây cần mẹ sang đây rất nhiều.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự cần thiết của người bố trong nhiều giai đoạn cuộc đời, từ tuổi thơ đến khi trưởng thành và sinh con, nhưng lại có sự mâu thuẫn và bất thường ở hai dòng cuối.
-<reason> 
-<action> <replace> <line> <index> 
-<effect> 
-<eois>","Tuổi thơ cần bố chăm nha,
-Lớn lên cần bố tạo đà con hơn.
-Ốm đau cần bố sớm hôm,
-Sinh con cần bố chăm nom tháng ngày.
-Lão già cần bố đi ngay,
-Phương Tây cần mẹ sang đây rất nhiều."
+"Tại sao hoa lá đâm chồi?
+Vì ai ai lại mình ngồi nhớ ai?
+Vì sao áo rách bờ vai,
+Để ai vá chút tình ai ấm no.<eois>Tại sao hoa lá đâm chồi?
+Vì ai ai lại mình ngồi nhớ ai?
+Vì sao áo rách bờ vai,
+Để ai vá chút tình ai ấm no.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhung, cô đơn và mong muốn được sẻ chia, bù đắp tình cảm trong một mối quan hệ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tại sao hoa lá đâm chồi?
+Vì ai ai lại mình ngồi nhớ ai?
+Vì sao áo rách bờ vai,
+Để ai vá chút tình ai ấm no."
+"Này này, thức dậy đi nào!
+Nghe chưa chim hót líu lo bên ngoài.
+Mở mau cửa đóng then cài,
+Ra xem máy tính, em yêu, xuân về!<eois>Này này, thức dậy đi nào!
+Nghe chưa chim hót líu lo bên ngoài.
+Mở mau cửa đóng then cài,
+Ra xem máy tính, em yêu, xuân về!","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp thiên nhiên tươi mới của mùa xuân và sự gắn bó của con người với công nghệ hiện đại.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Này này, thức dậy đi nào!
+Nghe chưa chim hót líu lo bên ngoài.
+Mở mau cửa đóng then cài,
+Ra xem máy tính, em yêu, xuân về!"
+"Nắng hè đỏ lửa ái ân,
+Nắng thu gửi nhớ bần thần tim côi.
+Nắng đông dệt mộng tình đời,
+Nắng xuân dâng sỏi tặng tiền đô.<eois>Nắng hè đỏ lửa ái ân,
+Nắng thu gửi nhớ bần thần tim côi.
+Nắng đông dệt mộng tình đời,
+Nắng xuân dâng sỏi tặng tiền đô.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tương phản và nghịch lý trong tình cảm con người qua các mùa, khi những giá trị vật chất (tiền đô) được đặt lên trên tình cảm chân thành (sỏi đá).
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nắng hè đỏ lửa ái ân,
+Nắng thu gửi nhớ bần thần tim côi.
+Nắng đông dệt mộng tình đời,
+Nắng xuân dâng sỏi tặng tiền đô."
+"Đời tôi nhớ mãi một lần,
+Được thăm Thủ tướng, muôn phần kính yêu.
+Bác ân cần biết bao nhiêu,
+Nhân văn cao cả, tình yêu sớm chiều.<eois>Đời tôi nhớ mãi một lần,
+Được thăm Thủ tướng, muôn phần kính yêu.
+Bác ân cần biết bao nhiêu,
+Nhân văn cao cả, tình yêu sớm chiều.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự kính trọng, yêu mến sâu sắc của tác giả đối với Thủ tướng, ca ngợi phẩm chất nhân văn cao đẹp của Người.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đời tôi nhớ mãi một lần,
+Được thăm Thủ tướng, muôn phần kính yêu.
+Bác ân cần biết bao nhiêu,
+Nhân văn cao cả, tình yêu sớm chiều."
+"Giơ tay lấy một sợi tình,
+Quấn thành cuộn chỉ vô tình có duyên.
+Chỉ là một chút hữu duyên,
+Nên thành tương ngộ, nghĩa thuyền cô đơn.<eois>Giơ tay lấy một sợi tình,
+Quấn thành cuộn chỉ vô tình có duyên.
+Chỉ là một chút hữu duyên,
+Nên thành tương ngộ, nghĩa thuyền cô đơn.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tình cờ, hữu duyên trong tình cảm, dẫn đến một mối quan hệ có thể mang đến sự cô đơn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Giơ tay lấy một sợi tình,
+Quấn thành cuộn chỉ vô tình có duyên.
+Chỉ là một chút hữu duyên,
+Nên thành tương ngộ, nghĩa thuyền cô đơn."
+"Trăm năm lỡ mối duyên đầu,
+Đường đi mấy bước lỡ sầu riêng ai.
+Gió đưa lau sậy về trời,
+Xa em để lại *rau muống* lòng anh.<eois>Trăm năm lỡ mối duyên đầu,
+Đường đi mấy bước lỡ sầu riêng ai.
+Gió đưa lau sậy về trời,
+Xa em để lại *rau muống* lòng anh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn, sự tiếc nuối về một mối tình đầu dang dở, với hình ảnh ""rau muống"" gợi sự gắn bó bình dị nhưng cũng đầy xót xa khi phải chia xa.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trăm năm lỡ mối duyên đầu,
+Đường đi mấy bước lỡ sầu riêng ai.
+Gió đưa lau sậy về trời,
+Xa em để lại *rau muống* lòng anh."
+"Hoa đào rắc phấn má em,
+Làm anh thổn thức khát thèm mùa xuân.
+Con chim én liệng xa gần,
+Xuân về sao vẫn thiết tha kiếm mồi?<eois>Hoa đào rắc phấn má em,
+Làm anh thổn thức khát thèm mùa xuân.
+Con chim én liệng xa gần,
+Xuân về sao vẫn thiết tha kiếm mồi?","<error> CONTEXT 
+<desc> Bài thơ diễn tả cảm xúc rung động, xao xuyến của chàng trai trước vẻ đẹp của người con gái trong khung cảnh mùa xuân tươi mới, đồng thời thể hiện sự băn khoăn về nhịp sống đời thường vẫn tiếp diễn dù mùa xuân đã đến.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Hoa đào rắc phấn má em,
+Làm anh thổn thức khát thèm mùa xuân.
+Con chim én liệng xa gần,
+Xuân về sao vẫn thiết tha kiếm mồi?"
+"Em về hỏi với mùa hạ,
+Thu tàn, chó có còn ru nồng nàn?
+Em đi bỏ lại thu vàng,
+Để anh cùng với muôn vàn smartphone.<eois>Em về hỏi với mùa hạ,
+Thu tàn, chó có còn ru nồng nàn?
+Em đi bỏ lại thu vàng,
+Để anh cùng với muôn vàn smartphone.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chia ly, khi người con gái ra đi để lại một người ở lại với nỗi cô đơn và sự gắn bó với công nghệ hiện đại.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Em về hỏi với mùa hạ,
+Thu tàn, chó có còn ru nồng nàn?
+Em đi bỏ lại thu vàng,
+Để anh cùng với muôn vàn smartphone."
+"Gió trăng ong bướm đâu ngờ,
+Còn trêu bóng nguyệt làm thơ để đời.
+Tình yêu mượn bút thay lời,
+Sợi thương sợi nhớ lệ rơi biển tình.<eois>Gió trăng ong bướm đâu ngờ,
+Còn trêu bóng nguyệt làm thơ để đời.
+Tình yêu mượn bút thay lời,
+Sợi thương sợi nhớ lệ rơi biển tình.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự rung động, say đắm trong tình yêu, sử dụng hình ảnh thiên nhiên để diễn tả cảm xúc mãnh liệt và nỗi nhớ nhung da diết.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Gió trăng ong bướm đâu ngờ,
+Còn trêu bóng nguyệt làm thơ để đời.
+Tình yêu mượn bút thay lời,
+Sợi thương sợi nhớ lệ rơi biển tình."
+"Hải Vân đèo ẩn trong mây,
+Xa xa đất cảng hây hây ánh hồng.
+Thuyền về neo đậu bến trong,
+Biển đêm lấp lánh tựa sông trăng rằm.<eois>Hải Vân đèo ẩn trong mây,
+Xa xa đất cảng hây hây ánh hồng.
+Thuyền về neo đậu bến trong,
+Biển đêm lấp lánh tựa sông trăng rằm.","<error> CONTEXT 
+<desc> Bài thơ miêu tả vẻ đẹp của đèo Hải Vân và cảnh biển đêm nơi bến cảng, gợi cảm giác thanh bình và thơ mộng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Hải Vân đèo ẩn trong mây,
+Xa xa đất cảng hây hây ánh hồng.
+Thuyền về neo đậu bến trong,
+Biển đêm lấp lánh tựa sông trăng rằm."
+"Hoa xưa hái lấy tặng mình,
+Tiếc không tặng tớ để mình cùng vui.
+Thời gian vẫn lặng lẽ trôi,
+Giật mình nhớ lại con theo năm xưa.<eois>Hoa xưa hái lấy tặng mình,
+Tiếc không tặng tớ để mình cùng vui.
+Thời gian vẫn lặng lẽ trôi,
+Giật mình nhớ lại con theo năm xưa.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối về một kỷ niệm đẹp trong quá khứ, khi người nói không chia sẻ niềm vui với người khác, và giờ đây hồi tưởng lại với chút bâng khuâng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Hoa xưa hái lấy tặng mình,
+Tiếc không tặng tớ để mình cùng vui.
+Thời gian vẫn lặng lẽ trôi,
+Giật mình nhớ lại con theo năm xưa."
+"Tết này vui đến mọi nhà,
+Còn em khóc thảm bên bàn thờ anh.
+Tết này em chỉ cần anh,
+Cho vơi nỗi nhớ mong tivi tháng ngày.<eois>Tết này vui đến mọi nhà,
+Còn em khóc thảm bên bàn thờ anh.
+Tết này em chỉ cần anh,
+Cho vơi nỗi nhớ mong tivi tháng ngày.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự cô đơn, mất mát và nỗi đau của người vợ/người yêu khi Tết đến mà người thân yêu đã qua đời, sự vui vẻ của ngày Tết càng làm nổi bật sự thiếu vắng và nỗi nhớ nhung.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tết này vui đến mọi nhà,
+Còn em khóc thảm bên bàn thờ anh.
+Tết này em chỉ cần anh,
+Cho vơi nỗi nhớ mong tivi tháng ngày."
+"Bồn hoa cây cảnh ông trồng,
+Đôi chim cu gáy trong lồng vui say.
+Thơ ca, sách báo hằng ngày,
+Cơm ăn no ấm thiết tha buồn bã.<eois>Bồn hoa cây cảnh ông trồng,
+Đôi chim cu gáy trong lồng vui say.
+Thơ ca, sách báo hằng ngày,
+Cơm ăn no ấm thiết tha buồn bã.","<error> CONTEXT 
+<desc> Bài thơ thể hiện cuộc sống thanh bình, an nhàn của một người lớn tuổi, nhưng ẩn chứa một nỗi buồn man mác dù cuộc sống vật chất đầy đủ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Bồn hoa cây cảnh ông trồng,
+Đôi chim cu gáy trong lồng vui say.
+Thơ ca, sách báo hằng ngày,
+Cơm ăn no ấm thiết tha buồn bã."
+"Vui sao ngày hội thầy cô,
+Về trường tìm lại tuổi trò ngày xưa.
+Về trường vọng tiếng ầu ơ,
+Tiếng ai ru trẻ ngẩn ngơ thật thà.<eois>Vui sao ngày hội thầy cô,
+Về trường tìm lại tuổi trò ngày xưa.
+Về trường vọng tiếng ầu ơ,
+Tiếng ai ru trẻ ngẩn ngơ thật thà.","<error> CONTEXT 
+<desc> Bài thơ thể hiện niềm vui, sự xúc động khi trở về trường xưa trong ngày hội thầy cô, gợi nhớ về những kỷ niệm tuổi học trò và hình ảnh người thầy cô thân thương.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Vui sao ngày hội thầy cô,
+Về trường tìm lại tuổi trò ngày xưa.
+Về trường vọng tiếng ầu ơ,
+Tiếng ai ru trẻ ngẩn ngơ thật thà."
+"Nhớ xưa dạy học quê nhà,
+Em làm cỏ lúa đồng xa đồng gần.
+Bắt cua, em giắt cạp quần,
+Con trăn sụp soạp, anh ngủ buổi trưa.<eois>Nhớ xưa dạy học quê nhà,
+Em làm cỏ lúa đồng xa đồng gần.
+Bắt cua, em giắt cạp quần,
+Con trăn sụp soạp, anh ngủ buổi trưa.","<error> CONTEXT 
+<desc> Bài thơ gợi nhớ về những kỷ niệm giản dị, mộc mạc của một cặp đôi ở vùng quê, với hình ảnh người vợ đảm đang việc đồng áng và người chồng có lẽ là thầy giáo, cùng khung cảnh thiên nhiên yên bình.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nhớ xưa dạy học quê nhà,
+Em làm cỏ lúa đồng xa đồng gần.
+Bắt cua, em giắt cạp quần,
+Con trăn sụp soạp, anh ngủ buổi trưa."
+"Biển trời mây nước lung linh,
+Bồng lai họa cảnh hữu tình làm sao?
+Hiu hiu gió lọt song đào,
+Sẽ đưa nặng trĩu hương vào vũ trụ.<eois>Biển trời mây nước lung linh,
+Bồng lai họa cảnh hữu tình làm sao?
+Hiu hiu gió lọt song đào,
+Sẽ đưa nặng trĩu hương vào vũ trụ.","<error> CONTEXT 
+<desc> Bài thơ miêu tả vẻ đẹp thanh bình, nên thơ của cảnh vật thiên nhiên, đồng thời gợi mở về sự lan tỏa của hương thơm trong không gian rộng lớn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Biển trời mây nước lung linh,
+Bồng lai họa cảnh hữu tình làm sao?
+Hiu hiu gió lọt song đào,
+Sẽ đưa nặng trĩu hương vào vũ trụ."
+"Còn gì như thế vui hơn!
+Bình minh nắng sớm, chó sủa trên trời.
+Hãy vui sống khỏe mỗi ngày,
+Ly trà đá sớm đong đầy mùa thu.<eois>Còn gì như thế vui hơn!
+Bình minh nắng sớm, chó sủa trên trời.
+Hãy vui sống khỏe mỗi ngày,
+Ly trà đá sớm đong đầy mùa thu.","<error> CONTEXT 
+<desc> Bài thơ thể hiện niềm vui trong những điều bình dị của cuộc sống, từ khoảnh khắc bình minh đến tách trà đá sớm, bất chấp những điều phi lý (chó sủa trên trời).
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Còn gì như thế vui hơn!
+Bình minh nắng sớm, chó sủa trên trời.
+Hãy vui sống khỏe mỗi ngày,
+Ly trà đá sớm đong đầy mùa thu."
+"Bao giờ cát trổ nên hoa,
+Cho tim chảy máu, lệ nhòa chứa chan?
+Hiểu cho thấu đáo nát tan,
+Ghép từng hạt đường xây lầu thật cao.<eois>Bao giờ cát trổ nên hoa,
+Cho tim chảy máu, lệ nhòa chứa chan?
+Hiểu cho thấu đáo nát tan,
+Ghép từng hạt đường xây lầu thật cao.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi đau khổ, tuyệt vọng đến mức phi lý và nỗ lực xây dựng lại từ những mảnh vỡ sau tổn thương.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Bao giờ cát trổ nên hoa,
+Cho tim chảy máu, lệ nhòa chứa chan?
+Hiểu cho thấu đáo nát tan,
+Ghép từng hạt đường xây lầu thật cao."
+"Đông này cũng giống đông xưa,
+Đêm phòng cô lẽ mà chưa có bồ.
+Người ơi, em ở nơi mô?
+Đừng làm đông lạnh tim reo hò giòn.<eois>Đông này cũng giống đông xưa,
+Đêm phòng cô lẽ mà chưa có bồ.
+Người ơi, em ở nơi mô?
+Đừng làm đông lạnh tim reo hò giòn.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, mong mỏi tình yêu của một người con gái trong mùa đông lạnh giá.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đông này cũng giống đông xưa,
+Đêm phòng cô lẽ mà chưa có bồ.
+Người ơi, em ở nơi mô?
+Đừng làm đông lạnh tim reo hò giòn."
+"Đời tôi nghèo lắm người ơi!
+Quanh năm suốt tháng nổi trôi lục bình.
+Đời tôi như cánh lục bình,
+Trôi theo sông nước hữu tình thiết tha.<eois>Đời tôi nghèo lắm người ơi!
+Quanh năm suốt tháng nổi trôi lục bình.
+Đời tôi như cánh lục bình,
+Trôi theo sông nước hữu tình thiết tha.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn và sự trôi dạt, bấp bênh của cuộc đời người nghèo, ví như cánh lục bình trên sông nước.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đời tôi nghèo lắm người ơi!
+Quanh năm suốt tháng nổi trôi lục bình.
+Đời tôi như cánh lục bình,
+Trôi theo sông nước hữu tình thiết tha."
+"Cho Hồng lại nụ cười xinh,
+Dẫu mai em có vô tình đi xa.
+Ngày mai có nắng đó là,
+Các em mong đợi cả ta cùng mèo.<eois>Cho Hồng lại nụ cười xinh,
+Dẫu mai em có vô tình đi xa.
+Ngày mai có nắng đó là,
+Các em mong đợi cả ta cùng mèo.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự lạc quan và mong chờ tương lai tươi sáng, dù có thể có những chia ly, vẫn có những niềm vui nhỏ bé được sẻ chia.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Cho Hồng lại nụ cười xinh,
+Dẫu mai em có vô tình đi xa.
+Ngày mai có nắng đó là,
+Các em mong đợi cả ta cùng mèo."
+"Con ơi, hãy nhớ câu này,
+Rạng danh là bởi cô thầy dạy ta.
+Con ơi, gắng học gương cha,
+Hiếu đền, nghĩa trả, vị ngọt giúp người.<eois>Con ơi, hãy nhớ câu này,
+Rạng danh là bởi cô thầy dạy ta.
+Con ơi, gắng học gương cha,
+Hiếu đền, nghĩa trả, vị ngọt giúp người.","<error> CONTEXT 
+<desc> Bài thơ khuyên dạy con về lòng biết ơn thầy cô, sự hiếu nghĩa, và đạo lý sống tốt đẹp, giúp đỡ người khác.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Con ơi, hãy nhớ câu này,
+Rạng danh là bởi cô thầy dạy ta.
+Con ơi, gắng học gương cha,
+Hiếu đền, nghĩa trả, vị ngọt giúp người."
+"Mẹ khuyên con đủ trăm đường,
+Sống đời tử tế cõi dương an lành.
+Chớ tham lam, chớ bạo hành,
+Quyền gian bếp núc đời thành ánh trăng.<eois>Mẹ khuyên con đủ trăm đường,
+Sống đời tử tế cõi dương an lành.
+Chớ tham lam, chớ bạo hành,
+Quyền gian bếp núc đời thành ánh trăng.","<error> CONTEXT 
+<desc> Bài thơ đề cao đạo đức làm người, khuyên dạy về lối sống lương thiện, tránh xa điều ác để có cuộc đời bình an.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Mẹ khuyên con đủ trăm đường,
+Sống đời tử tế cõi dương an lành.
+Chớ tham lam, chớ bạo hành,
+Quyền gian bếp núc đời thành ánh trăng."
+"Khó khăn luôn nở miệng cười,
+Tấm lòng cao quý vàng mười còn thua.
+Tuy rằng tuổi tác già nua,
+Tết này cụ vẫn *vẫn* đua với đời.<eois>Khó khăn luôn nở miệng cười,
+Tấm lòng cao quý vàng mười còn thua.
+Tuy rằng tuổi tác già nua,
+Tết này cụ vẫn *vẫn* đua với đời.","<error> CONTEXT 
+<desc> Bài thơ ca ngợi tinh thần lạc quan, yêu đời và vượt khó của một người cao tuổi, dù gặp khó khăn vẫn giữ được phẩm chất cao đẹp và hòa nhập với cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Khó khăn luôn nở miệng cười,
+Tấm lòng cao quý vàng mười còn thua.
+Tuy rằng tuổi tác già nua,
+Tết này cụ vẫn *vẫn* đua với đời."
+"Bâng khuâng ngắm cảnh hoàng hôn,
+Gió nồm thoang thoảng, tâm hồn nhẹ bay.
+Sáo diều không thổi mà hay,
+Xa xa núi Tản rẽ mây đợi người.<eois>Bâng khuâng ngắm cảnh hoàng hôn,
+Gió nồm thoang thoảng, tâm hồn nhẹ bay.
+Sáo diều không thổi mà hay,
+Xa xa núi Tản rẽ mây đợi người.","<error> CONTEXT 
+<desc> Bài thơ thể hiện cảm xúc bâng khuâng, nhẹ nhàng của người ngắm cảnh hoàng hôn và thiên nhiên xung quanh, gợi lên một nỗi chờ đợi mơ hồ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Bâng khuâng ngắm cảnh hoàng hôn,
+Gió nồm thoang thoảng, tâm hồn nhẹ bay.
+Sáo diều không thổi mà hay,
+Xa xa núi Tản rẽ mây đợi người."
+"Từ thành thị tới thôn quê,
+Tự hào dân tộc ùa về trong ta.
+Năm qua bóng đá nước nhà,
+Toàn dân nước Việt vỡ òa thiết tha.<eois>Từ thành thị tới thôn quê,
+Tự hào dân tộc ùa về trong ta.
+Năm qua bóng đá nước nhà,
+Toàn dân nước Việt vỡ òa thiết tha.","<error> CONTEXT 
+<desc> Bài thơ thể hiện niềm tự hào dân tộc và sự phấn khích của người dân Việt Nam trước thành công của bóng đá nước nhà.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Từ thành thị tới thôn quê,
+Tự hào dân tộc ùa về trong ta.
+Năm qua bóng đá nước nhà,
+Toàn dân nước Việt vỡ òa thiết tha."
+"Một thời se chỉ luồn kim,
+Hội xuân đã lỡ, nhớ quên xe đạp.<eois>Một thời se chỉ luồn kim,
+Hội xuân đã lỡ, nhớ quên xe đạp.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối về một thời đã qua, khi người con gái lỡ mất cơ hội vui xuân và những kỷ niệm gắn liền với tuổi trẻ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Một thời se chỉ luồn kim,
+Hội xuân đã lỡ, nhớ quên xe đạp."
+"Vô tình được lá diêu bông,
+Khéo thơm từ cuống, sắc hồng không phai.
+Chiêm tinh tìm đúng con gà,
+Bấm xem là phúc hay ta cùng mình?<eois>Vô tình được lá diêu bông,
+Khéo thơm từ cuống, sắc hồng không phai.
+Chiêm tinh tìm đúng con gà,
+Bấm xem là phúc hay ta cùng mình?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự kiếm tìm, mong muốn biết về tương lai, vận mệnh thông qua những hình ảnh ẩn dụ như lá diêu bông, chiêm tinh.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Vô tình được lá diêu bông,
+Khéo thơm từ cuống, sắc hồng không phai.
+Chiêm tinh tìm đúng con gà,
+Bấm xem là phúc hay ta cùng mình?"
+"Người đi biền biệt sơn khê,
+Để tôi chờ mãi không về, người ơi!
+Chiều chiều ra ngắm mây bay,
+Mà lòng buồn nhớ người sao không, người?<eois>Người đi biền biệt sơn khê,
+Để tôi chờ mãi không về, người ơi!
+Chiều chiều ra ngắm mây bay,
+Mà lòng buồn nhớ người sao không, người?","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ mong da diết của người ở lại dành cho người ra đi, khắc khoải trong sự chờ đợi và cô đơn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Người đi biền biệt sơn khê,
+Để tôi chờ mãi không về, người ơi!
+Chiều chiều ra ngắm mây bay,
+Mà lòng buồn nhớ người sao không, người?"
+"Say rồi đôi mắt người thương,
+Ta thầm trao gửi chút hương của đời.
+Lời nào trong gió, người ơi?
+Lời nào xô bồ cho gió xốn xang?<eois>Say rồi đôi mắt người thương,
+Ta thầm trao gửi chút hương của đời.
+Lời nào trong gió, người ơi?
+Lời nào xô bồ cho gió xốn xang?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự rung động, say mê trong tình yêu, với những cảm xúc mơ hồ, bâng khuâng và những lời trao gửi thầm kín.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Say rồi đôi mắt người thương,
+Ta thầm trao gửi chút hương của đời.
+Lời nào trong gió, người ơi?
+Lời nào xô bồ cho gió xốn xang?"
+"Trong lòng bỗng thấy chênh chao,
+Khiến từng câu chữ xốn xao lạc vần.
+Duyên tình đầy nỗi phân vân,
+Con tim nhảy múa nhớ thương nhớ nhung.<eois>Trong lòng bỗng thấy chênh chao,
+Khiến từng câu chữ xốn xao lạc vần.
+Duyên tình đầy nỗi phân vân,
+Con tim nhảy múa nhớ thương nhớ nhung.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự xao xuyến, bối rối trong lòng khi đối diện với những cảm xúc phức tạp của tình yêu.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trong lòng bỗng thấy chênh chao,
+Khiến từng câu chữ xốn xao lạc vần.
+Duyên tình đầy nỗi phân vân,
+Con tim nhảy múa nhớ thương nhớ nhung."
+"Trông thì đẹp mã tốt tươi,
+Hóa ra là một kẻ lười thối tha.
+Sống nhờ thác gửi người ta,
+Vậy đâu có xứng để mà gọi gió.<eois>Trông thì đẹp mã tốt tươi,
+Hóa ra là một kẻ lười thối tha.
+Sống nhờ thác gửi người ta,
+Vậy đâu có xứng để mà gọi gió.","<error> CONTEXT 
+<desc> Bài thơ phê phán những người có vẻ ngoài hào nhoáng nhưng thực chất lười biếng, sống dựa dẫm vào người khác và không xứng đáng với những lời khen ngợi.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trông thì đẹp mã tốt tươi,
+Hóa ra là một kẻ lười thối tha.
+Sống nhờ thác gửi người ta,
+Vậy đâu có xứng để mà gọi gió."
+"Gặp em gánh thóc trên đồng,
+Hỏi em em đã có chồng hay chưa?
+Em cười lỏn lẻn rồi thưa:
+""Trước đây ba tháng hết vàng rồi.""<eois>Gặp em gánh thóc trên đồng,
+Hỏi em em đã có chồng hay chưa?
+Em cười lỏn lẻn rồi thưa:
+""Trước đây ba tháng hết vàng rồi.""","<error> CONTEXT 
+<desc> Bài thơ xoay quanh cuộc gặp gỡ tình cờ giữa một người và cô gái gánh thóc, người này dò hỏi về tình trạng hôn nhân của cô, và nhận được câu trả lời ẩn ý về việc cô đã có chồng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Gặp em gánh thóc trên đồng,
+Hỏi em em đã có chồng hay chưa?
+Em cười lỏn lẻn rồi thưa:
+""Trước đây ba tháng hết vàng rồi."""
+"Giữa xuân đôi má ửng xinh,
+Đôi môi hồng đỏ mọng tình ngây thơ.
+Mắt ngời trong sáng mộng mơ,
+Tóc mềm buông chảy đợi chờ thiết tha.<eois>Giữa xuân đôi má ửng xinh,
+Đôi môi hồng đỏ mọng tình ngây thơ.
+Mắt ngời trong sáng mộng mơ,
+Tóc mềm buông chảy đợi chờ thiết tha.","<error> CONTEXT 
+<desc> Bài thơ khắc họa vẻ đẹp thiếu nữ trong trẻo, tràn đầy sức sống và tình yêu.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Giữa xuân đôi má ửng xinh,
+Đôi môi hồng đỏ mọng tình ngây thơ.
+Mắt ngời trong sáng mộng mơ,
+Tóc mềm buông chảy đợi chờ thiết tha."
+"Đêm qua nằm ngủ một mình,
+Lửa đêm muỗi đốt giật mình nhớ ai.
+Ước gì muỗi đến nhà ai,
+Đốt ai một cái cho buồn rất vui.<eois>Đêm qua nằm ngủ một mình,
+Lửa đêm muỗi đốt giật mình nhớ ai.
+Ước gì muỗi đến nhà ai,
+Đốt ai một cái cho buồn rất vui.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, nhớ nhung trong đêm vắng và mong muốn người mình nhớ cũng trải qua cảm giác tương tự.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đêm qua nằm ngủ một mình,
+Lửa đêm muỗi đốt giật mình nhớ ai.
+Ước gì muỗi đến nhà ai,
+Đốt ai một cái cho buồn rất vui."
+"Trông về quê mẹ xa xăm,
+Lòng ta chỗ ướt mẹ nằm đêm mưa.
+Ngồi buồn ta nhớ mẹ xưa,
+Miệng nhai vàng búng, lưỡi lừa cá xưa.<eois>Trông về quê mẹ xa xăm,
+Lòng ta chỗ ướt mẹ nằm đêm mưa.
+Ngồi buồn ta nhớ mẹ xưa,
+Miệng nhai vàng búng, lưỡi lừa cá xưa.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ thương da diết của người con về người mẹ tảo tần, vất vả nơi quê nhà xa xôi.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trông về quê mẹ xa xăm,
+Lòng ta chỗ ướt mẹ nằm đêm mưa.
+Ngồi buồn ta nhớ mẹ xưa,
+Miệng nhai vàng búng, lưỡi lừa cá xưa."
+"Đôi khi chẳng phải mùa đông,
+Mà người vẫn lạnh và đông bạn à.
+Đôi khi đông đến thật mà,
+Mà ta chẳng biết đó là ngày mai.<eois>Đôi khi chẳng phải mùa đông,
+Mà người vẫn lạnh và đông bạn à.
+Đôi khi đông đến thật mà,
+Mà ta chẳng biết đó là ngày mai.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự cô đơn, lạnh lẽo trong tâm hồn con người, không phụ thuộc vào thời tiết hay thời gian.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đôi khi chẳng phải mùa đông,
+Mà người vẫn lạnh và đông bạn à.
+Đôi khi đông đến thật mà,
+Mà ta chẳng biết đó là ngày mai."
+"Khoa ban rải rác khắp nơi,
+Thông tin xuyên suốt kịp thời chỉ huy.
+Qua phà Long Đại hiểm nguy,
+Chuyển thương, xe chạy có chi vui tươi?<eois>Khoa ban rải rác khắp nơi,
+Thông tin xuyên suốt kịp thời chỉ huy.
+Qua phà Long Đại hiểm nguy,
+Chuyển thương, xe chạy có chi vui tươi?","<error> CONTEXT 
+<desc> Bài thơ ca ngợi sự thông suốt trong liên lạc, chỉ huy và tinh thần lạc quan, vượt khó của những người lính trên đường hành quân, vận chuyển trong điều kiện khó khăn, nguy hiểm.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Khoa ban rải rác khắp nơi,
+Thông tin xuyên suốt kịp thời chỉ huy.
+Qua phà Long Đại hiểm nguy,
+Chuyển thương, xe chạy có chi vui tươi?"
+"Nhân sinh trọn kiếp mấy mươi,
+Vó câu một thoáng, khóc cười phù vân.
+Phân ly biết mấy người thân,
+Tiễn đưa nhau biệt cõi **tha hương** lao đao.<eois>Nhân sinh trọn kiếp mấy mươi,
+Vó câu một thoáng, khóc cười phù vân.
+Phân ly biết mấy người thân,
+Tiễn đưa nhau biệt cõi **tha hương** lao đao.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự ngắn ngủi của đời người, sự vô thường của cuộc sống và nỗi buồn chia ly, xa cách người thân nơi đất khách.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nhân sinh trọn kiếp mấy mươi,
+Vó câu một thoáng, khóc cười phù vân.
+Phân ly biết mấy người thân,
+Tiễn đưa nhau biệt cõi **tha hương** lao đao."
+"Cuộc đời dâu bể nhớ nhung,
+Như vầng trăng đợi mịt mùng mây tan.
+Hoàng hôn tắt nắng chiều tàn,
+Trút bầu tâm sự thích ăn mì tôm.<eois>Cuộc đời dâu bể nhớ nhung,
+Như vầng trăng đợi mịt mùng mây tan.
+Hoàng hôn tắt nắng chiều tàn,
+Trút bầu tâm sự thích ăn mì tôm.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tâm trạng cô đơn, buồn bã trước những biến đổi của cuộc đời, pha chút hài hước đời thường.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Cuộc đời dâu bể nhớ nhung,
+Như vầng trăng đợi mịt mùng mây tan.
+Hoàng hôn tắt nắng chiều tàn,
+Trút bầu tâm sự thích ăn mì tôm."
+"Chim non ríu rít trên cành,
+Nhành hoa tím biếc nón vành gửi trao.
+Nhèm mi thôi vẫy tay chào,
+Bâng khuâng giọt nhớ tiễn nhau xôn xao.<eois>Chim non ríu rít trên cành,
+Nhành hoa tím biếc nón vành gửi trao.
+Nhèm mi thôi vẫy tay chào,
+Bâng khuâng giọt nhớ tiễn nhau xôn xao.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chia ly, tạm biệt trong khung cảnh thiên nhiên tươi đẹp, gợi cảm xúc buồn bã, luyến tiếc.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chim non ríu rít trên cành,
+Nhành hoa tím biếc nón vành gửi trao.
+Nhèm mi thôi vẫy tay chào,
+Bâng khuâng giọt nhớ tiễn nhau xôn xao."
+"Nửa chừng câu lục ai gieo,
+Rưng rưng câu bát ta theo giữa dòng.
+Mùa thu gợi những nhớ mong,
+Người xưa ơi, có ăn phở cùng tôi?<eois>Nửa chừng câu lục ai gieo,
+Rưng rưng câu bát ta theo giữa dòng.
+Mùa thu gợi những nhớ mong,
+Người xưa ơi, có ăn phở cùng tôi?","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhung, luyến tiếc về một mối quan hệ đã qua, được gợi lên trong không gian mùa thu và qua một kỷ niệm giản dị là cùng ăn phở.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nửa chừng câu lục ai gieo,
+Rưng rưng câu bát ta theo giữa dòng.
+Mùa thu gợi những nhớ mong,
+Người xưa ơi, có ăn phở cùng tôi?"
+"Tiễn em xa biệt tháng ngày,
+Nhớ thương ta gửi lên cây me già.
+Tới hè phượng vĩ trổ hoa,
+Bõ công nhau đợi chó xa nhớ nhà.<eois>Tiễn em xa biệt tháng ngày,
+Nhớ thương ta gửi lên cây me già.
+Tới hè phượng vĩ trổ hoa,
+Bõ công nhau đợi chó xa nhớ nhà.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhung, luyến tiếc của người ở lại dành cho người ra đi, được gửi gắm qua hình ảnh cây me già và sự mong chờ ngày gặp lại khi hè đến.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tiễn em xa biệt tháng ngày,
+Nhớ thương ta gửi lên cây me già.
+Tới hè phượng vĩ trổ hoa,
+Bõ công nhau đợi chó xa nhớ nhà."
+"Đêm nay khung cảnh sầu bi,
+Còn tôi nỗi nhớ gửi đi cho người.
+Viết lên, bạn đọc đừng cười,
+Đó là chọn kiếp ghét người mà thôi.<eois>Đêm nay khung cảnh sầu bi,
+Còn tôi nỗi nhớ gửi đi cho người.
+Viết lên, bạn đọc đừng cười,
+Đó là chọn kiếp ghét người mà thôi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, sầu muộn trong đêm và tâm trạng chán ghét, thất vọng với con người.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đêm nay khung cảnh sầu bi,
+Còn tôi nỗi nhớ gửi đi cho người.
+Viết lên, bạn đọc đừng cười,
+Đó là chọn kiếp ghét người mà thôi."
+"Còn đâu hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác lá non,
+Mãi không trở lại, anh còn giận hờn.<eois>Còn đâu hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác lá non,
+Mãi không trở lại, anh còn giận hờn.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, buồn bã và sự mất mát trong tình yêu, gợi nhớ về quá khứ tươi đẹp đã qua và sự hờn giận còn tồn tại.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Còn đâu hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác lá non,
+Mãi không trở lại, anh còn giận hờn."
+"Rơi vào ác đạo trầm luân,
+Khổ đau muôn kiếp tử sanh buộc ràng.
+Trời, Người, Ngạ Quỷ, Súc Sanh,
+Ăn chơi, Địa Ngục chuyển luân trói chang.<eois>Rơi vào ác đạo trầm luân,
+Khổ đau muôn kiếp tử sanh buộc ràng.
+Trời, Người, Ngạ Quỷ, Súc Sanh,
+Ăn chơi, Địa Ngục chuyển luân trói chang.","<error> CONTEXT 
+<desc> Bài thơ nói về vòng luân hồi trong sáu cõi (lục đạo), nơi chúng sinh chịu khổ đau và sự trói buộc của nghiệp báo.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Rơi vào ác đạo trầm luân,
+Khổ đau muôn kiếp tử sanh buộc ràng.
+Trời, Người, Ngạ Quỷ, Súc Sanh,
+Ăn chơi, Địa Ngục chuyển luân trói chang."
+"Cõi tình ai nỡ xẻ đôi,
+Nửa em hờ hững, nửa tôi dại khờ.
+Võng chiều em cứ dệt mơ,
+Còn tôi thì cứ ngẩn ngơ mình ta.<eois>Cõi tình ai nỡ xẻ đôi,
+Nửa em hờ hững, nửa tôi dại khờ.
+Võng chiều em cứ dệt mơ,
+Còn tôi thì cứ ngẩn ngơ mình ta.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự dang dở, chia ly trong tình yêu, với một người hờ hững và người còn lại chìm trong nỗi cô đơn, tiếc nuối.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Cõi tình ai nỡ xẻ đôi,
+Nửa em hờ hững, nửa tôi dại khờ.
+Võng chiều em cứ dệt mơ,
+Còn tôi thì cứ ngẩn ngơ mình ta."
 "Còn yêu sao nỡ lặng thinh,
+Để mình anh nhớ, để mình anh mong.
+Hay em tình chửa đầy đong,
+Làm duyên ngúng nguẩy, lòng vòng sớm mai?<eois>Còn yêu sao nỡ lặng thinh,
 Để mình anh nhớ, để mình anh mong.
 Hay em tình chửa đầy đong,
 Làm duyên ngúng nguẩy, lòng vòng sớm mai?","<error> CONTEXT 
@@ -2293,247 +1232,505 @@ Làm duyên ngúng nguẩy, lòng vòng sớm mai?","<error> CONTEXT
 Để mình anh nhớ, để mình anh mong.
 Hay em tình chửa đầy đong,
 Làm duyên ngúng nguẩy, lòng vòng sớm mai?"
-"Trồng người phải đến trăm năm,
-Cù lao cửu tự đêm nằm không yên.
-Chăm lo công đức ngoan hiền,
-Trăm bề hiếu thảo ơn tiên tổ mình.
-Tu tâm tích đức bình sinh,
-Về nơi cực lạc, tiếng ta lưu danh.","<error> CONTEXT 
-<desc> Bài thơ đề cao vai trò của giáo dục và đạo đức trong việc bồi dưỡng con người, đồng thời nhấn mạnh tầm quan trọng của lòng hiếu thảo và tu dưỡng bản thân để đạt được sự an yên và lưu danh về sau.
+"Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng phiêu lòng trời.
+Hàng cây hoan hỉ gọi mời,
+Ánh đèn cao áp soi bước chân.<eois>Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng phiêu lòng trời.
+Hàng cây hoan hỉ gọi mời,
+Ánh đèn cao áp soi bước chân.","<error> CONTEXT 
+<desc> Bài thơ miêu tả khung cảnh thanh bình, lãng mạn của buổi chiều tà với những hình ảnh gợi cảm xúc về sự tự do, niềm vui và sự ấm áp.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Trồng người phải đến trăm năm,
-Cù lao cửu tự đêm nằm không yên.
-Chăm lo công đức ngoan hiền,
-Trăm bề hiếu thảo ơn tiên tổ mình.
-Tu tâm tích đức bình sinh,
-Về nơi cực lạc, tiếng ta lưu danh."
-"Thương ai vò võ đêm ngày,
-Thương ai nấn ná canh chầy lẻ loi.
-Cảnh buồn thêm phận đơn côi,
-Hoa tàn trăng xế *ăn năn* cõi lòng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, buồn tủi và sự hối tiếc trong tình cảm của một người.
+<eois>","Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng phiêu lòng trời.
+Hàng cây hoan hỉ gọi mời,
+Ánh đèn cao áp soi bước chân."
+"Giấu đi những tiếng thở dài,
+Mong sao xuân mới mọi người bình an.
+Cầu cho dịch bệnh nở rộ,
+Nụ cười rạng rỡ dâng cao hạnh phúc.<eois>Giấu đi những tiếng thở dài,
+Mong sao xuân mới mọi người bình an.
+Cầu cho dịch bệnh nở rộ,
+Nụ cười rạng rỡ dâng cao hạnh phúc.","<error> CONTEXT 
+<desc> Bài thơ thể hiện mong ước về một năm mới bình an, hạnh phúc, nhưng lại có sự mâu thuẫn trong lời cầu nguyện về dịch bệnh.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Thương ai vò võ đêm ngày,
-Thương ai nấn ná canh chầy lẻ loi.
-Cảnh buồn thêm phận đơn côi,
-Hoa tàn trăng xế *ăn năn* cõi lòng."
-"Tàn đêm đợi một giấc nồng,
-Đắng cay chan cả vào trong canh chày.
-Ước chi được một lần say,
-Biết đâu **sương** thấu lòng này cũng nên.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, buồn bã và mong muốn tìm kiếm sự giải thoát, đồng cảm trong một đêm dài.
+<eois>","Giấu đi những tiếng thở dài,
+Mong sao xuân mới mọi người bình an.
+Cầu cho dịch bệnh nở rộ,
+Nụ cười rạng rỡ dâng cao hạnh phúc."
+"Hôm nay là chủ nhật hồng,
+Mà tôi lại thấy trong lòng bất an.
+Người ta xuống phố tràn lan,
+Còn tôi ăn tối lệ tràn lan lan.<eois>Hôm nay là chủ nhật hồng,
+Mà tôi lại thấy trong lòng bất an.
+Người ta xuống phố tràn lan,
+Còn tôi ăn tối lệ tràn lan lan.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tâm trạng cô đơn, buồn bã của một người vào ngày chủ nhật, khi mọi người vui vẻ xuống phố, còn người đó lại ở nhà một mình và khóc.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Tàn đêm đợi một giấc nồng,
-Đắng cay chan cả vào trong canh chày.
-Ước chi được một lần say,
-Biết đâu **sương** thấu lòng này cũng nên."
-"Một mình ngắm ánh trăng non,
-Tình yêu sao lại vẫn còn thương đau?
-Duyên ơi, ta phải đợi nhau,
-Cho anh ôm ấp, cùng lau nhà cửa.
-Vui xuân ta sẽ dung hòa,
-Để vui lòng đấy, em à, sớm mai?","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm trạng cô đơn, đau khổ trong tình yêu nhưng vẫn ôm ấp hy vọng về một tương lai hòa hợp, hạnh phúc bên người mình yêu.
+<eois>","Hôm nay là chủ nhật hồng,
+Mà tôi lại thấy trong lòng bất an.
+Người ta xuống phố tràn lan,
+Còn tôi ăn tối lệ tràn lan lan."
+"Đừng buồn ngày ấy đã qua,
+Đừng buồn mái tóc sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh *cây* mong manh.<eois>Đừng buồn ngày ấy đã qua,
+Đừng buồn mái tóc sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh *cây* mong manh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự an ủi, khuyên nhủ người đọc không nên quá buồn phiền về những điều đã qua và sự mong manh của hạnh phúc trong cuộc đời.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Một mình ngắm ánh trăng non,
-Tình yêu sao lại vẫn còn thương đau?
-Duyên ơi, ta phải đợi nhau,
-Cho anh ôm ấp, cùng lau nhà cửa.
-Vui xuân ta sẽ dung hòa,
-Để vui lòng đấy, em à, sớm mai?"
-"Thèm nghe một tiếng yêu thương,
-Một lời khẽ gọi chợt vương nhớ xưa.
-Nghe như gió động xôn xao,
-Nghe như khao khát lối vào ăn cơm.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi khao khát tình cảm, sự yêu thương và gợi nhớ về những kỷ niệm xưa, pha lẫn chút hài hước đời thường.
+<eois>","Đừng buồn ngày ấy đã qua,
+Đừng buồn mái tóc sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh *cây* mong manh."
+"Trăm năm một chuyến đò đầy,
+Mình về Kinh Bắc sum vầy cùng anh.
+Sông Cầu nay chảy trong xanh,
+Tình ta thắm mãi bức tranh Đông Hồ.<eois>Trăm năm một chuyến đò đầy,
+Mình về Kinh Bắc sum vầy cùng anh.
+Sông Cầu nay chảy trong xanh,
+Tình ta thắm mãi bức tranh Đông Hồ.","<error> CONTEXT 
+<desc> Bài thơ thể hiện niềm vui sum họp, đoàn tụ ở Kinh Bắc và ca ngợi tình yêu đôi lứa gắn liền với vẻ đẹp quê hương.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Thèm nghe một tiếng yêu thương,
-Một lời khẽ gọi chợt vương nhớ xưa.
-Nghe như gió động xôn xao,
-Nghe như khao khát lối vào ăn cơm."
-"Trăm hoa đua nở một giờ,
-Không bằng một phút ta chờ xuân sang.
-Giàu sang khổ sở bần hàn,
-Xin chúc mọi nhà hai chữ giàu sang.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự trân trọng khoảnh khắc và niềm mong ước về một cuộc sống ấm no, hạnh phúc cho mọi người.
+<eois>","Trăm năm một chuyến đò đầy,
+Mình về Kinh Bắc sum vầy cùng anh.
+Sông Cầu nay chảy trong xanh,
+Tình ta thắm mãi bức tranh Đông Hồ."
+"Thương ai giữ trọn câu thề,
+Sắt son nguyên vẹn một lòng thủy chung.
+Ung dung hờ hững đành tâm,
+Dửng dưng xây nhà sợi tình em ươm.<eois>Thương ai giữ trọn câu thề,
+Sắt son nguyên vẹn một lòng thủy chung.
+Ung dung hờ hững đành tâm,
+Dửng dưng xây nhà sợi tình em ươm.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự đau khổ, thất vọng của người con gái khi tình yêu không được đáp lại, người mình thương hờ hững, vô tâm.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Trăm hoa đua nở một giờ,
-Không bằng một phút ta chờ xuân sang.
-Giàu sang khổ sở bần hàn,
-Xin chúc mọi nhà hai chữ giàu sang."
-"Gặp em ở giữa công trường,
-Dáng cao da trắng môi hồng tóc đen.
-Tuy xinh nhưng mặt hơi buồn,
-Chồng em đi gái lâu không về nhà.
-Bây giờ em muốn lên Phây,
-Xem ai bán đất chữa buồn cho nhà.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi buồn của người phụ nữ có chồng đi xa, cô đơn và tìm kiếm niềm vui, sự giải khuây trên mạng xã hội.
+<eois>","Thương ai giữ trọn câu thề,
+Sắt son nguyên vẹn một lòng thủy chung.
+Ung dung hờ hững đành tâm,
+Dửng dưng xây nhà sợi tình em ươm."
+"Xóm làng thay đổi quá nhiều,
+Rặng tre vắng bóng bao nhiêu năm rồi.
+Tường rào gạch đá lên ngôi,
+Vợ chồng bìm bịp giờ đi siêu thị.<eois>Xóm làng thay đổi quá nhiều,
+Rặng tre vắng bóng bao nhiêu năm rồi.
+Tường rào gạch đá lên ngôi,
+Vợ chồng bìm bịp giờ đi siêu thị.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thay đổi của làng quê theo hướng hiện đại hóa, mất đi những nét truyền thống quen thuộc như rặng tre và cả những hình ảnh gắn liền với đời sống thôn dã.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Gặp em ở giữa công trường,
-Dáng cao da trắng môi hồng tóc đen.
-Tuy xinh nhưng mặt hơi buồn,
-Chồng em đi gái lâu không về nhà.
-Bây giờ em muốn lên Phây,
-Xem ai bán đất chữa buồn cho nhà."
-"Xuân về đầu ngõ rồi đây,
-Người ơi người ở phương nao chưa về?
-Để em cứ mãi mong chờ,
-Nàng Xuân đến ngõ đang ăn cơm.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi mong chờ của người con gái khi xuân đến mà người thương vẫn chưa trở về, xen lẫn chút hờn dỗi khi nàng Xuân đến ngõ mà người mình đợi vẫn vắng bóng.
+<eois>","Xóm làng thay đổi quá nhiều,
+Rặng tre vắng bóng bao nhiêu năm rồi.
+Tường rào gạch đá lên ngôi,
+Vợ chồng bìm bịp giờ đi siêu thị."
+"Em là lộc biếc chồi non,
+Vui rằm thể dục, lòng son sắc hồng.
+Cháu là nguồn lực biển đông,
+Tương lai cháu sẽ xây đắp một chồng.<eois>Em là lộc biếc chồi non,
+Vui rằm thể dục, lòng son sắc hồng.
+Cháu là nguồn lực biển đông,
+Tương lai cháu sẽ xây đắp một chồng.","<error> CONTEXT 
+<desc> Bài thơ ca ngợi vẻ đẹp tươi trẻ, sức sống của thế hệ trẻ và niềm tin vào tương lai tươi sáng mà họ sẽ xây dựng.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Xuân về đầu ngõ rồi đây,
-Người ơi người ở phương nao chưa về?
-Để em cứ mãi mong chờ,
-Nàng Xuân đến ngõ đang ăn cơm."
-"Chúc em an giấc nồng say,
-Cho anh vào mộng giải bày yêu thương.
-Chúc nhau một giấc tơ vương,
-Cho anh nếm chút vô thường em trao.
-Chúc em trọn giấc chiêm bao,
-Cho anh len lén lạc vào rất xa.","<error> CONTEXT 
-<desc> Bài thơ thể hiện tâm tư của một người mong muốn được gặp gỡ và bày tỏ tình cảm với người mình yêu trong giấc mơ, ước ao được trải nghiệm những cảm xúc dù là thoáng qua từ người đó.
+<eois>","Em là lộc biếc chồi non,
+Vui rằm thể dục, lòng son sắc hồng.
+Cháu là nguồn lực biển đông,
+Tương lai cháu sẽ xây đắp một chồng."
+"Một bên bướm, một bên hoa,
+Em nằm ủ ấm bên tà xa ri.
+Mắt vờ nhắm nhẹ hàng mi,
+Phía sau nơi ấy chó thật reo.<eois>Một bên bướm, một bên hoa,
+Em nằm ủ ấm bên tà xa ri.
+Mắt vờ nhắm nhẹ hàng mi,
+Phía sau nơi ấy chó thật reo.","<error> CONTEXT 
+<desc> Bài thơ diễn tả một khoảnh khắc tĩnh lặng, ấm áp của người con gái trong không gian riêng tư, nhưng bị phá vỡ bởi âm thanh đời thường, tạo nên sự tương phản giữa vẻ đẹp và hiện thực.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Chúc em an giấc nồng say,
-Cho anh vào mộng giải bày yêu thương.
-Chúc nhau một giấc tơ vương,
-Cho anh nếm chút vô thường em trao.
-Chúc em trọn giấc chiêm bao,
-Cho anh len lén lạc vào rất xa."
-"Liêu xiêu một bóng gầy gò,
-Để đàn con nhỏ được no ấm lòng.
-Từ khi mẹ mất còn cha,
-Bao nhiêu nỗi khổ thân già phải lo.
-Liêu xiêu một bóng gầy gò,
-Để đàn con nhỏ được ""sáng"" ấm lòng.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự vất vả, hy sinh của người cha góa bụa, gầy gò, một mình gánh vác nỗi khổ để nuôi đàn con thơ sau khi mẹ mất.
+<eois>","Một bên bướm, một bên hoa,
+Em nằm ủ ấm bên tà xa ri.
+Mắt vờ nhắm nhẹ hàng mi,
+Phía sau nơi ấy chó thật reo."
+"Nhưng em ơi, chớ có buồn,
+Ngẫm ra còn cảnh khổ hơn vài phần.
+Uyên ương đôi lúc muốn gần,
+Âm dương phải cách một lần buồn tênh.<eois>Nhưng em ơi, chớ có buồn,
+Ngẫm ra còn cảnh khổ hơn vài phần.
+Uyên ương đôi lúc muốn gần,
+Âm dương phải cách một lần buồn tênh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự an ủi, động viên trước nỗi buồn bằng cách chỉ ra những khổ đau, mất mát lớn hơn trong cuộc đời, đặc biệt là sự chia lìa trong tình yêu.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Liêu xiêu một bóng gầy gò,
-Để đàn con nhỏ được no ấm lòng.
-Từ khi mẹ mất còn cha,
-Bao nhiêu nỗi khổ thân già phải lo.
-Liêu xiêu một bóng gầy gò,
-Để đàn con nhỏ được ""sáng"" ấm lòng."
-"Gượng cười cho lệ mau qua,
-Cho tâm thanh thản, cho tim mau lành.
-Cho ai chẳng phải bận lòng,
-Đêm đêm thổn thức, lệ tràn hoen mi.
-Cho ai chẳng phải nghĩ suy,
-Ngày ngày *ăn no*, tự mình khổ đau.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự cố gắng che giấu nỗi buồn, mong muốn người khác không phải lo lắng và chịu đựng vì mình.
+<eois>","Nhưng em ơi, chớ có buồn,
+Ngẫm ra còn cảnh khổ hơn vài phần.
+Uyên ương đôi lúc muốn gần,
+Âm dương phải cách một lần buồn tênh."
+"Giật mình kiểm đếm mùa đông,
+Choàng tay qua ngực gặp chồng nhà bên.
+Cơn giông cởi áo phơi thềm,
+Cái đêm trăng sáng lệch nghiêng ngoài hiên.<eois>Giật mình kiểm đếm mùa đông,
+Choàng tay qua ngực gặp chồng nhà bên.
+Cơn giông cởi áo phơi thềm,
+Cái đêm trăng sáng lệch nghiêng ngoài hiên.","<error> CONTEXT 
+<desc> Bài thơ gợi tả một khoảnh khắc bối rối, có lẽ là sự thức giấc bất ngờ trong một tình huống tế nhị, cùng với hình ảnh thiên nhiên gợi cảm xúc xao xuyến.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Gượng cười cho lệ mau qua,
-Cho tâm thanh thản, cho tim mau lành.
-Cho ai chẳng phải bận lòng,
-Đêm đêm thổn thức, lệ tràn hoen mi.
-Cho ai chẳng phải nghĩ suy,
-Ngày ngày *ăn no*, tự mình khổ đau."
-"Chín mươi tuổi đã xế chiều,
-Còn bao năm nữa thì diều đứt dây?
-Giờ đây cố giữ hàng ngày,
-Sống vui, khỏe mạnh, ăn dày thiện nhân.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự suy ngẫm của một người cao tuổi về sự hữu hạn của cuộc đời và mong muốn sống vui, khỏe mạnh, làm việc thiện trong những ngày còn lại.
+<eois>","Giật mình kiểm đếm mùa đông,
+Choàng tay qua ngực gặp chồng nhà bên.
+Cơn giông cởi áo phơi thềm,
+Cái đêm trăng sáng lệch nghiêng ngoài hiên."
+"Mảnh thu rơi nhẹ bên thềm,
+Ánh hoàng hôn nhuộm con tim hao gầy.
+Nghĩ mình chưa xứng làm mây,
+Nên anh đâu dám bàn tay dựng xây.<eois>Mảnh thu rơi nhẹ bên thềm,
+Ánh hoàng hôn nhuộm con tim hao gầy.
+Nghĩ mình chưa xứng làm mây,
+Nên anh đâu dám bàn tay dựng xây.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tâm trạng buồn bã, cô đơn của một người khi cảm thấy bản thân không đủ tốt để xứng đáng với tình yêu hoặc một mối quan hệ nào đó.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Chín mươi tuổi đã xế chiều,
-Còn bao năm nữa thì diều đứt dây?
-Giờ đây cố giữ hàng ngày,
-Sống vui, khỏe mạnh, ăn dày thiện nhân."
-"Chừ đây đang tháng mười hai,
-Một năm sắp hết tình ai nhớ hoài.
-Nhớ người chiến sĩ ra đi,
-Bảo tồn Tổ quốc như con ruồi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi nhớ thương người chiến sĩ trong thời khắc cuối năm, đồng thời thể hiện sự hy sinh cao cả của người lính một cách không tương xứng.
+<eois>","Mảnh thu rơi nhẹ bên thềm,
+Ánh hoàng hôn nhuộm con tim hao gầy.
+Nghĩ mình chưa xứng làm mây,
+Nên anh đâu dám bàn tay dựng xây."
+"Công ơn của mẹ bao la,
+Sinh thành nuôi dưỡng giúp ta nên người.
+Công ơn của cha biển trời,
+Nhập tâm ghi nhớ những điều chơi vơi.<eois>Công ơn của mẹ bao la,
+Sinh thành nuôi dưỡng giúp ta nên người.
+Công ơn của cha biển trời,
+Nhập tâm ghi nhớ những điều chơi vơi.","<error> CONTEXT 
+<desc> Bài thơ ca ngợi công ơn sinh thành, dưỡng dục to lớn của cả cha và mẹ đối với con cái.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Chừ đây đang tháng mười hai,
-Một năm sắp hết tình ai nhớ hoài.
-Nhớ người chiến sĩ ra đi,
-Bảo tồn Tổ quốc như con ruồi."
-"Chiều đông mòn mỏi ngóng chờ,
-Cà phê đắng lạnh chát bờ môi anh.
-Ngủ vùi sợi nắng mong manh,
-Bàn tay buốt cóng giá băng mùa xanh.","<error> CONTEXT 
-<desc> Bài thơ diễn tả nỗi cô đơn, sự chờ đợi trong một chiều đông lạnh giá, thể hiện qua những cảm xúc buồn bã và hình ảnh tàn phai.
+<eois>","Công ơn của mẹ bao la,
+Sinh thành nuôi dưỡng giúp ta nên người.
+Công ơn của cha biển trời,
+Nhập tâm ghi nhớ những điều chơi vơi."
+"Lạnh lùng thu đã đi qua,
+Đồng trơ gốc rạ, mùa vừa thu xong.
+Khăn voan vẫn thắm **cơn giông**,
+Người vừa lỡ hẹn, theo chồng **cũng xong**.<eois>Lạnh lùng thu đã đi qua,
+Đồng trơ gốc rạ, mùa vừa thu xong.
+Khăn voan vẫn thắm **cơn giông**,
+Người vừa lỡ hẹn, theo chồng **cũng xong**.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối, hụt hẫng sau khi mùa thu qua đi và một mối tình dang dở kết thúc.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Chiều đông mòn mỏi ngóng chờ,
-Cà phê đắng lạnh chát bờ môi anh.
-Ngủ vùi sợi nắng mong manh,
-Bàn tay buốt cóng giá băng mùa xanh."
-"Còn đâu mà nhớ người xưa,
-Giờ anh đi mãi cũng chưa thấy về.
-Đông về lạnh buốt tái tê,
-Mà em một bóng trăng về buồn vềnh.","<error> CONTEXT 
-<desc> Bài thơ thể hiện nỗi cô đơn, buồn bã và sự chờ đợi mỏi mòn của người con gái khi người yêu/chồng đi xa chưa trở về, đặc biệt trong khung cảnh mùa đông lạnh lẽo.
+<eois>","Lạnh lùng thu đã đi qua,
+Đồng trơ gốc rạ, mùa vừa thu xong.
+Khăn voan vẫn thắm **cơn giông**,
+Người vừa lỡ hẹn, theo chồng **cũng xong**."
+"Văn chương đã cỡi đầu người,
+Ba lần cờ trống rợp trời vinh quy.
+Chưa già bệnh cáo quan ngay,
+Về quê lấp biển khoảng không thi .<eois>Văn chương đã cỡi đầu người,
+Ba lần cờ trống rợp trời vinh quy.
+Chưa già bệnh cáo quan ngay,
+Về quê lấp biển khoảng không thi .","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chán chường, thất vọng của một người từng có danh vọng, quyền lực trong chốn quan trường và quyết định từ bỏ để tìm về cuộc sống thanh bình nơi quê nhà.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Còn đâu mà nhớ người xưa,
-Giờ anh đi mãi cũng chưa thấy về.
-Đông về lạnh buốt tái tê,
-Mà em một bóng trăng về buồn vềnh."
-"Làm thơ theo tiếng khóc cười,
-Nếu hay sẽ được nhiều người ghé xem.
-Gặp ai đó nói ""ứ thèm"",
-Cũng không sao, để ta đem về **cây me**.","<error> CONTEXT 
-<desc> Bài thơ thể hiện quan điểm về việc sáng tác thơ, chấp nhận cả khen chê và coi trọng cảm xúc cá nhân hơn là sự công nhận của người khác.
+<eois>","Văn chương đã cỡi đầu người,
+Ba lần cờ trống rợp trời vinh quy.
+Chưa già bệnh cáo quan ngay,
+Về quê lấp biển khoảng không thi ."
+"Chẳng là da trắng chân dài,
+Chẳng là môi đỏ mắt nai dáng ngà.
+Xin làm một khúc nhạc buồn,
+Bồi cho ngô lúa cỏ hoa thắm xanh.<eois>Chẳng là da trắng chân dài,
+Chẳng là môi đỏ mắt nai dáng ngà.
+Xin làm một khúc nhạc buồn,
+Bồi cho ngô lúa cỏ hoa thắm xanh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự khiêm nhường, không tự đề cao vẻ đẹp hình thức mà mong muốn đóng góp giá trị tinh thần, nuôi dưỡng sự sống xung quanh.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Làm thơ theo tiếng khóc cười,
-Nếu hay sẽ được nhiều người ghé xem.
-Gặp ai đó nói ""ứ thèm"",
-Cũng không sao, để ta đem về **cây me**."
-"Sông quê hát khúc lở bồi,
-Ao nhà ngâm khúc đầy vơi sớm mai.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự biến đổi, đổi thay của cảnh vật làng quê, từ dòng sông đến ao nhà, gợi cảm giác về sự vô thường của cuộc sống.
+<eois>","Chẳng là da trắng chân dài,
+Chẳng là môi đỏ mắt nai dáng ngà.
+Xin làm một khúc nhạc buồn,
+Bồi cho ngô lúa cỏ hoa thắm xanh."
+"Đông về bông tuyết rơi rơi,
+Nghe thêm buốt giá tim côi xứ người.
+Thèm vòng tay ấm xa xôi,
+Thèm cùng ăn tối thật vui cháy nồng.<eois>Đông về bông tuyết rơi rơi,
+Nghe thêm buốt giá tim côi xứ người.
+Thèm vòng tay ấm xa xôi,
+Thèm cùng ăn tối thật vui cháy nồng.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, nhớ nhà và khao khát tình cảm gia đình của người con xa xứ khi mùa đông đến.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Sông quê hát khúc lở bồi,
-Ao nhà ngâm khúc đầy vơi sớm mai."
-"Hình như tôi đã vô tình,
-Hình như tôi đã bực mình với ai.
-Hình như phúc bất trùng lai,
-Hình như tôi thấy sai sai cái gì.
-Vừa hôm qua ướt bờ mi,
-Nhìn tôi, tôi thấy thật kỳ, tôi đi.","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hoang mang, cảm giác có lỗi và bất ổn trong tâm trạng của một người.
+<eois>","Đông về bông tuyết rơi rơi,
+Nghe thêm buốt giá tim côi xứ người.
+Thèm vòng tay ấm xa xôi,
+Thèm cùng ăn tối thật vui cháy nồng."
+"Gió nồm bay dải bao hồng,
+Ngày vui thỏa ngắm mênh mông đất trời.
+Mượt mà ruộng lúa tốt tươi,
+Ao sâu đầy nước, chó thời đầy ắp.<eois>Gió nồm bay dải bao hồng,
+Ngày vui thỏa ngắm mênh mông đất trời.
+Mượt mà ruộng lúa tốt tươi,
+Ao sâu đầy nước, chó thời đầy ắp.","<error> CONTEXT 
+<desc> Bài thơ tả cảnh thanh bình, vui tươi của một vùng quê trù phú, nơi cuộc sống no ấm và hòa hợp với thiên nhiên.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Hình như tôi đã vô tình,
-Hình như tôi đã bực mình với ai.
-Hình như phúc bất trùng lai,
-Hình như tôi thấy sai sai cái gì.
-Vừa hôm qua ướt bờ mi,
-Nhìn tôi, tôi thấy thật kỳ, tôi đi."
+<eois>","Gió nồm bay dải bao hồng,
+Ngày vui thỏa ngắm mênh mông đất trời.
+Mượt mà ruộng lúa tốt tươi,
+Ao sâu đầy nước, chó thời đầy ắp."
+"Ngồi trông nắng xuống trên đồi,
+Cánh chim phiêu lãng giữa trời bao la.
+Sông chiều lấp lánh ánh tà,
+Giật mình chợt nhớ món gà rất ngon.<eois>Ngồi trông nắng xuống trên đồi,
+Cánh chim phiêu lãng giữa trời bao la.
+Sông chiều lấp lánh ánh tà,
+Giật mình chợt nhớ món gà rất ngon.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thư thái, ngắm cảnh thiên nhiên buổi chiều tà nhưng lại bị cắt ngang bởi một suy nghĩ đời thường, cụ thể là về món ăn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngồi trông nắng xuống trên đồi,
+Cánh chim phiêu lãng giữa trời bao la.
+Sông chiều lấp lánh ánh tà,
+Giật mình chợt nhớ món gà rất ngon."
+"Tìm đâu một bóng tình nhân,
+Đêm đông giá lạnh chăn nào đắp chung?
+Dù cho con tạo đứng im,
+Cái kiếp tang bồng ta nhớ núi sông.<eois>Tìm đâu một bóng tình nhân,
+Đêm đông giá lạnh chăn nào đắp chung?
+Dù cho con tạo đứng im,
+Cái kiếp tang bồng ta nhớ núi sông.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, khao khát tình cảm lứa đôi trong cảnh cô độc, đồng thời bộc lộ chí khí tang bồng, nhớ về quê hương đất nước.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tìm đâu một bóng tình nhân,
+Đêm đông giá lạnh chăn nào đắp chung?
+Dù cho con tạo đứng im,
+Cái kiếp tang bồng ta nhớ núi sông."
+"Đỏ như màu máu của mình,
+Tung bay trong ánh bình minh rạng ngời.
+Niềm tin chân lý đời đời,
+Thủ đô yêu dấu con luôn nhớ về.<eois>Đỏ như màu máu của mình,
+Tung bay trong ánh bình minh rạng ngời.
+Niềm tin chân lý đời đời,
+Thủ đô yêu dấu con luôn nhớ về.","<error> CONTEXT 
+<desc> Bài thơ thể hiện lòng yêu nước, niềm tự hào về Tổ quốc và thủ đô.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đỏ như màu máu của mình,
+Tung bay trong ánh bình minh rạng ngời.
+Niềm tin chân lý đời đời,
+Thủ đô yêu dấu con luôn nhớ về."
+"Mưa về ướt hết khổ chưa,
+Em quên mặc áo chống mưa bên mình.
+Cơn mưa sao thật vô tình,
+Làm cho ướt áo em mình, rất xinh?<eois>Mưa về ướt hết khổ chưa,
+Em quên mặc áo chống mưa bên mình.
+Cơn mưa sao thật vô tình,
+Làm cho ướt áo em mình, rất xinh?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự quan tâm, lo lắng của người nói dành cho một người con gái bị ướt mưa, đồng thời ca ngợi vẻ đẹp của cô gái dù trong hoàn cảnh đó.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Mưa về ướt hết khổ chưa,
+Em quên mặc áo chống mưa bên mình.
+Cơn mưa sao thật vô tình,
+Làm cho ướt áo em mình, rất xinh?"
+"Làng tôi làng lúa làng thơ,
+Một thời áo trắng mộng mơ ít nhiều.
+Ngờ đâu gió đứt dây diều,
+Lúa xanh còn đó, chó sủa vang rồi.<eois>Làng tôi làng lúa làng thơ,
+Một thời áo trắng mộng mơ ít nhiều.
+Ngờ đâu gió đứt dây diều,
+Lúa xanh còn đó, chó sủa vang rồi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối về những thay đổi, mất mát của một thời tuổi trẻ tươi đẹp và yên bình ở làng quê, khi hiện tại chỉ còn lại những dấu vết của quá khứ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Làng tôi làng lúa làng thơ,
+Một thời áo trắng mộng mơ ít nhiều.
+Ngờ đâu gió đứt dây diều,
+Lúa xanh còn đó, chó sủa vang rồi."
+"Buồn vương giọt nắng cuối thu,
+Nhớ nhau níu dải sương mù bến xa.
+Thương nhau bóng xế chiều tà,
+Yêu nhau một chút, tỉnh ra vũ trụ.<eois>Buồn vương giọt nắng cuối thu,
+Nhớ nhau níu dải sương mù bến xa.
+Thương nhau bóng xế chiều tà,
+Yêu nhau một chút, tỉnh ra vũ trụ.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn man mác của sự chia ly, nhớ nhung trong khoảnh khắc giao mùa và tình yêu thoáng qua mang tính chất chiêm nghiệm về sự hữu hạn của đời người.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Buồn vương giọt nắng cuối thu,
+Nhớ nhau níu dải sương mù bến xa.
+Thương nhau bóng xế chiều tà,
+Yêu nhau một chút, tỉnh ra vũ trụ."
+"Chiều chiều nhớ mẹ phương xa,
+Đìu hiu tàu chuối la đà ngọn cau.
+Vượt ngàn núi thẳm vực sâu,
+Cho con thấy lại sắc cao áo bầu.<eois>Chiều chiều nhớ mẹ phương xa,
+Đìu hiu tàu chuối la đà ngọn cau.
+Vượt ngàn núi thẳm vực sâu,
+Cho con thấy lại sắc cao áo bầu.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ mẹ da diết của người con xa quê, gợi lên hình ảnh quê nhà thân thương và mong ước được trở về đoàn tụ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chiều chiều nhớ mẹ phương xa,
+Đìu hiu tàu chuối la đà ngọn cau.
+Vượt ngàn núi thẳm vực sâu,
+Cho con thấy lại sắc cao áo bầu."
+"Bảy lăm nghe nói giàu sang,
+Còn tôi thì thấy hoang mang cả đời.
+Gian nan vất vả một thời,
+Mà sao vẫn thấy cuộc đời rất xanh?<eois>Bảy lăm nghe nói giàu sang,
+Còn tôi thì thấy hoang mang cả đời.
+Gian nan vất vả một thời,
+Mà sao vẫn thấy cuộc đời rất xanh?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa những lời hứa về sự giàu sang sau năm 1975 và thực tế cuộc sống khó khăn, nhưng vẫn tìm thấy niềm hy vọng trong cuộc đời.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Bảy lăm nghe nói giàu sang,
+Còn tôi thì thấy hoang mang cả đời.
+Gian nan vất vả một thời,
+Mà sao vẫn thấy cuộc đời rất xanh?"
+"Xin chào tất cả người yêu,
+Chúc cho vạn sự muôn điều tốt tươi.
+Trăm năm hạnh phúc mỉm cười,
+An nhiên tự tại hóa đau thương.<eois>Xin chào tất cả người yêu,
+Chúc cho vạn sự muôn điều tốt tươi.
+Trăm năm hạnh phúc mỉm cười,
+An nhiên tự tại hóa đau thương.","<error> CONTEXT 
+<desc> Bài thơ chúc phúc cho những người yêu nhau, mong ước hạnh phúc và sự an nhiên vượt qua những khó khăn trong cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Xin chào tất cả người yêu,
+Chúc cho vạn sự muôn điều tốt tươi.
+Trăm năm hạnh phúc mỉm cười,
+An nhiên tự tại hóa đau thương."
+"Trời thu vời vợi xanh trong,
+Buông cần ngồi đợi thấy lòng chơi vơi.
+Quên đi những thứ ngoài đường,
+Con tim muốn cười ngàn lời tình thu.<eois>Trời thu vời vợi xanh trong,
+Buông cần ngồi đợi thấy lòng chơi vơi.
+Quên đi những thứ ngoài đường,
+Con tim muốn cười ngàn lời tình thu.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tâm trạng thư thái, thả hồn vào thiên nhiên mùa thu, quên đi muộn phiền và cảm nhận niềm vui trong lòng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trời thu vời vợi xanh trong,
+Buông cần ngồi đợi thấy lòng chơi vơi.
+Quên đi những thứ ngoài đường,
+Con tim muốn cười ngàn lời tình thu."
+"Nàng Xuân mở cửa xuống trần,
+Khiến chàng thi sỹ bần thần ngẩn ngơ.
+Vội vàng góp nhặt vần thơ,
+Gửi Nàng Xuân chút dại khờ xe hơi.<eois>Nàng Xuân mở cửa xuống trần,
+Khiến chàng thi sỹ bần thần ngẩn ngơ.
+Vội vàng góp nhặt vần thơ,
+Gửi Nàng Xuân chút dại khờ xe hơi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự rung động, ngưỡng mộ của chàng thi sĩ trước vẻ đẹp của nàng Xuân, thể hiện qua hành động gửi gắm tình cảm qua những vần thơ vụng về.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nàng Xuân mở cửa xuống trần,
+Khiến chàng thi sỹ bần thần ngẩn ngơ.
+Vội vàng góp nhặt vần thơ,
+Gửi Nàng Xuân chút dại khờ xe hơi."
+"Vòng xoay con tạo cuộc đời,
+Từng hồi chuông giục gọi lời ăn năn.
+Mai kia về cõi vĩnh hằng,
+Rời xa trần thế ngộ rằng **hận thù**.<eois>Vòng xoay con tạo cuộc đời,
+Từng hồi chuông giục gọi lời ăn năn.
+Mai kia về cõi vĩnh hằng,
+Rời xa trần thế ngộ rằng **hận thù**.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hối hận về những hận thù khi nhìn lại cuộc đời trước ngưỡng cửa cái chết, gợi nhắc về sự hữu hạn của kiếp người.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Vòng xoay con tạo cuộc đời,
+Từng hồi chuông giục gọi lời ăn năn.
+Mai kia về cõi vĩnh hằng,
+Rời xa trần thế ngộ rằng **hận thù**."
+"Sống cho trọn vẹn kiếp người,
+Buồn vui yêu ghét khóc cười cũng qua.
+Đường nào gần, lối nào xa,
+Trở về với cát bụi bao la.<eois>Sống cho trọn vẹn kiếp người,
+Buồn vui yêu ghét khóc cười cũng qua.
+Đường nào gần, lối nào xa,
+Trở về với cát bụi bao la.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chiêm nghiệm về lẽ vô thường của cuộc đời, khuyến khích sống hết mình và chấp nhận sự trở về cát bụi.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Sống cho trọn vẹn kiếp người,
+Buồn vui yêu ghét khóc cười cũng qua.
+Đường nào gần, lối nào xa,
+Trở về với cát bụi bao la."
+"Ngả nghiêng nét chữ cuộc đời,
+Nụ cười rạng rỡ sáng ngời bên ta.
+Nhìn theo khung cảnh hòa ca,
+Cho lòng mở cửa hàng bao la cá khô.<eois>Ngả nghiêng nét chữ cuộc đời,
+Nụ cười rạng rỡ sáng ngời bên ta.
+Nhìn theo khung cảnh hòa ca,
+Cho lòng mở cửa hàng bao la cá khô.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự lạc quan, yêu đời, trân trọng những điều tốt đẹp trong cuộc sống, dù có những khó khăn, vất vả (ẩn dụ qua ""hàng bao la cá khô"").
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngả nghiêng nét chữ cuộc đời,
+Nụ cười rạng rỡ sáng ngời bên ta.
+Nhìn theo khung cảnh hòa ca,
+Cho lòng mở cửa hàng bao la cá khô."
+"Quân ta thừa thế xông lên,
+Bảy lăm toàn thắng nối liền non sông.
+Rạng danh con Lạc cháu Hồng,
+Đạt thành ước nguyện Bác **bảo** thuở nào.<eois>Quân ta thừa thế xông lên,
+Bảy lăm toàn thắng nối liền non sông.
+Rạng danh con Lạc cháu Hồng,
+Đạt thành ước nguyện Bác **bảo** thuở nào.","<error> CONTEXT 
+<desc> Bài thơ ca ngợi chiến thắng năm 1975, thống nhất đất nước và khẳng định ước nguyện của Bác Hồ đã thành hiện thực.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Quân ta thừa thế xông lên,
+Bảy lăm toàn thắng nối liền non sông.
+Rạng danh con Lạc cháu Hồng,
+Đạt thành ước nguyện Bác **bảo** thuở nào."
 "Hôm nay đi đến chợ tình,
+Đất trời say đắm cho mình gặp ta.
+Cầm tay nhau múa hát ca,
+Sương đêm ướt đẫm còn mình với gió.<eois>Hôm nay đi đến chợ tình,
 Đất trời say đắm cho mình gặp ta.
 Cầm tay nhau múa hát ca,
 Sương đêm ướt đẫm còn mình với gió.","<error> CONTEXT 
@@ -2545,31 +1742,93 @@ Sương đêm ướt đẫm còn mình với gió.","<error> CONTEXT
 Đất trời say đắm cho mình gặp ta.
 Cầm tay nhau múa hát ca,
 Sương đêm ướt đẫm còn mình với gió."
-"Mẹ ơi, lưng đã còng rồi,
-Mắt mờ, bước chậm sao mà vấn vương.
-Đẹp là nét đẹp của vàng,
-Bao ngày vất vả, thanh xuân hao mòn.
-Mẹ ơi, dáng Mẹ Việt Nam,
-Để cho con cháu mãi làm giàu sang.","<error> CONTEXT 
-<desc> Bài thơ thể hiện lòng biết ơn và tình yêu sâu sắc của người con đối với sự hy sinh, vất vả của mẹ, ca ngợi vẻ đẹp của người mẹ Việt Nam tần tảo vì con cháu.
+"Đêm buồn nhỏ giọt lệ tuôn,
+Chạnh lòng nức nở nghẹn luôn trong lòng.
+Tình trăng muôn kiếp đêm đông,
+Chìm trong đêm lạnh ca hát nhớ thương.<eois>Đêm buồn nhỏ giọt lệ tuôn,
+Chạnh lòng nức nở nghẹn luôn trong lòng.
+Tình trăng muôn kiếp đêm đông,
+Chìm trong đêm lạnh ca hát nhớ thương.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn, sự cô đơn và nhớ nhung trong đêm đông lạnh giá, với tâm trạng đau khổ và nghẹn ngào.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Mẹ ơi, lưng đã còng rồi,
-Mắt mờ, bước chậm sao mà vấn vương.
-Đẹp là nét đẹp của vàng,
-Bao ngày vất vả, thanh xuân hao mòn.
-Mẹ ơi, dáng Mẹ Việt Nam,
-Để cho con cháu mãi làm giàu sang."
-"Ta tìm về xứ lãng quên,
-Để rồi tìm thấy những đêm ngủ vùi.
-Chẳng mơ, chẳng mộng nữa rồi,
-Thở dài tự nhủ: ""Ừ thôi, đã xanh!""","<error> CONTEXT 
-<desc> Bài thơ thể hiện sự thất vọng, buông xuôi và chấp nhận thực tại sau một hành trình tìm kiếm, có lẽ là tìm kiếm ý nghĩa cuộc sống.
+<eois>","Đêm buồn nhỏ giọt lệ tuôn,
+Chạnh lòng nức nở nghẹn luôn trong lòng.
+Tình trăng muôn kiếp đêm đông,
+Chìm trong đêm lạnh ca hát nhớ thương."
+"Tấc lòng giãi tỏ gần xa,
+Đạo nhân thuật muốn nước nhà hơn xưa.
+Lời ru biết mấy cho vừa?
+À ơi của những tiếng mèo sủa.<eois>Tấc lòng giãi tỏ gần xa,
+Đạo nhân thuật muốn nước nhà hơn xưa.
+Lời ru biết mấy cho vừa?
+À ơi của những tiếng mèo sủa.","<error> CONTEXT 
+<desc> Bài thơ thể hiện mong muốn đất nước phát triển hơn thông qua đạo đức và thuật trị quốc, nhưng lại có sự lạc lõng, không phù hợp trong cách diễn đạt.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
-<eois>","Ta tìm về xứ lãng quên,
-Để rồi tìm thấy những đêm ngủ vùi.
-Chẳng mơ, chẳng mộng nữa rồi,
-Thở dài tự nhủ: ""Ừ thôi, đã xanh!"""
+<eois>","Tấc lòng giãi tỏ gần xa,
+Đạo nhân thuật muốn nước nhà hơn xưa.
+Lời ru biết mấy cho vừa?
+À ơi của những tiếng mèo sủa."
+"Chiều nay trên bán đảo xa,
+Hoàng hôn nhuộm tím cả vào bờ vai.
+Sóng ôm lấy cát miệt mài,
+Nghe lòng xao động thấy mình rất buồn?<eois>Chiều nay trên bán đảo xa,
+Hoàng hôn nhuộm tím cả vào bờ vai.
+Sóng ôm lấy cát miệt mài,
+Nghe lòng xao động thấy mình rất buồn?","<error> CONTEXT 
+<desc> Bài thơ diễn tả nỗi buồn man mác của một người khi đứng trước cảnh hoàng hôn tím trên bờ biển, cảm nhận sự cô đơn và xao động trong lòng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chiều nay trên bán đảo xa,
+Hoàng hôn nhuộm tím cả vào bờ vai.
+Sóng ôm lấy cát miệt mài,
+Nghe lòng xao động thấy mình rất buồn?"
+"Nhớ ai mà đợi mà mong,
+Thương ai mà cứ thấy lòng ngẩn ngơ.
+Nắng vàng rút lấy làm tơ,
+Thêu nên nỗi buồn bến xe tặng ngơ.<eois>Nhớ ai mà đợi mà mong,
+Thương ai mà cứ thấy lòng ngẩn ngơ.
+Nắng vàng rút lấy làm tơ,
+Thêu nên nỗi buồn bến xe tặng ngơ.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhung, mong chờ da diết và tâm trạng buồn bã, ngẩn ngơ của một người đang yêu. Nỗi buồn ấy được gợi lên từ hình ảnh bến xe, nơi thường gắn liền với sự chia ly.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nhớ ai mà đợi mà mong,
+Thương ai mà cứ thấy lòng ngẩn ngơ.
+Nắng vàng rút lấy làm tơ,
+Thêu nên nỗi buồn bến xe tặng ngơ."
+"Chúc cho các cụ tuổi già,
+Bình an mạnh khỏe, tuổi già an nhiên.
+Chúc cho trăm họ bình yên,
+Ăn chơi thỏa thích, chẳng lo điều chi.<eois>Chúc cho các cụ tuổi già,
+Bình an mạnh khỏe, tuổi già an nhiên.
+Chúc cho trăm họ bình yên,
+Ăn chơi thỏa thích, chẳng lo điều chi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện lời chúc tốt đẹp về sức khỏe, bình an cho người già và sự an lạc, sung túc cho mọi người.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chúc cho các cụ tuổi già,
+Bình an mạnh khỏe, tuổi già an nhiên.
+Chúc cho trăm họ bình yên,
+Ăn chơi thỏa thích, chẳng lo điều chi."
+"Ra vào suy nghĩ lung tung,
+Càng sâu sắc lắm, càng mông lung nhiều.
+Ví chăng cắt kết được điều,
+Lòng người ý trời sao nhiều thương đau?<eois>Ra vào suy nghĩ lung tung,
+Càng sâu sắc lắm, càng mông lung nhiều.
+Ví chăng cắt kết được điều,
+Lòng người ý trời sao nhiều thương đau?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự trăn trở, suy tư về những điều sâu sắc trong cuộc sống và sự tương quan giữa ý người và ý trời, dẫn đến cảm giác thương đau, mông lung.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ra vào suy nghĩ lung tung,
+Càng sâu sắc lắm, càng mông lung nhiều.
+Ví chăng cắt kết được điều,
+Lòng người ý trời sao nhiều thương đau?"

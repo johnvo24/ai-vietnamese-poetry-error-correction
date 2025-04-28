@@ -11,26 +11,24 @@ class ReasoningDataset(Dataset):
   
   def __getitem__(self, index):
     input_text = self.dataframe.iloc[index]['error_poem']
-    label_text = self.dataframe.iloc[index]['step_content']
+    target_text = self.dataframe.iloc[index]['step_content']
     
-    input_encoding = self.tokenizer(
-      input_text,
+    full_text = input_text + '<sep>' + target_text
+    encoding = self.tokenizer(
+      full_text,
       padding="max_length",
       truncation=True,
       max_length=self.max_length,
       return_tensors="pt"
     )
-    label_encoding = self.tokenizer(
-      label_text,
-      padding="max_length",
-      truncation=True,
-      max_length=self.max_length,
-      return_tensors="pt"
-    )
-    labels = label_encoding['input_ids'].squeeze()
-    labels[labels == self.tokenizer.pad_token_id] = -100
+    
+    input_ids = encoding['input_ids'].squeeze()
+    attention_mask = encoding['attention_mask'].squeeze()
+    labels = input_ids.clone()
+    sep_token_index = input_ids.tolist().index(self.tokenizer.encode('<sep>')[0]) # Get separate token index
+    labels[:sep_token_index + 1] = -100 # Mask input and <sep> 
     return {
-      'input_ids': input_encoding['input_ids'].squeeze(), # token id
-      'attention_mask': input_encoding['attention_mask'].squeeze(), # determine real token and padding token
+      'input_ids': input_ids, # token id
+      'attention_mask': attention_mask, # determine real token and padding token
       'labels': labels # use to calculate loss with output logit
     }
