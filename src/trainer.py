@@ -57,6 +57,6 @@ class Trainer:
         best_at = epoch
         helper.save_checkpoint(model_dir=self.model_dir_name, epoch=epoch, model=self.model, optimizer=self.optimizer, is_the_best=True)
       helper.save_checkpoint(model_dir=self.model_dir_name, epoch=epoch, model=self.model, optimizer=self.optimizer)
-      if epoch % 5 == 0: helper.save_best_checkpoint_to_gdrive(model_dir=self.model_dir_name)
-    if n_epochs % 5 != 0: helper.save_best_checkpoint_to_gdrive(model_dir=self.model_dir_name)
+      if epoch != 0 and epoch % 3 == 0: helper.save_best_checkpoint_to_gdrive(model_dir=self.model_dir_name)
+    if n_epochs % 3 != 0: helper.save_best_checkpoint_to_gdrive(model_dir=self.model_dir_name)
     print(f"[JV] Training completed. Best Validation Loss: {best_loss} | Epoch: {best_at}")

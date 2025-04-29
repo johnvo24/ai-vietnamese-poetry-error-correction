@@ -55,7 +55,7 @@ class VpecDeepSeek():
       lora_dropout=0.5,       # Dropout for LoRA
       bias="none",            # Bias term in LoRA
       task_type="CAUSAL_LM",  # Causal LM task
-      target_modules=["self_attn.q_proj", "self_attn.q_proj", "self_attn.q_proj", "self_attn.q_proj"]  # Module to apply LoRA
+      target_modules=["self_attn.q_proj", "self_attn.k_proj", "self_attn.v_proj", "self_attn.o_proj", "mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"]  # Module to apply LoRA
     )
     model = get_peft_model(base_model, lora_config)
     return model
