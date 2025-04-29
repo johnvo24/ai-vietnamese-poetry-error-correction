@@ -6,7 +6,7 @@ from Jvai import GDrive
 dataset_handler = DatasetHandler()
 
 def train_sft(option="vpec_deepseek"):
-  if option == "vpec":
+  if option == "vpec_gpt2":
     vpec = VpecGPT2()
   elif option == "vpec_deepseek":
     vpec = VpecDeepSeek()
@@ -24,7 +24,7 @@ def train_sft(option="vpec_deepseek"):
   )
 
 def generate(option="vpec_deepseek", g_drive=False):
-  if option == "vpec":
+  if option == "vpec_gpt2":
     vpec = VpecGPT2()
   elif option == "vpec_deepseek":
     vpec = VpecDeepSeek()
