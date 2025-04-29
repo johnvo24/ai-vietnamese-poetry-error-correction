@@ -1,34 +1,53 @@
 from src.dataset_handler import DatasetHandler
-from src.models import VpecGPT2
+from src.models import VpecGPT2, VpecDeepSeek
 from src import helper
 from Jvai import GDrive
 
 dataset_handler = DatasetHandler()
 
-def train_vpec_gpt2():
-  vpec_gpt2 = VpecGPT2()
-  dataset_handler.split_data(save_dataset=True, tokenizer=vpec_gpt2.tokenizer)
-  train_loader, val_loader, test_loader = dataset_handler.get_data_loader(tokenizer=vpec_gpt2.tokenizer)
+def train_sft(option="vpec_deepseek"):
+  if option == "vpec":
+    vpec = VpecGPT2()
+  elif option == "vpec_deepseek":
+    vpec = VpecDeepSeek()
+  else:
+    print("What a stupid option!")
+    exit(0)
+  dataset_handler.split_data(save_dataset=True, tokenizer=vpec.tokenizer)
+  train_loader, val_loader, test_loader = dataset_handler.get_data_loader(tokenizer=vpec.tokenizer)
   # Start training
-  vpec_gpt2.__train_sft__(
+  vpec.__train_sft__(
     train_loader=train_loader,
     val_loader=val_loader
   )
 
-def generate_vpec_gpt2(g_drive=False):
-  vpec_gpt2 = VpecGPT2()
+def generate(option="vpec_deepseek", g_drive=False):
+  if option == "vpec":
+    vpec = VpecGPT2()
+  elif option == "vpec_deepseek":
+    vpec = VpecDeepSeek()
+  else:
+    print("What a stupid option!")
+    exit(0)
+
   if g_drive:
-    checkpoint = GDrive().load_model_from_drive('best_checkpoint.tar', vpec_gpt2.model_name)
+    checkpoint = GDrive().load_model_from_drive('best_checkpoint.tar', vpec.model_name)
+    vpec.model.load_state_dict(checkpoint['model_state_dict'])
+    vpec.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
   else:
     checkpoint = helper.load_checkpoint(
-      model_dir=vpec_gpt2.model_name,
-      model=vpec_gpt2.model,
-      optimizer=vpec_gpt2.optimizer,
+      model_dir=vpec.model_name,
+      model=vpec.model,
+      optimizer=vpec.optimizer,
       is_the_best=True
     )
-  vpec_gpt2.model = checkpoint['model']
-  vpec_gpt2.optimizer = checkpoint['optimizer']
-  vpec_gpt2.__generate__("<sop> Con cò mà đi ăn đêm\nĐậu phải cành đào lộn cổ xuống ao <eop> <reasoning_memory> Bất kể mọi lúc đều có thể có rủi ro. <eois>", 256)
+    vpec.model = checkpoint['model']
+    vpec.optimizer = checkpoint['optimizer']
+  vpec.__generate__("<sop> Con cò mà đi ăn đêm\nĐậu phải cành đào lộn cổ xuống ao <eop> <reasoning_memory> Bất kể mọi lúc đều có thể có rủi ro. <eois>", 256)
 
-# train_vpec_gpt2()
-generate_vpec_gpt2()
+
+train_sft(option="vpec_deepseek")
+# generate(option="vpec_deepseek", g_drive=False)
+
+# vpec_deepseek = VpecDeepSeek()
+# print(vpec_deepseek.model)
