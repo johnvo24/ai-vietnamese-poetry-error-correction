@@ -10,8 +10,8 @@ class VpecDeepSeek():
   def __init__(self):
     self.model_name = config.VPEC_DEEPSEEK_MODEL_NAME
     self.model_id = 'deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'
-    # self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    self.device = torch.device('cpu')
+    self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # self.device = torch.device('cpu')
     # Define special tokens
     self.special_tokens = [
       "<sep>", "<sop>", "<eop>", "<reasoning_memory>", "<error>", "<desc>", "<reason>",
