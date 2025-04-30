@@ -6,10 +6,10 @@ from src.trainer import Trainer
 from peft import PeftModel, LoraConfig, get_peft_model
 from src import helper
 
-class VpecDeepSeek():
+class VpecGemma3():
   def __init__(self):
-    self.model_name = config.VPEC_DEEPSEEK_MODEL_NAME
-    self.model_id = 'deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'
+    self.model_name = config.VPEC_GEMMA3_MODEL_NAME
+    self.model_id = 'google/gemma-3-1b-it'
     self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # self.device = torch.device('cpu')
     # Define special tokens
@@ -19,11 +19,11 @@ class VpecDeepSeek():
     ]
     # Initialize
     self.tokenizer = self._load_tokenizer()
-    self.model = self._load_model_with_qlora()
+    self.model = self._load_model()
     # Create Optimizer
     self.optimizer = AdamW(
       filter(lambda p: p.requires_grad, self.model.parameters()), 
-      lr=config.SFT_VPECDEEPSEEK_LEARNING_RATE
+      lr=config.SFT_GEMMA3_LEARNING_RATE
     )
 
   def _load_tokenizer(self):
@@ -33,6 +33,18 @@ class VpecDeepSeek():
       'pad_token': '<pad>'
     })
     return tokenizer
+  
+  def _load_model(self):
+    model = AutoModelForCausalLM.from_pretrained(
+      self.model_id,
+      device_map='auto',
+      trust_remote_code=True
+    ).to(self.device)
+    model.resize_token_embeddings(len(self.tokenizer))
+    model.config.pad_token_id = self.tokenizer.pad_token_id
+    print(self.tokenizer.pad_token_id)
+    print(model.config.pad_token_id)
+    return model
   
   def _load_model_with_qlora(self):
     bnb_config = BitsAndBytesConfig(
@@ -70,7 +82,7 @@ class VpecDeepSeek():
       optimizer=self.optimizer,
       log_dir=config.LOG_DIR + f"/{self.model_name}"
     )
-    trainer.train(config.SFT_VPECDEEPSEEK_EPOCHS)
+    trainer.train(config.SFT_GEMMA3_EPOCHS)
 
   def __generate__(self, input_text, max_target_length):
     inputs = self.tokenizer(

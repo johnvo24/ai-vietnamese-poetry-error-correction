@@ -36,7 +36,7 @@ class VpecGPT2():
     )
     trainer.train(config.SFT_VPECGPT2_EPOCHS)
 
-  def __generate__(self, input_text, max_target_length):
+  def __generate__(self, input_text, max_target_length=None):
     inputs = self.tokenizer(
       input_text + '<sep>',
       padding=False,
@@ -44,10 +44,11 @@ class VpecGPT2():
       max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"
     ).to(self.device)
+    print(self.tokenizer.decode(inputs["input_ids"][0]))
     outputs = self.model.generate(
       input_ids=inputs['input_ids'],
       attention_mask=inputs['attention_mask'],
-      max_length=inputs['input_ids'].shape[1] + max_target_length,
+      max_length=inputs['input_ids'].shape[1] + max_target_length if max_target_length else config.MAX_LENGTH,
       eos_token_id=[self.tokenizer.convert_tokens_to_ids('<eois>'), self.tokenizer.convert_tokens_to_ids('<eos>')],
       num_beams=5,
       early_stopping=True

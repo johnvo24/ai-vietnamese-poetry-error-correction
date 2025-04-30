@@ -1,5 +1,5 @@
 from src.dataset_handler import DatasetHandler
-from src.models import VpecGPT2, VpecDeepSeek
+from src.models import VpecGPT2, VpecDeepSeek, VpecGemma3, VpecQwen
 from src import helper
 from Jvai import GDrive
 
@@ -10,6 +10,10 @@ def train_sft(option="vpec_deepseek"):
     vpec = VpecGPT2()
   elif option == "vpec_deepseek":
     vpec = VpecDeepSeek()
+  elif option == "vpec_gemma3":
+    vpec = VpecGemma3()
+  elif option == "vpec_qwen2_5":
+    vpec = VpecQwen()
   else:
     print("What a stupid option!")
     exit(0)
@@ -28,6 +32,10 @@ def generate(option="vpec_deepseek", g_drive=False):
     vpec = VpecGPT2()
   elif option == "vpec_deepseek":
     vpec = VpecDeepSeek()
+  elif option == "vpec_gemma3":
+    vpec = VpecGemma3()
+  elif option == "vpec_qwen2_5":
+    vpec = VpecQwen()
   else:
     print("What a stupid option!")
     exit(0)
@@ -45,11 +53,11 @@ def generate(option="vpec_deepseek", g_drive=False):
     )
     vpec.model = checkpoint['model']
     vpec.optimizer = checkpoint['optimizer']
-  vpec.__generate__("<sop> Con cò mà đi ăn đêm\nĐậu phải cành đào lộn cổ xuống ao <eop> <reasoning_memory> Bất kể mọi lúc đều có thể có rủi ro. <eois>", 256)
+  vpec.__generate__("<sop> Trời xanh soi mắt em xanh,\nBiển xanh con sóng cuộn nhanh xô bờ.\nEm ra biển ngắm tivi chờ,\nCâu thơ lục bát ngẩn ngơ biển chiều. <eop> <reasoning_memory> Tóm tắt ngữ cảnh: Bài thơ thể hiện nỗi cô đơn, buồn bã của một người chờ đợi trong tình yêu. <eois> Sửa lỗi RE: Thay ""ngẩn ngơ"" bằng ""ngẩn ngơ"" ở dòng 4 tại từ thứ 8 <eois>")
 
 
-train_sft(option="vpec_deepseek")
-# generate(option="vpec_deepseek", g_drive=False)
+train_sft(option="vpec_qwen2_5")
+# generate(option="vpec_deepseek", g_drive=True)
 
 # vpec_deepseek = VpecDeepSeek()
 # print(vpec_deepseek.model)
