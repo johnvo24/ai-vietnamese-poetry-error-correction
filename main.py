@@ -1,5 +1,5 @@
 from src.dataset_handler import DatasetHandler
-from src.models import VpecGPT2, VpecDeepSeek, VpecGemma3, VpecQwen
+from src.models import VpecGPT2, VpecDeepSeek, VpecGemma3, VpecQwen3
 from src import helper
 from Jvai import GDrive
 
@@ -12,8 +12,8 @@ def train_sft(option="vpec_deepseek"):
     vpec = VpecDeepSeek()
   elif option == "vpec_gemma3":
     vpec = VpecGemma3()
-  elif option == "vpec_qwen2_5":
-    vpec = VpecQwen()
+  elif option == "vpec_qwen3":
+    vpec = VpecQwen3()
   else:
     print("What a stupid option!")
     exit(0)
@@ -34,8 +34,8 @@ def generate(option="vpec_deepseek", g_drive=False):
     vpec = VpecDeepSeek()
   elif option == "vpec_gemma3":
     vpec = VpecGemma3()
-  elif option == "vpec_qwen2_5":
-    vpec = VpecQwen()
+  elif option == "vpec_qwen3":
+    vpec = VpecQwen3()
   else:
     print("What a stupid option!")
     exit(0)

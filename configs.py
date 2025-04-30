@@ -8,10 +8,10 @@ MAX_INPUT_LENGTH = 384 # DeepSeekVpec->512
 MAX_LENGTH = 768 # GPT2-256~512, DeepSeekVpec-512~4096->1024
 
 # MODEL
-VPEC_GPT2_MODEL_NAME = 'vpec_gpt2'
-VPEC_DEEPSEEK_MODEL_NAME = 'vpec_deepseek'
-VPEC_GEMMA3_MODEL_NAME = 'vpec_gemma3'
-VPEC_QWEN_MODEL_NAME = 'vpec_qwen2_5'
+VPEC_GPT2_MODEL_NAME = 'vpec_gpt2'          # 137M
+VPEC_DEEPSEEK_MODEL_NAME = 'vpec_deepseek'  # 1.74B
+VPEC_GEMMA3_MODEL_NAME = 'vpec_gemma3'      # 1B
+VPEC_QWEN_MODEL_NAME = 'vpec_qwen3'         # 0.6B
 
 # SFT TRAINING
 # Dataset

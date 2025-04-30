@@ -6,10 +6,10 @@ from src.trainer import Trainer
 from peft import PeftModel, LoraConfig, get_peft_model
 from src import helper
 
-class VpecQwen():
+class VpecQwen3():
   def __init__(self):
     self.model_name = config.VPEC_QWEN_MODEL_NAME
-    self.model_id = 'Qwen/Qwen2.5-1.5B'
+    self.model_id = 'Qwen/Qwen3-0.6B-Base'
     self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # self.device = torch.device('cpu')
     # Define special tokens
