@@ -17,7 +17,7 @@ def train_sft(option="vpec_deepseek"):
   else:
     print("What a stupid option!")
     exit(0)
-  dataset_handler.split_data(save_dataset=True, tokenizer=vpec.tokenizer)
+  # dataset_handler.split_data(save_dataset=True, tokenizer=vpec.tokenizer)
   train_loader, val_loader, _ = dataset_handler.get_data_loader(tokenizer=vpec.tokenizer)
   for name, param in vpec.model.named_parameters():
     print(f"{name}: {param.dtype}")

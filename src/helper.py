@@ -37,9 +37,6 @@ def save_checkpoint(model_dir, epoch, model, optimizer, is_the_best=False):
     'model_state_dict': model.state_dict(),  # Model weights
     'optimizer_state_dict': optimizer.state_dict(),
   }
-  # Check if the model uses QLoRA
-  if hasattr(model, 'peft_model'):
-    checkpoint['adapter_state_dict'] = model.peft_model.sate_dict()
   # Save checkpoint
   torch.save(checkpoint, file_path) 
   print(f"[JV] Checkpoint saved to {file_path}")
