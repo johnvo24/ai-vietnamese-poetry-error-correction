@@ -44,11 +44,11 @@ class Trainer:
     self.tensorboard_writer.add_scalar(f"Loss/{'Validation' if is_val_mode else 'Training'}", average_loss, epoch)
     return average_loss
 
-  def train(self, n_epochs):
-    print(f"{'='*20} TRAIN MODEL {'='*20}")
+  def train(self, n_epochs, start_epoch=-1):
+    print(f"[JV] TRAIN MODEL {'='*40}")
     best_loss = float("inf")
     best_at = -1
-    for epoch in range(n_epochs):
+    for epoch in range(start_epoch+1, start_epoch+1+n_epochs):
       train_loss = self.run_epoch(epoch)
       val_loss = self.run_epoch(epoch, is_val_mode=True)
       # Save checkpoint

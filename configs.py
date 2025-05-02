@@ -21,7 +21,7 @@ SFT_VAL_SIZE = 10 # %
 SFT_TEST_SIZE = 10  # %
 SFT_RANDOM_STATE = 42
 # Dataset loader
-BATCH_SIZE = 2
+BATCH_SIZE = 1
 NUM_WORKERS = 4 # Num of subprocesses to use for data loading
 SHUFFLE = False
 # Training

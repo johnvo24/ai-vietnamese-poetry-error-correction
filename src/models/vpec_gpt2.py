@@ -25,7 +25,15 @@ class VpecGPT2():
     self.model = self.model.to(self.device)
     self.optimizer = AdamW(self.model.parameters(), config.SFT_VPECGPT2_LEARNING_RATE)
 
-  def __train_sft__(self, train_loader, val_loader):
+  def __train_sft__(self, train_loader, val_loader, from_best_checkpoint=False):
+    start_epoch = -1
+    if from_best_checkpoint:
+      checkpoint = helper.load_checkpoint(self.model_name, self.model, self.optimizer, is_the_best=True)
+      start_epoch = checkpoint['epoch']
+      print(f"[JV] Loading model from {self.model_name}/best_checkpoint.tar [EPOCH: {start_epoch}]")
+      self.model = checkpoint['model']
+      self.optimizer = checkpoint['optimizer']
+
     trainer = Trainer(
       model=self.model,
       model_dir_name=self.model_name,
@@ -34,7 +42,7 @@ class VpecGPT2():
       optimizer=self.optimizer,
       log_dir=config.LOG_DIR + f"/{self.model_name}"
     )
-    trainer.train(config.SFT_VPECGPT2_EPOCHS)
+    trainer.train(config.SFT_VPECGPT2_EPOCHS, start_epoch)
 
   def __generate__(self, input_text, max_target_length=None):
     inputs = self.tokenizer(
