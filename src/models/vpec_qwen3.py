@@ -1,3 +1,4 @@
+import time
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 import configs as config
@@ -19,12 +20,9 @@ class VpecQwen3():
     ]
     # Initialize
     self.tokenizer = self._load_tokenizer()
-    self.model = self._load_model_with_qlora()
+    self.model = None
     # Create Optimizer
-    self.optimizer = AdamW(
-      filter(lambda p: p.requires_grad, self.model.parameters()), 
-      lr=config.SFT_QWEN_LEARNING_RATE
-    )
+    self.optimizer = None
 
   def _load_tokenizer(self):
     tokenizer = AutoTokenizer.from_pretrained(self.model_id)
@@ -35,14 +33,17 @@ class VpecQwen3():
     return tokenizer
   
   def _load_model(self):
-    model = AutoModelForCausalLM.from_pretrained(
+    self.model = AutoModelForCausalLM.from_pretrained(
       self.model_id,
       device_map='auto',
       trust_remote_code=True
     ).to(self.device)
-    model.resize_token_embeddings(len(self.tokenizer))
-    model.config.pad_token_id = self.tokenizer.pad_token_id
-    return model
+    self.model.resize_token_embeddings(len(self.tokenizer))
+    self.model.config.pad_token_id = self.tokenizer.pad_token_id
+    self.optimizer = AdamW(
+      filter(lambda p: p.requires_grad, self.model.parameters()),
+      lr=config.SFT_QWEN_LEARNING_RATE
+    )
   
   def _load_model_with_qlora(self):
     bnb_config = BitsAndBytesConfig(
@@ -68,27 +69,34 @@ class VpecQwen3():
       # target_modules=["self_attn.q_proj", "self_attn.k_proj", "self_attn.v_proj", "self_attn.o_proj", "mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"]  # Module to apply LoRA
       target_modules=["self_attn.q_proj", "self_attn.v_proj", "mlp.down_proj"]  # Module to apply LoRA
     )
-    model = get_peft_model(base_model, lora_config)
-    return model
+    self.model = get_peft_model(base_model, lora_config)
+    self.optimizer = AdamW(
+      filter(lambda p: p.requires_grad, self.model.parameters()), 
+      lr=config.SFT_QWEN_LEARNING_RATE
+    )
 
   def __train_sft__(self, train_loader, val_loader, from_best_checkpoint=False):
-    start_epoch = -1
-    if from_best_checkpoint:
-      checkpoint = helper.load_checkpoint(self.model_name, self.model, self.optimizer, is_the_best=True)
-      start_epoch = checkpoint['epoch']
-      print(f"[JV] Loading model from {self.model_name}/best_checkpoint.tar [EPOCH: {start_epoch}]")
-      self.model = checkpoint['model']
-      self.optimizer = checkpoint['optimizer']
+    try:
+      start_epoch = -1
+      if from_best_checkpoint:
+        checkpoint = helper.load_checkpoint(self.model_name, self.model, self.optimizer, is_the_best=True)
+        start_epoch = checkpoint['epoch']
+        print(f"[JV] Loading model from {self.model_name}/best_checkpoint.tar [EPOCH: {start_epoch}]")
+        self.model = checkpoint['model']
+        self.optimizer = checkpoint['optimizer']
 
-    trainer = Trainer(
-      model=self.model,
-      model_dir_name=self.model_name,
-      train_loader=train_loader,
-      val_loader=val_loader,
-      optimizer=self.optimizer,
-      log_dir=config.LOG_DIR + f"/{self.model_name}"
-    )
-    trainer.train(config.SFT_QWEN_EPOCHS, start_epoch)
+      trainer = Trainer(
+        model=self.model,
+        model_dir_name=self.model_name,
+        train_loader=train_loader,
+        val_loader=val_loader,
+        optimizer=self.optimizer,
+        log_dir=config.LOG_DIR + f"/{self.model_name}/run_{time.strftime('%Y%m%d_%H%M%S')}",
+        gradient_accumulation_steps=config.GRADIENT_ACCUMULATION_STEPS
+      )
+      trainer.train(config.SFT_QWEN_EPOCHS, start_epoch)
+    except FileNotFoundError as e:
+      print("[ERROR] FileNotFoundError: No such file: best_checkpoint.tar")
 
   def __generate__(self, input_text, max_target_length):
     inputs = self.tokenizer(

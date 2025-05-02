@@ -5,7 +5,7 @@ from Jvai import GDrive
 
 dataset_handler = DatasetHandler()
 
-def train_sft(option="vpec_deepseek", from_best_checkpoint=False):
+def prepare_dataset(option="vpec_deepseek"):
   if option == "vpec_gpt2":
     vpec = VpecGPT2()
   elif option == "vpec_deepseek":
@@ -17,7 +17,22 @@ def train_sft(option="vpec_deepseek", from_best_checkpoint=False):
   else:
     print("What a stupid option!")
     exit(0)
-  # dataset_handler.split_data(save_dataset=True, tokenizer=vpec.tokenizer)
+  dataset_handler.split_data(save_dataset=True, tokenizer=vpec.tokenizer)
+  print("[JV] Dataset preparation done!")
+
+def train_sft(option="vpec_deepseek", from_best_checkpoint=False):
+  if option == "vpec_gpt2":
+    vpec = VpecGPT2()
+  elif option == "vpec_deepseek":
+    vpec = VpecDeepSeek()
+  elif option == "vpec_gemma3":
+    vpec = VpecGemma3()
+  elif option == "vpec_qwen3":
+    vpec = VpecQwen3()
+    vpec._load_model_with_qlora()
+  else:
+    print("What a stupid option!")
+    exit(0)
   train_loader, val_loader, _ = dataset_handler.get_data_loader(tokenizer=vpec.tokenizer)
   # for name, param in vpec.model.named_parameters():
   #   print(f"{name}: {param.dtype}")
@@ -37,6 +52,7 @@ def generate(option="vpec_deepseek", g_drive=False):
     vpec = VpecGemma3()
   elif option == "vpec_qwen3":
     vpec = VpecQwen3()
+    vpec._load_model_with_qlora()
   else:
     print("What a stupid option!")
     exit(0)
@@ -56,9 +72,25 @@ def generate(option="vpec_deepseek", g_drive=False):
     vpec.optimizer = checkpoint['optimizer']
   vpec.__generate__("<sop> Trời xanh soi mắt em xanh,\nBiển xanh con sóng cuộn nhanh xô bờ.\nEm ra biển ngắm tivi chờ,\nCâu thơ lục bát ngẩn ngơ biển chiều. <eop> <reasoning_memory> Tóm tắt ngữ cảnh: Bài thơ thể hiện nỗi cô đơn, buồn bã của một người chờ đợi trong tình yêu. <eois> Sửa lỗi RE: Thay ""ngẩn ngơ"" bằng ""ngẩn ngơ"" ở dòng 4 tại từ thứ 8 <eois>")
 
+def main():
+  while True:
+    print("Options:\n1.vpec_qwen3\n2.vpec_gp2\n3. vpec_deepseek\n4.vpec_gemma3")
+    inp = int(input("Your choice: "))
+    if inp < 1 or inp > 4:
+      continue
+    else:
+      option = "vpec_qwen3" if inp == 1 else "vpec_gpt2" if inp == 2 else "vpec_deepseek" if inp == 3 else "vpec_gemma3"
+      break
+  while True:
+    print("Methods:\n1.Preparing\n2.Training\n3. Generating")
+    inp1 = int(input("Your choice: "))
+    if inp1 < 1 or inp1 > 3:
+      continue
+    else:
+      break
+  if inp1 == 1: prepare_dataset(option=option)
+  elif inp1 == 2: train_sft(option=option, from_best_checkpoint=False)
+  elif inp1 == 3: generate(option=option, g_drive=False)
 
-train_sft(option="vpec_gpt2", from_best_checkpoint=True)
-# generate(option="vpec_deepseek", g_drive=True)
-
-# vpec_deepseek = VpecDeepSeek()
-# print(vpec_deepseek.model)
+if __name__ == "__main__":
+  main()
