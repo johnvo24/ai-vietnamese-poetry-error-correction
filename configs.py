@@ -4,8 +4,8 @@ import os
 # TRAIN SETUP
 USE_GDRIVE=False
 MAX_REASONING_MEMORY = 6 # n steps = step 0 & n-1 last steps
-MAX_INPUT_LENGTH = 512 # DeepSeekVpec->512
-MAX_LENGTH = 1024 # GPT2-256~512, DeepSeekVpec-512~4096->1024
+MAX_INPUT_LENGTH = 384 # DeepSeekVpec->512
+MAX_LENGTH = 768 # GPT2-256~512, DeepSeekVpec-512~4096->1024
 
 # MODEL
 VPEC_GPT2_MODEL_NAME = 'vpec_gpt2'          # 137M
@@ -16,7 +16,7 @@ VPEC_QWEN_MODEL_NAME = 'vpec_qwen3'         # 0.6B
 # SFT TRAINING
 # Dataset
 SFT_DATASET_FILE_PATH = 'data/sft_dataset/poetryfix_gold_data.csv'
-SFT_DATASET_SIZE = 10000 # Dataset for training
+SFT_DATASET_SIZE = 16000 # Dataset for training
 SFT_TRAIN_SIZE = 80 # %
 SFT_VAL_SIZE = 10 # %
 SFT_TEST_SIZE = 10  # %
@@ -24,7 +24,7 @@ SFT_RANDOM_STATE = 42
 SFT_SPLIT_WITH_SHUFFLE=False
 # Dataset loader
 BATCH_SIZE = 2
-GRADIENT_ACCUMULATION_STEPS = 4 # MIN=1 - Update weights every n steps (n batchs = n*batch_size samples)
+GRADIENT_ACCUMULATION_STEPS = 8 # MIN=1 - Update weights every n steps (n batchs = n*batch_size samples)
 NUM_WORKERS = 4 # Num of subprocesses to use for data loading
 SHUFFLE = False
 # Training
