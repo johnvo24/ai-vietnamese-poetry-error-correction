@@ -98,7 +98,7 @@ class VpecQwen3():
     except FileNotFoundError as e:
       print("[ERROR] FileNotFoundError: No such file: best_checkpoint.tar")
 
-  def __generate__(self, input_text, max_target_length):
+  def __generate__(self, input_text, max_target_length=None):
     inputs = self.tokenizer(
       input_text + '<sep>',
       padding=False,
@@ -109,7 +109,7 @@ class VpecQwen3():
     outputs = self.model.generate(
       input_ids=inputs['input_ids'],
       attention_mask=inputs['attention_mask'],
-      max_length=inputs['input_ids'].shape[1] + max_target_length,
+      max_length=inputs['input_ids'].shape[1] + max_target_length if max_target_length else config.MAX_LENGTH,
       eos_token_id=[self.tokenizer.convert_tokens_to_ids('<eois>'), self.tokenizer.convert_tokens_to_ids('<eos>')],
       num_beams=5,
       early_stopping=True

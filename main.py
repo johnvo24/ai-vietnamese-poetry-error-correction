@@ -29,7 +29,7 @@ def train_sft(option="vpec_deepseek", from_best_checkpoint=False):
     vpec = VpecGemma3()
   elif option == "vpec_qwen3":
     vpec = VpecQwen3()
-    vpec._load_model_with_qlora()
+    vpec._load_model()
   else:
     print("What a stupid option!")
     exit(0)
@@ -52,7 +52,7 @@ def generate(option="vpec_deepseek", g_drive=False):
     vpec = VpecGemma3()
   elif option == "vpec_qwen3":
     vpec = VpecQwen3()
-    vpec._load_model_with_qlora()
+    vpec._load_model()
   else:
     print("What a stupid option!")
     exit(0)
@@ -70,7 +70,7 @@ def generate(option="vpec_deepseek", g_drive=False):
     )
     vpec.model = checkpoint['model']
     vpec.optimizer = checkpoint['optimizer']
-  vpec.__generate__("<sop> Trời xanh soi mắt em xanh,\nBiển xanh con sóng cuộn nhanh xô bờ.\nEm ra biển ngắm tivi chờ,\nCâu thơ lục bát ngẩn ngơ biển chiều. <eop> <reasoning_memory> Tóm tắt ngữ cảnh: Bài thơ thể hiện nỗi cô đơn, buồn bã của một người chờ đợi trong tình yêu. <eois> Sửa lỗi RE: Thay ""ngẩn ngơ"" bằng ""ngẩn ngơ"" ở dòng 4 tại từ thứ 8 <eois>")
+  vpec.__generate__("<sop> Vô tình ngọn gió đánh rơi,\nMột lần sao nhớ, cả đời sao quên.\nĐể ai cứ mãi nhớ hoài,\nDòng sông rất thích miền tuổi thơ. <eop> <reasoning_memory> Bài thơ thể hiện nỗi nhớ da diết về những kỷ niệm tuổi thơ giản dị, gắn liền với những điều bình dị trong cuộc sống. <eois>")
 
 def main():
   while True:
