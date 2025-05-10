@@ -110,6 +110,7 @@ class VpecQwen3():
       input_ids=inputs['input_ids'],
       attention_mask=inputs['attention_mask'],
       max_length=inputs['input_ids'].shape[1] + max_target_length if max_target_length else config.MAX_LENGTH,
+      eos_token_id=self.tokenizer.convert_tokens_to_ids('<eois>'),
       # num_beams=5,        # Beam Search with 5 beams
       do_sample=True,
       top_k=50,           # Top 50 best token
