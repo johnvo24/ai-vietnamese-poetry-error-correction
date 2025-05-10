@@ -133,4 +133,4 @@ class VpecQwen3():
         reasoning_step = output_text.strip()
       # print("Reasoning Step: \n", reasoning_step)
       result.append(reasoning_step)
-      return result
+    return result
