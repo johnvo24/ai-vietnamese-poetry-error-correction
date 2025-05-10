@@ -121,11 +121,11 @@ class VpecQwen3():
 
     generated_texts = []
     for index in range(outputs.shape[0]):
-      eos_token_ids = self.tokenizer.convert_tokens_to_ids('<eos>')
-      try:
-        idx = outputs[index].index(idx)
-        text_generated = outputs[index][inputs['input_ids'].shape[1]: idx + 1]
-      except ValueError:
-        text_generated = outputs[index][inputs['input_ids'].shape[1]: ]
-      result = self.tokenizer.decode(text_generated, skip_special_tokens=False)
-      print("Reasoning Step: \n", result)
+      text_generated = outputs[index][inputs['input_ids'].shape[1]: ]
+      output_text = self.tokenizer.decode(text_generated, skip_special_tokens=False)
+      first_eos_index = output_text.find('<eos>')
+      if first_eos_index != -1:
+        reasoning_step = output_text[:first_eos_index + len("<eos>")].strip()
+      else:
+        reasoning_step = output_text.strip()
+      print("Reasoning Step: \n", reasoning_step)
