@@ -56,13 +56,15 @@ class VpecGPT2():
       max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"
     ).to(self.device)
-    print(self.tokenizer.decode(inputs["input_ids"][0]))
     outputs = self.model.generate(
       input_ids=inputs['input_ids'],
       attention_mask=inputs['attention_mask'],
       max_length=inputs['input_ids'].shape[1] + max_target_length if max_target_length else config.MAX_LENGTH,
       eos_token_id=[self.tokenizer.convert_tokens_to_ids('<eois>'), self.tokenizer.convert_tokens_to_ids('<eos>')],
-      num_beams=5,
+      num_beams=5,        # Beam Search with 5 beams
+      top_k=50,           # Top 50 best token
+      top_p=0.9,          # Chooses the most probable tokens whose cumulative probability (xac suat tich luy) is at most 0.9
+      temperature=0.7,    # Controls the creativity of the model
       early_stopping=True
     )
     text_generated = outputs[0][inputs['input_ids'].shape[1]: ]
