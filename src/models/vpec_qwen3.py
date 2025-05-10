@@ -119,7 +119,7 @@ class VpecQwen3():
       num_return_sequences=num_return_sequences,
     )
 
-    generated_texts = []
+    result = []
     for index in range(outputs.shape[0]):
       text_generated = outputs[index][inputs['input_ids'].shape[1]: ]
       output_text = self.tokenizer.decode(text_generated, skip_special_tokens=False)
@@ -131,4 +131,6 @@ class VpecQwen3():
         reasoning_step = output_text[:first_eois_index + len("<eois>")].strip()
       else:
         reasoning_step = output_text.strip()
-      print("Reasoning Step: \n", reasoning_step)
+      # print("Reasoning Step: \n", reasoning_step)
+      result.append(reasoning_step)
+      return result
