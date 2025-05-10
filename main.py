@@ -90,7 +90,7 @@ def main():
     else:
       break
   if inp1 == 1: prepare_dataset(option=option)
-  elif inp1 == 2: train_sft(option=option, from_best_checkpoint=False)
+  elif inp1 == 2: train_sft(option=option, from_best_checkpoint=True)
   elif inp1 == 3: generate(option=option, g_drive=False)
 
 if __name__ == "__main__":
