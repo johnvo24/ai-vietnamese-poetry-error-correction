@@ -110,7 +110,6 @@ class VpecQwen3():
       input_ids=inputs['input_ids'],
       attention_mask=inputs['attention_mask'],
       max_length=inputs['input_ids'].shape[1] + max_target_length if max_target_length else config.MAX_LENGTH,
-      eos_token_id=self.tokenizer.convert_tokens_to_ids('<eois>'),
       # num_beams=5,        # Beam Search with 5 beams
       do_sample=True,
       top_k=50,           # Top 50 best token
@@ -124,8 +123,11 @@ class VpecQwen3():
       text_generated = outputs[index][inputs['input_ids'].shape[1]: ]
       output_text = self.tokenizer.decode(text_generated, skip_special_tokens=False)
       first_eos_index = output_text.find('<eos>')
+      first_eois_index = output_text.find('<eois>')
       if first_eos_index != -1:
         reasoning_step = output_text[:first_eos_index + len("<eos>")].strip()
+      elif first_eois_index != -1:
+        reasoning_step = output_text[:first_eois_index + len("<eois>")].strip()
       else:
         reasoning_step = output_text.strip()
       print("Reasoning Step: \n", reasoning_step)
