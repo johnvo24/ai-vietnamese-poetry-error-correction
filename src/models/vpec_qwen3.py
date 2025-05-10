@@ -119,9 +119,8 @@ class VpecQwen3():
       num_return_sequences=num_return_sequences,
       early_stopping=True
     )
-    print(outputs.shape)
-    # generated_texts = []
-    # for index in range():
-    #   text_generated = outputs[0][inputs['input_ids'].shape[1]: ]
-    # result = self.tokenizer.decode(text_generated, skip_special_tokens=False)
-    # print("Reasoning Step: \n", result)
+    generated_texts = []
+    for index in range(outputs.shape[0]):
+      text_generated = outputs[index][inputs['input_ids'].shape[1]: ]
+      result = self.tokenizer.decode(text_generated, skip_special_tokens=False)
+      print("Reasoning Step: \n", result)
