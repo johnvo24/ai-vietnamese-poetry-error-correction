@@ -70,7 +70,7 @@ def generate(option="vpec_deepseek", g_drive=False):
     )
     vpec.model = checkpoint['model']
     vpec.optimizer = checkpoint['optimizer']
-  result = vpec.__generate__(input_text="<sop> Vô tình ngọn gió đánh rơi,\nMột lần sao nhớ, cả đời sao quên.\nĐể ai cứ mãi nhớ hoài,\nDòng sông rất thích miền tuổi thơ. <eop> <reasoning_memory> Bài thơ thể hiện nỗi nhớ da diết về những kỷ niệm tuổi thơ giản dị, gắn liền với những điều bình dị trong cuộc sống. <eois>", num_return_sequences=5)
+  result = vpec.__generate__(input_text="<sop> Vô tình ngọn gió đánh rơi,\nMột lần sao nhớ, cả đời sao quên.\nĐể ai cứ mãi nhớ hoài,\nDòng sông rất thích miền tuổi thơ. <eop> <reasoning_memory> Tóm tắt ngữ cảnh: Bài thơ thể hiện sự hoài niệm về quá khứ tươi đẹp, nơi những kỷ niệm đã qua được trôi đi và dòng sông gợi nhớ những kỷ niệm tuổi thơ. <eois>", num_return_sequences=5)
   print(result)
 
 def main():
