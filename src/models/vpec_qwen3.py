@@ -34,14 +34,14 @@ class VpecQwen3():
   
   def _load_model(self):
     # Load configuration and adjust dropout settings
-    config = AutoConfig.from_pretrained(self.model_id)
-    config.attention_dropout = 0.1
-    config.resid_pdrop = 0.1
-    config.embd_pdrop = 0.1
+    model_config = AutoConfig.from_pretrained(self.model_id)
+    model_config.attention_dropout = 0.1
+    model_config.resid_pdrop = 0.1
+    model_config.embd_pdrop = 0.1
 
     self.model = AutoModelForCausalLM.from_pretrained(
       self.model_id,
-      config=config,
+      config=model_config,
       device_map='auto',
       trust_remote_code=True
     ).to(self.device)
