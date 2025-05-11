@@ -1,5 +1,5 @@
 import time
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 import configs as config
 from torch.optim import AdamW
@@ -33,13 +33,22 @@ class VpecQwen3():
     return tokenizer
   
   def _load_model(self):
+    # Load configuration and adjust dropout settings
+    config = AutoConfig.from_pretrained(self.model_id)
+    config.attention_dropout = 0.1
+    config.resid_pdrop = 0.1
+    config.embd_pdrop = 0.1
+
     self.model = AutoModelForCausalLM.from_pretrained(
       self.model_id,
+      config=config,
       device_map='auto',
       trust_remote_code=True
     ).to(self.device)
+    
     self.model.resize_token_embeddings(len(self.tokenizer))
     self.model.config.pad_token_id = self.tokenizer.pad_token_id
+    
     self.optimizer = AdamW(
       filter(lambda p: p.requires_grad, self.model.parameters()),
       lr=config.SFT_QWEN_LEARNING_RATE
