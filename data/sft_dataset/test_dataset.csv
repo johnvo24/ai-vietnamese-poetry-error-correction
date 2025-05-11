@@ -1,0 +1,2541 @@
+error_poem,step_content,edited_poem
+"Con gà khóe mắt cay cay,
+Choàng qua ôm mẹ vòng tay yếu mềm.
+Mẹ cười vỗ nhẹ êm êm,
+Con nghe hơi ấm ngọt mềm tỏa lan.","<error> ME
+<desc> Nội dung dòng thơ đầu tiên không phù hợp với mạch cảm xúc chung của bài thơ về tình mẫu tử. Việc thay ""Con"" bằng ""Con gà"" tạo sự vô lý, phá vỡ sự ấm áp và thiêng liêng của tình mẹ con.
+<reason> Cần thay thế ""Con gà"" bằng một từ ngữ phù hợp hơn, gợi hình ảnh một đứa trẻ đang buồn và cần sự an ủi của mẹ. ""Con nằm"" là lựa chọn tốt nhất vì nó đơn giản, trực tiếp và phù hợp với bối cảnh.
+<action> Con nằm <replace> Con gà <line> 1 <index> 1
+<effect> Việc thay ""Con gà"" bằng ""Con nằm"" giúp khôi phục mạch cảm xúc của bài thơ, tạo sự liền mạch và phù hợp với chủ đề tình mẫu tử. Bài thơ trở nên ý nghĩa và cảm động hơn.
+<eos>","Con nằm khóe mắt cay cay,
+Choàng qua ôm mẹ vòng tay yếu mềm.
+Mẹ cười vỗ nhẹ êm êm,
+Con nghe hơi ấm ngọt mềm tỏa lan."
+"Hôm nay về dưới mái nhà,
+Hai gian nhà bỗng thấy lao xao.
+Mầm non nay đã xuống rồi,
+Mà lòng còn nhớ xiết bao nơi này.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi niềm xúc động, bồi hồi của người con khi trở về mái nhà xưa, nhận thấy sự thay đổi của không gian và trào dâng ký ức về những kỷ niệm gắn bó.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Hôm nay về dưới mái nhà,
+Hai gian nhà bỗng thấy lao xao.
+Mầm non nay đã xuống rồi,
+Mà lòng còn nhớ xiết bao nơi này."
+"Hôm nay về dưới mái nhà,
+Hai gian nhà bỗng thấy lao xao.
+Mầm non nay đã xuống rồi,
+Mà lòng còn nhớ xiết bao nơi này.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 3 (""rồi"") và tiếng thứ 6 câu 4 (""bao"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau.
+<action> cao <replace> rồi <line> 3 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Hôm nay về dưới mái nhà,
+Hai gian nhà bỗng thấy lao xao.
+Mầm non nay đã xuống cao,
+Mà lòng còn nhớ xiết bao nơi này."
+"Hôm nay về dưới mái nhà,
+Hai gian nhà bỗng thấy lao xao.
+Mầm non nay đã xuống cao,
+Mà lòng còn nhớ xiết bao nơi này.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""bỗng thấy lao xao"" trong câu 2 không giàu ý nghĩa, không đậm chất trữ tình, khô khan.
+<reason> Để sửa lỗi này, cần thay đổi thành cụm từ khác phù hợp với ý nghĩa sẵn có của câu thơ.
+<action> nghiên ngả xuyến xao <replace> bỗng thấy lao xao <line> 2 <index> 4
+<effect> Sau khi sửa lỗi, đã lấy lại được ý nghĩa của câu thơ.
+<eois>","Hôm nay về dưới mái nhà,
+Hai gian nhà nghiêng ngả xuyến xao.
+Mầm non nay đã xuống cao,
+Mà lòng còn nhớ xiết bao nơi này."
+"Hôm nay về dưới mái nhà,
+Hai gian nhà nghiêng ngả xuyến xao.
+Mầm non nay đã xuống cao,
+Mà lòng còn nhớ xiết bao nơi này.","<error> IE
+<desc> Lỗi hình ảnh: từ ""xuống"" trong câu thơ 3 không phù hợp với ngữ cảnh và hình ảnh câu thơ, không phù hợp khi đứng cạnh chữ ""cao"". Cần thay đổi để câu thơ giàu hình ảnh hơn.
+<reason> Cần thay thế từ ""xuống"" bằng một từ khác giúp hình ảnh của câu thơ ý nghĩa hơn.
+<action> trỗi <replace> xuống <line> 3 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ đã hoàn chỉnh và ý nghĩa hơn.
+<eois>","Hôm nay về dưới mái nhà,
+Hai gian nhà nghiêng ngả xuyến xao.
+Mầm non nay đã trỗi cao,
+Mà lòng còn nhớ xiết bao nơi này."
+"Hôm nay về dưới mái nhà,
+Hai gian nhà nghiêng ngả xuyến xao.
+Mầm non nay đã trỗi cao,
+Mà lòng còn nhớ xiết bao nơi này.","<error> SE
+<desc> Câu thơ thứ hai bị sai cấu trúc lục bát chỉ có 7 chữ. Điều này ảnh hưởng đến nhịp điệu và tính thẩm mỹ của bài thơ.
+<reason> Câu thơ thứ hai hiện tại chỉ có 7 chữ, trong khi theo thể lục bát, câu thứ hai phải có 8 chữ. Cần thêm hai chữ vào câu này để đảm bảo đúng niêm luật.
+<action> Hai gian nghiêng ngả những là xuyến xao <replace> Hai gian nhà nghiêng ngả xuyến xao <line> 2 <index> 1
+<effect> Đã sửa lại câu thơ thứ hai cho đúng thể lục bát 8 chữ. Bài thơ đã đảm bảo đúng niêm luật và có nhịp điệu hài hòa hơn.
+<eos>","Hôm nay về dưới mái nhà,
+Hai gian nghiêng ngả những là xuyến xao.
+Mầm non nay đã trỗi cao,
+Mà lòng còn nhớ xiết bao nơi này."
+"Những năm mình đã ăn cơm,
+Nào ngờ định mệnh gieo đau bắt đầu.
+Chữ sầu anh gửi từng câu,
+Chữ ""xe hơi"" anh bỏ đi đâu mất rồi?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thất vọng và đau khổ trong tình yêu, khi những khó khăn bất ngờ ập đến khiến cuộc sống và những hứa hẹn về vật chất tan vỡ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Những năm mình đã ăn cơm,
+Nào ngờ định mệnh gieo đau bắt đầu.
+Chữ sầu anh gửi từng câu,
+Chữ ""xe hơi"" anh bỏ đi đâu mất rồi?"
+"Những năm mình đã ăn cơm,
+Nào ngờ định mệnh gieo đau bắt đầu.
+Chữ sầu anh gửi từng câu,
+Chữ ""xe hơi"" anh bỏ đi đâu mất rồi?","<error> ME
+<desc> Lỗi ý nghĩa. Việc thay thế ""thương"" bằng ""xe hơi"" khiến câu thơ trở nên vô nghĩa và lạc lõng, phá vỡ mạch cảm xúc của bài thơ tình. 
+<reason> Cần thay ""xe hơi"" bằng một từ ngữ liên quan đến tình cảm, cảm xúc để phù hợp với chủ đề của bài thơ. ""Thương"" là một lựa chọn tốt vì nó liên quan đến tình yêu, nỗi nhớ.
+<action> Chữ thương <replace> Chữ ""xe hơi"" <line> 4 <index> 1
+<effect> Khôi phục lại ý nghĩa ban đầu của câu thơ, làm cho bài thơ trở nên mạch lạc và giàu cảm xúc hơn.
+<eois>","Những năm mình đã ăn cơm,
+Nào ngờ định mệnh gieo đau bắt đầu.
+Chữ sầu anh gửi từng câu,
+Chữ thương anh bỏ đi đâu mất rồi?"
+"Những năm mình đã ăn cơm,
+Nào ngờ định mệnh gieo đau bắt đầu.
+Chữ sầu anh gửi từng câu,
+Chữ thương anh bỏ đi đâu mất rồi?","<error> ME
+<desc> Lỗi ý nghĩa. Việc thay ""yêu nhau"" bằng ""ăn cơm"" khiến câu thơ đầu tiên trở nên vô nghĩa và lạc lõng so với chủ đề tình yêu và nỗi buồn của bài thơ. Nó phá vỡ mạch cảm xúc và làm giảm giá trị thẩm mỹ của toàn bộ tác phẩm.
+<reason> Cần thay thế cụm từ ""ăn cơm"" bằng một cụm từ liên quan đến tình cảm, kỷ niệm hoặc trải nghiệm chung của hai người yêu nhau để phù hợp với chủ đề và tạo sự liên kết với các dòng thơ sau.
+<action> yêu nhau <replace> ăn cơm <line> 1 <index> 5
+<effect> Việc thay ""ăn cơm"" bằng ""yêu nhau"" khôi phục lại ý nghĩa ban đầu và phù hợp với chủ đề tình yêu và nỗi buồn của bài thơ. Câu thơ trở nên có nghĩa và tạo sự liên kết với các dòng thơ sau, cải thiện đáng kể chất lượng tổng thể của tác phẩm.
+<eos>","Những năm mình đã yêu nhau,
+Nào ngờ định mệnh gieo đau bắt đầu.
+Chữ sầu anh gửi từng câu,
+Chữ thương anh bỏ đi đâu mất rồi?"
+"Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi nắng dỗi hờn trăm năm.
+Em đi thật xa quá trăng rằm,
+Ngàn năm sau nữa chén cơm nhả tơ.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn chia ly, sự hụt hẫng và tiếc nuối về một cuộc tình đã qua, kéo dài đến vô tận.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi nắng dỗi hờn trăm năm.
+Em đi thật xa quá trăng rằm,
+Ngàn năm sau nữa chén cơm nhả tơ."
+"Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi nắng dỗi hờn trăm năm.
+Em đi thật xa quá trăng rằm,
+Ngàn năm sau nữa chén cơm nhả tơ.","<error> SE
+<desc> Câu thơ ""Em đi thật xa quá trăng rằm"" có 7 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Điều này ảnh hưởng đến nhịp điệu và tính thẩm mỹ của bài thơ.
+<reason> Để đảm bảo cấu trúc lục bát, câu thơ cần được rút gọn hoặc thay đổi để có đúng 6 chữ. Cụm từ ""thật xa"" có thể lược bỏ mà không ảnh hưởng lớn đến nghĩa.
+<action> Em đi xa quá trăng rằm <replace> Em đi thật xa quá trăng rằm <line> 3 <index> 1
+<effect> Câu thơ đã được sửa thành 6 chữ, tuân thủ đúng cấu trúc lục bát. Bài thơ trở nên hài hòa và nhịp nhàng hơn.
+<eois>","Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi nắng dỗi hờn trăm năm.
+Em đi xa quá trăng rằm,
+Ngàn năm sau nữa chén cơm nhả tơ."
+"Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi nắng dỗi hờn trăm năm.
+Em đi xa quá trăng rằm,
+Ngàn năm sau nữa chén cơm nhả tơ.","<error> IE
+<desc> Lỗi hình ảnh thơ ""Hắt hiu sợi nắng"" không phù hợp với cảm xúc buồn, cô đơn mà bài thơ hướng tới. ""Sợi nắng"" thường gợi cảm giác ấm áp, tươi sáng, trái ngược với không khí ""dỗi hờn trăm năm"".
+<reason> Nên thay thế bằng hình ảnh khác gợi sự cô đơn, mỏng manh, phù hợp với tâm trạng ""dỗi hờn"" và thời gian ""trăm năm"". ""Sợi khói"" mang sắc thái u buồn, dễ gợi liên tưởng đến sự mong manh, tan biến.
+<action> sợi khói <replace> sợi nắng <line> 2 <index> 3
+<effect> Hình ảnh ""sợi khói"" phù hợp hơn với không khí buồn, cô đơn của bài thơ, đồng thời tăng tính biểu cảm và gợi cảm xúc cho người đọc. Bài thơ trở nên thống nhất và sâu sắc hơn.
+<eois>","Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi khói dỗi hờn trăm năm.
+Em đi xa quá trăng rằm,
+Ngàn năm sau nữa chén cơm nhả tơ."
+"Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi khói dỗi hờn trăm năm.
+Em đi xa quá trăng rằm,
+Ngàn năm sau nữa chén cơm nhả tơ.","<error> ME
+<desc> Lỗi ý nghĩa. Việc ""chén cơm nhả tơ"" không có nghĩa, phá vỡ mạch cảm xúc và hình ảnh thơ mộng của bài thơ.
+<reason> Cần thay thế cụm từ ""chén cơm"" bằng một hình ảnh phù hợp với ""kiếp tằm nhả tơ"" và chủ đề của bài thơ, gợi sự chờ đợi, nhớ nhung.
+<action> kiếp tằm <replace> chén cơm <line> 4 <index> 5
+<effect> Thay ""chén cơm"" bằng ""kiếp tằm"" tạo sự liên kết chặt chẽ với hình ảnh tằm nhả tơ, làm cho câu thơ có ý nghĩa và phù hợp với chủ đề chung của bài thơ.
+<eos>","Dạt dào mây gió nguồn cơn,
+Hắt hiu sợi khói dỗi hờn trăm năm.
+Em đi xa quá trăng rằm,
+Ngàn năm sau nữa kiếp tằm nhả tơ."
+"Đừng vui ngày ấy đã qua,
+Đừng buồn con chó sương pha, đừng buồn.
+Cõi người nắng dội cá chuồn,
+Mong manh hạnh phúc cánh chuồn mong manh.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chiêm nghiệm về những điều đã qua, nỗi buồn man mác và sự mong manh của hạnh phúc trong cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đừng vui ngày ấy đã qua,
+Đừng buồn con chó sương pha, đừng buồn.
+Cõi người nắng dội cá chuồn,
+Mong manh hạnh phúc cánh chuồn mong manh."
+"Đừng vui ngày ấy đã qua,
+Đừng buồn con chó sương pha, đừng buồn.
+Cõi người nắng dội cá chuồn,
+Mong manh hạnh phúc cánh chuồn mong manh.","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""cá chuồn"" có trong câu thơ 3 không hợp với ngữ cảnh câu thơ, không phù hợp với nghĩa của các từ trước nó.
+<reason> Cần thay thế cụm từ ""cá chuồn"" thành cụm từ khác hợp với ngữ cảnh câu thơ hơn.
+<action> mưa tuôn <replace> cá chuồn <line> 3 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ trở nên ý nghĩa hơn.
+<eois>","Đừng vui ngày ấy đã qua,
+Đừng buồn con chó sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh chuồn mong manh."
+"Đừng vui ngày ấy đã qua,
+Đừng buồn con chó sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh chuồn mong manh.","<error> IE
+<desc> Hình ảnh ""con chó sương pha"" không phù hợp với ngữ cảnh và cảm xúc của bài thơ, tạo cảm giác lạc lõng, khiên cưỡng và phá vỡ sự liên kết giữa các dòng thơ. Nó không gợi lên được sự tàn phai của thời gian hay nỗi buồn man mác mà bài thơ hướng đến.
+<reason> Cần thay thế hình ảnh ""con chó sương pha"" bằng một hình ảnh khác gần gũi hơn với con người, thể hiện được sự thay đổi của thời gian và gợi lên cảm xúc buồn, tiếc nuối phù hợp với chủ đề của bài thơ. ""Mái tóc sương pha"" là một hình ảnh quen thuộc, gợi cảm xúc và phù hợp với chủ đề.
+<action> mái tóc <replace> con chó <line> 2 <index> 3
+<effect> Việc thay thế ""con chó sương pha"" bằng ""mái tóc sương pha"" giúp tạo ra một hình ảnh thơ phù hợp hơn với chủ đề và cảm xúc của bài thơ, làm cho bài thơ trở nên mạch lạc và gợi cảm hơn.
+<eois>","Đừng vui ngày ấy đã qua,
+Đừng buồn mái tóc sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh chuồn mong manh."
+"Đừng vui ngày ấy đã qua,
+Đừng buồn mái tóc sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh chuồn mong manh.","<error> ME
+<desc> Dòng đầu tiên của bài thơ bị thay đổi từ ""buồn"" thành ""vui"", làm mất đi sự nhất quán về mặt cảm xúc và chủ đề của bài thơ. Bài thơ gốc mang nỗi buồn về những điều đã qua, còn phiên bản lỗi lại mâu thuẫn ngay từ câu đầu.
+<reason> Cần sửa lại từ ""vui"" thành ""buồn"" để khôi phục lại mạch cảm xúc và chủ đề ban đầu của bài thơ. Việc này giúp bài thơ trở nên có ý nghĩa và truyền tải được thông điệp một cách hiệu quả hơn.
+<action> buồn <replace> vui <line> 1 <index> 2
+<effect> Việc sửa đổi này giúp khôi phục lại ý nghĩa ban đầu của bài thơ, làm cho nó trở nên nhất quán và truyền tải cảm xúc một cách hiệu quả hơn. Chất lượng bài thơ được cải thiện đáng kể.
+<eos>","Đừng buồn ngày ấy đã qua,
+Đừng buồn mái tóc sương pha, đừng buồn.
+Cõi người nắng dội mưa tuôn,
+Mong manh hạnh phúc cánh chuồn mong manh."
+"Nắng vàng lo hão thương suông,
+Con xa xin mẹ vơi buồn gượng vui.
+Thư đi hồn vía theo rồi,
+Thân trai giờ chẳng đáng nồi lá xông.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhà, thương mẹ của người con trai xa quê, đồng thời tự trách bản thân vì chưa làm được gì cho gia đình.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nắng vàng lo hão thương suông,
+Con xa xin mẹ vơi buồn gượng vui.
+Thư đi hồn vía theo rồi,
+Thân trai giờ chẳng đáng nồi lá xông."
+"Nắng vàng lo hão thương suông,
+Con xa xin mẹ vơi buồn gượng vui.
+Thư đi hồn vía theo rồi,
+Thân trai giờ chẳng đáng nồi lá xông.","<error> ME
+<desc> Dòng thơ đầu tiên ""Nắng vàng lo hão thương suông"" không phù hợp với chủ đề chung của bài thơ về nỗi nhớ mẹ và sự xa cách. Cụm ""nắng vàng"" không liên quan đến cảm xúc hoặc tình huống được mô tả trong các dòng thơ còn lại. Điều này gây ra sự lạc lõng và khó hiểu cho người đọc.
+<reason> Cần thay thế cụm ""Nắng vàng"" bằng một cụm từ khác gợi cảm xúc phù hợp hơn với nỗi lo lắng, thương nhớ của người con xa nhà. Cụm từ thay thế nên liên quan đến tâm trạng hoặc sự xa cách để tạo sự liên kết chặt chẽ với các dòng thơ sau.
+<action> Đôi dòng <replace> Nắng vàng <line> 1 <index> 1
+<effect> Việc thay thế ""Nắng vàng"" bằng ""Đôi dòng"" giúp dòng thơ đầu tiên hòa nhập tốt hơn với chủ đề chung của bài thơ. Nó tạo ra sự liên kết mạch lạc với các dòng thơ sau, thể hiện nỗi lo lắng và thương nhớ được gửi gắm qua những dòng chữ. Bài thơ trở nên thống nhất và dễ cảm nhận hơn.
+<eos>","Đôi dòng lo hão thương suông,
+Con xa xin mẹ vơi buồn gượng vui.
+Thư đi hồn vía theo rồi,
+Thân trai giờ chẳng đáng nồi lá xông."
+"Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh mộng đã trắng trơn cho người.
+Thua đi những sớm mai tươi,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi đau khổ, thất vọng và sự chấp nhận số phận hẩm hiu trong tình duyên, khi những ước mơ và hy vọng tan vỡ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh mộng đã trắng trơn cho người.
+Thua đi những sớm mai tươi,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không."
+"Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh mộng đã trắng trơn cho người.
+Thua đi những sớm mai tươi,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""cay"") và tiếng thứ 6 câu 2 (""trơn"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau.
+<action> tay <replace> trơn <line> 2 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh mộng đã trắng tay cho người.
+Thua đi những sớm mai tươi,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không."
+"Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh mộng đã trắng tay cho người.
+Thua đi những sớm mai tươi,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không.","<error> ME
+<desc> Lỗi ý nghĩa: từ ""mộng"" trong câu thơ 2 không hợp với ý nghĩa sẵn có của câu thơ, làm câu thơ thiếu đi nét trữ tình, khiến người đọc cảm thấy khô khan.
+<reason> Cần thay đổi từ ""mộng"" thành một từ khác phù hợp với nghĩa của câu thơ mà không làm thay đổi ý nghĩa của câu thơ.
+<action> tình <replace> mộng <line> 2 <index> 3
+<effect> Sau khi sửa lỗi, câu thơ đã trở nên ý nghĩa hơn.
+<eois>","Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh tình đã trắng tay cho người.
+Thua đi những sớm mai tươi,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không."
+"Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh tình đã trắng tay cho người.
+Thua đi những sớm mai tươi,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""những sớm mai tươi"" của câu thơ 3 không hợp nghĩa với ngữ cảnh tình cảm sầu cay của các câu thơ trước đó, mất mạch cảm xúc.
+<reason> Để sửa lỗi này cần thay đổi cụm từ ""những sớm mai tươi"" thành cụm từ khác phù hợp với ngữ cảnh của bài thơ.
+<action> khóe mắt, nụ cười <replace> những sớm mai tươi <line> 3 <index> 3
+<effect> Sau khi sửa lỗi, câu thơ đã hài hòa hơn về mặt cảm xúc trong bài.
+<eois>","Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh tình đã trắng tay cho người.
+Thua đi khóe mắt, nụ cười,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không."
+"Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh tình đã trắng tay cho người.
+Thua đi khóe mắt, nụ cười,
+Héo hon một đời phận duyên thật rồi.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không.","<error> ME
+<desc> Lỗi ý nghĩa câu thơ 4: ""một đời phận duyên thật rồi"" không được mạch lạc, khô khan.
+<reason> Cần thay đổi lại câu thơ 4 bằng cách sửa lại cụm từ trên sao cho nó hợp với ngữ cảnh của bài thơ.
+<action> Héo hon duyên phận một đời hư hao <replace> Héo hon một đời phận duyên thật rồi <line> 4 <index> 1
+<effect> Sau khi sửa lỗi, bài thơ trở nên hoàn chỉnh và ý nghĩa hơn.
+<eos>","Ngậm ngùi nuốt lệ sầu cay,
+Tàn canh tình đã trắng tay cho người.
+Thua đi khóe mắt, nụ cười,
+Héo hon duyên phận một đời hư hao.
+Thua đi ước hẹn thuở nào,
+Bay theo cánh gió tan vào hư không."
+"Nụ sen hé nở trên cao,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+""Cơm gà"" năm sau nữa, miên trường khát khao.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mong chờ, khát khao một tình yêu hoặc một điều gì đó tốt đẹp trong tương lai, được ví như ""cơm gà"" của năm sau, cùng với hình ảnh hoa sen nở rộ trong mùa hạ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Nụ sen hé nở trên cao,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+""Cơm gà"" năm sau nữa, miên trường khát khao."
+"Nụ sen hé nở trên cao,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+""Cơm gà"" năm sau nữa, miên trường khát khao.","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""trên cao"" không phù hợp với ngữ cảnh ""Nụ sen hé nở"" không thể ở ""trên cao"" được, điều này quá vô lý.
+<reason> Cần thay đổi cụm từ ""trên cao"" thành cụm từ khác phù hợp với ngữ cảnh bài thơ.
+<action> trong hồ <replace> trên cao <line> 1 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ trở nên có lý và ý nghĩa hơn.
+<eois>","Nụ sen hé nở trong hồ,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+""Cơm gà"" năm sau nữa, miên trường khát khao."
+"Nụ sen hé nở trong hồ,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+""Cơm gà"" năm sau nữa, miên trường khát khao.","<error> IE
+<desc> Hình ảnh ""Cơm gà"" đặt trong ngữ cảnh tình yêu và sen thắm trở nên lạc lõng, không phù hợp, gây khó hiểu và phá vỡ mạch cảm xúc của bài thơ. Nó không gợi lên được bất kỳ liên tưởng nào liên quan đến tình yêu, sự chờ đợi hay vẻ đẹp của hoa sen.
+<reason> Cần thay thế hình ảnh ""Cơm gà"" bằng một hình ảnh hoặc cụm từ phù hợp hơn, có liên quan đến tình yêu, sự chờ đợi, hoặc vẻ đẹp của hoa sen, để tạo sự liền mạch và tăng tính biểu cảm cho bài thơ.
+<action> ""Tình mình"" <replace> ""Cơm gà"" <line> 4 <index> 1
+<effect> Việc thay thế ""Cơm gà"" bằng ""Tình mình"" giúp hình ảnh thơ trở nên mạch lạc và phù hợp hơn với chủ đề tình yêu và sự chờ đợi. Câu thơ trở nên ý nghĩa và gợi cảm xúc hơn, góp phần làm cho bài thơ hay hơn.
+<eois>","Nụ sen hé nở trong hồ,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+""Tình mình"" năm sau nữa, miên trường khát khao."
+"Nụ sen hé nở trong hồ,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+""Tình mình"" năm sau nữa, miên trường khát khao.","<error> SE
+<desc> Câu thơ 4 """"Tình mình"" năm sau nữa, miên trường khát khao."" có 9 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Lỗi này làm mất đi sự cân đối, nhịp nhàng vốn có của thể thơ.
+<reason> Để sửa lỗi này, cần thay đổi câu thơ sao cho nó có đúng 8 chữ, đồng thời vẫn giữ được ý nghĩa và vần điệu phù hợp với mạch thơ.
+<action> Ngàn năm <replace> ""Tình mình"" năm <line> 4 <index> 1
+<effect> Câu thơ đã được sửa thành 8 chữ, đảm bảo đúng cấu trúc của thể thơ lục bát. Bài thơ trở nên cân đối và nhịp nhàng hơn.
+<eois>","Nụ sen hé nở trong hồ,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+Ngàn năm sau nữa, miên trường khát khao."
+"Nụ sen hé nở trong hồ,
+Cho mùa hạ đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+Ngàn năm sau nữa, miên trường khát khao.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""mùa hạ"" trong câu thơ 2 không hợp với ngữ cảnh khi trước đó là hình ảnh ""nụ sen"" mà ""nụ sen"" không nở vào mùa hạ.
+<reason> Cần thay thế cụm từ ""mùa hạ"" thành cụm từ khác phù hợp với ngữ cảnh câu thơ.
+<action> mùa xuân <replace> mùa hạ <line> 2 <index> 2
+<effect> Sau khi sữa lỗi, bài thơ trở nên hoàn chỉnh và ý nghĩa hơn.
+<eos>","Nụ sen hé nở trong hồ,
+Cho mùa xuân đến, mong chờ yêu thương.
+Thiết tha sen thắm vô thường,
+Ngàn năm sau nữa, miên trường khát khao."
+"Thôi còn chi nhớ chi mong,
+Trách chi con sáo một mình bay xa.
+Bây giờ nhớ nhung mình ta,
+Chiều chiều ra bến, xa xa trông thuyền.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự cô đơn, hụt hẫng và nỗi nhớ mong da diết của một người sau chia ly, thể hiện qua hình ảnh con sáo lẻ loi và sự chờ đợi vô vọng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Thôi còn chi nhớ chi mong,
+Trách chi con sáo một mình bay xa.
+Bây giờ nhớ nhung mình ta,
+Chiều chiều ra bến, xa xa trông thuyền."
+"Thôi còn chi nhớ chi mong,
+Trách chi con sáo một mình bay xa.
+Bây giờ nhớ nhung mình ta,
+Chiều chiều ra bến, xa xa trông thuyền.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""mong"") và tiếng thứ 6 câu 2 (""mình"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 hoặc cả cụm từ liền kề nó sao cho chúng hiệp vần với nhau. Ưu tiên sửa câu không giàu ý nghĩa.
+<action> sổ lồng <replace> một mình <line> 2 <index> 5
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Thôi còn chi nhớ chi mong,
+Trách chi con sáo sổ lồng bay xa.
+Bây giờ nhớ nhung mình ta,
+Chiều chiều ra bến, xa xa trông thuyền."
+"Thôi còn chi nhớ chi mong,
+Trách chi con sáo sổ lồng bay xa.
+Bây giờ nhớ nhung mình ta,
+Chiều chiều ra bến, xa xa trông thuyền.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 3, tiếng thứ 4. ""Nhung"" là thanh bằng, trong khi đó tiếng thứ 4 của câu lục bát phải là thanh trắc. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""nhung"" hoặc cụm từ đi liền với nó bằng một từ có thanh trắc để đảm bảo đúng luật thơ lục bát.
+<action> thơ thẩn <replace> nhớ nhung <line> 3 <index> 3
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 3, tiếng thứ 4. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Thôi còn chi nhớ chi mong,
+Trách chi con sáo sổ lồng bay xa.
+Bây giờ thơ thẩn mình ta,
+Chiều chiều ra bến, xa xa trông thuyền."
+"Ngồi trông nắng xuống trên đồi,
+Cánh chim phiêu lãng giữa trời bao la.
+Sông chiều lấp lánh ánh tà,
+Giật mình chợt nhớ một nhà đã lâu.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhà da diết của một người đang ở xa quê hương, khi ngắm nhìn cảnh chiều tà nơi đất khách.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngồi trông nắng xuống trên đồi,
+Cánh chim phiêu lãng giữa trời bao la.
+Sông chiều lấp lánh ánh tà,
+Giật mình chợt nhớ một nhà đã lâu."
+"Ngồi trông nắng xuống trên đồi,
+Cánh chim phiêu lãng giữa trời bao la.
+Sông chiều lấp lánh ánh tà,
+Giật mình chợt nhớ một nhà đã lâu.","<error> ME
+<desc> Lỗi ý nghĩa: từ ""một"" trong câu thơ không hợp với ý nghĩa của câu thơ.
+<reason> Cần thay thế từ ""một"" bằng một từ khác hợp với ý nghĩa của câu thơ.
+<action> xa <replace> một <line> 4 <index> 5
+<effect> Sau khi sửa lỗi, bài thơ trở nên hoàn chỉnh và ý nghĩa hơn.
+<eos>","Ngồi trông nắng xuống trên đồi,
+Cánh chim phiêu lãng giữa trời bao la.
+Sông chiều lấp lánh ánh tà,
+Giật mình chợt nhớ xa nhà đã lâu."
+"""Cơm gà"" như tiếng lòng ta,
+Réo ra réo rắt rất nhiều đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+""Cơm gà"" lơ lửng, ai tường chơi vơi?","<error> CONTEXT 
+<desc> Bài thơ gợi tả nỗi buồn man mác, da diết trong đêm khuya, có lẽ liên quan đến một kỷ niệm hoặc sự mất mát nào đó được gợi nhắc qua hình ảnh ""cơm gà"".
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","""Cơm gà"" như tiếng lòng ta,
+Réo ra réo rắt rất nhiều đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+""Cơm gà"" lơ lửng, ai tường chơi vơi?"
+"""Cơm gà"" như tiếng lòng ta,
+Réo ra réo rắt rất nhiều đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+""Cơm gà"" lơ lửng, ai tường chơi vơi?","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""ta"") và tiếng thứ 6 câu 2 (""nhiều"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 hoặc cụm từ liền kề với nó sao cho chúng hiệp vần với nhau.
+<action> âm ba <replace> rất nhiều <line> 2 <index> 5
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","""Cơm gà"" như tiếng lòng ta,
+Réo ra réo rắt âm ba đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+""Cơm gà"" lơ lửng, ai tường chơi vơi?"
+"""Cơm gà"" như tiếng lòng ta,
+Réo ra réo rắt âm ba đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+""Cơm gà"" lơ lửng, ai tường chơi vơi?","<error> ME
+<desc> Dòng đầu tiên của bài thơ trở nên vô nghĩa và lạc lõng do sử dụng cụm từ ""cơm gà"" không liên quan đến chủ đề của bài thơ, làm mất đi tính thẩm mỹ và sự truyền cảm.
+<reason> Cần thay thế cụm từ ""cơm gà"" bằng một cụm từ khác phù hợp hơn với chủ đề của bài thơ, gợi tả được cảm xúc và ý nghĩa mà tác giả muốn truyền tải.
+<action> Tiếng thơ <replace> ""Cơm gà"" <line> 1 <index> 1
+<effect> Sau khi thay thế, dòng thơ trở nên hợp lý và ăn nhập với toàn bài, góp phần làm tăng tính thẩm mỹ và truyền cảm của bài thơ.
+<eois>","Tiếng thơ như tiếng lòng ta,
+Réo ra réo rắt âm ba đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+""Cơm gà"" lơ lửng, ai tường chơi vơi?"
+"Tiếng thơ như tiếng lòng ta,
+Réo ra réo rắt âm ba đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+""Cơm gà"" lơ lửng, ai tường chơi vơi?","<error> ME
+<desc> Dòng thơ thứ tư trở nên vô nghĩa và lạc lõng so với chủ đề chung của bài thơ là nỗi buồn và sự cô đơn. Cụm từ ""Cơm gà"" không liên quan đến không gian, thời gian, hoặc cảm xúc được gợi tả trong các dòng thơ trước.
+<reason> Cần thay thế cụm từ ""Cơm gà"" bằng một cụm từ phù hợp hơn, gợi cảm giác cô đơn, trống trải, hoặc sự vật hữu hình phù hợp với trăng tàn và sự chơi vơi.
+<action> Trăng tàn <replace> ""Cơm gà"" <line> 4 <index> 1
+<effect> Thay thế ""Cơm gà"" bằng ""Trăng tàn"" giúp dòng thơ phù hợp hơn với chủ đề chung, tạo sự liên kết với hình ảnh ""Trăng tàn"" và gợi cảm giác cô đơn, yếu ớt, đồng thời tăng tính biểu cảm và giá trị thẩm mỹ của bài thơ.
+<eos>","Tiếng thơ như tiếng lòng ta,
+Réo ra réo rắt âm ba đêm buồn.
+Đỉnh sầu khuất lặng, sương buông,
+Trăng tàn lơ lửng, ai tường chơi vơi?"
+"Chiều thu ăn uống lê thê,
+Chạnh lòng cô lữ bên lề viễn phương.
+Ai về bên ấy cố hương,
+Xin cho tôi gởi nỗi hờn thiên thu.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, buồn tủi của người lữ khách nơi xa xứ, nhớ về quê hương và gửi gắm nỗi niềm mong mỏi.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chiều thu ăn uống lê thê,
+Chạnh lòng cô lữ bên lề viễn phương.
+Ai về bên ấy cố hương,
+Xin cho tôi gởi nỗi hờn thiên thu."
+"Chiều thu ăn uống lê thê,
+Chạnh lòng cô lữ bên lề viễn phương.
+Ai về bên ấy cố hương,
+Xin cho tôi gởi nỗi hờn thiên thu.","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""ăn uống"" của câu thơ 1 không hợp với ngữ cảnh của câu thơ, hình ảnh quá khô khan.
+<reason> Cần thay đổi cụm từ ""ăn uống"" thành cụm từ khác phù hợp với ngữ cảnh câu thơ.
+<action> mưa gió <replace> ăn uống <line> 1 <index> 3
+<effect> Sau khi sửa lỗi, bài thơ trở nên hoàn chỉnh và ý nghĩa hơn.
+<eos>","Chiều thu mưa gió lê thê,
+Chạnh lòng cô lữ bên lề viễn phương.
+Ai về bên ấy cố hương,
+Xin cho tôi gởi nỗi hờn thiên thu."
+"Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn chiếc xe đạp một hai ba,
+Vẫn ăn cơm để từng đêm khóc thầm.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự trở về một không gian quen thuộc, nơi có những kỷ niệm buồn và cảm giác cô đơn, tĩnh lặng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn chiếc xe đạp một hai ba,
+Vẫn ăn cơm để từng đêm khóc thầm."
+"Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn chiếc xe đạp một hai ba,
+Vẫn ăn cơm để từng đêm khóc thầm.","<error> IE
+<desc> Hình ảnh ""chiếc xe đạp một hai ba"" không rõ ràng, mơ hồ và không gợi cảm xúc. Nó không liên quan đến bối cảnh chung của bài thơ và gây khó hiểu cho người đọc.
+<reason> Cụm từ ""chiếc xe đạp một hai ba"" không mang ý nghĩa cụ thể, không gợi được hình ảnh rõ ràng và không phù hợp với cảm xúc hoài niệm, cô đơn mà bài thơ đang cố gắng truyền tải. Cần thay thế bằng một cụm từ khác gợi cảm xúc và phù hợp với mạch thơ hơn.
+<action> Vẫn nao nức <replace> Vẫn chiếc xe đạp <line> 3 <index> 1
+<effect> Thay thế cụm từ ""chiếc xe đạp một hai ba"" bằng ""nao nức"" giúp hình ảnh thơ trở nên rõ ràng, gợi cảm xúc hơn, phù hợp với mạch cảm xúc chung của bài thơ.
+<eois>","Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn nao nức một hai ba,
+Vẫn ăn cơm để từng đêm khóc thầm."
+"Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn nao nức một hai ba,
+Vẫn ăn cơm để từng đêm khóc thầm.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 3 (""ba"") và tiếng thứ 6 câu 4 (""đêm"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 hoặc cả cụm từ sao cho chúng hiệp vần với nhau.
+<action> Vẫn nao nức đến hồn nhiên <replace> Vẫn nao nức một hai ba <line> 3 <index> 1
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn nao nức đến hồn nhiên,
+Vẫn ăn cơm để từng đêm khóc thầm."
+"Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn nao nức đến hồn nhiên,
+Vẫn ăn cơm để từng đêm khóc thầm.","<error> ME
+<desc> Lỗi ý nghĩa: Dòng thơ ""Vẫn ăn cơm để từng đêm khóc thầm"" không phù hợp với mạch cảm xúc và chủ đề của bài thơ. Việc ăn cơm là một hành động sinh hoạt bình thường, không liên quan đến cảm xúc ""khóc thầm"" và phá vỡ sự liên kết với các dòng thơ khác.
+<reason> Cần thay thế cụm từ ""ăn cơm"" bằng một cụm từ gợi hình ảnh, cảm xúc phù hợp hơn, thể hiện sự tương phản giữa vẻ ngoài vui vẻ và nỗi buồn sâu kín bên trong. Cụm từ thay thế cần liên quan đến hành động che giấu cảm xúc thật sự.
+<action> Vẫn đùa vui <replace> Vẫn ăn cơm <line> 4 <index> 1
+<effect> Thay thế cụm từ ""ăn cơm"" bằng ""đùa vui"" giúp dòng thơ phù hợp hơn với mạch cảm xúc chung của bài thơ, tạo sự tương phản giữa vẻ ngoài vui vẻ và nỗi buồn tiềm ẩn, đồng thời tăng tính biểu cảm và gợi hình.
+<eos>","Tôi về góc phố dây leo,
+Hôn lên chiếc bóng những chiều tịnh yên.
+Vẫn nao nức đến hồn nhiên,
+Vẫn đùa vui để từng đêm khóc thầm."
+"Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến xe trên trời.
+Lũ dơi mỏng cánh vô duyên,
+Buồn vui cũng tiếng chó sủa gọi khuya.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chờ đợi vô vọng, cô đơn và cảm giác lạc lõng của cái tôi trong một không gian tĩnh mịch, buồn bã.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến xe trên trời.
+Lũ dơi mỏng cánh vô duyên,
+Buồn vui cũng tiếng chó sủa gọi khuya."
+"Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến xe trên trời.
+Lũ dơi mỏng cánh vô duyên,
+Buồn vui cũng tiếng chó sủa gọi khuya.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""quang"") và tiếng thứ 6 câu 2 (""xe"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 hoặc cả cụm từ sao cho chúng hiệp vần với nhau. Và phải có nghĩa.
+<action> hàng mộng du <replace> xe trên trời <line> 2 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến hàng mộng du.
+Lũ dơi mỏng cánh vô duyên,
+Buồn vui cũng tiếng chó sủa gọi khuya."
+"Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến hàng mộng du.
+Lũ dơi mỏng cánh vô duyên,
+Buồn vui cũng tiếng chó sủa gọi khuya.","<error> IE
+<desc> Hình ảnh ""tiếng chó sủa gọi khuya"" không phù hợp với không khí tĩnh lặng, huyền ảo của bài thơ. Nó tạo cảm giác đời thường, ồn ào, phá vỡ sự cô đơn và suy tư mà tác giả muốn truyền tải.
+<reason> Cần thay thế bằng một hình ảnh âm thanh khác mang tính chất mơ hồ, tâm linh và gợi cảm xúc buồn bã, cô đơn hơn để phù hợp với mạch thơ. ""Tiếng thần phù gọi khuya"" vừa mang tính cổ kính, vừa gợi sự huyền bí, lại vừa thể hiện sự cô đơn, lạc lõng.
+<action> tiếng thần phù <replace> tiếng chó sủa <line> 4 <index> 4
+<effect> Việc thay đổi giúp hình ảnh thơ trở nên nhất quán, sâu sắc và gợi cảm xúc hơn, tăng tính biểu cảm và giá trị thẩm mỹ của bài thơ.
+<eois>","Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến hàng mộng du.
+Lũ dơi mỏng cánh vô duyên,
+Buồn vui cũng tiếng thần phù gọi khuya."
+"Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến hàng mộng du.
+Lũ dơi mỏng cánh vô duyên,
+Buồn vui cũng tiếng thần phù gọi khuya.","<error> IE
+<desc> Hình ảnh ""Lũ dơi mỏng cánh vô duyên"" không phù hợp với không khí tĩnh lặng, buồn man mác của bài thơ. Từ ""vô duyên"" mang sắc thái tiêu cực, phá vỡ sự hài hòa và làm giảm tính biểu cảm.
+<reason> Thay từ ""vô duyên"" bằng một từ ngữ gợi cảm xúc hơn, phù hợp với hình ảnh những sinh vật nhỏ bé, yếu ớt trong đêm khuya. ""Nhân từ"" là một lựa chọn tốt, vừa gợi cảm giác mong manh, vừa mang ý nghĩa bao dung, xoa dịu.
+<action> nhân từ <replace> vô duyên <line> 3 <index> 5
+<effect> Việc thay đổi từ ""vô duyên"" thành ""nhân từ"" giúp hình ảnh lũ dơi trở nên mềm mại và giàu cảm xúc hơn, góp phần tạo nên sự đồng điệu và tăng tính biểu cảm cho bài thơ.
+<eos>","Tôi chờ tôi rất bàng quang,
+Như xe đêm đợi chuyến hàng mộng du.
+Lũ dơi mỏng cánh nhân từ,
+Buồn vui cũng tiếng thần phù gọi khuya."
+"Chiều tàn, nắng nhảy trên cành,
+Cho đêm buông giấc lặng thầm xuống đêm.
+Lá vương sương, cánh lá mềm,
+Ngày đong đếm tuổi, ngày thêm hiu buồn.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự cảm nhận về khoảnh khắc chuyển giao giữa ngày và đêm, gợi lên nỗi buồn man mác khi thời gian trôi đi.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chiều tàn, nắng nhảy trên cành,
+Cho đêm buông giấc lặng thầm xuống đêm.
+Lá vương sương, cánh lá mềm,
+Ngày đong đếm tuổi, ngày thêm hiu buồn."
+"Chiều tàn, nắng nhảy trên cành,
+Cho đêm buông giấc lặng thầm xuống đêm.
+Lá vương sương, cánh lá mềm,
+Ngày đong đếm tuổi, ngày thêm hiu buồn.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""nhảy trên cành"" của câu thơ 1 không hợp với ý nghĩa sẵn có của câu thơ, khô khan, thiếu nét trữ tình.
+<reason> Cần thay đổi cụm từ ""nhảy trên cành"" thành cụm từ khác hợp với ý nghĩa câu thơ hơn.
+<action> hóa vô hình <replace> nhảy trên cành <line> 1 <index> 4
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh hơn.
+<eois>","Chiều tàn, nắng hóa vô hình,
+Cho đêm buông giấc lặng thầm xuống đêm.
+Lá vương sương, cánh lá mềm,
+Ngày đong đếm tuổi, ngày thêm hiu buồn."
+"Chiều tàn, nắng hóa vô hình,
+Cho đêm buông giấc lặng thầm xuống đêm.
+Lá vương sương, cánh lá mềm,
+Ngày đong đếm tuổi, ngày thêm hiu buồn.","<error> IE
+<desc> ""Nắng hóa vô hình"" là một hình ảnh thơ trừu tượng, khó hình dung và không gợi cảm xúc cụ thể. Nắng vốn là ánh sáng, không thể trở nên vô hình một cách tự nhiên vào buổi chiều tàn. Điều này tạo ra sự mâu thuẫn về mặt logic và làm giảm tính biểu cảm của câu thơ.
+<reason> Nên thay đổi hình ảnh ""nắng hóa vô hình"" bằng một hình ảnh cụ thể hơn, gợi cảm xúc rõ ràng hơn về sự phai nhạt của ánh nắng chiều tàn. Một hình ảnh như ""xa xăm"" sẽ phù hợp hơn, gợi cảm giác ánh nắng dần khuất sau đường chân trời.
+<action> xa xăm <replace> vô hình <line> 1 <index> 5
+<effect> Việc thay đổi ""nắng hóa vô hình"" thành ""nắng hóa xa xăm"" giúp hình ảnh thơ trở nên rõ ràng, gợi cảm xúc hơn và phù hợp với bối cảnh chiều tàn. Câu thơ trở nên tự nhiên và dễ cảm nhận hơn, góp phần nâng cao chất lượng tổng thể của bài thơ.
+<eos>","Chiều tàn, nắng hóa xa xăm,
+Cho đêm buông giấc lặng thầm xuống đêm.
+Lá vương sương, cánh lá mềm,
+Ngày đong đếm tuổi, ngày thêm hiu buồn."
+"Tháng bảy chó sủa đầy cây,
+Hoa xoan đã tím những ngày đợi mong.
+Bao nhiêu hoa bưởi, hoa bòng,
+Hoa chanh, hoa nhãn gọi ong đầy vườn.","<error> CONTEXT 
+<desc> Bài thơ khắc họa khung cảnh tháng giêng tươi đẹp với những loài hoa bung nở, tràn ngập hương thơm và âm thanh của côn trùng, gợi cảm giác mong chờ và sức sống mùa xuân.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tháng bảy chó sủa đầy cây,
+Hoa xoan đã tím những ngày đợi mong.
+Bao nhiêu hoa bưởi, hoa bòng,
+Hoa chanh, hoa nhãn gọi ong đầy vườn."
+"Tháng bảy chó sủa đầy cây,
+Hoa xoan đã tím những ngày đợi mong.
+Bao nhiêu hoa bưởi, hoa bòng,
+Hoa chanh, hoa nhãn gọi ong đầy vườn.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. ""Bảy"" là thanh trắc, trong khi đó tiếng thứ 6 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""bảy"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> giêng <replace> bảy <line> 1 <index> 2
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Tháng giêng chó sủa đầy cây,
+Hoa xoan đã tím những ngày đợi mong.
+Bao nhiêu hoa bưởi, hoa bòng,
+Hoa chanh, hoa nhãn gọi ong đầy vườn."
+"Tháng giêng chó sủa đầy cây,
+Hoa xoan đã tím những ngày đợi mong.
+Bao nhiêu hoa bưởi, hoa bòng,
+Hoa chanh, hoa nhãn gọi ong đầy vườn.","<error> ME
+<desc> Lỗi nội dung: ""chó sủa"" không phù hợp với ngữ cảnh thiên nhiên tươi đẹp của mùa xuân và cây cối đâm chồi, nảy lộc. Nó phá vỡ sự hài hòa và ý nghĩa về sự sinh sôi, phát triển của tự nhiên.
+<reason> Cần thay thế cụm từ ""chó sủa"" bằng một hình ảnh hoặc sự vật liên quan đến sự nảy lộc, đâm chồi của cây cối vào mùa xuân. ""Lộc nở"" là một hình ảnh quen thuộc, thể hiện rõ sự sinh sôi, phát triển của cây cối vào mùa xuân, phù hợp với chủ đề chung của bài thơ.
+<action> lộc nở <replace> chó sủa <line> 1 <index> 3
+<effect> Sau khi sửa, câu thơ trở nên phù hợp với chủ đề chung của bài thơ, tạo ra một hình ảnh đẹp và hài hòa về mùa xuân và sự sinh sôi của cây cối. Bài thơ trở nên mạch lạc và ý nghĩa hơn.
+<eos>","Tháng giêng lộc nở đầy cây,
+Hoa xoan đã tím những ngày đợi mong.
+Bao nhiêu hoa bưởi, hoa bòng,
+Hoa chanh, hoa nhãn gọi ong đầy vườn."
+"Trong mơ bỗng gặp con mèo,
+Quạt mo đứng đó, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần cười vang.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự ngạc nhiên, vui mừng của Bờm khi gặp một con mèo lạ trong mơ, tạo ra một khung cảnh hài hước và thân thiện.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trong mơ bỗng gặp con mèo,
+Quạt mo đứng đó, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần cười vang."
+"Trong mơ bỗng gặp con mèo,
+Quạt mo đứng đó, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần cười vang.","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""cười vang"" trong câu thơ 4 hình ảnh của nó quá khô khan, không hợp với ngữ cảnh câu thơ.
+<reason> Cần thay đổi cụm từ ""cười vang"" thành cụm từ khác hợp với ngữ cảnh và giàu cảm xúc hơn.
+<action> hỏi han <replace> cười vang <line> 4 <index> 7
+<effect> Sau khi sửa lỗi, câu thơ trở nên giàu cảm xúc, hài hòa.
+<eois>","Trong mơ bỗng gặp con mèo,
+Quạt mo đứng đó, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần hỏi han."
+"Trong mơ bỗng gặp con mèo,
+Quạt mo đứng đó, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần hỏi han.","<error> IE
+<desc> Lỗi hình ảnh thơ: ""Quạt mo đứng đó"" tạo hình ảnh không rõ ràng, thiếu sinh động và không phù hợp với ngữ cảnh chung của bài thơ về một con mèo hoạt bát. Động từ ""đứng"" làm giảm đi sự linh hoạt và tinh nghịch vốn có của con mèo, khiến câu thơ trở nên khô khan và khó hình dung.
+<reason> Cần thay đổi động từ để tạo hình ảnh con mèo đang dùng quạt mo một cách sống động và tự nhiên hơn. ""Phe phẩy"" gợi tả hành động quạt một cách uyển chuyển và phù hợp với hình ảnh con mèo.
+<action> phe phẩy <replace> đứng đó <line> 2 <index> 3
+<effect> Câu thơ sau khi sửa trở nên sinh động và gợi cảm hơn, giúp người đọc dễ dàng hình dung ra hình ảnh con mèo đang quạt mo một cách tinh nghịch. Điều này cải thiện đáng kể chất lượng hình ảnh thơ và tăng tính biểu cảm cho bài thơ.
+<eois>","Trong mơ bỗng gặp con mèo,
+Quạt mo phe phẩy, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần hỏi han."
+"Trong mơ bỗng gặp con mèo,
+Quạt mo phe phẩy, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần hỏi han.","<error> ME
+<desc> Lỗi nội dung: Thay thế ""anh Bờm"" bằng ""con mèo"" làm mất tính nhất quán của bài thơ. Nhân vật chính của bài thơ là Bờm, việc thay đổi đối tượng gặp trong mơ khiến các dòng sau trở nên vô nghĩa.
+<reason> Cần khôi phục lại đối tượng ""anh Bờm"" để đảm bảo tính logic và chủ đề của bài thơ.
+<action> anh Bờm <replace> con mèo <line> 1 <index> 5
+<effect> Khôi phục lại sự liên kết và ý nghĩa của bài thơ, đảm bảo sự nhất quán trong nội dung. Bài thơ trở nên mạch lạc và dễ hiểu hơn.
+<eos>","Trong mơ bỗng gặp anh Bờm,
+Quạt mo phe phẩy, bơm xơm đầu trần.
+Bờm mừng như gặp người thân,
+Vập vồ niềm nở, ân cần hỏi han."
+"Hồn nhiên vẫn mãi bên đời,
+Nhưng tâm u uất nghẹn lời thi ca.
+Hướng về quê mẹ xa xa,
+Lòng buồn nhảy múa, lệ nhòa mắt nhung.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự giằng xé giữa vẻ ngoài hồn nhiên và nỗi u uất trong tâm hồn, cùng nỗi nhớ quê hương da diết.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Hồn nhiên vẫn mãi bên đời,
+Nhưng tâm u uất nghẹn lời thi ca.
+Hướng về quê mẹ xa xa,
+Lòng buồn nhảy múa, lệ nhòa mắt nhung."
+"Hồn nhiên vẫn mãi bên đời,
+Nhưng tâm u uất nghẹn lời thi ca.
+Hướng về quê mẹ xa xa,
+Lòng buồn nhảy múa, lệ nhòa mắt nhung.","<error> IE
+<desc> Lỗi hình ảnh thơ: ""Lòng buồn nhảy múa"" tạo ra hình ảnh không phù hợp với cảm xúc buồn bã, gây khó hiểu và làm giảm tính chân thật của bài thơ.
+<reason> ""Nhảy múa"" thường gợi cảm giác vui vẻ, trái ngược với nỗi buồn. Cần thay thế bằng một từ ngữ thể hiện sự nặng nề, dằn vặt của tâm trạng.
+<action> Lòng buồn héo hắt <replace> Lòng buồn nhảy múa <line> 4 <index> 1
+<effect> Thay đổi giúp hình ảnh thơ trở nên phù hợp với cảm xúc buồn bã chủ đạo, tăng tính biểu cảm và gợi cảm xúc cho người đọc.
+<eois>","Hồn nhiên vẫn mãi bên đời,
+Nhưng tâm u uất nghẹn lời thi ca.
+Hướng về quê mẹ xa xa,
+Lòng buồn héo hắt, lệ nhòa mắt nhung."
+"Hồn nhiên vẫn mãi bên đời,
+Nhưng tâm u uất nghẹn lời thi ca.
+Hướng về quê mẹ xa xa,
+Lòng buồn héo hắt, lệ nhòa mắt nhung.","<error> ME
+<desc> ""Hồn nhiên"" không phù hợp với mạch cảm xúc chung của bài thơ, tạo cảm giác lạc lõng và không ăn nhập với sự ""u uất"", ""buồn héo hắt"" ở các dòng sau. Nó làm giảm tính biểu cảm và thống nhất của tác phẩm.
+<reason> Cần thay thế một từ khác mang sắc thái phù hợp hơn với sự trầm tư, suy tư, hoặc nỗi buồn man mác để tạo sự liên kết chặt chẽ giữa các dòng thơ và làm nổi bật chủ đề chính.
+<action> Hồn thơ <replace> Hồn nhiên <line> 1 <index> 1
+<effect> Việc thay ""Hồn nhiên"" bằng ""Hồn thơ"" giúp tạo ra một sự đồng điệu về cảm xúc trong toàn bộ bài thơ, làm tăng tính biểu cảm và thống nhất của tác phẩm. ""Hồn thơ"" phù hợp với sự ""u uất"", ""buồn héo hắt"" ở các dòng sau, từ đó làm nổi bật chủ đề chính của bài thơ.
+<eos>","Hồn thơ vẫn mãi bên đời,
+Nhưng tâm u uất nghẹn lời thi ca.
+Hướng về quê mẹ xa xa,
+Lòng buồn héo hắt, lệ nhòa mắt nhung."
+"Áo hồng tiễn bước em đi,
+Em lên xe cưới ăn mừng nhà ai?
+Mình anh than ngắn thở dài,
+Nhìn chân em bước, mệt nhoài con tim.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn và sự hụt hẫng của một người khi chứng kiến người mình yêu đi lấy người khác.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Áo hồng tiễn bước em đi,
+Em lên xe cưới ăn mừng nhà ai?
+Mình anh than ngắn thở dài,
+Nhìn chân em bước, mệt nhoài con tim."
+"Áo hồng tiễn bước em đi,
+Em lên xe cưới ăn mừng nhà ai?
+Mình anh than ngắn thở dài,
+Nhìn chân em bước, mệt nhoài con tim.","<error> ME
+<desc> Dòng thơ ""Em lên xe cưới ăn mừng nhà ai?"" không phù hợp với ngữ cảnh chia ly, đau buồn của bài thơ. Việc ""ăn mừng"" tạo cảm giác vui vẻ, trái ngược hoàn toàn với tâm trạng của người ở lại. Điều này làm giảm tính biểu cảm và sự thống nhất trong mạch cảm xúc của bài thơ.
+<reason> Cần thay cụm từ ""ăn mừng"" bằng một cụm từ thể hiện sự xa cách, mất mát, hoặc sự thay đổi trong cuộc đời của người con gái. Cụm từ này cần phù hợp với hình ảnh ""xe cưới"" và tạo ra sự liên kết với tâm trạng buồn bã của nhân vật trữ tình.
+<action> đi về <replace> ăn mừng <line> 2 <index> 5
+<effect> Việc thay ""ăn mừng"" bằng ""đi về"" giúp dòng thơ phù hợp hơn với ngữ cảnh chia ly, tạo sự thống nhất trong cảm xúc của bài thơ. Dòng thơ trở nên buồn bã, thể hiện sự mất mát và sự thay đổi trong cuộc đời của người con gái khi về nhà chồng. Bài thơ trở nên sâu sắc và biểu cảm hơn.
+<eos>","Áo hồng tiễn bước em đi,
+Em lên xe cưới đi về nhà ai?
+Mình anh than ngắn thở dài,
+Nhìn chân em bước, mệt nhoài con tim."
+"Tin tức khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa đi,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê nhuộm một màu xanh,
+Bão xô anh mãi, tròng trành tháng năm.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự bất lực, cô đơn của một người đàn ông trong việc chống chọi với những khó khăn, thử thách của cuộc đời, đặc biệt là những biến cố tình cảm liên quan đến người mình yêu.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tin tức khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa đi,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê nhuộm một màu xanh,
+Bão xô anh mãi, tròng trành tháng năm."
+"Tin tức khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa đi,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê nhuộm một màu xanh,
+Bão xô anh mãi, tròng trành tháng năm.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 3 (""đi"") và tiếng thứ 6 câu 4 (""ta"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau.
+<action> xa <replace> đi <line> 3 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Tin tức khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa xa,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê nhuộm một màu xanh,
+Bão xô anh mãi, tròng trành tháng năm."
+"Tin tức khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa xa,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê nhuộm một màu xanh,
+Bão xô anh mãi, tròng trành tháng năm.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. ""Tức"" là thanh trắc, trong khi đó tiếng thứ 6 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""tức"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> từ <replace> tức <line> 1 <index> 2
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Tin từ khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa xa,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê nhuộm một màu xanh,
+Bão xô anh mãi, tròng trành tháng năm."
+"Tin từ khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa xa,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê nhuộm một màu xanh,
+Bão xô anh mãi, tròng trành tháng năm.","<error> IE
+<desc> Hình ảnh ""quê nhuộm một màu xanh"" không rõ ràng, mơ hồ và không gợi cảm xúc, không phù hợp với bối cảnh chia ly và nỗi buồn của bài thơ. Màu xanh có thể gợi sự tươi mới, hy vọng, không ăn nhập với sự ""bão xô"" và ""tròng trành tháng năm"".
+<reason> Cần thay đổi hình ảnh ""màu xanh"" bằng một hình ảnh gợi sự chia ly, mất mát, hoặc sự thay đổi theo thời gian, phù hợp với mạch cảm xúc của bài thơ. ""Màu vàng"" gợi sự úa tàn, chia ly, phù hợp hơn.
+<action> màu vàng <replace> một màu xanh <line> 5 <index> 5
+<effect> Việc thay ""một màu xanh"" bằng ""màu vàng"" giúp hình ảnh thơ trở nên rõ ràng, gợi cảm xúc hơn, phù hợp với chủ đề chia ly và nỗi buồn của bài thơ, làm tăng tính biểu cảm và sức gợi của bài thơ.
+<eois>","Tin từ khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa xa,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê biệt màu vàng,
+Bão xô anh mãi, tròng trành tháng năm."
+"Tin từ khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa xa,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê biệt màu vàng,
+Bão xô anh mãi, tròng trành tháng năm.","<error> IE
+<desc> ""Màu vàng"" trong dòng thơ ""Từ em, quê biệt màu vàng"" là một hình ảnh không rõ ràng và thiếu tính biểu cảm. Nó không gợi lên được cảm xúc hoặc ý nghĩa cụ thể nào liên quan đến sự chia ly và nỗi nhớ quê hương, khiến câu thơ trở nên nhạt nhòa và không ăn nhập với mạch cảm xúc chung của bài thơ.
+<reason> Cần thay thế ""màu vàng"" bằng một hình ảnh hoặc cụm từ gợi cảm hơn, liên quan đến ký ức, tuổi trẻ hoặc sự chia ly, để tăng tính biểu cảm và làm cho câu thơ trở nên sâu sắc hơn. ""Ngày xanh"" là một hình ảnh quen thuộc gợi nhớ về tuổi trẻ, ký ức đẹp đẽ và sự tươi mới, phù hợp với mạch cảm xúc của bài thơ về sự chia ly và nỗi nhớ quê hương.
+<action> ngày xanh <replace> màu vàng <line> 5 <index> 5
+<effect> Việc thay ""màu vàng"" bằng ""ngày xanh"" giúp hình ảnh thơ trở nên rõ ràng và gợi cảm hơn, đồng thời tăng tính liên kết với mạch cảm xúc chung của bài thơ. Câu thơ trở nên sâu sắc và giàu ý nghĩa hơn, góp phần nâng cao chất lượng tổng thể của bài thơ.
+<eos>","Tin từ khí tượng, bão về,
+Trong Nam, ngoài Bắc, bồi đê, chèn nhà.
+Bão lòng mấy chục mùa xa,
+Cố công chèn chống, mình ta không thành.
+Từ em, quê biệt ngày xanh,
+Bão xô anh mãi, tròng trành tháng năm."
+"Anh ghét ca sĩ phố phường,
+Em thích ăn chuối trên lầu, dễ yêu.
+Anh chàng duyên dáng, rất xấu,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!""","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tương phản trong sở thích và cảm xúc của hai người, cùng với một tình cảm thầm kín được bộc lộ qua cách gọi tên đặc biệt.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Anh ghét ca sĩ phố phường,
+Em thích ăn chuối trên lầu, dễ yêu.
+Anh chàng duyên dáng, rất xấu,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!"""
+"Anh ghét ca sĩ phố phường,
+Em thích ăn chuối trên lầu, dễ yêu.
+Anh chàng duyên dáng, rất xấu,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!""","<error> IE
+<desc> Lỗi hình ảnh: từ ""xấu"" trong câu thơ 3 không hợp với ngữ cảnh thơ, không hợp với ""duyên dáng"" phía trước đó.
+<reason> Cần thay thế từ ""xấu"" thành một từ khác phù hợp với ngữ cảnh câu thơ hơn.
+<action> xinh <replace> xấu <line> 3 <index> 6
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh và hài hòa hơn.
+<eois>","Anh ghét ca sĩ phố phường,
+Em thích ăn chuối trên lầu, dễ yêu.
+Anh chàng duyên dáng, rất xinh,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!"""
+"Anh ghét ca sĩ phố phường,
+Em thích ăn chuối trên lầu, dễ yêu.
+Anh chàng duyên dáng, rất xinh,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!""","<error> ME
+<desc> Lỗi nội dung: cụm từ ""rất xinh"" trong câu thơ 3 mặc dù hợp với ngữ cảnh nhưng chưa có nét trữ tình và sâu sắc về mặt ý nghĩa.
+<reason> Cần thay thế cụm từ ""rất xinh"" bằng một cụm từ khác phù hợp hơn.
+<action> yêu kiều <replace> rất xinh <line> 3 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ trở nên ý nghĩa hơn.
+<eois>","Anh ghét ca sĩ phố phường,
+Em thích ăn chuối trên lầu, dễ yêu.
+Anh chàng duyên dáng, yêu kiều,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!"""
+"Anh ghét ca sĩ phố phường,
+Em thích ăn chuối trên lầu, dễ yêu.
+Anh chàng duyên dáng, yêu kiều,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!""","<error> ME
+<desc> Lỗi nội dung: Dòng thơ thứ hai không liên quan đến chủ đề chung của bài thơ, gây khó hiểu và làm mất đi sự liền mạch trong mạch cảm xúc. 
+<reason> Dòng thơ ""Em thích ăn chuối trên lầu"" không phù hợp với ngữ cảnh tình yêu lứa đôi được gợi ý trong bài. Cần thay thế bằng một câu thơ thể hiện tính cách hoặc sở thích của nhân vật nam chính, hoặc bổ sung ý nghĩa cho câu thơ hiện tại để nó liên kết với chủ đề chung.
+<action> Tính tình chất phát thật thà <replace> Em thích ăn chuối trên lầu <line> 2 <index> 1
+<effect> Sự thay đổi này giúp dòng thơ trở nên phù hợp hơn với chủ đề chung, tạo sự liên kết mạch lạc và làm cho bài thơ trở nên có ý nghĩa hơn.
+<eois>","Anh ghét ca sĩ phố phường,
+Tính tình chất phác thật thà, dễ yêu.
+Anh chàng duyên dáng, yêu kiều,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!"""
+"Anh ghét ca sĩ phố phường,
+Tính tình chất phác thật thà, dễ yêu.
+Anh chàng duyên dáng, yêu kiều,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!""","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""ca sĩ phố phường"" trong câu thơ 1 không hợp với ý nghĩa bài thơ, khi các cụm từ của câu phía sau như: ""chất phát"", ""thật thà"" thì không hợp với ""phố phường"".
+<reason> Cần thay thế cụm từ ""phố phường"" thành cụm từ khác hợp với ý nghĩa chung của bài thơ hơn.
+<action> làng quê <replace> phố phường <line> 1 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh hơn.
+<eois>","Anh ghét ca sĩ làng quê,
+Tính tình chất phác thật thà, dễ yêu.
+Anh chàng duyên dáng, yêu kiều,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!"""
+"Anh ghét ca sĩ làng quê,
+Tính tình chất phác thật thà, dễ yêu.
+Anh chàng duyên dáng, yêu kiều,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!""","<error> ME
+<desc> Dòng đầu tiên thể hiện sự ghét bỏ ca sĩ làng quê, tạo ra sự mâu thuẫn với các dòng thơ sau, vốn ca ngợi vẻ đẹp và tình yêu với cô gái ""Hoa Môi"", người có thể là ca sĩ làng quê. Điều này làm cho nội dung bài thơ trở nên khó hiểu và lệch lạc so với chủ đề tình yêu, sự ngưỡng mộ vẻ đẹp thôn quê.
+<reason> Cần thay đổi dòng thơ đầu tiên để thể hiện tình cảm yêu mến, phù hợp với chủ đề chung của bài thơ. Nên sử dụng những từ ngữ thể hiện sự yêu thương, trân trọng đối với ca sĩ làng quê.
+<action> yêu <replace> ghét <line> 1 <index> 2
+<effect> Việc thay đổi từ ""ghét"" thành ""yêu"" giúp dòng thơ đầu tiên hòa hợp với chủ đề chung của bài thơ, thể hiện tình cảm yêu mến, từ đó làm cho bài thơ trở nên mạch lạc và ý nghĩa hơn.
+<eos>","Anh yêu ca sĩ làng quê,
+Tính tình chất phác thật thà, dễ yêu.
+Anh chàng duyên dáng, yêu kiều,
+Thì thầm anh gọi tên nàng: ""Hoa Môi!"""
+"Vấp chân ngã rồi vào mùa hạ,
+Lồm cồm nhặt lại một phần mùa đông.
+Vừa tin con én theo chồng,
+Ta ngồi ăn hết cánh đồng heo may.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hụt hẫng, mất mát khi một giai đoạn qua đi, cố gắng níu giữ chút dư âm còn sót lại nhưng vẫn phải chấp nhận sự thật và đối diện với hiện tại.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Vấp chân ngã rồi vào mùa hạ,
+Lồm cồm nhặt lại một phần mùa đông.
+Vừa tin con én theo chồng,
+Ta ngồi ăn hết cánh đồng heo may."
+"Vấp chân ngã rồi vào mùa hạ,
+Lồm cồm nhặt lại một phần mùa đông.
+Vừa tin con én theo chồng,
+Ta ngồi ăn hết cánh đồng heo may.","<error> SE
+<desc> Câu thơ lục bát dòng 1 có 7 chữ, phá vỡ cấu trúc 6-8 truyền thống của thể thơ này. Điều này ảnh hưởng đến nhịp điệu và tính thẩm mỹ của bài thơ.
+<reason> Để đảm bảo cấu trúc lục bát, cần loại bỏ một từ ở dòng 1 để dòng thơ có đúng 6 chữ.
+<action> Vấp chân ngã bổ vào hạ <replace> Vấp chân ngã rồi vào mùa hạ <line> 1 <index> 1
+<effect> Câu thơ trở lại đúng cấu trúc 6 chữ, khôi phục nhịp điệu và tính thẩm mỹ của thể thơ lục bát.
+<eois>","Vấp chân ngã bổ vào hạ,
+Lồm cồm nhặt lại một phần mùa đông.
+Vừa tin con én theo chồng,
+Ta ngồi ăn hết cánh đồng heo may."
+"Vấp chân ngã bổ vào hạ,
+Lồm cồm nhặt lại một phần mùa đông.
+Vừa tin con én theo chồng,
+Ta ngồi ăn hết cánh đồng heo may.","<error> ME
+<desc> Lỗi ý nghĩa: Thay ""xuân"" bằng ""hạ"" làm mất đi sự tinh tế và ý vị chuyển giao mùa vốn có của bài thơ. Mùa xuân thường gắn liền với sự khởi đầu, sự tươi mới, trong khi mùa hạ mang tính chất khác.
+<reason> Cần khôi phục lại hình ảnh mùa xuân để giữ đúng chủ đề và mạch cảm xúc của bài thơ. Mùa xuân tạo sự tương phản với mùa đông được nhắc đến ở câu sau, làm nổi bật sự chuyển giao và tiếc nuối.
+<action> xuân <replace> hạ <line> 1 <index> 6
+<effect> Việc thay ""hạ"" bằng ""xuân"" giúp khôi phục ý nghĩa ban đầu của bài thơ, tạo sự hài hòa và liên kết giữa các dòng thơ. Bài thơ trở nên giàu hình ảnh và cảm xúc hơn.
+<eos>","Vấp chân ngã bổ vào xuân,
+Lồm cồm nhặt lại một phần mùa đông.
+Vừa tin con én theo chồng,
+Ta ngồi ăn hết cánh đồng heo may."
+"Chuông chùa ngân vang vọng thiết tha,
+Dòng sông nhẹ chở phù sa bên đời.
+Con yêu mẹ lắm, mẹ ơi!
+Chiều nay con thấy bên trời nắng chang.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thanh bình, yên ả của cuộc sống làng quê với tiếng chuông chùa, dòng sông và tình cảm yêu thương của con dành cho mẹ trong một buổi chiều nắng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chuông chùa ngân vang vọng thiết tha,
+Dòng sông nhẹ chở phù sa bên đời.
+Con yêu mẹ lắm, mẹ ơi!
+Chiều nay con thấy bên trời nắng chang."
+"Chuông chùa ngân vang vọng thiết tha,
+Dòng sông nhẹ chở phù sa bên đời.
+Con yêu mẹ lắm, mẹ ơi!
+Chiều nay con thấy bên trời nắng chang.","<error> SE
+<desc> Câu đầu tiên của bài thơ lục bát có 6 chữ, nhưng ở đây lại có 7 chữ, phá vỡ cấu trúc lục bát truyền thống.
+<reason> Để đảm bảo cấu trúc lục bát, cần điều chỉnh câu đầu tiên về đúng 6 chữ. Cần tìm từ hoặc cụm từ thay thế để diễn tả ý tương tự nhưng ngắn gọn hơn.
+<action> Chuông chùa nhẹ tỏa bao la <replace> Chuông chùa ngân vang vọng thiết tha <line> 1 <index> 1
+<effect> Câu thơ đã được sửa về đúng 6 chữ, đảm bảo cấu trúc lục bát. Bài thơ trở lại đúng thể loại và có nhịp điệu hài hòa hơn.
+<eos>","Chuông chùa nhẹ tỏa bao la,
+Dòng sông nhẹ chở phù sa bên đời.
+Con yêu mẹ lắm, mẹ ơi!
+Chiều nay con thấy bên trời nắng chang."
+"Đêm đêm ngồi ngắm bóng điện,
+Tương tư chị mãi, biết làm sao đây?
+Thôi thì ngậm đắng nuốt cay,
+Cho lòng vương vấn mối tình đơn côi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi tương tư, nhớ nhung da diết của một người dành cho người mình yêu, phải chịu đựng sự cô đơn và cay đắng trong mối tình đơn phương.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đêm đêm ngồi ngắm bóng điện,
+Tương tư chị mãi, biết làm sao đây?
+Thôi thì ngậm đắng nuốt cay,
+Cho lòng vương vấn mối tình đơn côi."
+"Đêm đêm ngồi ngắm bóng điện,
+Tương tư chị mãi, biết làm sao đây?
+Thôi thì ngậm đắng nuốt cay,
+Cho lòng vương vấn mối tình đơn côi.","<error> IE
+<desc> Hình ảnh ""ngắm bóng điện"" không phù hợp với không gian và cảm xúc của bài thơ trữ tình, tạo cảm giác hiện đại, khô khan và thiếu lãng mạn. Nó phá vỡ sự liên kết với hình ảnh trăng tròn truyền thống và cảm xúc tương tư.
+<reason> Cần thay thế ""bóng điện"" bằng một hình ảnh quen thuộc, gợi cảm xúc và phù hợp với không gian đêm trăng, đồng thời liên quan đến đối tượng ""chị Hằng"" được nhắc đến.
+<action> chị Hằng <replace> bóng điện <line> 1 <index> 5
+<effect> Thay ""bóng điện"" bằng ""chị Hằng"" giúp khôi phục hình ảnh trăng tròn quen thuộc, tạo sự liên kết chặt chẽ với chủ đề và cảm xúc của bài thơ, đồng thời tăng tính trữ tình và lãng mạn. Bài thơ trở nên hài hòa và dễ cảm nhận hơn.
+<eos>","Đêm đêm ngồi ngắm chị Hằng,
+Tương tư chị mãi, biết làm sao đây?
+Thôi thì ngậm đắng nuốt cay,
+Cho lòng vương vấn mối tình đơn côi."
+"Một hai ba bốn năm sáu bảy,
+Đếm đi đếm lại tới bờ hư không.
+Hồn ăn về cõi phiêu bồng,
+Buồn sa giọt lệ, ngoái trông nhân tình.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự cô đơn, lạc lõng và nỗi buồn khi đối diện với sự vô nghĩa của cuộc đời, hướng về một thế giới khác xa cõi trần tục.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Một hai ba bốn năm sáu bảy,
+Đếm đi đếm lại tới bờ hư không.
+Hồn ăn về cõi phiêu bồng,
+Buồn sa giọt lệ, ngoái trông nhân tình."
+"Một hai ba bốn năm sáu bảy,
+Đếm đi đếm lại tới bờ hư không.
+Hồn ăn về cõi phiêu bồng,
+Buồn sa giọt lệ, ngoái trông nhân tình.","<error> SE
+<desc> Dòng thơ đầu tiên có 7 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Điều này ảnh hưởng đến nhịp điệu và tính thẩm mỹ của bài thơ.
+<reason> Để khôi phục cấu trúc lục bát, cần thay thế dòng thơ đầu tiên bằng một dòng có đúng 6 chữ. Cần chọn một cụm từ khác có ý nghĩa tương đồng hoặc phù hợp với chủ đề chung của bài thơ.
+<action> Một đời đếm những mộng mơ <replace> Một hai ba bốn năm sáu bảy <line> 1 <index> 1
+<effect> Dòng thơ đầu tiên đã được sửa thành 6 chữ, tuân thủ cấu trúc lục bát. Bài thơ lấy lại nhịp điệu vốn có và đảm bảo tính thẩm mỹ.
+<eois>","Một đời đếm những mộng mơ,
+Đếm đi đếm lại tới bờ hư không.
+Hồn ăn về cõi phiêu bồng,
+Buồn sa giọt lệ, ngoái trông nhân tình."
+"Một đời đếm những mộng mơ,
+Đếm đi đếm lại tới bờ hư không.
+Hồn ăn về cõi phiêu bồng,
+Buồn sa giọt lệ, ngoái trông nhân tình.","<error> ME
+<desc> Lỗi ý nghĩa. Từ ""ăn"" trong dòng thơ thứ ba không phù hợp với ngữ cảnh và phá vỡ mạch cảm xúc của bài thơ. Nó tạo ra một hình ảnh kỳ lạ và không liên quan đến chủ đề chính là sự mơ mộng và nỗi buồn.
+<reason> Cần thay thế từ ""ăn"" bằng một từ ngữ diễn tả trạng thái hoặc hành động phù hợp với ""hồn"" và ""cõi phiêu bồng"", gợi liên tưởng đến sự mơ màng, lãng đãng, hoặc hướng về một điều gì đó siêu thực.
+<action> mơ <replace> ăn <line> 3 <index> 2
+<effect> Việc thay thế ""ăn"" bằng ""mơ"" giúp khôi phục ý nghĩa và mạch cảm xúc của bài thơ. Dòng thơ trở nên hài hòa và phù hợp hơn với chủ đề chung về sự mơ mộng và nỗi buồn, đồng thời tạo ra một hình ảnh thơ mộng và lãng mạn hơn.
+<eos>","Một đời đếm những mộng mơ,
+Đếm đi đếm lại tới bờ hư không.
+Hồn mơ về cõi phiêu bồng,
+Buồn sa giọt lệ, ngoái trông nhân tình."
+"Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp ta.
+Sát na con mắt nở hoa,
+Vội y bát về đời ăn chay.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thất vọng và vội vàng của một người khi tìm kiếm sự giải thoát trong tu hành nhưng nhanh chóng quay trở lại cuộc sống đời thường.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp ta.
+Sát na con mắt nở hoa,
+Vội y bát về đời ăn chay."
+"Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp ta.
+Sát na con mắt nở hoa,
+Vội y bát về đời ăn chay.","<error> SE
+<desc> Câu 4 có 7 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8).
+<reason> Để đảm bảo tính niêm luật của thể thơ lục bát, câu 4 cần có 8 chữ. Cần thêm một từ vào câu này để đạt được độ dài yêu cầu.
+<action> Vội buông y bát về đời ăn chay. <replace> Vội y bát về đời ăn chay. <line> 4 <index> 1
+<effect> Câu thơ đã đạt độ dài 8 chữ, tuân thủ luật lục bát. Bài thơ trở nên hoàn chỉnh hơn về mặt cấu trúc.
+<eois>","Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp ta.
+Sát na con mắt nở hoa,
+Vội buông y bát về đời ăn chay."
+"Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp ta.
+Sát na con mắt nở hoa,
+Vội buông y bát về đời ăn chay.","<error> ME
+<desc> Lỗi ý nghĩa: từ ""ta"" ở câu thơ 2 không hợp với ý nghĩa của các từ phía trước câu tạo nên, khô khan.
+<reason> Cần thay đổi từ ""ta"" thành một từ khác phù hợp với ý nghĩa của câu.
+<action> người <replace> ta <line> 2 <index> 8
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh hơn.
+<eois>","Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp người.
+Sát na con mắt nở hoa,
+Vội buông y bát về đời ăn chay."
+"Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp người.
+Sát na con mắt nở hoa,
+Vội buông y bát về đời ăn chay.","<error> ME
+<desc> Lỗi ý nghĩa: Việc ""con mắt nở hoa"" tạo ra một hình ảnh kỳ lạ, không phù hợp với ngữ cảnh buồn bã và sự thất vọng của bài thơ. Nó làm giảm tính chân thực và cảm xúc của bài thơ.
+<reason> Hình ảnh ""con mắt nở hoa"" không liên quan đến sự giác ngộ hay giải thoát khỏi nghiệp chướng mà nhân vật đang tìm kiếm. Thay vào đó, nên sử dụng một hình ảnh thể hiện sự bàng hoàng, nhận ra sự thật trần trụi hoặc sự thất vọng sâu sắc.
+<action> hóa đá <replace> nở hoa <line> 3 <index> 5
+<effect> Sửa đổi này giúp tạo ra một hình ảnh phù hợp hơn với chủ đề và cảm xúc của bài thơ, tăng tính chân thực và khả năng truyền tải thông điệp. ""Hóa đá"" gợi sự bàng hoàng, sững sờ trước một sự thật nào đó, phù hợp với mong muốn thoát khỏi ""nghiệp phù du"" không thành.
+<eois>","Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp người.
+Sát na con mắt hóa đá,
+Vội buông y bát về đời ăn chay."
+"Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp người.
+Sát na con mắt hóa đá,
+Vội buông y bát về đời ăn chay.","<error> IE
+ Mô tả lỗi: Hình ảnh ""con mắt hóa đá"" không phù hợp với mạch cảm xúc của bài thơ, gây khó hiểu và tạo cảm giác khiên cưỡng. Nó không gợi lên sự rung động, xao xuyến khiến nhân vật quyết định từ bỏ tu hành.
+ Lý do: Cần thay đổi hình ảnh ở dòng 3 bằng một hình ảnh gợi cảm xúc mạnh mẽ hơn, thể hiện sự rung động, xao xuyến của nhân vật trước vẻ đẹp của ""em"", từ đó làm nổi bật sự giằng xé giữa tu hành và đời thường, giải thích cho hành động ""vội buông y bát"".
+ action> em cười <replace> hóa đá <line> 3 <index> 5
+ effect> Hình ảnh ""con mắt em cười"" gợi cảm xúc xao xuyến, rung động, phù hợp với mạch cảm xúc của bài thơ, làm cho hành động ""vội buông y bát"" trở nên hợp lý và dễ hiểu hơn. Bài thơ trở nên liền mạch và giàu cảm xúc hơn.
+<eos>","Buồn buồn đăng ký đi tu,
+Tưởng đâu thoát nghiệp phù du kiếp người.
+Sát na con mắt em cười,
+Vội buông y bát về đời ăn chay."
+"Về thăm mảnh đất hiển linh,
+Nhớ ơn những đóa thánh ca quê mình.
+Dâng hương trong quán rất ngon,
+Con xin ghi tạc nghĩa tình quê hương.","<error> CONTEXT 
+<desc> Bài thơ thể hiện lòng biết ơn và tình yêu quê hương, thông qua việc thăm viếng một địa điểm linh thiêng và tưởng nhớ những giá trị văn hóa truyền thống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Về thăm mảnh đất hiển linh,
+Nhớ ơn những đóa thánh ca quê mình.
+Dâng hương trong quán rất ngon,
+Con xin ghi tạc nghĩa tình quê hương."
+"Về thăm mảnh đất hiển linh,
+Nhớ ơn những đóa thánh ca quê mình.
+Dâng hương trong quán rất ngon,
+Con xin ghi tạc nghĩa tình quê hương.","<error> IE
+<desc> Hình ảnh ""rất ngon"" trong câu thơ 3 không phù hợp với ngữ cảnh là ""Dâng hương trong quán"".
+<reason> Cần thay thế cụm từ ""rất ngon"" thành cụm từ khác phù hợp hơn.
+<action> trà chanh <replace> rất ngon <line> 3 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh hơn.
+<eois>","Về thăm mảnh đất hiển linh,
+Nhớ ơn những đóa thánh ca quê mình.
+Dâng hương trong quán trà chanh,
+Con xin ghi tạc nghĩa tình quê hương."
+"Về thăm mảnh đất hiển linh,
+Nhớ ơn những đóa thánh ca quê mình.
+Dâng hương trong quán trà chanh,
+Con xin ghi tạc nghĩa tình quê hương.","<error> IE
+<desc> Hình ảnh ""đóa thánh ca"" không phù hợp với ngữ cảnh và gây khó hiểu. Thánh ca thường liên quan đến âm nhạc tôn giáo, không phù hợp với việc tưởng nhớ công ơn những người có công với quê hương. Nó tạo ra sự gượng gạo và thiếu tự nhiên trong bài thơ.
+<reason> Cần thay thế cụm từ ""đóa thánh ca"" bằng một cụm từ khác gợi hình ảnh những người có công với quê hương một cách trang trọng và phù hợp hơn với không khí tôn kính. Cụm từ ""thánh nhân"" vừa giữ được sự trang trọng, vừa gợi được hình ảnh những người có công lao to lớn, xứng đáng được tôn kính.
+<action> những đóa thánh nhân <replace> những đóa thánh ca <line> 2 <index> 3
+<effect> Việc thay thế ""đóa thánh ca"" bằng ""đóa thánh nhân"" giúp hình ảnh thơ trở nên rõ ràng, phù hợp với ngữ cảnh và tăng tính biểu cảm, đồng thời làm cho bài thơ trở nên trang trọng và sâu sắc hơn.
+<eois>","Về thăm mảnh đất hiển linh,
+Nhớ ơn những đóa thánh nhân quê mình.
+Dâng hương trong quán trà chanh,
+Con xin ghi tạc nghĩa tình quê hương."
+"Về thăm mảnh đất hiển linh,
+Nhớ ơn những đóa thánh nhân quê mình.
+Dâng hương trong quán trà chanh,
+Con xin ghi tạc nghĩa tình quê hương.","<error> TE
+<desc> Lỗi thanh điệu ở tiếng thứ hai dòng thơ lục. Tiếng thứ hai cần thanh bằng nhưng lại dùng thanh trắc (đóa). Điều này phá vỡ sự hài hòa về âm điệu của câu thơ.
+<reason> Cần thay thế từ ""đóa"" bằng một từ khác có thanh bằng để đảm bảo luật bằng trắc của thơ lục bát.
+<action> Nhớ ơn những bậc thánh nhân quê mình <replace> Nhớ ơn những đóa thánh nhân quê mình <line> 2 <index> 1
+<effect> Đã sửa lỗi thanh điệu, đảm bảo luật bằng trắc của câu thơ, giúp câu thơ trở nên hài hòa và dễ nghe hơn.
+<eois>","Về thăm mảnh đất hiển linh,
+Nhớ ơn các bậc thánh nhân quê mình.
+Dâng hương trong quán trà chanh,
+Con xin ghi tạc nghĩa tình quê hương."
+"Về thăm mảnh đất hiển linh,
+Nhớ ơn các bậc thánh nhân quê mình.
+Dâng hương trong quán trà chanh,
+Con xin ghi tạc nghĩa tình quê hương.","<error> ME
+<desc> Lỗi ý nghĩa. Việc dâng hương trong quán trà chanh không phù hợp với không khí trang nghiêm, thành kính khi tưởng nhớ công ơn các bậc thánh nhân và thể hiện tình yêu quê hương. 
+<reason> Cần thay thế cụm từ ""trong quán trà chanh"" bằng một địa điểm phù hợp hơn với việc dâng hương, thể hiện sự tôn kính và gắn liền với văn hóa, tín ngưỡng truyền thống.
+<action> trong buổi bình minh <replace> trong quán trà chanh <line> 3 <index> 3
+<effect> Sửa lại thành ""Dâng hương trong buổi bình minh"" giúp bài thơ có ý nghĩa hơn, phù hợp với chủ đề tưởng nhớ và tri ân, đồng thời tạo cảm giác trang trọng, thiêng liêng.
+<eos>","Về thăm mảnh đất hiển linh,
+Nhớ ơn các bậc thánh nhân quê mình.
+Dâng hương trong buổi bình minh,
+Con xin ghi tạc nghĩa tình quê hương."
+"Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng gió.
+Đầy trời chim hót véo von,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng.","<error> CONTEXT 
+<desc> Bài thơ miêu tả vẻ đẹp thiếu nữ trong khung cảnh mùa xuân tươi mới, tràn đầy sức sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng gió.
+Đầy trời chim hót véo von,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng."
+"Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng gió.
+Đầy trời chim hót véo von,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng.","<error> ME
+<desc> Lỗi ý nghĩa: Dòng thơ ""Đầy trời chim hót véo von"" không phù hợp với không khí chung của bài thơ, tạo cảm giác lạc lõng và phá vỡ sự liên kết giữa hình ảnh áo lụa, mưa xuân và gió xuân. Nó làm giảm đi sự tương phản giữa vẻ đẹp dịu dàng của người con gái và sự khắc nghiệt của cuộc sống, vốn có thể được gợi ý bằng hình ảnh ""sắt thép lao xao"" ở bản gốc.
+<reason> Cần thay thế dòng thơ bằng một hình ảnh khác phù hợp hơn với chủ đề và tông giọng của bài thơ. Hình ảnh mới nên tiếp tục gợi sự đối lập hoặc bổ sung cho vẻ đẹp của người con gái trong khung cảnh mùa xuân.
+<action> Đầy trời sắt thép lao xao <replace> Đầy trời chim hót véo von <line> 3 <index> 1
+<effect> Việc thay thế dòng thơ giúp khôi phục lại sự mạch lạc và thống nhất trong bài thơ, đồng thời tăng cường tính biểu cảm và gợi hình. Bài thơ trở nên sâu sắc và giàu cảm xúc hơn.
+<eois>","Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng gió.
+Đầy trời sắt thép lao xao,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng."
+"Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng gió.
+Đầy trời sắt thép lao xao,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""lao xao"" trong câu thơ 3 không phù hợp với ngữ cảnh của câu thơ, khiến người được mất cảm xúc.
+<reason> Cần thay đổi cụm từ ""lao xao"" thành cụm từ khác hợp với ngữ cảnh mà vẫn giữ nguyên nghĩa.
+<action> xôn xao <replace> lao xao <line> 3 <index> 5
+<effect> Việc thay ""lao xao"" bằng ""xôn xao"" giúp câu thơ trở nên mạch lạc hơn.
+<eois>","Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng gió.
+Đầy trời sắt thép xôn xao,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng."
+"Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng gió.
+Đầy trời sắt thép xôn xao,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng.","<error> TE
+<desc> Lỗi thanh điệu ở tiếng thứ 8 của dòng thơ thứ hai. Tiếng ""gió"" là thanh trắc, trong khi đó, theo luật thơ lục bát, tiếng thứ 8 của câu lục phải là thanh bằng. Lỗi này làm mất đi sự hài hòa về âm điệu của câu thơ, ảnh hưởng đến nhịp điệu chung của toàn bài.
+<reason> Cần thay thế từ ""gió"" bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát. Từ thay thế phải phù hợp với ngữ cảnh và ý nghĩa của câu thơ, gợi tả được vẻ đẹp của mùa xuân.
+<action> đào <replace> gió <line> 2 <index> 8
+<effect> Sau khi sửa, câu thơ ""Mỏng manh áo lụa vương hương nắng đào"" đã tuân thủ đúng luật thanh điệu của thơ lục bát, đồng thời vẫn giữ được ý nghĩa và vẻ đẹp vốn có. Bài thơ trở nên hài hòa và dễ nghe hơn.
+<eois>","Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng đào.
+Đầy trời sắt thép xôn xao,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng."
+"Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng đào.
+Đầy trời sắt thép xôn xao,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng.","<error> IE
+<desc> Hình ảnh ""đầy trời sắt thép xôn xao"" tạo cảm giác nặng nề, khô khan, và không phù hợp với không khí tươi vui, nhẹ nhàng của mùa xuân và hình ảnh cô gái trong bài thơ. Nó phá vỡ sự hài hòa và làm giảm tính thẩm mỹ của bài thơ.
+<reason> Cần thay thế cụm từ ""sắt thép"" bằng một hình ảnh khác phù hợp với không gian mùa xuân, gợi cảm giác tươi mới, sinh động và hài hòa với các hình ảnh khác trong bài thơ như ""hoa bướm"", ""hương nắng đào"", ""mưa xuân"". ""Hoa bướm"" là một sự lựa chọn tốt vì nó phù hợp với ngữ cảnh.
+<action> hoa bướm <replace> sắt thép <line> 3 <index> 3
+<effect> Thay thế ""sắt thép"" bằng ""hoa bướm"" giúp tạo ra một hình ảnh thơ tươi sáng, sinh động, phù hợp với không khí mùa xuân và các hình ảnh khác trong bài thơ. Câu thơ trở nên hài hòa và gợi cảm xúc hơn, làm tăng tính thẩm mỹ của toàn bài.
+<eos>","Sáng xuân em trẩy trên đường,
+Mỏng manh áo lụa vương hương nắng đào.
+Đầy trời hoa bướm xôn xao,
+Mưa xuân lất phất vương vào tóc em.
+Gió xuân nhẹ tựa môi mềm,
+Bên cành đào thắm má em thêm hồng."
+"Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng rất nhiều.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình thương nhớ?","<error> CONTEXT 
+<desc> Bài thơ thể hiện tình yêu thầm kín, chàng trai dùng hoa thạch thảo để bày tỏ tình cảm nhưng lại ngại ngùng, không dám nói ra.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng rất nhiều.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình thương nhớ?"
+"Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng rất nhiều.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình thương nhớ?","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 6, tiếng thứ 8. ""Nhớ"" là thanh trắc, trong khi đó tiếng thứ 6 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""nhớ"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> ăn cơm <replace> thương nhớ <line> 6 <index> 7
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 6, tiếng thứ 8. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng rất nhiều.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình ăn cơm?"
+"Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng rất nhiều.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình ăn cơm?","<error> ME
+<desc> Lỗi nội dung: cụm từ ""rất nhiều"" trong câu thơ 2 không hợp với ngữ cảnh tình yêu trong câu.
+<reason> Cần thay thế cụm từ ""rất nhiều"" bằng một cụm từ khác phù hợp với ngữ cảnh của câu.
+<action> cho anh <replace> rất nhiều <line> 2 <index> 7
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh và giàu cảm xúc hơn.
+<eois>","Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng cho anh.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình ăn cơm?"
+"Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng cho anh.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình ăn cơm?","<error> ME
+<desc> Lỗi nội dung: cụm từ ""cho anh"" trong câu thơ 2 không hợp với ngữ cảnh trong câu khi lặp lại từ ""anh"" và chỉ ám chỉ đến từ ""anh"".
+<reason> Cần thay thế cụm từ ""cho anh"" bằng một cụm từ khác phù hợp với ngữ cảnh của câu.
+<action> cho em <replace> cho anh <line> 2 <index> 7
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh và giàu cảm xúc hơn.
+<eois>","Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng cho em.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình ăn cơm?"
+"Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng cho em.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình ăn cơm?","<error> IE
+<desc> Câu ""Nói sao cho đặng để mình ăn cơm?"" lạc lõng, không liên quan đến tình huống trao hoa và ngỏ tình, phá vỡ mạch cảm xúc lãng mạn của bài thơ. Nó tạo ra sự khó hiểu và gây cười không đúng chỗ, làm giảm giá trị thẩm mỹ của bài thơ.
+<reason> Cần thay thế bằng một câu thơ diễn tả được sự bối rối, khó khăn trong việc bày tỏ tình cảm, phù hợp với ngữ cảnh trao hoa và mong muốn được hiểu nhau.
+<action> Nói sao cho đặng để mình hiểu nhau? <replace> Nói sao cho đặng để mình ăn cơm? <line> 6 <index> 1
+<effect> Câu thơ mới phù hợp với mạch cảm xúc của bài thơ, thể hiện sự bối rối và mong muốn được thấu hiểu trong tình yêu, giúp bài thơ trở nên liền mạch và ý nghĩa hơn.
+<eos>","Cũng màu thạch thảo thương mong,
+Anh yêu từ thuở ươm trồng cho em.
+Anh yêu từ thuở hoa lên,
+Đến khi hoa nở ngắt đem ngỏ tình.
+Trao hoa mà đứng lặng thinh,
+Nói sao cho đặng để mình hiểu nhau?"
+"Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh xe hơi điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh xe.","<error> CONTEXT 
+<desc> Bài thơ diễn tả khung cảnh đêm khuya vắng vẻ, có trăng, gió và hình ảnh chiếc xe hơi gợi cảm giác cô đơn, tàn úa.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh xe hơi điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh xe."
+"Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh xe hơi điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh xe.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 2, tiếng thứ 4. ""Hơi"" là thanh bằng, trong khi đó tiếng thứ 4 của câu lục bát phải là thanh trắc. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""hơi"" hoặc cụm từ đi liền với nó bằng một từ có thanh trắc để đảm bảo đúng luật thơ lục bát.
+<action>cuồn cuộn <replace> xe hơi <line> 2 <index> 3
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 2, tiếng thứ 4. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh cuồn cuộn điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh xe."
+"Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh cuồn cuộn điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh xe.","<error> SE
+<desc> Câu 4 ""Hàng hoa gió thổi rất nhanh xe"" có 7 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Điều này làm mất đi nhịp điệu và sự cân đối vốn có của thể thơ.
+<reason> Cần thay đổi câu 4 để có đúng 8 chữ, đồng thời vẫn giữ được ý nghĩa và vần điệu phù hợp với bài thơ.
+<action> Hàng hoa gió thổi rất nhanh xe hơi <replace> Hàng hoa gió thổi rất nhanh xe<line> 4 <index> 1
+<effect> Câu thơ đã được sửa thành 8 chữ, tuân thủ đúng luật lục bát, đồng thời vẫn giữ được ý nghĩa về một hàng hoa bị gió lay động, phù hợp với ngữ cảnh chung của bài thơ.
+<eois>","Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh cuồn cuộn điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh xe hơi."
+"Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh cuồn cuộn điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh xe hơi.","<error> ME
+<desc> Lỗi nghĩa: ""xe hơi"" không liên quan đến ngữ cảnh thiên nhiên và thơ mộng của bài thơ, tạo sự khập khiễng và phá vỡ mạch cảm xúc.
+<reason> Cần thay thế ""xe hơi"" bằng một từ hoặc cụm từ gợi hình ảnh phù hợp với chủ đề thiên nhiên, gợi cảm giác nhẹ nhàng, uyển chuyển của gió. ""Nhịp nhàng"" đã gợi ý về chuyển động, nên chọn từ ngữ diễn tả chuyển động của thiên nhiên.
+<action> nhịp nhàng <replace> xe hơi <line> 4 <index> 7
+<effect> Sửa lỗi nghĩa, khôi phục sự hài hòa của bài thơ, tạo cảm giác về chuyển động nhẹ nhàng, uyển chuyển của thiên nhiên.
+<eois>","Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh cuồn cuộn điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh nhịp nhàng."
+"Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh cuồn cuộn điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió thổi rất nhanh nhịp nhàng.","<error> IE
+<desc> Hình ảnh ""gió thổi rất nhanh"" không phù hợp với sự nhẹ nhàng, uyển chuyển thường thấy của gió trong thơ, tạo cảm giác gượng gạo, thiếu tinh tế.
+<reason> Cần thay đổi cụm từ ""thổi rất nhanh"" bằng một cụm từ gợi cảm giác nhẹ nhàng, uyển chuyển, phù hợp với hình ảnh ""hàng hoa gió"" và nhịp điệu của bài thơ. Cụm từ ""đông đưa"" gợi sự chuyển động nhẹ nhàng, nhịp nhàng của hoa trong gió, phù hợp với ngữ cảnh.
+<action> luống đông đưa <replace> thổi rất nhanh <line> 4 <index> 4
+<effect> Thay đổi giúp hình ảnh thơ trở nên uyển chuyển, nhẹ nhàng và phù hợp với tổng thể bài thơ, tăng tính gợi cảm và biểu cảm.
+<eos>","Trăng nghiêng soi bóng đầu ghềnh,
+Quẩn quanh cuồn cuộn điêu linh gió lùa.
+Canh thâu đêm vắng buông nho,
+Hàng hoa gió luống đông đưa nhịp nhàng."
+"Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây xanh,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mùa rơm,
+Đèn khuya học nhóm, giờ ta đi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ về những kỷ niệm đẹp của tuổi thơ gắn liền với giếng làng, mùa màng và những sinh hoạt cộng đồng giản dị, thân thương.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây xanh,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mùa rơm,
+Đèn khuya học nhóm, giờ ta đi."
+"Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây xanh,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mùa rơm,
+Đèn khuya học nhóm, giờ ta đi.","<error> SE
+<desc> Lỗi cấu trúc: Câu thơ 6 chỉ có 7 chữ, phá vỡ cấu trúc lục bát truyền thống.
+<reason> Câu thơ ""Đèn khuya học nhóm, giờ ta đi"" có 7 chữ, trong theo theo luật thơ lục bát thì cần 8 chữ cho câu bát (là những câu ở vị trí số chẵn). Cần thay đổi để đảm bảo số lượng chữ và vẫn giữ được ý nghĩa tương đồng.
+<action> Đèn khuya học nhóm, giờ tìm ánh sao <replace> Đèn khuya học nhóm, giờ ta đi chơi <line> 6 <index> 1
+<effect> Sửa lại câu thơ về đúng số lượng chữ theo thể lục bát, đảm bảo cấu trúc bài thơ.
+<eois>","Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây xanh,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mùa rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao."
+"Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây xanh,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mùa rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao.","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""mây xanh"" trong câu thơ 3 không hợp với ngữ cảnh câu thơ, khô khan, thiếu cảm xúc.
+<reason> Để sửa lỗi, cần thay thế cụm từ ""mây xanh"" bằng một cụm từ khác để hợp với ngữ cảnh câu thơ hơn.
+<action> mây trôi <replace> mây xanh <line> 3 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ trở nên hài hòa, thanh thoát, ý nghĩa hơn.
+<eois>","Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây trôi,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mùa rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao."
+"Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây trôi,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mùa rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao.","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""mùa rơm"" trong câu thơ 5 không có ý nghĩa về mặt hình ảnh vì không tồn tại mùa nào là ""mùa rơm"".
+<reason> Cần thay thế cụm từ ""mùa rơm"" bằng một cụm từ khác phù hợp với hình ảnh câu thơ.
+<action> mũ <replace> mùa <line> 5 <index> 5
+<effect> Sau khi sửa lỗi, câu thơ trở nên hài hòa và ý nghĩa hơn.
+<eois>","Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây trôi,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mũ rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao."
+"Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp mây trôi,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mũ rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao.","<error> IE
+<desc> Hình ảnh ""Đá gài trong lớp mây trôi"" không rõ ràng, khó hình dung, và không phù hợp với ngữ cảnh giếng làng. Mây trôi là hình ảnh động, không thể ""gài"" vào nhau như đá. Điều này làm giảm tính biểu cảm và sự liên kết với các hình ảnh khác trong bài thơ.
+<reason> Cần thay thế bằng một hình ảnh tĩnh, gần gũi với giếng làng, và có khả năng ""gài"" vào nhau như đá. Hình ảnh này nên gợi cảm giác cổ kính, lâu đời và mang yếu tố tâm linh, bí ẩn.
+<action> Đá gài trong lớp rêu phong <replace> Đá gài trong lớp mây trôi <line> 3 <index> 1
+<effect> Hình ảnh ""Đá gài trong lớp rêu phong"" gợi cảm giác cổ kính, gần gũi với giếng làng hơn. Rêu phong bám trên đá tạo nên sự liên kết tự nhiên, tăng tính biểu cảm và phù hợp với tổng thể bài thơ.
+<eois>","Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp bùa yêu,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mũ rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao."
+"Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp bùa yêu,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mũ rơm,
+Đèn khuya học nhóm, giờ tìm ánh sao.","<error> IE
+<desc> Lỗi hình ảnh thơ. ""giờ tìm ánh sao"" không phù hợp với mạch cảm xúc hoài niệm về quá khứ, không gợi được sự tiếc nuối, mất mát như ""tìm bóng nhau"". Ánh sao mang tính chất khách quan, xa xôi, không gợi được sự gần gũi, thân thuộc của những kỷ niệm đã qua.
+<reason> Cần thay đổi hình ảnh ""ánh sao"" bằng một hình ảnh gợi cảm xúc hoài niệm, tiếc nuối về những người bạn cũ, những kỷ niệm xưa. ""Bóng nhau"" gợi sự gắn bó, thân thiết, sự mất mát khi mỗi người một nơi.
+<action> bóng nhau <replace> ánh sao <line> 6 <index> 7
+<effect> Hình ảnh thơ trở nên rõ ràng, gợi cảm xúc hơn, phù hợp với chủ đề hoài niệm của bài thơ. ""Tìm bóng nhau"" diễn tả sự tiếc nuối, nỗi nhớ về những người bạn cũ, những kỷ niệm xưa.
+<eos>","Giếng làng một thuở múc trăng,
+Chìm trong câu hát, hoa giăng kín chiều.
+Đá gài trong lớp bùa yêu,
+Nếp mùa bông chín, rang đều cốm thơm.
+Xa rồi cái thuở mũ rơm,
+Đèn khuya học nhóm, giờ tìm bóng nhau."
+"Chẳng sân ga, chẳng tàu,
+Biệt ly ăn bánh mì chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà ca,
+Chia tay chả nhắc làm gì vướng nhau.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự chia tay nhẹ nhàng, không vướng bận, không có nỗi buồn hay sự nhớ nhung thường thấy trong những cuộc chia ly.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chẳng sân ga, chẳng tàu,
+Biệt ly ăn bánh mì chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà ca,
+Chia tay chả nhắc làm gì vướng nhau."
+"Chẳng sân ga, chẳng tàu,
+Biệt ly ăn bánh mì chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà ca,
+Chia tay chả nhắc làm gì vướng nhau.","<error> SE
+<desc> Câu thơ ""Chẳng sân ga, chẳng tàu"" có 5 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Lỗi này làm mất đi sự cân đối, nhịp nhàng vốn có của thể thơ.
+<reason> Để sửa lỗi này, cần thay đổi câu thơ sao cho nó có đúng 6 chữ đối với câu lục, đồng thời vẫn giữ được ý nghĩa và vần điệu phù hợp với mạch thơ.
+<action> chẳng còi tàu <replace> chẳng tàu <line> 4 <index> 4
+<effect> Câu thơ đã được sửa thành 6 chữ, đảm bảo đúng cấu trúc của thể thơ lục bát. Bài thơ trở nên cân đối và nhịp nhàng hơn.
+<eois>","Chẳng sân ga, chẳng còi tàu,
+Biệt ly ăn bánh mì chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà ca,
+Chia tay chả nhắc làm gì vướng nhau."
+"Chẳng sân ga, chẳng còi tàu,
+Biệt ly ăn bánh mì chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà ca,
+Chia tay chả nhắc làm gì vướng nhau.","<error> ME
+<desc> Dòng thơ thứ hai bị lỗi Meaning Error do cụm từ ""ăn bánh mì"" không liên quan đến chủ đề biệt ly và tạo ra sự vô lý, phá vỡ mạch cảm xúc của bài thơ. 
+<reason> Cụm từ ""ăn bánh mì"" không phù hợp với ngữ cảnh chia ly, tạo cảm giác lạc lõng và khó hiểu, làm giảm tính biểu cảm và giá trị thẩm mỹ của bài thơ. Cần thay thế bằng một cụm từ hoặc hình ảnh phù hợp hơn để diễn tả cảm xúc biệt ly một cách tinh tế và sâu sắc.
+<action> Biệt ly chẳng có nỗi sầu vướng mi <replace> Biệt ly ăn bánh mì chẳng có nỗi sầu vướng mi <line> 2 <index> 1
+<effect> Việc thay thế cụm từ ""ăn bánh mì"" bằng ""chẳng gợi"" giúp dòng thơ trở nên mạch lạc, phù hợp với chủ đề chia ly và tăng tính biểu cảm cho bài thơ.
+<eois>","Chẳng sân ga, chẳng còi tàu,
+Biệt ly chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà ca,
+Chia tay chả nhắc làm gì vướng nhau."
+"Chẳng sân ga, chẳng còi tàu,
+Biệt ly chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà ca,
+Chia tay chả nhắc làm gì vướng nhau.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 3 (""ca"") và tiếng thứ 6 câu 4 (""gì"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 3 hoặc tiếng thứ 6 câu 4 sao cho chúng hiệp vần với nhau.
+<action> đi <replace> ca <line> 3 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Chẳng sân ga, chẳng còi tàu,
+Biệt ly chẳng có nỗi sầu vướng mi.
+Đường em vững bước mà đi,
+Chia tay chả nhắc làm gì vướng nhau."
+"Tình anh gói trọn câu thơ,
+Duyên khơi ý đẹp dệt mộng từng ngày.
+Hương trăng xe đò vơi đầy,
+Áng thơ đầy, mà say cùng đời.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tình yêu lứa đôi được gửi gắm qua những vần thơ, cùng nhau xây đắp ước mơ và tận hưởng cuộc sống tươi đẹp.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tình anh gói trọn câu thơ,
+Duyên khơi ý đẹp dệt mộng từng ngày.
+Hương trăng xe đò vơi đầy,
+Áng thơ đầy, mà say cùng đời."
+"Tình anh gói trọn câu thơ,
+Duyên khơi ý đẹp dệt mộng từng ngày.
+Hương trăng xe đò vơi đầy,
+Áng thơ đầy, mà say cùng đời.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 3, tiếng thứ 4. ""Đò"" là thanh bằng, trong khi đó tiếng thứ 4 của câu lục bát phải là thanh trắc. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""đò"" hoặc cụm từ đi liền với nó bằng một từ có thanh trắc để đảm bảo đúng luật thơ lục bát.
+<action> cộ <replace> đò <line> 3 <index> 4
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 3, tiếng thứ 4. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Tình anh gói trọn câu thơ,
+Duyên khơi ý đẹp dệt mộng từng ngày.
+Hương trăng xe cộ vơi đầy,
+Áng thơ đầy, mà say cùng đời."
+"Tình anh gói trọn câu thơ,
+Duyên khơi ý đẹp dệt mộng từng ngày.
+Hương trăng xe cộ vơi đầy,
+Áng thơ đầy, mà say cùng đời.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""thơ"") và tiếng thứ 6 câu 2 (""mộng"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau.
+<action> mơ <replace> mộng <line> 2 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Tình anh gói ở câu thơ,
+Duyên khơi ý đẹp dệt mơ từng ngày.
+Hương trăng xe cộ vơi đầy,
+Áng thơ đầy, mà say cùng đời."
+"Tình anh gói ở câu thơ,
+Duyên khơi ý đẹp dệt mơ từng ngày.
+Hương trăng xe cộ vơi đầy,
+Áng thơ đầy, mà say cùng đời.","<error> SE
+<desc> Câu 4 ""Áng thơ đầy, mà say cùng đời"" có 7 chữ, phá vỡ cấu trúc lục bát truyền thống 6-8. Điều này làm mất đi sự cân đối, nhịp nhàng vốn có của thể thơ.
+<reason> Cần thay đổi câu 4 để có đúng 8 chữ, đảm bảo tuân thủ luật thơ lục bát. Có thể thêm một vài từ hoặc thay thế bằng từ đồng nghĩa.
+<action> Áng thơ đầy đặn, mà say cùng đời. <replace> Áng thơ đầy, mà say cùng đời. <line> 4 <index> 1
+<effect> Câu thơ được sửa lại thành 8 chữ, đảm bảo đúng thể thơ lục bát. Bài thơ trở nên cân đối, hài hòa hơn về mặt cấu trúc.
+<eois>","Tình anh gói ở câu thơ,
+Duyên khơi ý đẹp dệt mơ từng ngày.
+Hương trăng xe cộ vơi đầy,
+Áng thơ đầy đặn, mà say cùng đời."
+"Tình anh gói ở câu thơ,
+Duyên khơi ý đẹp dệt mơ từng ngày.
+Hương trăng xe cộ vơi đầy,
+Áng thơ đầy đặn, mà say cùng đời.","<error> ME
+<desc> Lỗi ý nghĩa: Từ ""xe cộ"" không liên quan đến chủ đề thơ, phá vỡ mạch cảm xúc và hình ảnh lãng mạn của bài thơ. 
+<reason> Cần thay thế ""xe cộ"" bằng một hình ảnh gợi cảm xúc, phù hợp với ""hương trăng"" và ""vơi đầy"", liên quan đến tình yêu hoặc thiên nhiên. Một hình ảnh sóng sánh, lung linh sẽ phù hợp hơn.
+<action> sóng dậy <replace> xe cộ <line> 3 <index> 3
+<effect> Thay thế ""xe cộ"" bằng ""sóng dậy"" tạo ra một hình ảnh thơ mộng, kết nối ""hương trăng"" với sự biến đổi ""vơi đầy"", làm cho dòng thơ trở nên ý nghĩa và phù hợp với chủ đề chung của bài thơ.
+<eos>","Tình anh gói ở câu thơ,
+Duyên khơi ý đẹp dệt mơ từng ngày.
+Hương trăng sóng dậy vơi đầy,
+Áng thơ đầy đặn, mà say cùng đời."
+"Tính người cũng có âm dương,
+Ngày ấy xen kẽ nắng mưa theo mùa.
+Anh xưa nay em thích,
+Cơ đồ tối tăm, nhu cương đúng thời.","<error> CONTEXT 
+<desc> Bài thơ bàn về tính cách con người với hai mặt đối lập và sự yêu thích của người nói đối với những người anh hùng biết ứng biến theo thời thế.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tính người cũng có âm dương,
+Ngày ấy xen kẽ nắng mưa theo mùa.
+Anh xưa nay em thích,
+Cơ đồ tối tăm, nhu cương đúng thời."
+"Tính người cũng có âm dương,
+Ngày ấy xen kẽ nắng mưa theo mùa.
+Anh xưa nay em thích,
+Cơ đồ tối tăm, nhu cương đúng thời.","<error> SE
+<desc> Câu thơ ""Anh xưa nay em thích"" có 5 chữ, trong khi dòng 3 của một bài lục bát phải có 6 chữ. Việc sai cấu trúc khiến bài thơ mất đi tính nhịp nhàng vốn có.
+<reason> Cần thay thế cụm từ ""Anh xưa nay em thích"" bằng một cụm từ khác có 6 chữ và vẫn giữ được ý nghĩa liên quan đến chủ đề của bài thơ. Ta có thể thay bằng ""Anh hùng hào kiệt xưa nay"".
+<action> Anh hùng hào kiệt xưa nay <replace> Anh xưa nay em thích <line> 3 <index> 1
+<effect> Câu thơ đã có 6 chữ, đúng với cấu trúc lục bát. Nội dung câu thơ phù hợp với chủ đề bài thơ.
+<eois>","Tính người cũng có âm dương,
+Ngày ấy xen kẽ nắng mưa theo mùa.
+Anh hùng hào kiệt xưa nay,
+Cơ đồ tối tăm, nhu cương đúng thời."
+"Tính người cũng có âm dương,
+Ngày ấy xen kẽ nắng mưa theo mùa.
+Anh hùng hào kiệt xưa nay,
+Cơ đồ tối tăm, nhu cương đúng thời.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 2, tiếng thứ 2. ""Ấy"" là thanh trắc, trong khi đó tiếng thứ 6 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""ấy"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> đêm <replace> ấy <line> 2 <index> 2
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 2, tiếng thứ 2. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Tính người cũng có âm dương,
+Ngày đêm xen kẽ nắng mưa theo mùa.
+Anh hùng hào kiệt xưa nay,
+Cơ đồ tối tăm, nhu cương đúng thời."
+"Tính người cũng có âm dương,
+Ngày đêm xen kẽ nắng mưa theo mùa.
+Anh hùng hào kiệt xưa nay,
+Cơ đồ tối tăm, nhu cương đúng thời.","<error> IE
+<desc> Sử dụng ""Tính người"" thay vì ""Tính trời"" tạo ra một hình ảnh trừu tượng và không rõ ràng, làm mất đi sự liên kết với tự nhiên và vũ trụ, khiến ý thơ trở nên khiên cưỡng và khó cảm nhận.
+<reason> Cần thay đổi lại thành ""Tính trời"" để khôi phục lại ý nghĩa ban đầu về sự hài hòa và cân bằng trong vũ trụ, tạo ra một hình ảnh thơ tự nhiên và gợi cảm xúc hơn.
+<action> Tính trời <replace> Tính người <line> 1 <index> 1
+<effect> Việc thay đổi ""Tính người"" thành ""Tính trời"" giúp bài thơ trở nên mạch lạc và sâu sắc hơn, đồng thời tạo ra một liên kết chặt chẽ với các dòng thơ tiếp theo về sự hài hòa của vũ trụ.
+<eois>","Tính trời cũng có âm dương,
+Ngày đêm xen kẽ nắng mưa theo mùa.
+Anh hùng hào kiệt xưa nay,
+Cơ đồ tối tăm, nhu cương đúng thời."
+"Tính trời cũng có âm dương,
+Ngày đêm xen kẽ nắng mưa theo mùa.
+Anh hùng hào kiệt xưa nay,
+Cơ đồ tối tăm, nhu cương đúng thời.","<error> IE
+<desc> Hình ảnh ""Cơ đồ tối tăm"" tạo ra sự mâu thuẫn với hình tượng anh hùng hào kiệt, vốn gắn liền với sự nghiệp vẻ vang, rạng rỡ. Lỗi này khiến ý thơ trở nên khó hiểu và làm giảm giá trị của bài thơ.
+<reason> Cần thay đổi từ ""tối tăm"" bằng một từ ngữ khác phù hợp hơn với sự nghiệp của anh hùng hào kiệt, đồng thời vẫn giữ được ý nghĩa về sự đúng thời điểm.
+<action> sáng rực <replace> tối tăm <line> 4 <index> 3
+<effect> Việc thay ""tối tăm"" bằng ""sáng rực"" giúp khắc phục lỗi hình ảnh, tạo sự tương phản rõ nét và nhấn mạnh sự thành công, vẻ vang của anh hùng hào kiệt, làm cho ý thơ trở nên mạch lạc và sâu sắc hơn. Bài thơ trở nên hay hơn.
+<eos>","Tính trời cũng có âm dương,
+Ngày đêm xen kẽ nắng mưa theo mùa.
+Anh hùng hào kiệt xưa nay,
+Cơ đồ sáng rực, nhu cương đúng thời."
+"Ơn người trả mãi chưa xong,
+Lòng ghi dạ tạc biển trời có quên.
+Mai kia chó sủa ngoài đồng,
+Ơn người ta trả nghĩa xưa quyết đền.","<error> CONTEXT 
+<desc> Bài thơ thể hiện lòng biết ơn sâu sắc và quyết tâm trả ơn người, dù thời gian có trôi qua bao lâu đi nữa.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ơn người trả mãi chưa xong,
+Lòng ghi dạ tạc biển trời có quên.
+Mai kia chó sủa ngoài đồng,
+Ơn người ta trả nghĩa xưa quyết đền."
+"Ơn người trả mãi chưa xong,
+Lòng ghi dạ tạc biển trời có quên.
+Mai kia chó sủa ngoài đồng,
+Ơn người ta trả nghĩa xưa quyết đền.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""có quên"" trong câu thơ 2 không hợp với ngữ cảnh câu thơ khi ở phía trước là ""Lòng ghi dạ tạc"" thì phải là ""không quên"" mới đúng.
+<reason> Cần thay đổi cụm từ ""có quên"" thành cụm từ khác phù hợp với ngữ cảnh câu thơ, đề xuất cụm từ ""không quên"".
+<action> không quên <replace> có quên <line> 2 <index> 7
+<effect> Sau khi sửa lỗi, câu thơ trở nên hoàn chỉnh hơn.
+<eois>","Ơn người trả mãi chưa xong,
+Lòng ghi dạ tạc biển trời không quên.
+Mai kia chó sủa ngoài đồng,
+Ơn người ta trả nghĩa xưa quyết đền."
+"Ơn người trả mãi chưa xong,
+Lòng ghi dạ tạc biển trời không quên.
+Mai kia chó sủa ngoài đồng,
+Ơn người ta trả nghĩa xưa quyết đền.","<error> IE
+<desc> Hình ảnh ""chó sủa ngoài đồng"" đột ngột xuất hiện trong bài thơ mang sắc thái trang trọng, tri ân, tạo cảm giác lạc lõng, phá vỡ mạch cảm xúc và không liên quan đến chủ đề chính là lòng biết ơn.
+<reason> Cần thay thế hình ảnh ""chó sủa ngoài đồng"" bằng một hình ảnh mang tính biểu tượng, gợi sự thay đổi của thời gian, vũ trụ, phù hợp với dòng thơ ""vật đổi sao dời"" ở trên, đồng thời vẫn giữ được sự trang trọng và ý chí quyết tâm trả ơn.
+<action> vật đổi sao dời <replace> chó sủa ngoài đồng <line> 3 <index> 2
+<effect> Việc thay thế ""chó sủa ngoài đồng"" bằng ""vật đổi sao dời"" giúp dòng thơ trở nên liền mạch, thống nhất về mặt ý nghĩa và cảm xúc, đồng thời tăng tính biểu tượng và sức gợi hình cho bài thơ. Bài thơ trở nên sâu sắc và trang trọng hơn.
+<eos>","Ơn người trả mãi chưa xong,
+Lòng ghi dạ tạc biển trời không quên.
+Mai kia vật đổi sao dời,
+Ơn người ta trả nghĩa xưa quyết đền."
+"Thơ tôi như đám cỏ khô,
+Đem hong ngoài nắng, uốn cong mưa dầm.
+Thơ tôi một lũ người ngâm,
+Làm thơ cốt để trong tâm bớt buồn.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự trăn trở, nỗi buồn của tác giả được gửi gắm vào những vần thơ mộc mạc, giản dị như cỏ khô, và mong muốn thơ ca xoa dịu nỗi lòng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Thơ tôi như đám cỏ khô,
+Đem hong ngoài nắng, uốn cong mưa dầm.
+Thơ tôi một lũ người ngâm,
+Làm thơ cốt để trong tâm bớt buồn."
+"Thơ tôi như đám cỏ khô,
+Đem hong ngoài nắng, uốn cong mưa dầm.
+Thơ tôi một lũ người ngâm,
+Làm thơ cốt để trong tâm bớt buồn.","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""lũ người"" trong câu thơ 3 mang hình ảnh thô thiển, không phù hợp với ngữ cảnh.
+<reason> Cần thay thế cụm từ ""lũ người"" bằng một cụm từ khác phù hợp với câu thơ hơn.
+<action> chẳng có người <replace> một lũ người <line> 3 <index> 3
+<effect> Sau khi sửa lỗi, câu thơ trở nên hài hòa và hợp với ngữ cảnh câu thơ hơn.
+<eois>","Thơ tôi như đám cỏ khô,
+Đem hong ngoài nắng, uốn cong mưa dầm.
+Thơ tôi chẳng có người ngâm,
+Làm thơ cốt để trong tâm bớt buồn."
+"Thơ tôi như đám cỏ khô,
+Đem hong ngoài nắng, uốn cong mưa dầm.
+Thơ tôi chẳng có người ngâm,
+Làm thơ cốt để trong tâm bớt buồn.","<error> ME
+<desc> ""bòng bong"" gợi sự rối rắm, khó hiểu, phù hợp với tâm trạng người làm thơ. Thay bằng ""đám cỏ khô"" làm mất đi tính biểu tượng và sự liên kết với mạch cảm xúc chính của bài thơ.
+<reason> Cần thay ""đám cỏ khô"" bằng một hình ảnh gợi sự rối bời, khó gỡ, thể hiện tâm trạng phức tạp và khó diễn tả của người viết. ""Mớ bòng bong"" là một lựa chọn tốt vì nó mang tính hình ảnh cao và gợi liên tưởng đến sự phức tạp trong suy nghĩ, cảm xúc.
+<action> mớ bòng bong <replace> đám cỏ khô <line> 1 <index> 4
+<effect> Việc thay đổi ""đám cỏ khô"" thành ""mớ bòng bong"" giúp khôi phục lại tính biểu tượng và sự liên kết với mạch cảm xúc chính của bài thơ, làm cho ý nghĩa của câu thơ trở nên rõ ràng và sâu sắc hơn. Bài thơ trở nên mạch lạc và có tính biểu cảm cao hơn.
+<eos>","Thơ tôi như mớ bòng bong,
+Đem hong ngoài nắng, uốn cong mưa dầm.
+Thơ tôi chẳng có người ngâm,
+Làm thơ cốt để trong tâm bớt buồn."
+"Vẫn con đường ấy ngày trước,
+Từ quê ra tỉnh ôm vào nắng gió.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu dệt ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhung của người con gái ở miền Nam về người yêu, gợi nhắc những kỷ niệm và sự thay đổi cảm xúc theo thời tiết.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Vẫn con đường ấy ngày trước,
+Từ quê ra tỉnh ôm vào nắng gió.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu dệt ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa."
+"Vẫn con đường ấy ngày trước,
+Từ quê ra tỉnh ôm vào nắng gió.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu dệt ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""trước"") và tiếng thứ 6 câu 2 (""vào"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau.
+<action> nào <replace> trước <line> 1 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát. Câu thơ trở nên giàu ý nghĩa hơn.
+<eois>","Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng gió.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu dệt ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa."
+"Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng gió.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu dệt ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 2, tiếng thứ 8. ""Gió"" là thanh trắc, trong khi đó tiếng thứ 8 của câu bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""gió"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> nắng mưa <replace> nắng gió <line> 2 <index> 7
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 2, tiếng thứ 8. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng mưa.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu dệt ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa."
+"Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng mưa.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu dệt ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 3 (""mùa"") vần với tiếng cuối câu 2 (""mưa"") nhưng không vần tiếng thứ 6 câu 4 (""dệt""), gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng thứ 6 câu 4 sao cho nó khớp vần với tiếng cuối câu 3 (""mùa"") và tiếng cuối câu 2 (""mưa"").
+<action> thùa <replace> dệt <line> 4 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng mưa.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu thùa ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa."
+"Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng mưa.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu thùa ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn mèo tiết mùa.","<error> ME
+<desc> Lỗi ý nghĩa: ""mèo tiết mùa"" không liên quan đến cảm xúc nhớ nhung trong tình yêu và phá vỡ mạch cảm xúc của bài thơ. Nó tạo ra một hình ảnh kỳ lạ và không phù hợp.
+<reason> Cần thay thế ""mèo tiết mùa"" bằng một cụm từ hoặc hình ảnh gợi cảm xúc phù hợp với ngữ cảnh nhớ nhung người yêu và cơn mưa, đồng thời liên kết với sự thay đổi của thời tiết và tâm trạng.
+<action> ăn dưa tiết mùa <replace> ăn mèo tiết mùa <line> 6 <index> 6
+<effect> Sửa lỗi ý nghĩa, làm cho câu thơ phù hợp hơn với mạch cảm xúc chung của bài thơ, thể hiện sự buồn bã, thiếu vắng khi nhớ người yêu trong cơn mưa.
+<eois>","Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng mưa.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu thùa ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn dưa tiết mùa."
+"Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng mưa.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu thùa ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng thích ăn dưa tiết mùa.","<error> IE
+<desc> Hình ảnh ""chẳng thích ăn dưa tiết mùa"" không phù hợp với mạch cảm xúc của bài thơ. Nó tạo ra sự đột ngột, phá vỡ sự lãng mạn và nỗi nhớ nhung đang được thể hiện. Câu thơ trở nên lạc lõng và thiếu tinh tế, không gợi được cảm xúc đồng điệu từ người đọc.
+<reason> Cần thay đổi cụm từ ""chẳng thích ăn dưa"" bằng một cụm từ khác thể hiện sự nhớ nhung, mong đợi hoặc sự kiên cường của người con gái trong tình yêu, phù hợp với bối cảnh mưa và nỗi nhớ anh.
+<action> chẳng chào thua tiết mùa <replace> chẳng thích ăn dưa tiết mùa <line> 6 <index> 4
+<effect> Sau khi sửa, câu thơ ""Nhớ anh, em chẳng chào thua tiết mùa"" trở nên mạch lạc và hợp lý hơn. Nó thể hiện sự kiên cường và tình yêu sâu đậm của người con gái, dù thời tiết khắc nghiệt hay xa cách vẫn không hề nao núng. Bài thơ trở nên giàu cảm xúc và dễ dàng chạm đến trái tim người đọc hơn.
+<eos>","Vẫn con đường ấy ngày nào,
+Từ quê ra tỉnh ôm vào nắng mưa.
+Miền Nam mưa nắng hai mùa,
+Tình yêu ai đã thêu thùa ước mơ?
+Sáng nay trời đổ cơn mưa,
+Nhớ anh, em chẳng chào thua tiết mùa."
+"Hoàng hôn trắng lộng chiều,
+Cánh diều no gió mộng chiều lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao chiều soi đời bước chân.","<error> CONTEXT 
+<desc> Bài thơ thể hiện khung cảnh thanh bình, tươi sáng của buổi chiều tà với cánh diều no gió và ánh đèn soi sáng, gợi cảm giác về một cuộc sống an yên, tràn đầy hy vọng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Hoàng hôn trắng lộng chiều,
+Cánh diều no gió mộng chiều lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao chiều soi đời bước chân."
+"Hoàng hôn trắng lộng chiều,
+Cánh diều no gió mộng chiều lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao chiều soi đời bước chân.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 1, tiếng thứ 6. ""Học"" là thanh trắc, trong khi đó tiếng thứ 6 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""học"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> áp <replace> chiều <line> 4 <index> 4
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 4, tiếng thứ 4. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Hoàng hôn trắng lộng chiều,
+Cánh diều no gió mộng chiều lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao áp soi đời bước chân."
+"Hoàng hôn trắng lộng chiều,
+Cánh diều no gió mộng chiều lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao áp soi đời bước chân.","<error> SE
+<desc> Câu thơ ""Hoàng hôn trắng lộng chiều"" có 5 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Lỗi này làm mất đi sự cân đối, nhịp nhàng vốn có của thể thơ.
+<reason> Để sửa lỗi này, cần thay đổi câu thơ sao cho nó có đúng 6 chữ, đồng thời vẫn giữ được ý nghĩa và vần điệu phù hợp với mạch thơ.
+<action> Hoàng hôn cát trắng lộng chiều <replace> Hoàng hôn trắng lộng chiều <line> 1 <index> 1
+<effect> Câu thơ đã được sửa thành 6 chữ, đảm bảo đúng cấu trúc của thể thơ lục bát. Bài thơ trở nên cân đối và nhịp nhàng hơn.
+<eois>","Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng chiều lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao áp soi đời bước chân."
+"Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng chiều lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao áp soi đời bước chân.","<error> ME
+<desc> Lỗi ý nghĩa: từ ""chiều"" trong câu thơ 2 không hợp với nghĩa có sẵn của câu thơ.
+<reason> Cần thay đổi từ ""chiều"" thành từ khác phù hợp với ý nghĩa của câu thơ.
+<action> phiêu <replace> chiều <line> 2 <index> 6
+<effect> Sau khi sửa lỗi câu thơ trở nên hoàn chỉnh và ý nghĩa hơn.
+<eois>","Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng phiêu lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao áp soi đời bước chân."
+"Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng phiêu lòng trời.
+Hàng cây ăn quả gọi mời,
+Ánh đèn cao áp soi đời bước chân.","<error> ME
+<desc> Lỗi nội dung: Thay từ ""hoan hỉ"" bằng ""ăn quả"" làm mất đi tính biểu cảm, gợi hình của hàng cây, khiến câu thơ trở nên khô khan, thiếu sự sống động và không phù hợp với không khí hoàng hôn.
+<reason> Cần thay thế từ ngữ để khôi phục lại tính biểu cảm, gợi hình cho câu thơ, đồng thời giữ được sự hài hòa với chủ đề hoàng hôn và cảm xúc chung của bài thơ. ""Hoan hỉ"" thể hiện sự vui vẻ, đón chào, phù hợp với khung cảnh và tâm trạng người đọc hơn so với ""ăn quả"" mang tính chất miêu tả thực tế đơn thuần.
+<action> hoan hỉ <replace> ăn quả <line> 3 <index> 3
+<effect> Khôi phục lại tính biểu cảm, gợi hình cho câu thơ, tạo sự hài hòa với chủ đề hoàng hôn và cảm xúc chung của bài thơ. Câu thơ trở nên sống động và giàu hình ảnh hơn, thể hiện sự vui vẻ, đón chào của hàng cây. Chất lượng bài thơ được cải thiện.
+<eos>","Hoàng hôn cát trắng lộng chiều,
+Cánh diều no gió mộng phiêu lòng trời.
+Hàng cây hoan hỉ gọi mời,
+Ánh đèn cao áp soi đời bước chân."
+"Tuổi xanh non nước ta ơi,
+Hồn đà lỡ dỡ nhịp cầu yêu đương.
+Phong ba cuộc sống vô thường,
+Thân trai ôm ấp tình thương giống nòi.","<error> CONTEXT 
+<desc> Bài thơ thể hiện tâm trạng dang dở, lỡ làng trong tình yêu của một người trai trẻ, đồng thời thể hiện ý thức về trách nhiệm với quê hương, đất nước.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tuổi xanh non nước ta ơi,
+Hồn đà lỡ dỡ nhịp cầu yêu đương.
+Phong ba cuộc sống vô thường,
+Thân trai ôm ấp tình thương giống nòi."
+"Tuổi xanh nước ta ơi,
+Hồn đà lỡ dỡ nhịp cầu yêu đương.
+Phong ba cuộc sống vô thường,
+Thân trai ôm ấp tình thương giống nòi.","<error> SE
+<desc> Câu đầu tiên của bài thơ lục bát có 6 chữ, nhưng ở đây lại chỉ có 5 chữ. Điều này phá vỡ cấu trúc cơ bản của thể thơ lục bát.
+<reason> Để sửa lỗi này, cần thêm từ ngữ vào câu để câu thơ có đúng 6 chữ đối với câu lục và vẫn giữ vững được ý nghĩa của câu thơ.
+<action> Tuổi xanh non nước đen màu <replace> Tuổi xanh nước ta ơi <line> 1 <index> 1
+<effect> Đã sửa lỗi cấu trúc dòng 1, đưa bài thơ về đúng thể lục bát.
+<eos>","Tuổi xanh non nước đen màu,
+Hồn đà lỡ dỡ nhịp cầu yêu đương.
+Phong ba cuộc sống vô thường,
+Thân trai ôm ấp tình thương giống nòi."
+"Còn đấy hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác niềm đau,
+Mãi không trở lại, anh còn đợi em.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, đau khổ và sự chờ đợi trong tình yêu khi một người mãi không trở lại.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Còn đấy hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác niềm đau,
+Mãi không trở lại, anh còn đợi em."
+"Còn đấy hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác niềm đau,
+Mãi không trở lại, anh còn đợi em.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. ""Đấy"" là thanh trắc, trong khi đó tiếng thứ 6 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""đấy"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> đâu <replace> đấy <line> 1 <index> 2
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Còn đâu hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác niềm đau,
+Mãi không trở lại, anh còn đợi em."
+"Còn đâu hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác niềm đau,
+Mãi không trở lại, anh còn đợi em.","<error> IE
+<desc> Hình ảnh ""lá non"" trong ngữ cảnh thu sang thường gợi sự sống mới, sự tươi trẻ, không phù hợp với tâm trạng buồn bã, chia ly. Việc thay thế bằng ""niềm đau"" tạo ra một hình ảnh thơ gượng gạo, không tự nhiên và làm giảm tính biểu cảm của bài thơ.
+<reason> Nên thay thế ""niềm đau"" bằng một hình ảnh khác phù hợp hơn với mùa thu và tâm trạng chia ly, gợi sự tàn úa, héo hon, hoặc sự mất mát. ""Lá non"" không phù hợp với mùa thu.
+<action> lá rụng <replace> niềm đau <line> 3 <index> 5
+<effect> Việc thay ""niềm đau"" bằng ""lá rụng"" tạo ra một hình ảnh phù hợp hơn với mùa thu, gợi sự tàn úa, chia ly, đồng thời tăng tính biểu cảm và gợi cảm xúc cho bài thơ. Bài thơ trở nên tự nhiên và sâu sắc hơn.
+<eos>","Còn đâu hình bóng nụ cười,
+Khuất mờ đêm tối, lệ thường cô đơn.
+Thu sang lác đác lá non,
+Mãi không trở lại, anh còn đợi em."
+"Buồn cho lắm của làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ thích ngủ,
+Chỉ ăn và phá, chuyển rời thật nhanh?","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn và thất vọng trước những bất công, khi kẻ xấu ung dung hưởng lợi còn người tốt lại phải chịu đựng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Buồn cho lắm của làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ thích ngủ,
+Chỉ ăn và phá, chuyển rời thật nhanh?"
+"Buồn cho lắm của làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ thích ngủ,
+Chỉ ăn và phá, chuyển rời thật nhanh?","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""thật nhanh"" trong câu thơ 4 không hợp với hình ảnh của câu thơ, khiến người đọc khó hiểu.
+<reason> Cần thay thế từ ""thật nhanh"" bằng một cụm từ khác phù hợp với câu thơ hơn.
+<action> bóng râm <replace> thật nhanh <line> 4 <index> 7
+<effect> Đã sửa lỗi hình ảnh, câu thơ trở nên hài hòa và ý nghĩa hơn.
+<eois>","Buồn cho lắm của làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ thích ngủ,
+Chỉ ăn và phá, chuyển rời bóng râm?"
+"Buồn cho lắm của làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ thích ngủ,
+Chỉ ăn và phá, chuyển rời bóng râm?","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu thơ 2 (""trời"") và tiếng thứ 6 câu thơ 4 (""rời"") hiệp vần với nhau, nhưng tiếng cuối câu 3 (""ngủ"") lại không hiệp vần với 2 tiếng trước đó, điều này phá vỡ luật bằng trắc của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu thơ 3 (""ngủ"") để nó hiệp vần với 2 tiếng còn lại là (""trời"") và (""rời""), đồng thời vẫn giữ được mạch cảm xúc của bài thơ.
+<action> ở đời <replace> thích ngủ <line> 3 <index> 5
+<effect> Việc thay đổi từ ""thích bơi"" thành ""ở đời"" giúp loại bỏ lỗi vần, đồng thời vẫn giữ được ý nghĩa và tính mạch lạc của bài thơ. Bài thơ trở nên đúng luật và hài hòa hơn về mặt âm điệu.
+<eois>","Buồn cho lắm của làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ ở đời,
+Chỉ ăn và phá, chuyển rời bóng râm?"
+"Buồn cho lắm của làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ ở đời,
+Chỉ ăn và phá, chuyển rời bóng râm?","<error> ME
+<desc> Lỗi ý nghĩa: từ ""của"" của câu thơ 1 không hợp với ý nghĩa của câu thơ cũng như bài thơ, khiến người đọc khó hiểu.
+<reason> Cần thay thế từ ""của"" thành một từ khác hợp với ý nghĩa câu thơ hơn.
+<action> kẻ <replace> của <line> 1 <index> 4
+<effect> Sau khi sửa lỗi, câu thơ trở nên giàu ý nghĩa hơn.
+<eois>","Buồn cho lắm kẻ làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ ở đời,
+Chỉ ăn và phá, chuyển rời bóng râm?"
+"Buồn cho lắm kẻ làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ ở đời,
+Chỉ ăn và phá, chuyển rời bóng râm?","<error> IE
+<desc> Lỗi hình ảnh thơ: ""ở đời"" là một cụm từ chung chung, không gợi hình ảnh cụ thể về hành động hay lối sống của những người được nhắc đến. Nó khiến cho câu thơ trở nên sáo rỗng và thiếu sức gợi cảm.
+<reason> Cần thay thế cụm từ ""ở đời"" bằng một cụm từ cụ thể hơn, gợi tả rõ hơn về những hành động tiêu cực mà những người này gây ra, đồng thời vẫn giữ được sự liên kết với ý nghĩa của câu thơ.
+<action> lắm kẻ ăn chơi <replace> lắm kẻ ở đời <line> 3 <index> 3
+<effect> Sau khi sửa lỗi giúp câu thơ trở nên tự nhiên và phù hợp hơn với mạch cảm xúc của bài thơ, đồng thời làm tăng tính biểu cảm và gợi hình.
+<eos>","Buồn cho lắm kẻ làm ngơ,
+Thâu đêm tôi lại làm thơ kêu trời.
+Tại sao lắm kẻ ở đời,
+Chỉ ăn và phá, chuyển rời bóng râm?"
+"Trách ai mà giấc mộng vàng,
+Đêm sương tiếng nhạn gọi đàn lẻ loi.
+Canh trường vắng chó sủa ngoài,
+Lòng ơi, thao thức buồn trôi lững lờ.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, thao thức và buồn bã trong đêm khuya, gợi lên cảm giác trách móc về một giấc mộng đẹp đã qua.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Trách ai mà giấc mộng vàng,
+Đêm sương tiếng nhạn gọi đàn lẻ loi.
+Canh trường vắng chó sủa ngoài,
+Lòng ơi, thao thức buồn trôi lững lờ."
+"Trách ai mà giấc mộng vàng,
+Đêm sương tiếng nhạn gọi đàn lẻ loi.
+Canh trường vắng chó sủa ngoài,
+Lòng ơi, thao thức buồn trôi lững lờ.","<error> ME
+<desc> Lỗi ý nghĩa: từ ""mà"" của câu thơ 1 không hợp với ý nghĩa của câu thơ cũng như bài thơ, khiến người đọc khó hiểu.
+<reason> Cần thay thế từ ""mà"" thành một từ khác hợp với ý nghĩa câu thơ hơn.
+<action> ru <replace> mà <line> 1 <index> 3
+<effect> Sau khi sửa lỗi, câu thơ trở nên giàu ý nghĩa hơn.
+<eois>","Trách ai ru giấc mộng vàng,
+Đêm sương tiếng nhạn gọi đàn lẻ loi.
+Canh trường vắng chó sủa ngoài,
+Lòng ơi, thao thức buồn trôi lững lờ."
+"Trách ai ru giấc mộng vàng,
+Đêm sương tiếng nhạn gọi đàn lẻ loi.
+Canh trường vắng chó sủa ngoài,
+Lòng ơi, thao thức buồn trôi lững lờ.","<error> IE
+<desc> Hình ảnh ""chó sủa ngoài"" trong khung cảnh đêm khuya canh trường tạo cảm giác đời thường, ồn ào, phá vỡ không khí tĩnh mịch, cô đơn và buồn bã vốn có của bài thơ. Nó không phù hợp với giọng điệu trữ tình, hoài cổ của tác phẩm và làm giảm giá trị thẩm mỹ.
+<reason> Thay thế hình ảnh ""chó sủa ngoài"" bằng một hình ảnh khác gợi sự vắng vẻ, cô tịch và phù hợp với không gian, thời gian và cảm xúc của bài thơ. ""Bóng trăng soi"" vừa gợi hình ảnh, vừa gợi cảm xúc, tạo sự liên kết với các chi tiết khác trong bài thơ (đêm sương, tiếng nhạn lẻ loi, lòng thao thức).
+<action> bóng trăng soi <replace> chó sủa ngoài <line> 3 <index> 4
+<effect> Việc thay thế ""chó sủa ngoài"" bằng ""bóng trăng soi"" giúp tạo ra một hình ảnh thơ phù hợp hơn với không khí chung của bài thơ, tăng tính gợi cảm và sâu lắng, đồng thời làm cho bài thơ trở nên hài hòa và có giá trị thẩm mỹ hơn.
+<eos>","Trách ai ru giấc mộng vàng,
+Đêm sương tiếng nhạn gọi đàn lẻ loi.
+Canh trường vắng bóng trăng soi,
+Lòng ơi, thao thức buồn trôi lững lờ."
+"Thu sang vàng sắc mùa đông,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong một chiều, ngâm tràn khúc ca.","<error> CONTEXT 
+<desc> Bài thơ tả cảnh thu chuyển sang đông ở vùng cao, với hình ảnh thiên nhiên nhuốm màu lạnh lẽo và cảm xúc say đắm của con người trong cảnh đó.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Thu sang vàng sắc mùa đông,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong một chiều, ngâm tràn khúc ca."
+"Thu sang vàng sắc mùa đông,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong một chiều, ngâm tràn khúc ca.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""đông"") và tiếng thứ 6 câu 2 (""di"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau. Hoặc có thể thay cả cụm từ nếu muốn sửa lại ý nghĩa câu thơ.
+<action> dã quỳ <replace> mùa đông <line> 1 <index> 5
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Thu sang vàng sắc dã quỳ,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong một chiều, ngâm tràn khúc ca."
+"Thu sang vàng sắc dã quỳ,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong một chiều, ngâm tràn khúc ca.","<error> TE
+<desc> Lỗi thanh điệu ở dòng 4, vị trí thứ 4. Từ ""chiều"" là thanh bằng, trong khi vị trí này yêu cầu thanh trắc để đảm bảo luật thơ lục bát. Lỗi này làm mất đi sự uyển chuyển và du dương của bài thơ.
+<reason> Cần thay thế từ ""chiều"" bằng một từ có thanh trắc phù hợp với nghĩa của câu thơ và vần điệu của bài.
+<action> một sớm <replace> một chiều <line> 4 <index> 3
+<effect> Đã sửa lỗi thanh điệu, đảm bảo luật thơ lục bát, giúp câu thơ trở nên hài hòa và du dương hơn. Bài thơ hay hơn.
+<eois>","Thu sang vàng sắc dã quỳ,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong một sớm, ngâm tràn khúc ca."
+"Thu sang vàng sắc dã quỳ,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong một sớm, ngâm tràn khúc ca.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""một sớm"" của câu thơ 4 không hợp với ý nghĩa của câu thơ cũng như bài thơ, khiến người đọc khó hiểu.
+<reason> Cần thay thế cụm từ ""một sớm"" thành một từ khác hợp với ý nghĩa câu thơ hơn.
+<action> mộng ảo <replace> một sớm <line> 1 <index> 3
+<effect> Sau khi sửa lỗi, câu thơ trở nên giàu ý nghĩa hơn.
+<eois>","Thu sang vàng sắc dã quỳ,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong mộng ảo, ngâm tràn khúc ca."
+"Thu sang vàng sắc dã quỳ,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta nhuộm màu hàn,
+Say trong mộng ảo, ngâm tràn khúc ca.","<error> IE
+<desc> Lỗi hình ảnh thơ: ""Cao nguyên ta nhuộm màu hàn"" tạo cảm giác lạnh lẽo, tiêu cực, không phù hợp với không khí lãng mạn, trữ tình của bài thơ và vẻ đẹp vốn có của cao nguyên. Từ ""hàn"" (lạnh) không gợi được hình ảnh tươi đẹp, trù phú của cao nguyên vào mùa thu.
+<reason> Cần thay đổi hình ảnh ""nhuộm màu hàn"" bằng một hình ảnh gợi cảm giác ấm áp, tươi đẹp, phù hợp với sắc vàng của dã quỳ và không khí mùa thu trên cao nguyên. ""Gối mây ngàn"" là một hình ảnh đẹp, gần gũi với cao nguyên, nên sử dụng lại hoặc một hình ảnh tương tự.
+<action> gối mây ngàn <replace> nhuộm màu hàn <line> 3 <index> 4
+<effect> Việc thay ""nhuộm màu hàn"" bằng ""gối mây ngàn"" giúp khôi phục lại hình ảnh thơ mộng, trữ tình của cao nguyên, đồng thời tạo sự liên kết với dòng thơ trước, làm cho bài thơ liền mạch và giàu cảm xúc hơn. Bài thơ trở nên hay hơn và truyền tải được vẻ đẹp của cao nguyên mùa thu.
+<eos>","Thu sang vàng sắc dã quỳ,
+Trời xanh mỏi cánh thiên di theo đàn.
+Cao nguyên ta gối mây ngàn,
+Say trong mộng ảo, ngâm tràn khúc ca."
+"Đâu hết nỗi buồn năm nao,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày mưa đông.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hoài niệm về quá khứ, gợi nhớ những kỷ niệm buồn và hình ảnh thân thuộc của quê hương, xóm đạo.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đâu hết nỗi buồn năm nao,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày mưa đông."
+"Đâu hết nỗi buồn năm nao,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày mưa đông.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. ""Hết"" là thanh trắc, trong khi đó tiếng thứ 2 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""hết"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> Đâu còn <replace> Đâu hết <line> 1 <index> 1
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 1, tiếng thứ 2. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Đâu còn nỗi buồn năm nao,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày mưa đông."
+"Đâu còn nỗi buồn năm nao,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày mưa đông.","<error> IE
+<desc> ""Nỗi buồn năm nao"" là một cụm từ chung chung, thiếu cụ thể và không gợi lên hình ảnh hay cảm xúc rõ ràng. Nó làm giảm đi tính biểu cảm và đặc trưng của bài thơ.
+<reason> Cần thay thế bằng một cụm từ gợi hình ảnh, âm thanh hoặc cảm xúc cụ thể hơn, liên quan đến kỷ niệm, thời gian đã qua, hoặc một sự mất mát cụ thể. ""Câu hát thuở nào"" gợi nhớ một kỷ niệm tươi đẹp, một thời điểm cụ thể trong quá khứ, tạo sự tiếc nuối và gợi cảm xúc hơn.
+<action> câu hát thuở <replace> nỗi buồn năm <line> 1 <index> 3
+<effect> Việc thay đổi giúp câu thơ trở nên cụ thể và gợi cảm hơn, tạo sự kết nối với người đọc thông qua hình ảnh và âm thanh. Nó tăng cường tính biểu cảm và làm cho bài thơ trở nên sâu sắc hơn.
+<eois>","Đâu còn câu hát thuở nào,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày mưa đông."
+"Đâu còn câu hát thuở nào,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày mưa đông.","<error> IE
+<desc> Lỗi hình ảnh thơ: ""mưa đông"" không phù hợp với không khí và cảm xúc của bài thơ, tạo cảm giác lạnh lẽo, u ám, không gợi được sự ấm áp, hoài niệm về một ngày trở về thăm xóm đạo. Mâu thuẫn với hình ảnh ""nắng thu"" vốn gợi sự tươi sáng, thanh bình và ký ức đẹp.
+<reason> Cần thay đổi hình ảnh ""mưa đông"" bằng một hình ảnh khác phù hợp hơn với không khí chung của bài thơ, gợi sự ấm áp, thanh bình và ký ức đẹp. ""Nắng thu"" là hình ảnh đã xuất hiện nên có thể dùng lại hoặc một hình ảnh tương tự.
+<action> nắng thu <replace> mưa đông <line> 4 <index> 7
+<effect> Sửa lại thành ""nắng thu"" giúp hình ảnh thơ trở nên thống nhất, hài hòa, gợi cảm xúc ấm áp, thanh bình và ký ức đẹp về một ngày trở về thăm xóm đạo. Bài thơ trở nên mạch lạc và giàu cảm xúc hơn.
+<eos>","Đâu còn câu hát thuở nào,
+Ầu ơ tiếng võng ru vào mơ say.
+Còn đâu bóng dáng người trai,
+Về thăm xóm đạo một ngày nắng thu."
+"Đêm buông, rừng rất tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy một,
+Dã quỳ rồi sẽ nở hoa gọi trăng mờ.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, lạc lõng giữa không gian rừng núi hoang vu về đêm, nhưng vẫn ẩn chứa niềm tin và hy vọng vào tương lai tươi sáng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Đêm buông, rừng rất tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy một,
+Dã quỳ rồi sẽ nở hoa gọi trăng mờ."
+"Đêm buông, rừng rất tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy một,
+Dã quỳ rồi sẽ nở hoa gọi trăng mờ.","<error> SE
+<desc> Câu thơ ""Lửa làng bỗng thấy một"" có 5 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Lỗi này làm mất đi sự cân đối, nhịp nhàng vốn có của thể thơ.
+<reason> Để sửa lỗi này, cần thay đổi câu thơ sao cho nó có đúng 6 chữ, đồng thời vẫn giữ được ý nghĩa và vần điệu phù hợp với mạch thơ.
+<action> Lửa làng bỗng thấy chiếc xe <replace> Lửa làng bỗng thấy một <line> 3 <index> 1
+<effect> Câu thơ đã được sửa thành 5 chữ, đảm bảo đúng cấu trúc của thể thơ lục bát. Bài thơ trở nên cân đối và nhịp nhàng hơn.
+<eois>","Đêm buông, rừng rất tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy chiếc xe,
+Dã quỳ rồi sẽ nở hoa gọi trăng mờ."
+"Đêm buông, rừng rất tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy chiếc xe,
+Dã quỳ rồi sẽ nở hoa gọi trăng mờ.","<error> SE
+<desc> Câu 4 có 9 chữ, phá vỡ cấu trúc lục bát truyền thống (6-8). Điều này ảnh hưởng đến nhịp điệu và tính thẩm mỹ của bài thơ.
+<reason> Cần thay đổi câu 4 để có đúng 8 chữ, đảm bảo tuân thủ luật thơ lục bát.
+<action> Dã quỳ khép cánh, dế mèn gọi trăng. <replace> Dã quỳ rồi sẽ nở hoa gọi trăng mờ. <line> 4 <index> 1
+<effect> Câu thơ đã được sửa lại thành 8 chữ, khôi phục cấu trúc lục bát và cải thiện nhịp điệu của bài thơ.
+<eois>","Đêm buông, rừng rất tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy chiếc xe,
+Dã quỳ khép cánh, dế mèn gọi trăng."
+"Đêm buông, rừng rất tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy chiếc xe,
+Dã quỳ khép cánh, dế mèn gọi trăng.","<error> ME
+<desc> Lỗi ý nghĩa: từ ""rất"" trong câu thơ 1 không hợp với ý nghĩa hiện tại của câu thơ.
+<reason> Để sửa lỗi này, cần thay đổi từ ""rất"" thành một từ khác sao cho phù hợp với ý nghĩa câu thơ.
+<action> xác <replace> rất <line> 1 <index> 4
+<effect> Sau khi sửa lỗi, câu thở trở nên ý nghĩa hơn.
+<eois>","Đêm buông, rừng xác tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy chiếc xe,
+Dã quỳ khép cánh, dế mèn gọi trăng."
+"Đêm buông, rừng xác tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy chiếc xe,
+Dã quỳ khép cánh, dế mèn gọi trăng.","<error> IE
+<desc> Hình ảnh ""Lửa làng bỗng thấy chiếc xe"" tạo ra sự lạc lõng và không phù hợp với không gian thôn quê, phá vỡ sự hài hòa của bức tranh thiên nhiên tĩnh lặng. Chiếc xe là một hình ảnh hiện đại, không liên quan đến bối cảnh rừng núi và bản làng, gây khó khăn cho người đọc trong việc hình dung và cảm nhận.
+<reason> Thay thế ""chiếc xe"" bằng một hình ảnh gần gũi hơn với không gian làng quê, đồng thời vẫn giữ được yếu tố bất ngờ, thú vị và phù hợp với mạch cảm xúc của bài thơ. Hình ảnh ""con mèo"" xuất hiện bên bếp lửa ấm áp sẽ tạo cảm giác thân thiện, gần gũi và gợi nhớ về cuộc sống bình dị nơi thôn dã.
+<action> con mèo <replace> chiếc xe <line> 3 <index> 5
+<effect> Việc thay thế ""chiếc xe"" bằng ""con mèo"" giúp khôi phục lại sự hài hòa của bức tranh thiên nhiên, tạo ra một hình ảnh gần gũi, ấm áp và phù hợp với bối cảnh làng quê. Bài thơ trở nên mạch lạc và dễ cảm nhận hơn.
+<eois>","Đêm buông, rừng xác tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy con mèo,
+Dã quỳ khép cánh, dế mèn gọi trăng."
+"Đêm buông, rừng xác tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy con mèo,
+Dã quỳ khép cánh, dế mèn gọi trăng.","<error> ME
+<desc> Lỗi ý nghĩa. Việc thay ""ngoài đường"" bằng ""con mèo"" khiến hình ảnh thơ trở nên rời rạc, không phù hợp với không gian rừng núi và sự tĩnh lặng của đêm. Mất đi sự liên kết giữa ngọn lửa và không gian xung quanh.
+<reason> Cần thay ""con mèo"" bằng một cụm từ liên quan đến ngọn lửa hoặc khung cảnh làng quê, đồng thời duy trì sự phù hợp với nhịp điệu và vần của bài thơ.
+<action> ngoài đường <replace> con mèo <line> 3 <index> 5
+<effect> Việc thay đổi này khôi phục lại ý nghĩa ban đầu của bài thơ, tạo sự liên kết giữa ngọn lửa và không gian làng quê, đồng thời duy trì sự hài hòa về âm điệu và vần.
+<eois>","Đêm buông, rừng xác tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy ngoài đường,
+Dã quỳ khép cánh, dế mèn gọi trăng."
+"Đêm buông, rừng xác tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bỗng thấy ngoài đường,
+Dã quỳ khép cánh, dế mèn gọi trăng.","<error> ME
+<desc> Lỗi ý nghĩa: Câu thơ ""Lửa làng bỗng thấy ngoài đường"" không phù hợp với mạch cảm xúc chung của bài thơ, tạo cảm giác lạc lõng, không ăn nhập với khung cảnh làng quê yên bình, ấm cúng. Nó làm mất đi sự liên kết giữa hình ảnh lửa làng và không gian xung quanh.
+<reason> Cần thay thế bằng một câu thơ gợi hình ảnh gần gũi, thân thuộc hơn với lửa làng, có thể là về hoạt động chuẩn bị bữa tối, hoặc một khía cạnh khác liên quan đến sinh hoạt cộng đồng.
+<action> Lửa làng bữa tối đang nhen <replace> Lửa làng bỗng thấy ngoài đường <line> 3 <index> 1
+<effect> Câu thơ mới tạo sự liên kết chặt chẽ hơn với hình ảnh lửa làng, gợi cảm giác ấm cúng, chuẩn bị cho bữa tối, phù hợp với khung cảnh chung của bài thơ. Bài thơ trở nên mạch lạc và giàu cảm xúc hơn.
+<eos>","Đêm buông, rừng xác tiêu điều,
+Lối mòn xuống bản, ta nhìn thân quen.
+Lửa làng bữa tối đang nhen,
+Dã quỳ khép cánh, dế mèn gọi trăng."
+"Thuyền tình nay đã hóa xanh,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh ta thích màu bình,
+Nơi đâu bến đậu, một mình tha thiết?","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự cô đơn, lạc lõng và nỗi buồn của một người khi tình yêu tan vỡ, phải một mình đối diện với cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Thuyền tình nay đã hóa xanh,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh ta thích màu bình,
+Nơi đâu bến đậu, một mình tha thiết?"
+"Thuyền tình nay đã hóa xanh,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh ta thích màu bình,
+Nơi đâu bến đậu, một mình tha thiết?","<error> IE
+<desc> Lỗi hình ảnh: cụm từ ""ta thích màu bình"" không phù hợp hình ảnh câu thơ, không có ý nghĩa, khô khan, khiến người đọc cảm thấy khó hiểu.
+<reason> Cần thay đổi cụm từ trên thành cụm từ khác hợp với hình ảnh câu thơ hơn.
+<action> như cánh lục bình <replace> ta thích màu bình<line> 3 <index> 3
+<effect> Sau khi sửa lỗi, câu thơ trở nên giàu hình ảnh thơ và hoàn chỉnh.
+<eois>","Thuyền tình nay đã hóa xanh,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh như cánh lục bình,
+Nơi đâu bến đậu, một mình tha thiết?"
+"Thuyền tình nay đã hóa xanh,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh như cánh lục bình,
+Nơi đâu bến đậu, một mình tha thiết?","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 4, tiếng thứ 8. ""Thiết"" là thanh trắc, trong khi đó tiếng thứ 8 của câu bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""thiết"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action>xót xa <replace> tha thiết <line> 4 <index> 7
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 4, tiếng thứ 8. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Thuyền tình nay đã hóa xanh,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh như cánh lục bình,
+Nơi đâu bến đậu, một mình xót xa?"
+"Thuyền tình nay đã hóa xanh,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh như cánh lục bình,
+Nơi đâu bến đậu, một mình xót xa?","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""xanh"") và tiếng thứ 6 câu 2 (""vắng"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau.
+<action> vàng <replace> xanh <line> 1 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát.
+<eois>","Thuyền tình nay đã hóa vàng,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh như cánh lục bình,
+Nơi đâu bến đậu, một mình xót xa?"
+"Thuyền tình nay đã hóa vàng,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh như cánh lục bình,
+Nơi đâu bến đậu, một mình xót xa?","<error> ME
+<desc> Lỗi ý nghĩa: ""hóa vàng"" không phù hợp với chủ đề tình yêu và sự chờ đợi trong bài thơ, làm mất đi sự lãng mạn và cảm xúc buồn bã vốn có.
+<reason> Cụm từ ""hóa vàng"" thường liên quan đến sự kết thúc, tang lễ, hoặc sự biến đổi tiêu cực, không phù hợp với hình ảnh con thuyền tình và sự chờ đợi trong tình yêu. Cần thay thế bằng một cụm từ gợi cảm xúc phù hợp hơn với chủ đề tình yêu và sự cô đơn.
+<action> cắm neo <replace> hóa vàng <line> 1 <index> 5
+<effect> Thay đổi từ ""hóa vàng"" thành ""cắm neo"" giúp khôi phục lại hình ảnh quen thuộc của con thuyền tình, đồng thời phù hợp hơn với chủ đề tình yêu và sự chờ đợi trong bài thơ. Bài thơ trở nên mạch lạc và gợi cảm xúc hơn.
+<eos>","Thuyền tình nay đã cắm neo,
+Dòng sông đành phải vắng teo một mình.
+Lênh đênh như cánh lục bình,
+Nơi đâu bến đậu, một mình xót xa?"
+"Tình đâu sao thấy bơ vơ,
+Bóng đêm ăn bánh thật lâu.
+Thu sang để lá úa màu,
+Khiến cho duyên thắm lạc nhau giữa dòng.","<error> CONTEXT 
+<desc> Bài thơ thể hiện sự cô đơn, lạc lõng trong tình cảm, khi tình duyên phai nhạt giữa khung cảnh thu tàn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Tình đâu sao thấy bơ vơ,
+Bóng đêm ăn bánh thật lâu.
+Thu sang để lá úa màu,
+Khiến cho duyên thắm lạc nhau giữa dòng."
+"Tình đâu sao thấy bơ vơ,
+Bóng đêm ăn bánh thật lâu.
+Thu sang để lá úa màu,
+Khiến cho duyên thắm lạc nhau giữa dòng.","<error> ME
+<desc> Dòng thơ ""Bóng đêm ăn bánh thật lâu"" không liên quan đến chủ đề tình yêu, duyên phận và sự chờ đợi được thể hiện trong các dòng thơ còn lại. Nó tạo ra sự lạc lõng và phá vỡ mạch cảm xúc của bài thơ.
+<reason> Cần thay thế dòng thơ này bằng một dòng thơ phù hợp hơn với chủ đề chung của bài thơ, có thể liên quan đến sự cô đơn, chờ đợi hoặc tiếc nuối trong tình yêu.
+<action> Đẹp duyên phải lứa lại chờ kiếp sau. <replace> Bóng đêm ăn bánh thật lâu <line> 2 <index> 1
+<effect> Dòng thơ mới ""Đẹp duyên phải lứa lại chờ kiếp sau."" phù hợp hơn với chủ đề chung của bài thơ, thể hiện sự chờ đợi và mong mỏi trong tình yêu. Nó tạo sự liên kết chặt chẽ hơn với các dòng thơ còn lại và làm cho bài thơ trở nên mạch lạc hơn.
+<eos>","Tình đâu sao thấy bơ vơ,
+Đẹp duyên phải lứa lại chờ kiếp sau.
+Thu sang để lá úa màu,
+Khiến cho duyên thắm lạc nhau giữa dòng."
+"Ngậm ngùi ăn bánh mì,
+Cành lay lả tả hoa bay trắng ngần.
+Đưa người về chốn xa xăm,
+Lệ rơi đóng đá, tình thân ruột mềm.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn chia ly, nhớ thương người thân ở một nơi xa xăm, được diễn tả qua hình ảnh bánh mì, hoa rơi và nước mắt.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Ngậm ngùi ăn bánh mì,
+Cành lay lả tả hoa bay trắng ngần.
+Đưa người về chốn xa xăm,
+Lệ rơi đóng đá, tình thân ruột mềm."
+"Ngậm ngùi ăn bánh mì,
+Cành lay lả tả hoa bay trắng ngần.
+Đưa người về chốn xa xăm,
+Lệ rơi đóng đá, tình thân ruột mềm.","<error> ME
+<desc> Dòng thơ đầu tiên ""Ngậm ngùi ăn bánh mì"" không phù hợp với chủ đề chung của bài thơ là sự chia ly và nỗi buồn. Việc ăn bánh mì không liên quan đến cảm xúc ngậm ngùi trong bối cảnh này, tạo ra sự lạc lõng và khó hiểu.
+<reason> Cần thay thế cụm từ ""ăn bánh mì"" bằng một hình ảnh hoặc cảm xúc phù hợp hơn với sự ngậm ngùi và không khí chia ly của bài thơ. Cụm từ ""cơn gió heo may"" gợi cảm giác man mác buồn, phù hợp với mạch cảm xúc chung.
+<action> cơn gió heo may <replace> ăn bánh mì <line> 1 <index> 3
+<effect> Thay thế ""ăn bánh mì"" bằng ""cơn gió heo may"" giúp dòng thơ đầu tiên hòa nhập vào chủ đề chung của bài thơ, tạo ra sự liền mạch và tăng tính biểu cảm. Bài thơ trở nên thống nhất và dễ cảm nhận hơn.
+<eos>","Ngậm ngùi cơn gió heo may,
+Cành lay lả tả hoa bay trắng ngần.
+Đưa người về chốn xa xăm,
+Lệ rơi đóng đá, tình thân ruột mềm."
+"Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một màu xanh lơ?
+Khẳng khiu cây nở hoa vàng,
+Sương trắng cát bụi, nhớ thương núi rừng.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi nhớ nhung, khắc khoải về Tây Nguyên trong mùa khô, nơi cảnh vật khô cằn nhưng vẫn gợi lên những ký ức đẹp về màu xanh và núi rừng hùng vĩ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một màu xanh lơ?
+Khẳng khiu cây nở hoa vàng,
+Sương trắng cát bụi, nhớ thương núi rừng."
+"Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một màu xanh lơ?
+Khẳng khiu cây nở hoa vàng,
+Sương trắng cát bụi, nhớ thương núi rừng.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""nhớ thương"" trong câu thơ 4 không hợp với ngữ cảnh ""núi rừng"" trong câu thơ.
+<reason> Cần thay đổi cụm từ ""nhớ thương"" thành cụm từ phù hợp với ngữ cảnh của câu thơ.
+<action> âm u <replace> nhớ thương <line> 4 <index> 5
+<effect> Đã sửa lỗi ý nghĩa, câu thơ trở nên ý nghĩa hơn.
+<eois>","Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một màu xanh lơ?
+Khẳng khiu cây nở hoa vàng,
+Sương trắng cát bụi, âm u núi rừng."
+"Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một màu xanh lơ?
+Khẳng khiu cây nở hoa vàng,
+Sương trắng cát bụi, âm u núi rừng.","<error> TE
+<desc> Lỗi thanh điệu ở câu thơ 4, tiếng thứ 2. ""Trắng"" là thanh trắc, trong khi đó tiếng thứ 2 của câu lục bát phải là thanh bằng. Lỗi này phá vỡ sự hài hòa về âm điệu của bài thơ.
+<reason> Cần thay thế từ ""trắng"" hoặc cụm từ đi liền với nó bằng một từ có thanh bằng để đảm bảo đúng luật thơ lục bát.
+<action> tràn <replace> trắng <line> 4 <index> 2
+<effect> Đã sửa lỗi thanh điệu ở câu thơ 4, tiếng thứ 2. Bài thơ đã tuân thủ đúng luật thơ lục bát, âm điệu hài hòa hơn.
+<eois>","Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một màu xanh lơ?
+Khẳng khiu cây nở hoa vàng,
+Sương tràn cát bụi, âm u núi rừng."
+"Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một màu xanh lơ?
+Khẳng khiu cây nở hoa vàng,
+Sương trắng cát bụi, âm u núi rừng.","<error> IE
+<desc> Hình ảnh ""màu xanh lơ"" không phù hợp với khung cảnh Tây Nguyên mùa khô và không gợi được cảm xúc về sự khắc nghiệt, nhớ nhung chiều rừng thu. 
+<reason> Cần thay đổi hình ảnh để phù hợp với không gian Tây Nguyên mùa khô, gợi cảm giác hoài niệm, khắc khoải về chiều rừng thu. Màu sắc nên gợi cảm giác cô đơn, hiu quạnh hoặc sự chuyển mùa.
+<action> một chiều rừng thu <replace> một màu xanh lơ <line> 2 <index> 5
+<effect> Thay đổi hình ảnh giúp bài thơ trở nên phù hợp hơn với chủ đề và gợi cảm xúc rõ ràng hơn. ""Chiều rừng thu"" gợi sự hoài niệm, phù hợp với câu hỏi ""Còn ai để nhớ?"".
+<eois>","Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một chiều rừng thu?
+Khẳng khiu cây nở hoa vàng,
+Sương tràn cát bụi, âm u núi rừng."
+"Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một chiều rừng thu?
+Khẳng khiu cây nở hoa vàng,
+Sương tràn cát bụi, âm u núi rừng.","<error> IE
+<desc> Lỗi hình ảnh thơ: ""Khẳng khiu cây nở hoa vàng"" tạo ra một hình ảnh không phù hợp với bối cảnh mùa khô khắc nghiệt ở Tây Nguyên. Mùa khô thường gợi sự cằn cỗi, khô héo, chứ không phải là mùa cây cối nở hoa. Điều này làm giảm tính chân thực và sức gợi cảm của bài thơ.
+<reason> Cần thay đổi hình ảnh ""nở hoa vàng"" bằng một hình ảnh khác phù hợp hơn với bối cảnh mùa khô, gợi sự tàn úa, khô héo hoặc chịu đựng của cây cối. Hình ảnh ""cháy một giờ"" gợi sự khắc nghiệt của thời tiết và sự tàn phá của thiên nhiên, phù hợp với bối cảnh mùa khô ở Tây Nguyên.
+<action> cây cháy một giờ <replace> cây nở hoa vàng <line> 3 <index> 3
+<effect> Việc thay đổi hình ảnh ""cây nở hoa vàng"" thành ""cây cháy một giờ"" giúp tạo ra một hình ảnh phù hợp hơn với bối cảnh mùa khô khắc nghiệt ở Tây Nguyên, tăng tính chân thực và sức gợi cảm của bài thơ. Bài thơ trở nên thống nhất và có sức nặng hơn.
+<eois>","Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một chiều rừng thu?
+Khẳng khiu cây cháy một giờ,
+Sương tràn cát bụi, âm u núi rừng."
+"Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một chiều rừng thu?
+Khẳng khiu cây cháy một giờ,
+Sương tràn cát bụi, âm u núi rừng.","<error> ME
+<desc> Lỗi ý nghĩa: Thay đổi ""khói mù"" thành ""một giờ"" làm mất đi sự liên kết về hình ảnh, không gian, và thời gian vốn có của bài thơ. ""Một giờ"" không gợi tả được sự khắc nghiệt của mùa khô Tây Nguyên.
+<reason> Cần khôi phục lại hình ảnh khói mù để thể hiện rõ hơn sự khắc nghiệt, khô cằn của mùa khô Tây Nguyên, đồng thời duy trì tính biểu cảm, gợi hình của bài thơ.
+<action> khói mù <replace> một giờ <line> 3 <index> 5
+<effect> Khôi phục lại hình ảnh khói mù, làm cho bài thơ trở nên mạch lạc, giàu hình ảnh và cảm xúc hơn, đồng thời thể hiện rõ nét hơn về khung cảnh mùa khô Tây Nguyên.
+<eos>","Mùa khô ai đến Tây Nguyên,
+Còn ai để nhớ một chiều rừng thu?
+Khẳng khiu cây cháy khói mù,
+Sương tràn cát bụi, âm u núi rừng."
+"Gió mùa trĩu nặng buồn rơi,
+Đêm đông giá lạnh một mình ta.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng hạt mưa đượm sầu thiên thu.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi cô đơn, buồn bã của một người trong đêm đông lạnh giá, với tâm trạng u sầu kéo dài.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Gió mùa trĩu nặng buồn rơi,
+Đêm đông giá lạnh một mình ta.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng hạt mưa đượm sầu thiên thu."
+"Gió mùa trĩu nặng buồn rơi,
+Đêm đông giá lạnh một mình ta.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng hạt mưa đượm sầu thiên thu.","<error> SE
+<desc> Câu thứ hai của bài thơ lục bát có 7 chữ, trong khi phải có 8 chữ. Lỗi này phá vỡ cấu trúc cơ bản của thể thơ, làm mất đi sự cân đối và nhịp điệu vốn có.
+<reason> Để sửa lỗi, cần thêm một chữ vào câu thứ hai để đạt đủ 8 chữ. Cần chọn từ ngữ phù hợp để không làm thay đổi ý nghĩa và nhịp điệu của câu thơ.
+<action> Đêm đông giá lạnh một nơi góc trời <replace> Đêm đông giá lạnh một mình ta <line> 2 <index> 1
+<effect> Câu thơ đã đủ 8 chữ, đảm bảo đúng cấu trúc của thể thơ lục bát. Sự thay đổi này giúp bài thơ trở nên cân đối và hài hòa hơn về mặt hình thức.
+<eois>","Gió mùa trĩu nặng buồn rơi,
+Đêm đông giá lạnh một nơi góc trời.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng hạt mưa đượm sầu thiên thu."
+"Gió mùa trĩu nặng buồn rơi,
+Đêm đông giá lạnh một nơi góc trời.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng hạt mưa đượm sầu thiên thu.","<error> IE
+<desc> Lỗi hình ảnh thơ: ""Đếm từng hạt mưa đượm sầu thiên thu"" tạo cảm giác không phù hợp với không gian ""mảnh trăng lơi"" và ""gió mùa trĩu nặng buồn rơi"" ở các câu thơ trước. Mưa thường gợi cảm giác tươi mát, hoặc mạnh mẽ, không phù hợp với nỗi sầu thiên thu.
+<reason> Cần thay đổi hình ảnh ""hạt mưa"" bằng một hình ảnh khác phù hợp hơn với không gian cô đơn, buồn bã và nỗi sầu kéo dài. ""Sợi nhớ"" gợi sự mong manh, dai dẳng, phù hợp với ""sầu thiên thu"" hơn.
+<action> sợi nhớ <replace> hạt mưa <line> 4 <index> 3
+<effect> Hình ảnh ""sợi nhớ"" tạo sự liên kết với nỗi buồn da diết, kéo dài như ""thiên thu"", đồng thời phù hợp với không gian chung của bài thơ hơn, tăng tính biểu cảm và gợi hình.
+<eois>","Gió mùa trĩu nặng buồn rơi,
+Đêm đông giá lạnh một nơi góc trời.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng sợi nhớ đượm sầu thiên thu."
+"Gió mùa trĩu nặng buồn rơi,
+Đêm đông giá lạnh một nơi góc trời.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng sợi nhớ đượm sầu thiên thu.","<error> ME
+<desc> ""Gió mùa"" không phù hợp với không gian tĩnh lặng, buồn bã của bài thơ. Gió mùa mang tính chất mạnh mẽ, thay đổi, không gợi cảm giác cô đơn, trầm lắng như ""sương khuya"".
+<reason> Thay thế ""gió mùa"" bằng ""sương khuya"" để tạo sự đồng nhất về mặt cảm xúc và hình ảnh trong bài thơ. ""Sương khuya"" gợi sự tĩnh lặng, lạnh lẽo và cô đơn, phù hợp với chủ đề của bài thơ.
+<action> Sương khuya <replace> Gió mùa <line> 1 <index> 1
+<effect> Việc thay thế ""gió mùa"" bằng ""sương khuya"" giúp bài thơ trở nên hài hòa và thống nhất về mặt cảm xúc, tạo ra một không gian tĩnh lặng, buồn bã và cô đơn, phù hợp với chủ đề chính của bài thơ.
+<eos>","Sương khuya trĩu nặng buồn rơi,
+Đêm đông giá lạnh một nơi góc trời.
+Ta ngồi ngắm mảnh trăng lơi,
+Đếm từng sợi nhớ đượm sầu thiên thu."
+"Chiều tà hứng ngọn gió heo,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì rau nên mới thở than,
+Để ta giờ mãi chứa chan.","<error> CONTEXT 
+<desc> Bài thơ thể hiện nỗi buồn man mác, tiếc nuối những điều đã qua và sự cô đơn, trống trải trong lòng người.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Chiều tà hứng ngọn gió heo,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì rau nên mới thở than,
+Để ta giờ mãi chứa chan."
+"Chiều tà hứng ngọn gió heo,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì rau nên mới thở than,
+Để ta giờ mãi chứa chan.","<error> RE
+<desc> Lỗi vần: Tiếng cuối câu 1 (""heo"") và tiếng thứ 6 câu 2 (""trong"") không vần với nhau, gây phá vỡ cấu trúc vần luật của thơ lục bát.
+<reason> Để sửa lỗi vần, cần thay đổi tiếng cuối câu 1 hoặc tiếng thứ 6 câu 2 sao cho chúng hiệp vần với nhau.
+<action> đông <replace> heo <line> 1 <index> 6
+<effect> Khắc phục lỗi vần, đảm bảo tuân thủ luật thơ lục bát. Câu thơ trở nên hài hòa và du dương hơn.
+<eois>","Chiều tà hứng ngọn gió đông,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì rau nên mới thở than,
+Để ta giờ mãi chứa chan."
+"Chiều tà hứng ngọn gió đông,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì rau nên mới thở than,
+Để ta giờ mãi chứa chan.","<error> SE
+<desc> Câu 4 bị lỗi cấu trúc. Câu lục bát cần tuân thủ theo quy tắc 6-8. Câu 4 hiện tại chỉ có 6 chữ.
+<reason> Cần thay đổi câu 4 để có đúng 8 chữ, đảm bảo cấu trúc lục bát. Đồng thời vẫn giữ được ý nghĩa của bài thơ.
+<action> Để ta giờ mãi chứa chan giọt sầu <replace> Để ta giờ mãi chứa chan <line> 4 <index> 1
+<effect> Câu thơ đã sửa có đúng số lượng chữ, đảm bảo cấu trúc lục bát.
+<eois>","Chiều tà hứng ngọn gió đông,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì rau nên mới thở than,
+Để ta giờ mãi chứa chan giọt sầu."
+"Chiều tà hứng ngọn gió đông,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì rau nên mới thở than,
+Để ta giờ mãi chứa chan giọt sầu.","<error> ME
+<desc> Lỗi ý nghĩa: Thay thế ""người"" bằng ""rau"" khiến câu thơ mất đi tính logic và cảm xúc, làm giảm giá trị thẩm mỹ của bài thơ. 
+<reason> Cần thay thế ""rau"" bằng một từ ngữ liên quan đến con người, tình cảm, hoặc nguyên nhân của nỗi buồn để khôi phục ý nghĩa ban đầu của câu thơ. ""Người"" là lựa chọn phù hợp nhất vì nó tạo sự liên kết với dòng thơ thứ hai và dòng thơ thứ tư, thể hiện sự tương tư, nhớ nhung.
+<action> Vì người <replace> Vì rau <line> 3 <index> 1
+<effect> Khôi phục ý nghĩa và cảm xúc ban đầu của bài thơ, tạo sự liên kết mạch lạc giữa các dòng thơ, tăng tính thẩm mỹ và giá trị biểu cảm. 
+<eois>","Chiều tà hứng ngọn gió đông,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì người nên mới thở than,
+Để ta giờ mãi chứa chan giọt sầu."
+"Chiều tà hứng ngọn gió đông,
+Để ai nhặt nắng hạ trong chiều tàn.
+Vì người nên mới thở than,
+Để ta giờ mãi chứa chan giọt sầu.","<error> IE
+<desc> Lỗi hình ảnh: ""nhặt nắng hạ"" tạo cảm giác gượng gạo, không tự nhiên và không phù hợp với khung cảnh chiều tà. Nắng hạ thường gay gắt, chói chang, không gợi cảm giác tàn úa, buồn bã như lá thu trong chiều tàn. Điều này làm giảm tính biểu cảm và sự hài hòa của bức tranh thơ.
+<reason> Cần thay đổi hình ảnh ""nắng hạ"" bằng một hình ảnh khác phù hợp hơn với không gian chiều tà và gợi được sự liên kết với hình ảnh ""ngọn gió đông"" ở câu đầu, đồng thời tạo sự tương đồng với hình ảnh ""lá thu"" để thể hiện sự tàn phai, lụi tàn. ""Lá thu"" là một lựa chọn tốt, gợi sự kết nối với câu đầu và tạo sự liền mạch trong mạch cảm xúc của bài thơ.
+<action> lá thu <replace> nắng hạ <line> 2 <index> 4
+<effect> Việc thay ""nắng hạ"" bằng ""lá thu"" giúp tạo ra một hình ảnh thơ tự nhiên, hài hòa và giàu cảm xúc hơn. ""Lá thu"" gợi sự tàn phai, lụi tàn, phù hợp với không gian chiều tà và tâm trạng buồn bã của bài thơ, đồng thời tạo sự liên kết chặt chẽ với câu đầu và tăng tính biểu cảm cho toàn bài.
+<eois>","Chiều tà hứng ngọn gió đông,
+Để ai nhặt lá thu trong chiều tàn.
+Vì người nên mới thở than,
+Để ta giờ mãi chứa chan giọt sầu."
+"Chiều tà hứng ngọn gió đông,
+Để ai nhặt lá thu trong chiều tàn.
+Vì người nên mới thở than,
+Để ta giờ mãi chứa chan giọt sầu.","<error> ME
+<desc> Lỗi ý nghĩa: cụm từ ""chứa chan"" mặc dù có ý nghĩa đối với câu thơ nhưng khô khan thiếu tính trữ tình.
+<reason> Cần thay đổi cụm từ ""chứa chan"" thành cụm từ khác hợp với ý nghĩa câu thơ và đậm chất trữ tình.
+<action> miên man <replace> chứa chan <line> 4 <index> 5
+<effect> Sau khi sửa lỗi, bài thơ trở nên hoàn chỉnh và ý nghĩa hơn.
+<eos>","Chiều tà hứng ngọn gió đông,
+Để ai nhặt lá thu trong chiều tàn.
+Vì người nên mới thở than,
+Để ta giờ mãi miên man giọt sầu."
+"Thiên nga lạc lối cột tùng,
+Con bay, con nhảy ở cùng khúc sông.
+Có trong vũ trụ lạ lùng,
+Khen người nấu ăn dị đồng mà duyên.","<error> CONTEXT 
+<desc> Bài thơ có sự pha trộn giữa hình ảnh thiên nga cô đơn, vũ trụ bao la và lời khen ngợi người nấu ăn khéo léo, tạo nên một bức tranh rời rạc và khó xác định chủ đề chính.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>","Thiên nga lạc lối cột tùng,
+Con bay, con nhảy ở cùng khúc sông.
+Có trong vũ trụ lạ lùng,
+Khen người nấu ăn dị đồng mà duyên."
