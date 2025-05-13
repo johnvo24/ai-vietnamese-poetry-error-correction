@@ -124,7 +124,8 @@ class VpecQwen3():
         max_new_tokens=config.MAX_LENGTH - inputs['input_ids'].shape[1],
         eos_token_id=self.tokenizer.convert_tokens_to_ids('<eois>'),
         pad_token_id=self.tokenizer.convert_tokens_to_ids('<eois>'),
-        # num_beams=5,        # Beam Search with 5 beams
+        # num_beams=10,        # Beam Search with 5 beams
+        # early_stopping=True,
         do_sample=True,
         top_k=50,           # Top 50 best token
         top_p=0.9,          # Chooses the most probable tokens whose cumulative probability (xac suat tich luy) is at most 0.9
