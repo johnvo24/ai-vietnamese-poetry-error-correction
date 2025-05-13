@@ -107,7 +107,7 @@ class VpecQwen3():
     except FileNotFoundError as e:
       print("[ERROR] FileNotFoundError: No such file: best_checkpoint.tar")
 
-  def __generate__(self, input_text, num_return_sequences=1, max_target_length=None):
+  def __generate__(self, input_text, num_return_sequences=1):
     inputs = self.tokenizer(
       input_text + '<sep>',
       padding=False,
@@ -115,18 +115,22 @@ class VpecQwen3():
       max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"
     ).to(self.device)
-    outputs = self.model.generate(
-      input_ids=inputs['input_ids'],
-      attention_mask=inputs['attention_mask'],
-      max_length=inputs['input_ids'].shape[1] + max_target_length if max_target_length else config.MAX_LENGTH,
-      eos_token_id=self.tokenizer.convert_tokens_to_ids('<eois>'),
-      # num_beams=5,        # Beam Search with 5 beams
-      do_sample=True,
-      top_k=50,           # Top 50 best token
-      top_p=0.9,          # Chooses the most probable tokens whose cumulative probability (xac suat tich luy) is at most 0.9
-      temperature=0.5,    # Controls the creativity of the model
-      num_return_sequences=num_return_sequences,
-    )
+
+    self.model.eval()
+    with torch.no_grad():
+	    outputs = self.model.generate(
+	      input_ids=inputs['input_ids'],
+	      attention_mask=inputs['attention_mask'],
+	      max_new_tokens=config.MAX_LENGTH - inputs['input_ids'].shape[1],
+	      eos_token_id=self.tokenizer.convert_tokens_to_ids('<eois>'),
+	      pad_token_id=self.tokenizer.convert_tokens_to_ids('<eois>'),
+	      # num_beams=5,        # Beam Search with 5 beams
+	      do_sample=True,
+	      top_k=50,           # Top 50 best token
+	      top_p=0.9,          # Chooses the most probable tokens whose cumulative probability (xac suat tich luy) is at most 0.9
+	      temperature=0.5,    # Controls the creativity of the model
+	      num_return_sequences=num_return_sequences,
+	    )
 
     result = []
     for index in range(outputs.shape[0]):

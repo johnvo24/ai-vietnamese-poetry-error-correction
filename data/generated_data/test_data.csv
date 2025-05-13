@@ -1,0 +1,61 @@
+0
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối, lo lắng về một mối quan hệ không thành, có lẽ do một người hoặc một người nào đó đã ""ăn cưới"" vào một mối quan hệ, gây ra sự khó hiểu và mất đi sự trang trọng, thiêng liêng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự lo lắng, sợ hãi trước một mối quan hệ phức tạp, có thể là tình yêu hoặc sự ràng buộc, khiến người tao trở nên bâng khuâng, lo lắng về tương lai.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hối tiếc, xót xa về một mối quan hệ không trọn vẹn, khi một người đã làm mất niềm tin vào tương lai.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối về một mối quan hệ đã qua, khi người con trai đã lấy vợ và người con gái không còn giữ được sự trang trọng, thiêng liêng trong đám cưới.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự xót xa, đau lòng trước một tình yêu đôi lứa không thành và sự trói buộc, ràng buộc của một người.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thất vọng, xót xa của người tao khi người con trai không thực hiện đúng lời hứa về việc ""tạo"" (nấu) gia đình, khiến người tao đau lòng và ngỡ ngàng về sự lầm lỗi.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thất vọng, đau khổ của một người phụ nữ khi cảm thấy người chồng không trọn vẹn tình cảm, gây ảnh hưởng đến cuộc sống và sự an yên của gia đình.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp của cuộc sống giản dị, bình yên và sự lo lắng về một mối quan hệ phức tạp, có phần tiêu cực.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui giản dị trong việc sinh con và nỗi lo sợ, sợ hãi về một người có khả năng gây ra sự thay đổi lớn cho cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự lo lắng, sợ hãi của người tao khi chứng kiến sự kiện đột ngột và cảm xúc bi quan, mất mát.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
