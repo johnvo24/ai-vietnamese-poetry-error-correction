@@ -110,7 +110,7 @@ class VpecQwen3():
   def __generate__(self, input_texts, num_return_sequences=1):
     inputs = self.tokenizer(
       [text + '<sep>' for text in input_texts],
-      padding=False,
+      padding=True,
       truncation=True,
       max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"

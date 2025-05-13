@@ -72,7 +72,6 @@ def generate(option="vpec_deepseek", g_drive=False):
     vpec.optimizer = checkpoint['optimizer']
   result = vpec.__generate__(input_texts=[
     "<sop> Con cò mà đi ăn đêm\nĐi giữa dọc đường rơi tủm. <eop> <reasoning_memory> Tóm tắt ngữ cảnh: Bài thơ thể hiện sự cô đơn, lạc lõng và những điều giản dị, đời thường khiến con người cảm thấy trống trải <eois>",
-    "<sop> Con cò mà đi ăn đêm\nĐi giữa dọc đường rơi tủm. <eop>"                                        
   ], num_return_sequences=5)
   print(result)
 
