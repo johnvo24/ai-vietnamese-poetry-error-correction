@@ -35,6 +35,6 @@ gdrive = GDrive()
 gdrive.upload_file(
   file_name='test_data.csv',
   file_path=os.path.join('data', 'generated_data/test_data.csv'),
-  folder_path='generated_data'
+  folder_path='/generated_data'
 )
 
