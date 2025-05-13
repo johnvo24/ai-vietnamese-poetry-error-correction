@@ -107,10 +107,10 @@ class VpecQwen3():
     except FileNotFoundError as e:
       print("[ERROR] FileNotFoundError: No such file: best_checkpoint.tar")
 
-  def __generate__(self, input_texts, num_return_sequences=1):
+  def __generate__(self, input_text, num_return_sequences=1):
     inputs = self.tokenizer(
-      [text + '<sep>' for text in input_texts],
-      padding=True,
+      input_text + '<sep>',
+      padding=False,
       truncation=True,
       max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"
@@ -133,19 +133,18 @@ class VpecQwen3():
         num_return_sequences=num_return_sequences,
       )
 
-    print(f"Shape: {outputs.shape}")
     result = []
-    # for index in range(outputs.shape[0]):
-    #   text_generated = outputs[index][inputs['input_ids'].shape[1]: ]
-    #   output_text = self.tokenizer.decode(text_generated, skip_special_tokens=False)
-    #   first_eos_index = output_text.find('<eos>')
-    #   first_eois_index = output_text.find('<eois>')
-    #   if first_eos_index != -1:
-    #     reasoning_step = output_text[:first_eos_index + len("<eos>")].strip()
-    #   elif first_eois_index != -1:
-    #     reasoning_step = output_text[:first_eois_index + len("<eois>")].strip()
-    #   else:
-    #     reasoning_step = output_text.strip()
-    #   # print("Reasoning Step: \n", reasoning_step)
-    #   result.append(reasoning_step)
+    for index in range(outputs.shape[0]):
+      text_generated = outputs[index][inputs['input_ids'].shape[1]: ]
+      output_text = self.tokenizer.decode(text_generated, skip_special_tokens=False)
+      first_eos_index = output_text.find('<eos>')
+      first_eois_index = output_text.find('<eois>')
+      if first_eos_index != -1:
+        reasoning_step = output_text[:first_eos_index + len("<eos>")].strip()
+      elif first_eois_index != -1:
+        reasoning_step = output_text[:first_eois_index + len("<eois>")].strip()
+      else:
+        reasoning_step = output_text.strip()
+      # print("Reasoning Step: \n", reasoning_step)
+      result.append(reasoning_step)
     return result
