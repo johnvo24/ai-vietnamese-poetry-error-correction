@@ -6,6 +6,8 @@ import pandas as pd
 from src.models import VpecGPT2, VpecDeepSeek, VpecGemma3, VpecQwen3
 from src import helper
 from tqdm import tqdm
+from Jvai import GDrive
+import os
 
 vpec = VpecQwen3()
 vpec._load_model()
@@ -29,4 +31,10 @@ for index, sample in tqdm(df.iterrows(), total=len(df), desc="Generating reasoni
 data = pd.DataFrame(result)
 helper.makedir('data', 'generated_data')
 data.to_csv('data/generated_data/test_data.csv', index=False)
+gdrive = GDrive()
+gdrive.upload_file(
+  file_name='test_data.csv',
+  file_path=os.path.join('data', 'generated_data/test_data.csv'),
+  folder_path='generated_data'
+)
 
