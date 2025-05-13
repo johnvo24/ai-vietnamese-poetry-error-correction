@@ -1,0 +1,32 @@
+# from src import helper
+
+# helper.save_best_checkpoint_to_gdrive("vpec_qwen3")
+
+import pandas as pd
+from src.models import VpecGPT2, VpecDeepSeek, VpecGemma3, VpecQwen3
+from src import helper
+from tqdm import tqdm
+
+vpec = VpecQwen3()
+vpec._load_model()
+checkpoint = helper.load_checkpoint(
+  model_dir=vpec.model_name,
+  model=vpec.model,
+  optimizer=vpec.optimizer,
+  is_the_best=True
+)
+vpec.model = checkpoint['model']
+vpec.optimizer = checkpoint['optimizer']
+
+df = pd.read_csv('data/sft_dataset/poetryfix_data/test_dataset.csv')
+sequence_per_sample = 50
+result = []
+
+for index, sample in tqdm(df.iterrows(), total=len(df), desc="Generating reasoning step"):
+  result += vpec.__generate__(input_text=sample['error_poem'], num_return_sequences=sequence_per_sample)
+  print(len(result))
+
+data = pd.DataFrame(result)
+helper.makedir('data', 'generated_data')
+data.to_csv('data/generated_data/test_data.csv', index=False)
+
