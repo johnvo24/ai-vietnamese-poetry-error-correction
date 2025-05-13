@@ -107,9 +107,9 @@ class VpecQwen3():
     except FileNotFoundError as e:
       print("[ERROR] FileNotFoundError: No such file: best_checkpoint.tar")
 
-  def __generate__(self, input_text, num_return_sequences=1):
+  def __generate__(self, input_texts, num_return_sequences=1):
     inputs = self.tokenizer(
-      input_text + '<sep>',
+      [text + '<sep>' for text in input_texts],
       padding=False,
       truncation=True,
       max_length=config.MAX_INPUT_LENGTH,
