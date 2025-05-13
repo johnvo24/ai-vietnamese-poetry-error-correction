@@ -40,7 +40,7 @@ SFT_QWEN_LEARNING_RATE = 01e-5  # Pipeline 1: 03e-5
 
 # _note_ > Path variable configurations
 DATA_DIR = os.path.join(os.getcwd(), 'data')
-SFT_DATASET_DIR = os.path.join(DATA_DIR, 'sft_dataset')
+SFT_DATASET_DIR = os.path.join(DATA_DIR, 'sft_dataset/raw_cot_data') # change kind of dataset
 SRC_DIR = os.path.join(os.getcwd(), 'src')
 OUTPUT_DIR = os.path.join(os.getcwd(), 'outputs')
 CHECKPOINT_DIR = os.path.join(OUTPUT_DIR, 'checkpoints')
