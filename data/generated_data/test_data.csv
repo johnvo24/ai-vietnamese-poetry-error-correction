@@ -1,60 +1,300 @@
 0
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tiếc nuối, lo lắng về một mối quan hệ không thành, có lẽ do một người hoặc một người nào đó đã ""ăn cưới"" vào một mối quan hệ, gây ra sự khó hiểu và mất đi sự trang trọng, thiêng liêng.
+<desc> Bài thơ thể hiện sự giằng xé giữa vẻ đẹp tao nhã và thực tế đau khổ, đồng thời gợi lên cảm giác cô đơn, lạc lõng của một người đang tìm kiếm sự giải thoát.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự lo lắng, sợ hãi trước một mối quan hệ phức tạp, có thể là tình yêu hoặc sự ràng buộc, khiến người tao trở nên bâng khuâng, lo lắng về tương lai.
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui giản dị trong hôn nhân và nỗi sợ hãi, lo lắng về một mối quan hệ phức tạp, có thể gây ra những tổn thương lớn.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự hối tiếc, xót xa về một mối quan hệ không trọn vẹn, khi một người đã làm mất niềm tin vào tương lai.
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp của cuộc sống gia đình và những lo sợ, lo âu về một mối quan hệ phức tạp, có thể gây ra hậu quả tiêu cực.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự tiếc nuối về một mối quan hệ đã qua, khi người con trai đã lấy vợ và người con gái không còn giữ được sự trang trọng, thiêng liêng trong đám cưới.
+<desc> Bài thơ thể hiện sự trăn trở, lo lắng về một mối quan hệ phức tạp, có lẽ là tình yêu, trong đó người ta cảm thấy xa cách và không thể nắm giữ được hạnh phúc.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự xót xa, đau lòng trước một tình yêu đôi lứa không thành và sự trói buộc, ràng buộc của một người.
+<desc> Bài thơ thể hiện sự lo lắng, sợ hãi trước một mối quan hệ phức tạp, có thể là tình yêu hoặc mối quan hệ tình cảm, nhưng có thể gây ra những hậu quả tiêu cực.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự thất vọng, xót xa của người tao khi người con trai không thực hiện đúng lời hứa về việc ""tạo"" (nấu) gia đình, khiến người tao đau lòng và ngỡ ngàng về sự lầm lỗi.
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa tình cảm gia đình, sự vui vẻ và nỗi buồn, đồng thời gợi lên sự lo lắng về một mối quan hệ phức tạp.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự thất vọng, đau khổ của một người phụ nữ khi cảm thấy người chồng không trọn vẹn tình cảm, gây ảnh hưởng đến cuộc sống và sự an yên của gia đình.
+<desc> Bài thơ thể hiện sự bối rối, mâu thuẫn giữa vẻ đẹp truyền thống của hôn nhân và những lo sợ, lo âu về một mối quan hệ không trọn vẹn.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp của cuộc sống giản dị, bình yên và sự lo lắng về một mối quan hệ phức tạp, có phần tiêu cực.
+<desc> Bài thơ thể hiện sự xót xa, tủi hờn của người tao khi người con gái đã cưới, đồng thời gợi lên nỗi buồn về sự chia ly và những lời lẽ hờn dỗi, chia lìa.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui giản dị trong việc sinh con và nỗi lo sợ, sợ hãi về một người có khả năng gây ra sự thay đổi lớn cho cuộc sống.
+<desc> Bài thơ thể hiện sự hoang mang, lo lắng về một mối quan hệ không trọn vẹn, có thể bị ràng buộc bởi những lời nói châm biếm và sự miêu lộ quá nhiều.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 
 <eois>"
 "<error> CONTEXT 
-<desc> Bài thơ thể hiện sự lo lắng, sợ hãi của người tao khi chứng kiến sự kiện đột ngột và cảm xúc bi quan, mất mát.
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp của cuộc sống và sự tham lam, có lẽ do một lời nói tiêu cực từ người khác.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thất vọng, đau khổ của người tao khi người con gái không trọn vẹn hạnh phúc, khiến người tao cảm thấy xa cách, mất mát.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp trang trọng, thiêng liêng của hôn lễ và thực tế có phần hời hợt, thiếu nghiêm túc và có phần tham lam.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự giằng xé giữa tình yêu đôi lứa và những lo sợ, lo âu về một mối quan hệ có phần chia ly, có thể là do những lời chay ma hoặc những điều không như ý.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối về một mối quan hệ đã qua, khi một người đã thành vợ và người kia không muốn cưới, dẫn đến sự chia ly và nỗi buồn sâu lắng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hối tiếc, xót xa về một mối quan hệ đã qua, khi người con trai đã cưới người khác, khiến người con gái đau lòng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui về việc lấy chồng và nỗi sợ hãi về sự chia ly, sự mất mát và những lo sợ không thể hiện.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui giản dị và nỗi sợ hãi, lo lắng về một mối quan hệ phức tạp, có thể gây ra hậu quả đau lòng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự giằng xé giữa vẻ đẹp truyền thống và những lo âu, suy tư về tình yêu, sự chia ly và những điều không may mắn xảy ra.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp giản dị, thiêng liêng của cuộc hôn nhân và nỗi sợ hãi, sự tham lam của người con khi biết về tình cảm đó.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp, sự duyên dáng và thực tế cuộc sống nghèo khó, có phần lạc lõng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui gia đình giản dị và sự sợ hãi, lo lắng về một mối quan hệ phức tạp, có thể gây ra hậu quả đau thương.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp truyền thống của việc cưới hỏi và thực tế có thể xảy ra những điều không như ý, khiến người con trai cảm thấy xao xuyến, lo lắng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự lo lắng, sợ hãi của một người khi người con gái (nà) bị người khác (chú) hứa hẹn một mối quan hệ tốt đẹp, khiến người này lo sợ về sự chia ly, mất mát.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hối tiếc về một mối quan hệ đã qua, khi một người đã trải qua một mối quan hệ phức tạp và không thành, khiến người còn lại cảm thấy lạc lõng và mất mát.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự lo lắng, bâng khuâng về một mối quan hệ phức tạp, có thể là tình yêu hoặc hôn nhân, với những lo sợ về sự chia ly, mất mát và sự mâu thuẫn trong cảm xúc.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự giằng xé giữa niềm vui gia đình và nỗi lo sợ, lo quãng đường đời còn mang nhiều khó khăn.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối, hối lỗi và nỗi buồn man mác về một mối quan hệ đã qua, khi một người đã trở nên ích kỷ và gây ra hậu quả tiêu cực.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hối tiếc về một mối quan hệ đã qua, khi người con đã cưới vợ và người chồng đã ra đi, gây ra sự mất mát và xót xa.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp tao nhã, thiêng liêng và sự lo lắng, sợ hãi về một người có khả năng gây ra sự hủy diệt.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp, sự duyên dáng của người con trai và sự tham vọng, mong muốn được chia sẻ tình cảm.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui giản dị và nỗi sợ hãi, sự trốn tránh những điều tiêu cực và những điều không phù hợp trong cuộc sống.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự lo lắng, xao xuyến của người tao khi người con trai muốn cưới vợ, đồng thời gợi lên một nỗi buồn man mác, có phần hờn dỗi về sự vô nghĩa của việc cưới.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp tao nhã, thiêng liêng và thực tế cuộc sống nghèo khó, mâu thuẫn với lời nói chay ma của người con.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp truyền thống của hôn nhân, sự hối lỗi và những lo sợ về hậu quả của hành động đó.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui giản dị và nỗi lo sợ, lo sợ những điều không như ý, lo sợ sự chia ly và những điều không thành.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối về một mối quan hệ đã qua, khi người con trai đã quyết định cưới con gái và không còn quay trở lại.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui gia đình và nỗi lo sợ, hoang mang về một mối quan hệ không trọn vẹn, có thể là tình yêu.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự bối rối, mâu thuẫn giữa niềm vui tao nhã và nỗi sợ hãi, lo lắng về một mối quan hệ phức tạp, có thể gây ra hậu quả tiêu cực.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự thất vọng, đau khổ và mất mát trong tình yêu, khi người con trai đã trao đi hạnh phúc và sự an ủi, khiến người con gái cảm thấy cô đơn và mất phương hướng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự bối rối, hoang mang của người tao khi một người nói lời chay ma, khiến người tao cảm thấy lạc lõng và mất phương hướng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự hối tiếc về một mối quan hệ không thành, với sự mất mát và nỗi buồn sâu lắng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui giản dị trong việc ""ăn cưới"" và nỗi lo sợ, xao xuyến về một mối tình không thành công, có thể là tình yêu.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui, hạnh phúc gia đình và nỗi sợ hãi, sự cô đơn, khi một người (nếu là nhà tao) có thể ""ăn cưới"" một người khác, gây ra những hậu quả tiêu cực và sự mất mát.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự tiếc nuối về một mối quan hệ đã qua, khi một người đã trải qua một mối quan hệ tốt đẹp và rồi đi, còn người kia lại lầm vào sự hờn dỗi, lo lắng.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự trắc trở, khó khăn trong tình yêu và sự hối tiếc về một mối quan hệ đã qua.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui về hôn nhân và sự lo lắng, sợ hãi trước những điều không như ý, đồng thời gợi lên sự tiếc nuối về một mối quan hệ đã qua.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui, hạnh phúc gia đình và nỗi lo sợ, sự cô đơn trong tình yêu.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa niềm vui gia đình, sự mong muốn được giải trí và nỗi lo sợ về những điều không như ý, có thể là về tương lai hoặc những điều không may.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự mâu thuẫn giữa vẻ đẹp truyền thống, trang trọng của việc ""ăn cưới"" và nỗi sợ hãi, sự cô đơn khi gặp khó khăn trong tình yêu hoặc mối quan hệ.
+<reason> 
+<action> <replace> <line> <index> 
+<effect> 
+<eois>"
+"<error> CONTEXT 
+<desc> Bài thơ thể hiện sự trắc trở, khó khăn trong tình yêu, khi một người (nàng tao) gặp phải sự trắc trở và những điều không như ý của người con (trâu) trong một mối quan hệ.
 <reason> 
 <action> <replace> <line> <index> 
 <effect> 

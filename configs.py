@@ -16,7 +16,7 @@ VPEC_QWEN_MODEL_NAME = 'vpec_qwen3'         # 0.6B
 # SFT TRAINING
 # Dataset
 SFT_DATASET_FILE_PATH = 'data/sft_dataset/poetryfix_gold_data.csv'
-SFT_DATASET_SIZE = 2001 # Dataset for training
+SFT_DATASET_SIZE = 10000 # Dataset for training
 SFT_TRAIN_SIZE = 80 # %
 SFT_VAL_SIZE = 10 # %
 SFT_TEST_SIZE = 10  # %
@@ -35,7 +35,7 @@ SFT_VPECDEEPSEEK_LEARNING_RATE = 03e-5
 SFT_GEMMA3_EPOCHS = 100
 SFT_GEMMA3_LEARNING_RATE = 03e-5
 SFT_QWEN_EPOCHS = 100
-SFT_QWEN_LEARNING_RATE = 03e-5
+SFT_QWEN_LEARNING_RATE = 01e-5  # Pipeline 1: 03e-5
 
 
 # _note_ > Path variable configurations
