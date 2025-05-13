@@ -20,7 +20,7 @@ checkpoint = helper.load_checkpoint(
 vpec.model = checkpoint['model']
 vpec.optimizer = checkpoint['optimizer']
 
-df = pd.read_csv('data/sft_dataset/poetryfix_data/test_dataset.csv')
+df = pd.read_csv('data/sft_dataset/raw_cot_data/test_dataset.csv')
 sequence_per_sample = 50
 result = []
 

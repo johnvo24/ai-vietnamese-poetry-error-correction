@@ -15,7 +15,7 @@ VPEC_QWEN_MODEL_NAME = 'vpec_qwen3'         # 0.6B
 
 # SFT TRAINING
 # Dataset
-SFT_DATASET_FILE_PATH = 'data/sft_dataset/poetryfix_gold_data.csv'
+SFT_DATASET_FILE_PATH = 'data/sft_dataset/raw_cot_data/poetryfix_gold_data.csv'
 SFT_DATASET_SIZE = 10000 # Dataset for training
 SFT_TRAIN_SIZE = 80 # %
 SFT_VAL_SIZE = 10 # %
