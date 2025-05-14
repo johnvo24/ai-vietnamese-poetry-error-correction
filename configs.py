@@ -15,8 +15,8 @@ VPEC_QWEN_MODEL_NAME = 'vpec_qwen3'         # 0.6B
 
 # SFT TRAINING
 # Dataset
-SFT_DATASET_FILE_PATH = 'data/sft_dataset/raw_cot_data/poetryfix_gold_data.csv'
-SFT_DATASET_SIZE = 10000 # Dataset for training
+SFT_DATASET_FILE_PATH = 'data/sft_dataset/gold_cot_data/poetryfix_gold_data.csv'
+SFT_DATASET_SIZE = 2001 # Dataset for training
 SFT_TRAIN_SIZE = 80 # %
 SFT_VAL_SIZE = 10 # %
 SFT_TEST_SIZE = 10  # %
@@ -40,7 +40,7 @@ SFT_QWEN_LEARNING_RATE = 01e-5  # Pipeline 1: 03e-5
 
 # _note_ > Path variable configurations
 DATA_DIR = os.path.join(os.getcwd(), 'data')
-SFT_DATASET_DIR = os.path.join(DATA_DIR, 'sft_dataset/raw_cot_data') # change kind of dataset
+SFT_DATASET_DIR = os.path.join(DATA_DIR, 'sft_dataset/gold_cot_data') # change kind of dataset
 SRC_DIR = os.path.join(os.getcwd(), 'src')
 OUTPUT_DIR = os.path.join(os.getcwd(), 'outputs')
 CHECKPOINT_DIR = os.path.join(OUTPUT_DIR, 'checkpoints')
