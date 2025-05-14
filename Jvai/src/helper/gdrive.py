@@ -76,7 +76,7 @@ class GDrive():
     page_token = None
     while True:
       response = self.service.files().list(
-        q = "trashed = `false`", # Only list non-deleted files
+        q = "trashed=false", # Only list non-deleted files
         fields = "nextPageToken, files(id, name)",
         pageToken = page_token
       ).execute()

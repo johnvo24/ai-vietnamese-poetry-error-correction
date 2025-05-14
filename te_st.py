@@ -8,17 +8,22 @@ import os
 def save_model_to_gdrive():
   helper.save_best_checkpoint_to_gdrive("vpec_qwen3")
 
-def test_model():
+def test_model(g_drive=False):
   vpec = VpecQwen3()
   vpec._load_model()
-  checkpoint = helper.load_checkpoint(
-    model_dir=vpec.model_name,
-    model=vpec.model,
-    optimizer=vpec.optimizer,
-    is_the_best=True
-  )
-  vpec.model = checkpoint['model']
-  vpec.optimizer = checkpoint['optimizer']
+  if g_drive:
+    checkpoint = GDrive().load_model_from_drive('best_checkpoint.tar', vpec.model_name)
+    vpec.model.load_state_dict(checkpoint['model_state_dict'])
+    vpec.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+  else:
+    checkpoint = helper.load_checkpoint(
+      model_dir=vpec.model_name,
+      model=vpec.model,
+      optimizer=vpec.optimizer,
+      is_the_best=True
+    )
+    vpec.model = checkpoint['model']
+    vpec.optimizer = checkpoint['optimizer']
 
   df = pd.read_csv('data/sft_dataset/raw_cot_data/test_dataset.csv')
   sequence_per_sample = 50
@@ -37,3 +42,4 @@ def test_model():
     file_path=os.path.join('data', 'generated_data/test_data.csv'),
     folder_path='/generated_data'
   )
+
