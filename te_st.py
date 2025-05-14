@@ -5,8 +5,8 @@ from tqdm import tqdm
 from Jvai import GDrive
 import os
 
-def save_model_to_gdrive():
-  helper.save_best_checkpoint_to_gdrive("vpec_qwen3")
+def save_model_to_gdrive(model_name):
+  helper.save_best_checkpoint_to_gdrive(model_name)
 
 def test_model(g_drive=False):
   vpec = VpecQwen3()
@@ -26,7 +26,7 @@ def test_model(g_drive=False):
     vpec.optimizer = checkpoint['optimizer']
 
   df = pd.read_csv('data/sft_dataset/raw_cot_data/test_dataset.csv')
-  sequence_per_sample = 50
+  sequence_per_sample = 10
   result = []
 
   for index, sample in tqdm(df.iterrows(), total=len(df), desc="Generating reasoning step"):
@@ -43,3 +43,6 @@ def test_model(g_drive=False):
     folder_path='/generated_data'
   )
 
+# save_model_to_gdrive(model_name="vpec_qwen3")
+# save_model_to_gdrive(model_name="vpec_qwen3_0")
+test_model(g_drive=True)
