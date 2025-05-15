@@ -56,4 +56,7 @@ async def create_item(req: GeneratePoemRequest):
   except Exception as e:
     raise HTTPException(status_code=500, detail=str(e))
   
-app.include_router(reasoning_router.router, prefix='/api/v1')
+# @app.post("/edit-poem/")
+# async def 
+  
+# app.include_router(reasoning_router.router, prefix='/api/v1')
