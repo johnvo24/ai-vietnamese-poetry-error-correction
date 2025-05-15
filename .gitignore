@@ -10,6 +10,6 @@ outputs/logs/*gpt2*
 __pycache__/
 *key*
 *test*py*
-
+.env
 # google drive service account key
 service_account_key.json

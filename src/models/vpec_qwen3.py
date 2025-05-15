@@ -11,8 +11,7 @@ class VpecQwen3():
   def __init__(self):
     self.model_name = config.VPEC_QWEN_MODEL_NAME
     self.model_id = 'Qwen/Qwen3-0.6B-Base'
-    self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    # self.device = torch.device('cpu')
+    self.device = torch.device('cpu') if config.CPU_DEVICE else torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # Define special tokens
     self.special_tokens = [
       "<sep>", "<sop>", "<eop>", "<reasoning_memory>", "<error>", "<desc>", "<reason>",
@@ -114,8 +113,7 @@ class VpecQwen3():
       truncation=True,
       max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"
-    ).to(self.device)
-
+    )
     self.model.eval()
     with torch.no_grad():
       outputs = self.model.generate(

@@ -20,13 +20,14 @@ def test_model(g_drive=False):
       model_dir=vpec.model_name,
       model=vpec.model,
       optimizer=vpec.optimizer,
-      is_the_best=True
+      is_the_best=True,
+      map_location='cpu'
     )
-    vpec.model = checkpoint['model']
+    vpec.model = checkpoint['model'].to('cpu')
     vpec.optimizer = checkpoint['optimizer']
 
   df = pd.read_csv('data/sft_dataset/raw_cot_data/test_dataset.csv')
-  sequence_per_sample = 10
+  sequence_per_sample = 5
   result = []
 
   for index, sample in tqdm(df.iterrows(), total=len(df), desc="Generating reasoning step"):
@@ -45,4 +46,4 @@ def test_model(g_drive=False):
 
 # save_model_to_gdrive(model_name="vpec_qwen3")
 # save_model_to_gdrive(model_name="vpec_qwen3_0")
-test_model(g_drive=True)
+test_model(g_drive=False)

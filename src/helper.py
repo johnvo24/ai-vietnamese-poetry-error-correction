@@ -4,7 +4,8 @@ import configs as config
 from Jvai import GDrive
 
 def device():
-  return "cuda" if torch.cuda.is_available() else "cpu"
+  return torch.device('cpu') if config.CPU_DEVICE else torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 
 def makedir(path, name):
   dir_path = os.path.join(path, name)
@@ -41,7 +42,7 @@ def save_checkpoint(model_dir, epoch, model, optimizer, is_the_best=False):
   torch.save(checkpoint, file_path) 
   print(f"[JV] Checkpoint saved to {file_path}")
 
-def load_checkpoint(model_dir, model, optimizer, epoch=None, is_the_best=False):
+def load_checkpoint(model_dir, model, optimizer, epoch=None, is_the_best=False, map_location=device()):
   file_path = ""
   if is_the_best:
     file_path = os.path.join(config.CHECKPOINT_DIR, f"{model_dir}/best_checkpoint.tar")
@@ -56,7 +57,7 @@ def load_checkpoint(model_dir, model, optimizer, epoch=None, is_the_best=False):
       epoch = latest_epoch
     file_path = os.path.join(config.CHECKPOINT_DIR, f"{model_dir}/checkpoint_{epoch}.tar")
   print(f"Loading checkpoint from {file_path}")
-  checkpoint = torch.load(file_path, map_location=device())
+  checkpoint = torch.load(file_path, map_location=map_location)
   # Load model and optimizer weights
   model.load_state_dict(checkpoint['model_state_dict'])
   optimizer.load_state_dict(checkpoint['optimizer_state_dict'])

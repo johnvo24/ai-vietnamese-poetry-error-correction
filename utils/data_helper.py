@@ -20,7 +20,7 @@ def format_step(step: dict, is_last_step: bool) -> str:
   )
 
 
-def parse_step(step_str: str, is_last_step: bool) -> dict:
+def parse_step(step_str: str) -> dict:
   """
   Parse tokens string to dict.
   """
@@ -73,21 +73,3 @@ def convert_jsonl_to_csv(jsonl_path, csv_path):
         }
         writer.writerow(row)
     print(f"✅ Đã xuất dữ liệu CSV tại: {csv_path}")
-
-
-## TEST 0
-# step = {
-#   "error": "TE",
-#   "desc": "Từ ngữ chưa tạo hình ảnh rõ ràng.",
-#   "reason": "Cần thay cụm từ mơ\n hồ bằng hình ảnh cụ thể.",
-#   "action": "sáng rõ",
-#   "replace": "mờ xa",
-#   "line": "0",
-#   "index": "4",
-#   "effect": "Câu thơ trở nên trực quan và sống động hơn.",
-#   "end_token": 'eois'
-# }
-# step_str = format_step(step, is_last_step=False)
-# print(step_str)
-# parsed_step = parse_step(step_str, is_last_step=False)
-# print(parsed_step)

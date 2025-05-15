@@ -2,6 +2,7 @@ import os
 
 # ================================
 # TRAIN SETUP
+CPU_DEVICE=True # GPU -> False
 USE_GDRIVE=False
 MAX_REASONING_MEMORY = 6 # n steps = step 0 & n-1 last steps
 MAX_INPUT_LENGTH = 384 # DeepSeekVpec->512
