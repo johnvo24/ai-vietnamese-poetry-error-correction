@@ -45,4 +45,4 @@ def test_model(g_drive=False):
 
 # save_model_to_gdrive(model_name="vpec_qwen3")
 # save_model_to_gdrive(model_name="vpec_qwen3_0")
-test_model(g_drive=False)
+test_model(g_drive=True)
