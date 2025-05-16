@@ -73,3 +73,27 @@ def convert_jsonl_to_csv(jsonl_path, csv_path):
         }
         writer.writerow(row)
     print(f"✅ Đã xuất dữ liệu CSV tại: {csv_path}")
+
+def filter_reasoning_memory(self, sample, max_reasoning_memory):
+  parts = sample.split('<eois>')
+  if len(parts) <= max_reasoning_memory:
+    return sample
+  return '<eois>'.join(parts[:1] + parts[-max_reasoning_memory:])
+
+def apply_edit_poem(poem: str, action: str, replace: str, line: int, index: int) -> str:
+    lines = poem.strip().split("\n")
+    target_line = lines[line - 1].split()
+
+    replace_tokens = replace.strip().split()
+    action_tokens = action.strip().split()
+
+    start = index - 1
+    end = start + len(replace_tokens)
+
+    if target_line[start:end] == replace_tokens:
+        new_line = target_line[:start] + action_tokens + target_line[end:]
+        lines[line - 1] = " ".join(new_line)
+    else:
+        raise ValueError("Cụm từ ở vị trí chỉ định không khớp với 'replace'.")
+
+    return "\n".join(lines)

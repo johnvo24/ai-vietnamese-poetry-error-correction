@@ -23,7 +23,7 @@ def test_model(g_drive=False):
       is_the_best=True,
       map_location='cpu'
     )
-    vpec.model = checkpoint['model'].to('cpu')
+    vpec.model = checkpoint['model']
     vpec.optimizer = checkpoint['optimizer']
 
   df = pd.read_csv('data/sft_dataset/raw_cot_data/test_dataset.csv')

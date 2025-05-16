@@ -113,7 +113,7 @@ class VpecQwen3():
       truncation=True,
       max_length=config.MAX_INPUT_LENGTH,
       return_tensors="pt"
-    )
+    ).to(self.device)
     self.model.eval()
     with torch.no_grad():
       outputs = self.model.generate(
