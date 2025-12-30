@@ -89,16 +89,22 @@ async def generate_step(chain: ChainRequest):
       step = data_helper.parse_step(step_str=str(chain.steps[-1].step_content))
       error_poem = f"<sop> {chain.steps[-1].edited_poem} <eop> {chain.steps[-1].error_poem.split('<eop>')[1]} Sửa lỗi {step['error']}: Thay \"{step['replace']}\" bằng \"{step['action']}\" ở dòng {step['line']} tại từ thứ {step['index']} <eois>"
       error_poem = data_helper.filter_reasoning_memory(sample=error_poem, max_reasoning_memory=config.MAX_REASONING_MEMORY)
+
     acceptable = False
+    filtered_steps = []
     while not acceptable:
       print("> Generating step")
-      step_content = vpec.__generate__(input_text=error_poem, num_return_sequences=1)[0]
-      scores = evaluator.get_step_structure_score(error_poem=error_poem, step_content=step_content)
-      if scores['structure_score'] == 1 and scores['actionability_score'] == 1: acceptable = True
-    step = data_helper.parse_step(step_str=step_content)
-    print(step)
-    edited_poem = data_helper.apply_edit_poem(chain.steps[-1].edited_poem, step['action'], step['replace'], int(step['line']), int(step['index'])) if len(chain.steps) > 0 else chain.original_poem
-    return {'status': "OK", "error_poem": error_poem, "step_content": step_content, "edited_poem": edited_poem}
+      generated_steps = vpec.__generate__(input_text=error_poem, num_return_sequences=6)
+      for step_content in generated_steps:
+        scores = evaluator.get_step_structure_score(error_poem=error_poem, step_content=[step_content])
+        if scores['structure_score'] == 1 and scores['actionability_score'] == 1:
+          step = data_helper.parse_step(step_str=step_content)
+          edited_poem = data_helper.apply_edit_poem(chain.steps[-1].edited_poem, step['action'], step['replace'], int(step['line']), int(step['index'])) if len(chain.steps) > 0 else chain.original_poem
+          filtered_steps.append({"error_poem": error_poem, "step_content": step_content, "edited_poem": edited_poem})
+      if len(filtered_steps) >=3:
+        acceptable = True
+    print(f"Steps: {filtered_steps}")
+    return {'status': "OK", "steps": filtered_steps[:3]} 
   except Exception as e:
     print(e)
     raise HTTPException(status_code=500, detail=str(e))
