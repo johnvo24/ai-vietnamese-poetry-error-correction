@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 import os
 from dotenv import load_dotenv
+from Jvai import GDrive
 from app.services.gemini import Gemini
 from app.schemas.request_schemas import GeneratePoemRequest, ChainRequest
 from app.routers import reasoning_router
@@ -17,14 +18,19 @@ app = FastAPI()
 gemini = Gemini(api_key=os.getenv('GEMINI_API_KEY'))
 vpec = VpecQwen3()
 vpec._load_model()
-checkpoint = helper.load_checkpoint(
-  model_dir=vpec.model_name + '_0',
-  model=vpec.model,
-  optimizer=vpec.optimizer,
-  is_the_best=True
-)
-vpec.model = checkpoint['model']
-vpec.optimizer = checkpoint['optimizer']
+
+# checkpoint = helper.load_checkpoint(
+#   model_dir=vpec.model_name + '_0',
+#   model=vpec.model,
+#   optimizer=vpec.optimizer,
+#   is_the_best=True
+# )
+# vpec.model = checkpoint['model']
+# vpec.optimizer = checkpoint['optimizer']
+
+checkpoint = GDrive().load_model_from_drive('best_checkpoint.tar', vpec.model_name)
+vpec.model.load_state_dict(checkpoint['model_state_dict'])
+vpec.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
 
 app.add_middleware(
     CORSMiddleware,
@@ -97,4 +103,4 @@ async def generate_step(chain: ChainRequest):
     print(e)
     raise HTTPException(status_code=500, detail=str(e))
 
-# app.include_router(reasoning_router.router, prefix='/api/v1')
+app.include_router(reasoning_router.router, prefix='/api/v1')
