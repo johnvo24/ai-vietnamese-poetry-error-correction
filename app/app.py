@@ -92,7 +92,9 @@ async def generate_step(chain: ChainRequest):
 
     acceptable = False
     filtered_steps = []
-    while not acceptable:
+    loop = 0
+    max_loops = 5
+    while not acceptable and loop < max_loops:
       print("> Generating step")
       generated_steps = vpec.__generate__(input_text=error_poem, num_return_sequences=6)
       for step_content in generated_steps:
@@ -103,6 +105,7 @@ async def generate_step(chain: ChainRequest):
           filtered_steps.append({"error_poem": error_poem, "step_content": step_content, "edited_poem": edited_poem})
       if len(filtered_steps) >=3:
         acceptable = True
+      loop += 1
     print(f"Steps: {filtered_steps}")
     return {'status': "OK", "steps": filtered_steps[:3]} 
   except Exception as e:
