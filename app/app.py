@@ -97,8 +97,8 @@ async def generate_step(chain: ChainRequest):
     while not acceptable and loop < max_loops:
       print("> Generating step")
       generated_steps = vpec.__generate__(input_text=error_poem, num_return_sequences=6)
-      print(f"Generated Steps: {generated_steps}")
       for step_content in generated_steps:
+        print(f"Generated step: {step_content}")
         scores = evaluator.get_step_structure_score(error_poem=error_poem, step_content=[step_content])
         if scores['structure_score'] == 1 and scores['actionability_score'] == 1:
           step = data_helper.parse_step(step_str=step_content)
