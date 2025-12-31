@@ -98,10 +98,10 @@ async def generate_step(chain: ChainRequest):
       print("> Generating step")
       generated_steps = vpec.__generate__(input_text=error_poem, num_return_sequences=6)
       for step_content in generated_steps:
-        print(f"Generated step: {step_content}")
         scores = evaluator.get_step_structure_score(error_poem=error_poem, step_content=[step_content])
-        if scores['structure_score'] == 1 and (len(chain.steps) == 0 or scores['actionability_score'] == 1):
-          if len(chain.steps) > 0:
+        print(scores)
+        if scores['structure_score'] == 1:
+          if len(chain.steps) > 0 and scores['consistency_score'] == 1:
             step = data_helper.parse_step(step_str=step_content)
             edited_poem = data_helper.apply_edit_poem(chain.steps[-1].edited_poem, step['action'], step['replace'], int(step['line']), int(step['index'])) if len(chain.steps) > 0 else chain.original_poem
           filtered_steps.append({"error_poem": error_poem, "step_content": step_content, "edited_poem": edited_poem})
