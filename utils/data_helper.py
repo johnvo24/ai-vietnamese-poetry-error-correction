@@ -74,7 +74,7 @@ def convert_jsonl_to_csv(jsonl_path, csv_path):
         writer.writerow(row)
     print(f"✅ Đã xuất dữ liệu CSV tại: {csv_path}")
 
-def filter_reasoning_memory(self, sample, max_reasoning_memory):
+def filter_reasoning_memory(sample, max_reasoning_memory):
   parts = sample.split('<eois>')
   if len(parts) <= max_reasoning_memory:
     return sample
